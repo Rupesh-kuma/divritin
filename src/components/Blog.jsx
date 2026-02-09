@@ -6,7 +6,7 @@ const Blog = () => {
             <section className="px-5 py-5">
                 <div className="container-fluid">
                     <div className='sub_title'>
-                        <span>Latest News</span>
+                        <span>Our Blogs</span>
                         <h3>Read our latest blog</h3>
                         <p>Our team is dedicated to delivering exceptional IT solutions tailored to meet the unique needs of each client.</p>
                     </div>
