@@ -4,6 +4,7 @@ import Blog from "../components/Blog";
 import Testimonials from "../components/Testimonials";
 import about1 from '../assets/images/about_image.webp';
 import ServicesSection from "../components/ServicesSection";
+import client1 from "../assets/images/c1.webp";
 
 const Home = () => {
   useEffect(() => {
@@ -621,6 +622,88 @@ const Home = () => {
             </div>
           </div>
         </section>
+        {/* client */}
+        <div class="container">
+        <div class="brands-grid">
+            {/* <!-- GeM --> */}
+            <div class="brand-card">
+                <div class="number-badge">01</div>
+                <div class="circle-outer">
+                    <div class="logo-container">
+                            <img src={client1} alt="client" className="w-100" />
+                    </div>
+                </div>
+            </div>
+
+            {/* <!-- Government of India --> */}
+            <div class="brand-card">
+                <div class="number-badge">02</div>
+                <div class="circle-outer">
+                    <div class="logo-container">
+                        <svg viewBox="0 0 80 80" fill="none">
+                            <circle cx="40" cy="40" r="35" fill="#138808"/>
+                            <circle cx="40" cy="40" r="30" fill="white"/>
+                            <circle cx="40" cy="40" r="25" fill="#000080"/>
+                            <circle cx="40" cy="40" r="5" fill="#138808"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            {/* <!-- Bark --> */}
+            <div class="brand-card">
+                <div class="number-badge">03</div>
+                <div class="circle-outer">
+                    <div class="logo-container">
+                        <svg viewBox="0 0 100 40" fill="none">
+                            <text x="5" y="28" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">≤bark</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="brand-card">
+                <div class="number-badge">04</div>
+                <div class="circle-outer">
+                    <div class="logo-container">
+                        <svg viewBox="0 0 120 40" fill="none">
+                            <text x="10" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">Clutch</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="brand-card">
+                <div class="number-badge">05</div>
+                <div class="circle-outer">
+                    <div class="logo-container">
+                        <svg viewBox="0 0 80 80" fill="none">
+                            <path d="M40 20C48.84 20 56 27.16 56 36C56 44.84 48.84 52 40 52C31.16 52 24 44.84 24 36C24 27.16 31.16 20 40 20Z" fill="#4285F4"/>
+                            <path d="M40 28C44.42 28 48 31.58 48 36C48 40.42 44.42 44 40 44C35.58 44 32 40.42 32 36C32 31.58 35.58 28 40 28Z" fill="white"/>
+                            <text x="32" y="40" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4285F4">G</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="brand-card">
+                <div class="number-badge">06</div>
+                <div class="circle-outer">
+                    <div class="logo-container">
+                        <svg viewBox="0 0 80 80" fill="none">
+                            <rect x="20" y="20" width="18" height="18" fill="#F25022"/>
+                            <rect x="42" y="20" width="18" height="18" fill="#7FBA00"/>
+                            <rect x="20" y="42" width="18" height="18" fill="#00A4EF"/>
+                            <rect x="42" y="42" width="18" height="18" fill="#FFB900"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
         {/* Testimonials section */}
         <Testimonials />
         {/* blog section */}
