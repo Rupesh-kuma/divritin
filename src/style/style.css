@@ -244,12 +244,13 @@
   box-shadow: 0 0 10px #cccccc;
   position: relative;
   border-radius: 12px;
+  height: 280px;
   }
   
 .item p {
-  font-size: 18px;
+  font-size: 16px;
   color: #232323;
-  line-height: 34px;
+  line-height: 30px;
   font-style: italic;
   }
   
@@ -1094,11 +1095,6 @@
   .service_detail_image { height: 250px; }
 }
 
-
-
-
-
-
 .brands-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(115px, 1fr));
@@ -1236,11 +1232,6 @@
   }
 }
 
-@media (max-width: 480px) {
-  .brands-grid {
-      grid-template-columns: 1fr;
-  }
-}
 
 /* client logo scroll start*/
 @keyframes scroll {
@@ -1313,4 +1304,7 @@ filter: grayscale(100%);
 }
 .tab_hss span {
   color: #fffcfc;
+}
+.nav-link[aria-selected="true"] .tab_hss span{
+  color:  #00649e !important;
 }

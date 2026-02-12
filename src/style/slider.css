@@ -336,3 +336,6 @@
     outline: none;
     background: #0052cc !important;
 }
+.testimonial-card img{
+width: 100%;
+}

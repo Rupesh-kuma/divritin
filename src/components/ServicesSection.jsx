@@ -1,4 +1,20 @@
 import React, { useState } from "react";
+import custom_software_development from "../assets/images/custom_software_development.webp"
+import Website_Design_Development from "../assets/images/Website_Design_Development.webp"
+import Mobile_App_Development from "../assets/images/Mobile_App_Development.webp"
+import Web_Mobile_App_Maintenance from "../assets/images/Web_Mobile_App_Maintenance.webp"
+import Cloud_Migration from "../assets/images/Cloud_Migration.webp"
+import Cloud_Storage from "../assets/images/Cloud_Storage.webp"
+import Cloud_Management from "../assets/images/Cloud_Management.webp"
+import SaaS_Solutions from "../assets/images/SaaS_Solutions.webp"
+import Resource_Augmentation from "../assets/images/Resource_Augmentation.webp"
+import Developer_Consultant from "../assets/images/Developer_Consultant.webp"
+import Virtual_Assistance from "../assets/images/Virtual_Assistance.png"
+import Team_Extension from "../assets/images/Team_Extension.webp"
+import Tally_Customization from "../assets/images/Tally_Customization.webp"
+import Data_Migration from "../assets/images/Data_Migration.webp"
+import Tally_Integration from "../assets/images/Tally_Integration.webp"
+import Tally_Training from "../assets/images/Tally_Training.webp"
 
 const ServicesSection = () => {
 
@@ -10,7 +26,7 @@ const ServicesSection = () => {
                 {
                     title: "Custom Software Development",
                     icon: "💻",
-                    image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800",
+                    image: custom_software_development,
                     description:
                         "We build scalable, secure, and custom software solutions designed to streamline operations and accelerate business growth.",
                     features: [
@@ -24,7 +40,7 @@ const ServicesSection = () => {
                 {
                     title: "Website Design & Development",
                     icon: "🌐",
-                    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800",
+                    image: Website_Design_Development,
                     description:
                         "We design high-performance, responsive, and visually engaging websites that convert visitors into customers.",
                     features: [
@@ -38,7 +54,7 @@ const ServicesSection = () => {
                 {
                     title: "Mobile App Development",
                     icon: "📱",
-                    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800",
+                    image: Mobile_App_Development,
                     description:
                         "We create powerful Android and iOS mobile applications that deliver seamless user experiences and business value.",
                     features: [
@@ -52,7 +68,7 @@ const ServicesSection = () => {
                 {
                     title: "Web-Mobile App Maintenance (AMC)",
                     icon: "🛠️",
-                    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800",
+                    image: Web_Mobile_App_Maintenance,
                     description:
                         "Ensure smooth performance of your digital platforms with our comprehensive maintenance and support services.",
                     features: [
@@ -73,7 +89,7 @@ const ServicesSection = () => {
                 {
                     title: "Cloud Migration",
                     icon: "🚀",
-                    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800",
+                    image: Cloud_Migration,
                     description:
                         "Seamlessly move your infrastructure and applications to secure cloud environments with minimal downtime.",
                     features: [
@@ -87,7 +103,7 @@ const ServicesSection = () => {
                 {
                     title: "Cloud Storage",
                     icon: "💾",
-                    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800",
+                    image: Cloud_Storage,
                     description:
                         "Reliable and scalable cloud storage solutions to protect and manage your business data efficiently.",
                     features: [
@@ -101,7 +117,7 @@ const ServicesSection = () => {
                 {
                     title: "Cloud Management",
                     icon: "⚙️",
-                    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800",
+                    image: Cloud_Management,
                     description:
                         "End-to-end cloud infrastructure monitoring, optimization, and security management services.",
                     features: [
@@ -115,7 +131,7 @@ const ServicesSection = () => {
                 {
                     title: "SaaS Solutions",
                     icon: "📦",
-                    image: "https://images.unsplash.com/photo-1581091870627-3c8e38a7f0b2?w=800",
+                    image: SaaS_Solutions,
                     description:
                         "Custom SaaS product development and deployment for scalable business applications.",
                     features: [
@@ -136,7 +152,7 @@ const ServicesSection = () => {
                 {
                     title: "Temporary Staffing",
                     icon: "🧑‍💼",
-                    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800",
+                    image: Resource_Augmentation,
                     description:
                         "Quickly scale your workforce with skilled IT professionals for short-term business needs.",
                     features: [
@@ -150,7 +166,7 @@ const ServicesSection = () => {
                 {
                     title: "Developer & Consultant (Monthly/Hourly)",
                     icon: "💻",
-                    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800",
+                    image: Developer_Consultant,
                     description:
                         "Hire experienced developers and consultants on flexible engagement models.",
                     features: [
@@ -164,7 +180,7 @@ const ServicesSection = () => {
                 {
                     title: "Virtual Assistance",
                     icon: "📞",
-                    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+                    image: Virtual_Assistance,
                     description:
                         "Professional virtual support services to manage operations and administrative tasks remotely.",
                     features: [
@@ -178,7 +194,7 @@ const ServicesSection = () => {
                 {
                     title: "Team Extension",
                     icon: "🤝",
-                    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800",
+                    image: Team_Extension,
                     description:
                         "Extend your existing team with dedicated skilled professionals for long-term projects.",
                     features: [
@@ -199,7 +215,7 @@ const ServicesSection = () => {
                 {
                     title: "Tally Customization",
                     icon: "⚙️",
-                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+                    image: Tally_Customization,
                     description:
                         "Custom Tally ERP modules tailored to match your business processes.",
                     features: [
@@ -213,7 +229,7 @@ const ServicesSection = () => {
                 {
                     title: "Data Migration",
                     icon: "📁",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+                    image: Data_Migration,
                     description:
                         "Secure and accurate migration of your business data into Tally ERP systems.",
                     features: [
@@ -227,7 +243,7 @@ const ServicesSection = () => {
                 {
                     title: "Tally Integration",
                     icon: "🔗",
-                    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800",
+                    image: Tally_Integration,
                     description:
                         "Integrate Tally with other business tools and platforms seamlessly.",
                     features: [
@@ -241,7 +257,7 @@ const ServicesSection = () => {
                 {
                     title: "Tally Training",
                     icon: "🎓",
-                    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800",
+                    image: Tally_Training,
                     description:
                         "Professional training sessions to help your team use Tally efficiently.",
                     features: [
@@ -268,10 +284,10 @@ const ServicesSection = () => {
     return (
         <div className="service_main_section px-lg-5 px-sm-2">
             <div className="container-fluid">
-                <div className='sub_title'>
+                <div className='sub_title mb-4 pb-1'>
                     <span>Our services</span>
-                    <h3>Read our latest blog</h3>
-                    <p>Our team is dedicated to delivering exceptional IT solutions tailored to meet the unique needs of each client.</p>
+                    <h3>Powering Businesses Through Innovative Digital Solutions</h3>
+                    <p>We deliver innovative IT solutions designed to empower businesses with scalable technology, enhanced performance, and long-term digital growth. Our expert team ensures every service is tailored to meet your unique operational needs.</p>
                 </div>
 
                 {/* Top Main Services */}

@@ -30,6 +30,28 @@ import cl12 from "../assets/images/cl12.webp";
 import cl13 from "../assets/images/cl13.webp";
 import cl14 from "../assets/images/cl14.webp";
 import cl15 from "../assets/images/cl15.webp";
+import jsm from "../assets/images/jsm.svg";
+import htmlm from "../assets/images/htmlm.svg";
+import cssm from "../assets/images/cssm.svg";
+import tsm from "../assets/images/tsm.svg";
+import Group18 from "../assets/images/Group-18.svg";
+import Group19 from "../assets/images/Group-19.svg";
+import Group20 from "../assets/images/Group-20.svg";
+import php from "../assets/images/php.svg";
+import python from "../assets/images/python.svg";
+import ruby from "../assets/images/ruby.svg";
+import javascript from "../assets/images/javascript.svg";
+import java from "../assets/images/java.svg";
+import laravel from "../assets/images/laravel.svg";
+import cakephp from "../assets/images/cakephp.svg";
+import django from "../assets/images/django.svg";
+import flask from "../assets/images/flask.svg";
+import nodejs from "../assets/images/nodejs.svg";
+import postsql from "../assets/images/postsql.svg";
+import mysql from "../assets/images/mysql.svg";
+import aws from "../assets/images/aws.svg";
+import azure from "../assets/images/azure.svg";
+import google from "../assets/images/google.svg";
 
 const Home = () => {
   useEffect(() => {
@@ -214,8 +236,8 @@ const Home = () => {
             <div className="row">
               <div className="col-lg-6 col-sm-12">
                 <div className='sub_title'>
-                  <span className="justify-content-start">About us</span>
-                  <h3 className="justify-content-start">Empowering Your Digital Journey for Business</h3>
+                  <span className="justify-content-lg-start">About us</span>
+                  <h3 className="justify-content-lg-start align-iteams-lg-start">Empowering Your Digital Journey for Business</h3>
                   <p className="text-start">
                     With years of experience in the industry, we have successfully delivered
                     numerous high-quality websites to clients across various sectors. As one of
@@ -296,12 +318,12 @@ const Home = () => {
         <section className="hed_text inder_Sec px-lg-5 px-sm-1">
           <div className="container-fluid">
             <div className='sub_title'>
-              <span>Our services</span>
-              <h3>Read our latest blog</h3>
-              <p>Our team is dedicated to delivering exceptional IT solutions tailored to meet the unique needs of each client.</p>
+              <span>Our Technology Expertise</span>
+              <h3>Building Powerful Digital Solutions with Modern Tech Stack</h3>
+              <p>We leverage industry-leading technologies, programming languages, and frameworks to create high-performance, secure, and scalable digital solutions. From intuitive frontends to robust backend systems and cloud infrastructure, our expertise ensures seamless development and long-term success.</p>
             </div>
             <div className="row">
-              <div className="tabs_box mt-5">
+              <div className="tabs_box mt-4">
                 <ul className="nav nav-tabs new_mobiletab skil_section_Res" id="myTab" role="tablist">
                   <li className="nav-item" role="presentation">
                     <button
@@ -381,9 +403,7 @@ const Home = () => {
                     <div className="container-lg pt-mt-5 pt-2 container-fliud">
                       <div className="row pt-mt-5 pt-2">
                         <div className="hlth-tab-content frontend">
-                          {" "}
                           <div className="hlth-tech-section">
-                            {" "}
                             <h3>Programming Language</h3>
                             <div className="hlth-tech-skills">
                               <div className="hlth-tech-skill">
@@ -391,30 +411,30 @@ const Home = () => {
                                   alt="JavaScript"
                                   className="lazyloaded"
                                   decoding="async"
-                                  src="https://omsoftsolution.com/assets/img/jsm.svg"
+                                  src={jsm}
                                   loading="lazy"
-                                />{" "}
-                                <p>Javascript</p>{" "}
-                              </div>{" "}
+                                />
+                                <p>Javascript</p>
+                              </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="HTML"
                                   decoding="async"
                                   id="MjMzNToxMjI=-1"
-                                  src="https://omsoftsolution.com/assets/img/htmlm.svg"
+                                  src={htmlm}
                                   loading="lazy"
-                                />{" "}
-                                <p>HTML</p>{" "}
-                              </div>{" "}
+                                />
+                                <p>HTML</p>
+                              </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="CSS"
                                   className="lazyloaded"
                                   decoding="async"
                                   id="MjMzOToxMjE=-1"
-                                  src="https://omsoftsolution.com/assets/img/cssm.svg"
+                                  src={cssm}
                                   loading="lazy"
-                                />{" "}
+                                />
                                 <p>CSS</p>
                               </div>
                               <div className="hlth-tech-skill">
@@ -423,10 +443,10 @@ const Home = () => {
                                   className="lazyloaded"
                                   decoding="async"
                                   id="MjM0MzoxMjg=-1"
-                                  src="https://omsoftsolution.com/assets/img/tsm.svg"
+                                  src={tsm}
                                   loading="lazy"
-                                />{" "}
-                                <p>TypeScript</p>{" "}
+                                />
+                                <p>TypeScript</p>
                               </div>
                             </div>
                           </div>
@@ -439,10 +459,10 @@ const Home = () => {
                                   className="lazyloaded"
                                   decoding="async"
                                   id="MjM1MjoxMjM=-1"
-                                  src="https://omsoftsolution.com/assets/img/Group-18.svg"
+                                  src={Group18}
                                   loading="lazy"
-                                />{" "}
-                                <p>React</p>{" "}
+                                />
+                                <p>React</p>
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
@@ -450,23 +470,23 @@ const Home = () => {
                                   className="lazyloaded"
                                   decoding="async"
                                   id="MjM1NjoxMjE=-1"
-                                  src="https://omsoftsolution.com/assets/img/Group-19.svg"
+                                  src={Group19}
                                   loading="lazy"
-                                />{" "}
-                                <p>Vue</p>{" "}
-                              </div>{" "}
+                                />
+                                <p>Vue</p>
+                              </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="Angular"
                                   decoding="async"
                                   id="MjM2MDoxMjU=-1"
-                                  src="https://omsoftsolution.com/assets/img/Group-20.svg"
+                                  src={Group20}
                                   loading="lazy"
-                                />{" "}
-                                <p>Angular</p>{" "}
-                              </div>{" "}
-                            </div>{" "}
-                          </div>{" "}
+                                />
+                                <p>Angular</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -480,9 +500,7 @@ const Home = () => {
                     <div className="container-lg pt-mt-5 pt-2 container">
                       <div className="row pt-mt-5 pt-2">
                         <div className="hlth-tab-content frontend">
-                          {" "}
                           <div className="hlth-tech-section">
-                            {" "}
                             <h3>Programming Language</h3>
                             <div className="hlth-tech-skills">
                               <div className="hlth-tech-skill">
@@ -490,37 +508,37 @@ const Home = () => {
                                   alt="JavaScript"
                                   className="lazyloaded"
                                   decoding="async"
-                                  src="https://omsoftsolution.com/assets/img/php.svg"
-                                />{" "}
-                                <p>PHP</p>{" "}
+                                  src={php}
+                                />
+                                <p>PHP</p>
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="Python"
-                                  src="https://omsoftsolution.com/assets/img/python.svg"
-                                />{" "}
-                                <p>Python</p>{" "}
-                              </div>{" "}
+                                  src={python}
+                                />
+                                <p>Python</p>
+                              </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="Ruby"
-                                  src="https://omsoftsolution.com/assets/img/ruby.svg"
-                                />{" "}
+                                  src={ruby}
+                                />
                                 <p>Ruby</p>
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="Javascript"
-                                  src="https://omsoftsolution.com/assets/img/javascript.svg"
-                                />{" "}
-                                <p>Javascript</p>{" "}
+                                  src={javascript}
+                                />
+                                <p>Javascript</p>
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="JAVA"
-                                  src="https://omsoftsolution.com/assets/img/java.svg"
-                                />{" "}
-                                <p>JAVA</p>{" "}
+                                  src={java}
+                                />
+                                <p>JAVA</p>
                               </div>
                             </div>
                           </div>
@@ -530,36 +548,36 @@ const Home = () => {
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="Laravel"
-                                  src="https://omsoftsolution.com/assets/img/laravel.svg"
-                                />{" "}
-                                <p>Laravel</p>{" "}
+                                  src={laravel}
+                                />
+                                <p>Laravel</p>
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="CakePHP"
-                                  src="https://omsoftsolution.com/assets/img/cakephp.svg"
-                                />{" "}
+                                  src={cakephp}
+                                />
                                 <p>CakePHP</p>
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="Django"
-                                  src="https://omsoftsolution.com/assets/img/django.svg"
-                                />{" "}
+                                  src={django}
+                                />
                                 <p>Django</p>
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="Flask"
-                                  src="https://omsoftsolution.com/assets/img/flask.svg"
-                                />{" "}
+                                  src={flask}
+                                />
                                 <p>Flask</p>
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="Node.Js"
-                                  src="https://omsoftsolution.com/assets/img/nodejs.svg"
-                                />{" "}
+                                  src={nodejs}
+                                />
                                 <p>Node.Js</p>
                               </div>
                             </div>
@@ -577,24 +595,22 @@ const Home = () => {
                     <div className="container-lg pt-mt-5 pt-2 container">
                       <div className="row pt-mt-5 pt-2">
                         <div className="hlth-tab-content frontend">
-                          {" "}
                           <div className="hlth-tech-section">
-                            {" "}
                             <h3>Database</h3>
                             <div className="hlth-tech-skills">
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="JavaScript"
-                                  src="https://omsoftsolution.com/assets/img/postsql.svg"
-                                />{" "}
-                                <p>PostgreSQL</p>{" "}
+                                  src={postsql}
+                                />
+                                <p>PostgreSQL</p>
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="mysql"
-                                  src="https://omsoftsolution.com/assets/img/mysql.svg"
-                                />{" "}
-                                <p>mysql</p>{" "}
+                                  src={mysql}
+                                />
+                                <p>mysql</p>
                               </div>
                             </div>
                           </div>
@@ -611,29 +627,28 @@ const Home = () => {
                     <div className="container-lg pt-mt-5 pt-2 container">
                       <div className="row pt-mt-5 pt-2">
                         <div className="hlth-tab-content frontend">
-                          {" "}
                           <div className="hlth-tech-section">
                             <h3>Cloud Storage</h3>
                             <div className="hlth-tech-skills">
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="AWS"
-                                  src="https://omsoftsolution.com/assets/img/aws.svg"
-                                />{" "}
-                                <p>AWS</p>{" "}
+                                  src={aws}
+                                />
+                                <p>AWS</p>
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="Azure"
-                                  src="https://omsoftsolution.com/assets/img/azure.svg"
-                                />{" "}
+                                  src={azure}
+                                />
                                 <p>Azure</p>
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="Google Cloud Platform"
-                                  src="https://omsoftsolution.com/assets/img/google.svg"
-                                />{" "}
+                                  src={google}
+                                />
                                 <p>Google Cloud Platform</p>
                               </div>
                             </div>
@@ -649,10 +664,10 @@ const Home = () => {
         </section>
         {/* client */}
         <div className="clinet_bg">
-          <div className="container-fluid px-5">
+          <div className="container-fluid px-lg-5 px-sm-1">
             <div className="row g-5">
               <div className="col-lg-6 col-sm-12">
-                <div className='sub_title mb-4 pb-3'>
+                <div className='sub_title mb-4 pb-lg-3 pb-sm-0'>
                   <h3>Our Precious Clients</h3>
                 </div>
                 <div className="brands-grid">
@@ -707,8 +722,8 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-sm-12">
-                <div className='sub_title mb-4 pb-3'>
+              <div className="col-lg-6 col-sm-12 mt-sm-1">
+                <div className='sub_title mb-4 pb-lg-3 pb-sm-0'>
                   <h3>Trusted By</h3>
                 </div>
 
@@ -736,8 +751,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="container-fluid p-5">
-          <div className='sub_title mb-4'>
+        <div className="container-fluid p-lg-5 p-sm-1">
+          <div className='sub_title mb-4 preciour_client'>
             <h3>Our Precious Clients</h3>
           </div>
           <div className="logos">

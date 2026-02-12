@@ -2,7 +2,7 @@ import logo from "../assets/images/logo_white.png"
 const Footer = () => {
     return (
         <>
-            <div className="background_footer px-5">
+            <div className="background_footer px-lg-5 px-sm-2">
                 <div className="container-fluid">
                     <div className="row footer_main">
                         <div className="col-lg-3 col-sm-12">

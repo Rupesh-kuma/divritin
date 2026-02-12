@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <header>
-                <div className="top-header d-md-block">
+                <div className="top-header d-none d-md-block">
                     <div className="container-flud">
                         <div className="row">
                             <div className="col-md-7 pr-md-0 col-12">

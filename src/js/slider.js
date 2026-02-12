@@ -186,3 +186,37 @@ function handleSwipe() {
 startAutoPlay();
 resetProgress();
 });
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     // Vanilla JS se element select karo
+//     const settingsSlider = document.querySelector('.settings');
+
+//     // Check karo element exist karta hai ya nahi
+//     if(settingsSlider) {
+//         // Ab jQuery ke through Slick initialize karo
+//         $(settingsSlider).slick({
+//             dots: true,
+//             infinite: true,
+//             speed: 700,
+//             slidesToShow: 2,
+//             slidesToScroll: 1,
+//             autoplay: true,
+//             autoplaySpeed: 4000,
+//             arrows: true,
+//             responsive: [
+//                 {
+//                     breakpoint: 1024,
+//                     settings: {
+//                         slidesToShow: 2
+//                     }
+//                 },
+//                 {
+//                     breakpoint: 768,
+//                     settings: {
+//                         slidesToShow: 1
+//                     }
+//                 }
+//             ]
+//         });
+//     }
+// });
