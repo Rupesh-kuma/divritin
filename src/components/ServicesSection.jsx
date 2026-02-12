@@ -266,8 +266,8 @@ const ServicesSection = () => {
     const activeService = servicesData[activeMain];
 
     return (
-        <div className="service_main_section">
-            <div className="container">
+        <div className="service_main_section px-lg-5 px-sm-2">
+            <div className="container-fluid">
                 <div className='sub_title'>
                     <span>Our services</span>
                     <h3>Read our latest blog</h3>

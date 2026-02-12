@@ -1,4 +1,5 @@
-import './App.css'
+import './App.css';
+import './style/responsive.css';
 import react from "react";
 import Home from './pages/Home'
 import Footer from './components/Footer';

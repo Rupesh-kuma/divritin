@@ -1,0 +1,48 @@
+/* 📱 Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+
+}
+
+/* 📱 Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+
+}
+
+/* 📱 Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+.service_main_section {
+    padding: 30px 0;
+}
+.service_detail_item.active {
+    display: block;
+}
+.sub_title h3{
+    font-size: 20px;
+    line-height: 25px;
+}
+.blurb_text_why .blurb_text h4 {
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+.slick-prev {
+    left: 0px;
+}
+.slick-next {
+    right: 0;
+}
+.tz-blog2-item .item-img {
+    width: 100%;
+}
+.tz-blog2-item .item-text {
+    width: 100%;
+}
+.tz-blog2-item .item-text .blog_title {
+    padding-bottom: 0px;
+}
+.inder_Sec{
+    padding: 3rem 0;
+}
+.tab_hss span {
+    font-size: 14px;
+}
+}

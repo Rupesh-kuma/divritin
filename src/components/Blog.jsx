@@ -3,7 +3,7 @@ import blogimage2 from '../assets/images/Team Collaboration That Builds Strong D
 const Blog = () => {
     return (
         <>
-            <section className="px-5 py-5">
+            <section className="px-lg-5 py-5">
                 <div className="container-fluid">
                     <div className='sub_title'>
                         <span>Our Blogs</span>
@@ -11,7 +11,7 @@ const Blog = () => {
                         <p>Our team is dedicated to delivering exceptional IT solutions tailored to meet the unique needs of each client.</p>
                     </div>
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-lg-6 col-sm-12">
                             <div className="tz-blog2-item d-flex align-items-center">
                                 <div className="item-img">
                                     <img decoding="async" src={blogimage1} alt="Driving Digital Growth with Smart IT Solutions" />
@@ -29,7 +29,7 @@ const Blog = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-lg-6 col-sm-12">
                         <div className="tz-blog2-item d-flex align-items-center">
                                 <div className="item-img">
                                     <img decoding="async" src={blogimage2} alt="Team Collaboration That Builds Strong Digital Success" />

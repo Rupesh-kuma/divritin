@@ -5,6 +5,31 @@ import Testimonials from "../components/Testimonials";
 import about1 from '../assets/images/about_image.webp';
 import ServicesSection from "../components/ServicesSection";
 import client1 from "../assets/images/c1.webp";
+import client2 from "../assets/images/logo_client.webp";
+import client3 from "../assets/images/client_logo.webp";
+import client4 from "../assets/images/client_logo_3.webp";
+import client5 from "../assets/images/client_logo_4.webp";
+import Trusted_logo1 from "../assets/images/Trusted_logo.webp";
+import Trusted_logo2 from "../assets/images/Trusted_logo_2.webp";
+import Trusted_logo3 from "../assets/images/b4.webp";
+import Trusted_logo4 from "../assets/images/b5.webp";
+import Trusted_logo5 from "../assets/images/b6.webp";
+import Trusted_logo6 from "../assets/images/b7.webp";
+import cl1 from "../assets/images/cl1.webp";
+import cl2 from "../assets/images/cl2.webp";
+import cl3 from "../assets/images/cl3.webp";
+import cl4 from "../assets/images/cl4.webp";
+import cl5 from "../assets/images/cl5.webp";
+import cl6 from "../assets/images/cl6.webp";
+import cl7 from "../assets/images/cl7.webp";
+import cl8 from "../assets/images/cl8.webp";
+import cl9 from "../assets/images/cl9.webp";
+import cl10 from "../assets/images/cl10.webp";
+import cl11 from "../assets/images/cl11.webp";
+import cl12 from "../assets/images/cl12.webp";
+import cl13 from "../assets/images/cl13.webp";
+import cl14 from "../assets/images/cl14.webp";
+import cl15 from "../assets/images/cl15.webp";
 
 const Home = () => {
   useEffect(() => {
@@ -182,16 +207,16 @@ const Home = () => {
           </div>
         </div>
 
-        <ServicesSection/>
+        <ServicesSection />
         {/* about section */}
-        <div style={{ background: '#F5F5F5', padding: "4%" }}>
-          <div className="container">
+        <div style={{ background: '#F5F5F5', }} className="p-lg-5 p-sm-2">
+          <div className="container-fluid">
             <div className="row">
-              <div className="col-6">
-              <div className='sub_title'>
-                        <span className="justify-content-start">About us</span>
-                        <h3>Empowering Your Digital Journey for Business</h3>
-                        <p className="text-start">
+              <div className="col-lg-6 col-sm-12">
+                <div className='sub_title'>
+                  <span className="justify-content-start">About us</span>
+                  <h3 className="justify-content-start">Empowering Your Digital Journey for Business</h3>
+                  <p className="text-start">
                     With years of experience in the industry, we have successfully delivered
                     numerous high-quality websites to clients across various sectors. As one of
                     the top 10 website design company in the web design industry, our expertise
@@ -199,11 +224,11 @@ const Home = () => {
                     businesses. Your digital success is our top priority, and we're committed to
                     bringing you more of that marketing advantage.
                   </p>
-                    </div>
+                </div>
 
                 <div className="row box_rox">
                   {/* Client Retentions - 95% */}
-                  <div className="col-sm-8">
+                  <div className="col-8">
                     <div className="blurb_text_why">
                       <div className="blurb_icon">
                         <i className="fa-solid fa-check" />
@@ -217,7 +242,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-4">
+                  <div className="col-4">
                     <div className="circle_percent" data-percent="95">
                       <svg viewBox="0 0 140 140">
                         <circle cx="70" cy="70" r="65" />
@@ -233,7 +258,7 @@ const Home = () => {
                   </div>
 
                   {/* Happy Clients - 100% */}
-                  <div className="col-sm-8">
+                  <div className="col-8">
                     <div className="blurb_text_why">
                       <div className="blurb_icon">
                         <i className="fa-solid fa-check" />
@@ -244,7 +269,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-4">
+                  <div className="col-4">
                     <div className="circle_percent" data-percent="100">
                       <svg viewBox="0 0 140 140">
                         <circle cx="70" cy="70" r="65" />
@@ -261,23 +286,23 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="col-6">
+              <div className="col-lg-6 col-sm-12">
                 <img src={about1} alt="about" style={{ width: '100%' }} />
               </div>
             </div>
           </div>
         </div>
         {/* tecnology */}
-        <section className="hed_text inder_Sec">
-          <div className="container-lg container">
-          <div className='sub_title'>
-                    <span>Our services</span>
-                    <h3>Read our latest blog</h3>
-                    <p>Our team is dedicated to delivering exceptional IT solutions tailored to meet the unique needs of each client.</p>
-                </div>
+        <section className="hed_text inder_Sec px-lg-5 px-sm-1">
+          <div className="container-fluid">
+            <div className='sub_title'>
+              <span>Our services</span>
+              <h3>Read our latest blog</h3>
+              <p>Our team is dedicated to delivering exceptional IT solutions tailored to meet the unique needs of each client.</p>
+            </div>
             <div className="row">
               <div className="tabs_box mt-5">
-                <ul className="nav nav-tabs new_mobiletab" id="myTab" role="tablist">
+                <ul className="nav nav-tabs new_mobiletab skil_section_Res" id="myTab" role="tablist">
                   <li className="nav-item" role="presentation">
                     <button
                       className="nav-link active"
@@ -623,87 +648,135 @@ const Home = () => {
           </div>
         </section>
         {/* client */}
-        <div class="container">
-        <div class="brands-grid">
-            {/* <!-- GeM --> */}
-            <div class="brand-card">
-                <div class="number-badge">01</div>
-                <div class="circle-outer">
-                    <div class="logo-container">
-                            <img src={client1} alt="client" className="w-100" />
-                    </div>
+        <div className="clinet_bg">
+          <div className="container-fluid px-5">
+            <div className="row g-5">
+              <div className="col-lg-6 col-sm-12">
+                <div className='sub_title mb-4 pb-3'>
+                  <h3>Our Precious Clients</h3>
                 </div>
-            </div>
+                <div className="brands-grid">
+                  {/* <!-- GeM --> */}
+                  <div className="brand-card">
+                    <div className="number-badge">01</div>
+                    <div className="circle-outer">
+                      <div className="logo-container">
+                        <img src={client1} alt="client" className="w-100" />
+                      </div>
+                    </div>
+                  </div>
 
-            {/* <!-- Government of India --> */}
-            <div class="brand-card">
-                <div class="number-badge">02</div>
-                <div class="circle-outer">
-                    <div class="logo-container">
-                        <svg viewBox="0 0 80 80" fill="none">
-                            <circle cx="40" cy="40" r="35" fill="#138808"/>
-                            <circle cx="40" cy="40" r="30" fill="white"/>
-                            <circle cx="40" cy="40" r="25" fill="#000080"/>
-                            <circle cx="40" cy="40" r="5" fill="#138808"/>
-                        </svg>
+                  {/* <!-- Government of India --> */}
+                  <div className="brand-card">
+                    <div className="number-badge">02</div>
+                    <div className="circle-outer">
+                      <div className="logo-container">
+                        <img src={client2} alt="client" className="w-100" />
+                      </div>
                     </div>
-                </div>
-            </div>
+                  </div>
 
-            {/* <!-- Bark --> */}
-            <div class="brand-card">
-                <div class="number-badge">03</div>
-                <div class="circle-outer">
-                    <div class="logo-container">
-                        <svg viewBox="0 0 100 40" fill="none">
-                            <text x="5" y="28" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">≤bark</text>
-                        </svg>
+                  {/* <!-- Bark --> */}
+                  <div className="brand-card">
+                    <div className="number-badge">03</div>
+                    <div className="circle-outer">
+                      <div className="logo-container">
+                        <img src={client3} alt="client" className="w-100" />
+                      </div>
                     </div>
-                </div>
-            </div>
+                  </div>
 
-            
-            <div class="brand-card">
-                <div class="number-badge">04</div>
-                <div class="circle-outer">
-                    <div class="logo-container">
-                        <svg viewBox="0 0 120 40" fill="none">
-                            <text x="10" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">Clutch</text>
-                        </svg>
-                    </div>
-                </div>
-            </div>
 
-            
-            <div class="brand-card">
-                <div class="number-badge">05</div>
-                <div class="circle-outer">
-                    <div class="logo-container">
-                        <svg viewBox="0 0 80 80" fill="none">
-                            <path d="M40 20C48.84 20 56 27.16 56 36C56 44.84 48.84 52 40 52C31.16 52 24 44.84 24 36C24 27.16 31.16 20 40 20Z" fill="#4285F4"/>
-                            <path d="M40 28C44.42 28 48 31.58 48 36C48 40.42 44.42 44 40 44C35.58 44 32 40.42 32 36C32 31.58 35.58 28 40 28Z" fill="white"/>
-                            <text x="32" y="40" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4285F4">G</text>
-                        </svg>
+                  <div className="brand-card">
+                    <div className="number-badge">04</div>
+                    <div className="circle-outer">
+                      <div className="logo-container">
+                        <img src={client4} alt="client" className="w-100" />
+                      </div>
                     </div>
-                </div>
-            </div>
+                  </div>
 
-            
-            <div class="brand-card">
-                <div class="number-badge">06</div>
-                <div class="circle-outer">
-                    <div class="logo-container">
-                        <svg viewBox="0 0 80 80" fill="none">
-                            <rect x="20" y="20" width="18" height="18" fill="#F25022"/>
-                            <rect x="42" y="20" width="18" height="18" fill="#7FBA00"/>
-                            <rect x="20" y="42" width="18" height="18" fill="#00A4EF"/>
-                            <rect x="42" y="42" width="18" height="18" fill="#FFB900"/>
-                        </svg>
+
+                  <div className="brand-card">
+                    <div className="number-badge">05</div>
+                    <div className="circle-outer">
+                      <div className="logo-container">
+                        <img src={client5} alt="client" className="w-100" />
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
+              <div className="col-lg-6 col-sm-12">
+                <div className='sub_title mb-4 pb-3'>
+                  <h3>Trusted By</h3>
+                </div>
+
+                <div className="logos">
+                  <div className="logo_track trust_client">
+                    <img src={Trusted_logo1} />
+                    <img src={Trusted_logo2} />
+                    <img src={Trusted_logo3} />
+                    <img src={Trusted_logo4} />
+                    <img src={Trusted_logo5} />
+                    <img src={Trusted_logo6} />
+
+                    {/* duplicate for seamless loop */}
+                    <img src={Trusted_logo1} />
+                    <img src={Trusted_logo2} />
+                    <img src={Trusted_logo3} />
+                    <img src={Trusted_logo4} />
+                    <img src={Trusted_logo5} />
+                    <img src={Trusted_logo6} />
+                  </div>
+                </div>
+
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+
+        <div className="container-fluid p-5">
+          <div className='sub_title mb-4'>
+            <h3>Our Precious Clients</h3>
+          </div>
+          <div className="logos">
+            <div className="logo_track client_logo_as">
+            <img src={cl1} alt="client logo" className="w-100"/>
+            <img src={cl2} alt="client logo" className="w-100"/>
+            <img src={cl3} alt="client logo" className="w-100"/>
+            <img src={cl4} alt="client logo" className="w-100"/>
+            <img src={cl5} alt="client logo" className="w-100"/>
+            <img src={cl6} alt="client logo" className="w-100"/>
+            <img src={cl7} alt="client logo" className="w-100"/>
+            <img src={cl8} alt="client logo" className="w-100"/>
+            <img src={cl9} alt="client logo" className="w-100"/>
+            <img src={cl10} alt="client logo" className="w-100"/>
+            <img src={cl11} alt="client logo" className="w-100"/>
+            <img src={cl12} alt="client logo" className="w-100"/>
+            <img src={cl13} alt="client logo" className="w-100"/>
+            <img src={cl14} alt="client logo" className="w-100"/>
+            <img src={cl15} alt="client logo" className="w-100"/>
+
+            {/* duplicate for seamless loop */}
+            <img src={cl1} alt="client logo" className="w-100"/>
+            <img src={cl2} alt="client logo" className="w-100"/>
+            <img src={cl3} alt="client logo" className="w-100"/>
+            <img src={cl4} alt="client logo" className="w-100"/>
+            <img src={cl5} alt="client logo" className="w-100"/>
+            <img src={cl6} alt="client logo" className="w-100"/>
+            <img src={cl7} alt="client logo" className="w-100"/>
+            <img src={cl8} alt="client logo" className="w-100"/>
+            <img src={cl9} alt="client logo" className="w-100"/>
+            <img src={cl10} alt="client logo" className="w-100"/>
+            <img src={cl11} alt="client logo" className="w-100"/>
+            <img src={cl12} alt="client logo" className="w-100"/>
+            <img src={cl13} alt="client logo" className="w-100"/>
+            <img src={cl14} alt="client logo" className="w-100"/>
+            <img src={cl15} alt="client logo" className="w-100"/>
+            </div>
+          </div>
+        </div>
         {/* Testimonials section */}
         <Testimonials />
         {/* blog section */}

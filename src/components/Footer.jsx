@@ -5,7 +5,7 @@ const Footer = () => {
             <div className="background_footer px-5">
                 <div className="container-fluid">
                     <div className="row footer_main">
-                        <div className="col-3">
+                        <div className="col-lg-3 col-sm-12">
                             <img src={logo} alt="logo footer" className="w-75" />
                             <p>Divrit Technologies Pvt. Ltd. is an IT company that provides a one-stop solution for all IT services with its skilled team, best practices, and cutting-edge technologies</p>
                             <div class="footer-social-icon">
@@ -17,7 +17,7 @@ const Footer = () => {
                                 <a href="https://in.pinterest.com/divrittechnologiespvtltd/" target="_blank" rel="nofollow"><i class="fab fa-pinterest"></i></a>
                                 </div>
                         </div>
-                        <div className="col-2 footer_second">
+                        <div className="col-lg-2 col-sm-12 footer_second">
                             <h3>Company Info</h3>
                             <ul>
                                 <li><a href="/about">About Us</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
                                 <li><a href="">Career</a></li>
                             </ul>
                         </div>
-                        <div className="col-2 footer_second">
+                        <div className="col-lg-2 col-sm-12 footer_second">
                             <h3>Our Services</h3>
                             <ul>
                                 <li><a href="/about">IT Services</a></li>
@@ -35,7 +35,7 @@ const Footer = () => {
                                 <li><a href="">Tally Implementation</a></li>
                             </ul>
                         </div>
-                        <div className="col-2 footer_second">
+                        <div className="col-lg-2 col-sm-12 footer_second">
                             <h3>Legal</h3>
                             <ul>
                                 <li><a href="/about">Privacy Policy</a></li>
@@ -43,7 +43,7 @@ const Footer = () => {
                                 <li><a href="">Terms & Conditions</a></li>
                             </ul>
                         </div>
-                        <div className="col-3 footer_second">
+                        <div className="col-lg-3 col-sm-12 footer_second">
                             <h3>Touch Point</h3>
                             {/* location section */}
                             <div className="d-flex getintuch_footer" style={{marginTop:"-10px"}}>
