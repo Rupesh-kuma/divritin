@@ -71,6 +71,14 @@ const Footer = () => {
             <div className="copy_right">
                     <a href="https://divritin.com/">Copyright © 2024-2026 All rights reserved</a>
                 </div>
+                <div class="fixed-contact-icons">
+        <a href="" class="contact-icon whatsapp-icon" title="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="" class="contact-icon call-icon"  title="Call Us">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
         </>
     )
 }
