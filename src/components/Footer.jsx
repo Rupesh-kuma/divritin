@@ -9,13 +9,13 @@ const Footer = () => {
                             <img src={logo} alt="logo footer" className="w-75" />
                             <p>Divrit Technologies Pvt. Ltd. is an IT company that provides a one-stop solution for all IT services with its skilled team, best practices, and cutting-edge technologies</p>
                             <div class="footer-social-icon">
-                                
+
                                 <a href="https://www.facebook.com/Divrittechnologies/" target="_blank" rel="nofollow"><i class="fab fa-facebook"></i></a>
                                 <a href="https://x.com/DivritTech" target="_blank" rel="nofollow"><i class="fab fa-twitter" target="_blank"></i></a>
                                 <a href="https://www.instagram.com/divrittechnologiespvtltd/" target="_blank" rel="nofollow"><i class="fab fa-instagram"></i></a>
                                 <a href="https://www.linkedin.com/in/divrit-technologies-a156a0344/" target="_blank" rel="nofollow"><i class="fab fa-linkedin"></i></a>
                                 <a href="https://in.pinterest.com/divrittechnologiespvtltd/" target="_blank" rel="nofollow"><i class="fab fa-pinterest"></i></a>
-                                </div>
+                            </div>
                         </div>
                         <div className="col-lg-2 col-sm-12 footer_second">
                             <h3>Company Info</h3>
@@ -46,39 +46,39 @@ const Footer = () => {
                         <div className="col-lg-3 col-sm-12 footer_second">
                             <h3>Touch Point</h3>
                             {/* location section */}
-                            <div className="d-flex getintuch_footer" style={{marginTop:"-10px"}}>
-                            <i class="fa-solid fa-location-dot"></i>
-                                 <a href="#">Gaur city center ,Greater Noida west</a>
+                            <div className="d-flex getintuch_footer" style={{ marginTop: "-10px" }}>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <a href="#">Gaur city center ,Greater Noida west</a>
                             </div>
                             {/* mail section */}
                             <div className="d-flex getintuch_footer">
-                            <i class="fa-regular fa-envelope"></i>
-                                 <a href="mailto:info@divritin.com">info@divritin.com</a>
+                                <i class="fa-regular fa-envelope"></i>
+                                <a href="mailto:info@divritin.com">info@divritin.com</a>
                             </div>
-                            
+
                             {/* call section */}
                             <div className="d-flex getintuch_footer">
-                            <i class="fa-solid fa-phone-volume"></i>
-                                 <a href="tel:+919871886822">+91- 9871886822</a>
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <a href="tel:+919871886822">+91- 9871886822</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                
+
+
             </div>
             {/* copy right */}
             <div className="copy_right">
-                    <a href="https://divritin.com/">Copyright © 2024-2026 All rights reserved</a>
-                </div>
-                <div class="fixed-contact-icons">
-        <a href="" class="contact-icon whatsapp-icon" title="Chat on WhatsApp">
-            <i class="fab fa-whatsapp"></i>
-        </a>
-        <a href="" class="contact-icon call-icon"  title="Call Us">
-            <i class="fas fa-phone-alt"></i>
-        </a>
-    </div>
+                <a href="https://divritin.com/">Copyright © 2024-2026 All rights reserved</a>
+            </div>
+            <div class="fixed-contact-icons">
+                <a href="https://wa.me/919871886822?text=Hello!%20I'm%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer" class="contact-icon whatsapp-icon" title="Chat on WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="tel:+919871886822" class="contact-icon call-icon" title="Call Us">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+            </div>
         </>
     )
 }

@@ -44,6 +44,7 @@ a{
           display: none;
       }
   }
+  
 
   .header-cta { 
 
@@ -170,7 +171,7 @@ a{
 }
 /* button section end */
 .logo_header{
-  width: 100px;
+  width: 183px;
 }
 .navbar-nav{
   gap:15px;
@@ -198,3 +199,27 @@ a{
   position: absolute;
   left: -12px;
 } */
+.wrappers ul{
+  margin-bottom: 0 !important;
+}
+.wrappers ul li{
+  list-style: none;
+}
+.wrappers ul li:first-child{
+  border-bottom: 1px solid #ddd;
+}
+.wrappers ul li a{
+  color: #2e0b6f;
+  font-size: 15px;
+}
+.align_nav{
+  align-items: center;
+}
+.sub_menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub_menu i{
+ font-size: 30px;
+}

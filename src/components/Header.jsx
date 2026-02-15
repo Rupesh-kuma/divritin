@@ -1,15 +1,15 @@
 import logo from "../assets/images/logo.png";
 const Header = () => {
-    
-    
+
+
 
     return (
         <>
             <header>
-                <div className="top-header d-none d-md-block">
+                {/* <div className="top-header d-none d-md-block">
                     <div className="container-flud">
                         <div className="row">
-                            <div className="col-md-7 pr-md-0 col-12">
+                            <div className="col-md-12 pr-md-0 col-12">
                                 <div className="header-cta">
                                     <ul>
                                         <li>
@@ -45,13 +45,13 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* top header end */}
                 {/* second header bar */}
                 <nav className="navbar px-5 navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid px-0">
                         <a className="navbar-brand" href="#">
-                            <img src={logo} alt="logo" className="logo_header"/>
+                            <img src={logo} alt="logo" className="logo_header" />
                         </a>
                         <button
                             className="navbar-toggler"
@@ -64,8 +64,8 @@ const Header = () => {
                         >
                             <span className="navbar-toggler-icon" />
                         </button>
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <div className="collapse navbar-collapse align_nav" id="navbarSupportedContent">
+                            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
                                     <a className="nav-link active" aria-current="page" href="#">
                                         Home
@@ -73,7 +73,7 @@ const Header = () => {
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">
-                                    Core Services - IT 
+                                        Core Services - IT
                                     </a>
                                 </li>
                                 <li className="nav-item dropdown">
@@ -90,24 +90,55 @@ const Header = () => {
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li>
                                             <a className="dropdown-item" href="#">
-                                            Search Engine Optimization (SEO)
+                                                Search Engine Optimization (SEO)
                                             </a>
                                         </li>
                                         <li>
                                             <a className="dropdown-item" href="#">
-                                            Social Media Optimization (SMO) 
+                                                Social Media Optimization (SMO)
                                             </a>
                                         </li>
                                         <li>
                                             <a className="dropdown-item" href="#">
-                                            Pay-Per-Click/SEM Paid campaign
+                                                Pay-Per-Click/SEM Paid campaign
                                             </a>
                                         </li>
                                         <li>
                                             <a className="dropdown-item" href="#">
-                                            Other Promotional Services
+                                                Other Promotional Services
                                             </a>
                                         </li>
+                                    </ul>
+                                
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="nav-link dropdown-toggle"
+                                        href="#"
+                                        id="navbarDropdown"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                    >
+                                        Technologies 
+                                    </a>
+                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                            <a className="dropdown-item" href="#">
+                                            Technologies 
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="#">
+                                            Case studies
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a className="dropdown-item" href="#">
+                                            Industries 
+                                            </a>
+                                        </li>
+                                        
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown">
@@ -122,52 +153,54 @@ const Header = () => {
                                         Company Profile
                                     </a>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        
                                         <li>
                                             <a className="dropdown-item" href="#">
-                                            Our Team
+                                                Our Portfolios
                                             </a>
                                         </li>
                                         <li>
                                             <a className="dropdown-item" href="#">
-                                            Our Portfolios
+                                                Our Client
                                             </a>
                                         </li>
                                         <li>
                                             <a className="dropdown-item" href="#">
-                                            Our Client 
+                                                Event
                                             </a>
                                         </li>
                                         <li>
                                             <a className="dropdown-item" href="#">
-                                            Event
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="#">
-                                            Blogs 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="#">
-                                            Career
+                                                Blogs
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">
-                                    Career
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">
-                                    Contact Us
-                                    </a>
-                                </li>
                                 
+                                
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li className="nav-item sub_menu">
+                                <i class="fa-solid fa-bars"></i>
+                                </li>
                             </ul>
-                            <div className="wrapper">
-                                <a href="#">Consultancy</a>
+                            <div className="wrappers">
+                                <ul>
+                                <li>
+                                        <a href="tel:+919871886822">
+                                        <i class="fa-solid fa-phone-volume"></i> +91-9871886822
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:info@divritin.com">
+                                            <i className="fa-regular fa-envelope"></i> info@divritin.com
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
                             </div>
                         </div>
                     </div>
