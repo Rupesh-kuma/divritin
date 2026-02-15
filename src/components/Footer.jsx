@@ -8,14 +8,7 @@ const Footer = () => {
                         <div className="col-lg-3 col-sm-12">
                             <img src={logo} alt="logo footer" className="w-75" />
                             <p>Divrit Technologies Pvt. Ltd. is an IT company that provides a one-stop solution for all IT services with its skilled team, best practices, and cutting-edge technologies</p>
-                            <div class="footer-social-icon">
 
-                                <a href="https://www.facebook.com/Divrittechnologies/" target="_blank" rel="nofollow"><i class="fab fa-facebook"></i></a>
-                                <a href="https://x.com/DivritTech" target="_blank" rel="nofollow"><i class="fab fa-twitter" target="_blank"></i></a>
-                                <a href="https://www.instagram.com/divrittechnologiespvtltd/" target="_blank" rel="nofollow"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/in/divrit-technologies-a156a0344/" target="_blank" rel="nofollow"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://in.pinterest.com/divrittechnologiespvtltd/" target="_blank" rel="nofollow"><i class="fab fa-pinterest"></i></a>
-                            </div>
                         </div>
                         <div className="col-lg-2 col-sm-12 footer_second">
                             <h3>Company Info</h3>
@@ -68,8 +61,18 @@ const Footer = () => {
 
             </div>
             {/* copy right */}
+            <div className="copy_right_main">
+                <div className="container">
             <div className="copy_right">
                 <a href="https://divritin.com/">Copyright © 2024-2026 All rights reserved</a>
+                <div class="footer-social-icon">
+                    <a href="https://www.facebook.com/Divrittechnologies/" target="_blank" rel="nofollow"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/DivritTech" target="_blank" rel="nofollow"><i class="fab fa-twitter" target="_blank"></i></a>
+                    <a href="https://www.instagram.com/divrittechnologiespvtltd/" target="_blank" rel="nofollow"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/divrit-technologies-a156a0344/" target="_blank" rel="nofollow"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://in.pinterest.com/divrittechnologiespvtltd/" target="_blank" rel="nofollow"><i class="fab fa-pinterest"></i></a>
+                </div>
+                </div>
             </div>
             <div class="fixed-contact-icons">
                 <a href="https://wa.me/919871886822?text=Hello!%20I'm%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer" class="contact-icon whatsapp-icon" title="Chat on WhatsApp">
@@ -78,6 +81,7 @@ const Footer = () => {
                 <a href="tel:+919871886822" class="contact-icon call-icon" title="Call Us">
                     <i class="fas fa-phone-alt"></i>
                 </a>
+            </div>
             </div>
         </>
     )

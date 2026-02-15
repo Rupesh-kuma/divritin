@@ -173,9 +173,7 @@ a{
 .logo_header{
   width: 183px;
 }
-.navbar-nav{
-  gap:15px;
-}
+
 .navbar-light .navbar-nav .nav-link.active{
   color: #2e0b6f;
 }
@@ -222,4 +220,24 @@ a{
 }
 .sub_menu i{
  font-size: 30px;
+}
+/* Show submenu on hover */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  display: none;
+  top: 0;
+  left: 100%;
+  margin-left: 0;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Keep parent open */
+.dropdown:hover > .dropdown-menu {
+  display: block;
 }

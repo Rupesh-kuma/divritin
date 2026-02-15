@@ -10,6 +10,13 @@
 
 /* 📱 Small Mobile (max-width: 480px) */
 @media (max-width: 480px) {
+.navbar-collapse{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    left: 0;
+    right: 0;
+    top: 101%;
+}
 .service_main_section {
     padding: 30px 0;
 }

@@ -52,6 +52,7 @@ import mysql from "../assets/images/mysql.svg";
 import aws from "../assets/images/aws.svg";
 import azure from "../assets/images/azure.svg";
 import google from "../assets/images/google.svg";
+import WorkProcess from "../components/WorkProcess";
 
 const Home = () => {
   useEffect(() => {
@@ -171,6 +172,7 @@ const Home = () => {
     <>
       <Header />
       <main>
+        {/* hero section start */}
         <div className="slider-container">
           {/* Slide Counter */}
           <div className="slide-counter">
@@ -228,33 +230,31 @@ const Home = () => {
             <div className="progress-fill" id="progressFill" />
           </div>
         </div>
+        {/* hero section end */}
 
         <ServicesSection />
+
         {/* about section */}
         <div style={{ background: '#F5F5F5', }} className="p-lg-5 p-sm-2">
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-6 col-sm-12">
                 <div className='sub_title'>
-                  <span className="justify-content-lg-start">About us</span>
+                  <span className="justify-content-lg-start">Introduction</span>
                   <h3 className="justify-content-lg-start align-iteams-lg-start">Empowering Your Digital Journey for Business</h3>
                   <p className="text-start">
-                    With years of experience in the industry, we have successfully delivered
-                    numerous high-quality websites to clients across various sectors. As one of
-                    the top 10 website design company in the web design industry, our expertise
-                    and knowledge allow us to understand and cater to the unique requirements of
-                    businesses. Your digital success is our top priority, and we're committed to
-                    bringing you more of that marketing advantage.
+                  Divrit Technologies Pvt. Ltd. is an IT company that provides a one-stop solution for all IT services with its skilled team, best practices, and cutting-edge technologies. We deliver tailored solutions for our IT partners. Divrit Technologies is a sister company of Katyayni Technologies Pvt. Ltd., founded in 2017.
                   </p>
+                  <p className="text-start">We are committed to providing cost-effective, high-quality solutions for our partners. Our experienced team strives to help increase business revenue and clientele through skilled work and best practices. Trust us, and let us help you achieve your goals.</p>
                 </div>
 
                 <div className="row box_rox">
                   {/* Client Retentions - 95% */}
                   <div className="col-8">
                     <div className="blurb_text_why">
-                      <div className="blurb_icon">
+                      {/* <div className="blurb_icon">
                         <i className="fa-solid fa-check" />
-                      </div>
+                      </div> */}
                       <div className="blurb_text">
                         <h4 title="Website design company in india">Client Retentions</h4>
                         <p>
@@ -282,9 +282,9 @@ const Home = () => {
                   {/* Happy Clients - 100% */}
                   <div className="col-8">
                     <div className="blurb_text_why">
-                      <div className="blurb_icon">
+                      {/* <div className="blurb_icon">
                         <i className="fa-solid fa-check" />
-                      </div>
+                      </div> */}
                       <div className="blurb_text">
                         <h4>Happy Clients</h4>
                         <p>Discover why our clients trust us with their web design needs.</p>
@@ -312,6 +312,53 @@ const Home = () => {
                 <img src={about1} alt="about" style={{ width: '100%' }} />
               </div>
             </div>
+
+            <div className="stats-wrapper">
+              <div className="row g-4">
+                {/* Experience */}
+                <div className="col-lg-3 col-md-6">
+                  <div className="stat-box">
+                    <div className="stat-stamp">EST.</div>
+                    <div className="stat-number" data-number="8+">
+                      8+
+                    </div>
+                    <div className="stat-label">Experience</div>
+                  </div>
+                </div>
+                {/* Clients */}
+                <div className="col-lg-3 col-md-6">
+                  <div className="stat-box">
+                    <div className="stat-stamp">TOP</div>
+                    <div className="stat-number" data-number="50+">
+                      50+
+                    </div>
+                    <div className="stat-label">Clients</div>
+                  </div>
+                </div>
+                {/* Projects */}
+                <div className="col-lg-3 col-md-6">
+                  <div className="stat-box">
+                    <div className="stat-stamp">PRO</div>
+                    <div className="stat-number" data-number="121+">
+                      121+
+                    </div>
+                    <div className="stat-label">Projects</div>
+                  </div>
+                </div>
+                {/* Awards */}
+                <div className="col-lg-3 col-md-6">
+                  <div className="stat-box">
+                    <div className="stat-stamp">WIN</div>
+                    <div className="stat-number" data-number="25+">
+                      25+
+                    </div>
+                    <div className="stat-label">Awards</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
         {/* tecnology */}
@@ -662,133 +709,69 @@ const Home = () => {
             </div>
           </div>
         </section>
+
+        <WorkProcess/>
         {/* client */}
-        <div className="clinet_bg">
-          <div className="container-fluid px-lg-5 px-sm-1">
-            <div className="row g-5">
-              <div className="col-lg-6 col-sm-12">
-                <div className='sub_title mb-4 pb-lg-3 pb-sm-0'>
-                  <h3>Our Precious Clients</h3>
-                </div>
-                <div className="brands-grid">
-                  {/* <!-- GeM --> */}
-                  <div className="brand-card">
-                    <div className="number-badge">01</div>
-                    <div className="circle-outer">
-                      <div className="logo-container">
-                        <img src={client1} alt="client" className="w-100" />
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* <!-- Government of India --> */}
-                  <div className="brand-card">
-                    <div className="number-badge">02</div>
-                    <div className="circle-outer">
-                      <div className="logo-container">
-                        <img src={client2} alt="client" className="w-100" />
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* <!-- Bark --> */}
-                  <div className="brand-card">
-                    <div className="number-badge">03</div>
-                    <div className="circle-outer">
-                      <div className="logo-container">
-                        <img src={client3} alt="client" className="w-100" />
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div className="brand-card">
-                    <div className="number-badge">04</div>
-                    <div className="circle-outer">
-                      <div className="logo-container">
-                        <img src={client4} alt="client" className="w-100" />
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div className="brand-card">
-                    <div className="number-badge">05</div>
-                    <div className="circle-outer">
-                      <div className="logo-container">
-                        <img src={client5} alt="client" className="w-100" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6 col-sm-12 mt-sm-1">
-                <div className='sub_title mb-4 pb-lg-3 pb-sm-0'>
-                  <h3>Trusted By</h3>
-                </div>
-
-                <div className="logos">
-                  <div className="logo_track trust_client">
-                    <img src={Trusted_logo1} />
-                    <img src={Trusted_logo2} />
-                    <img src={Trusted_logo3} />
-                    <img src={Trusted_logo4} />
-                    <img src={Trusted_logo5} />
-                    <img src={Trusted_logo6} />
-
-                    {/* duplicate for seamless loop */}
-                    <img src={Trusted_logo1} />
-                    <img src={Trusted_logo2} />
-                    <img src={Trusted_logo3} />
-                    <img src={Trusted_logo4} />
-                    <img src={Trusted_logo5} />
-                    <img src={Trusted_logo6} />
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div className="container-fluid p-lg-5 p-sm-1">
+        <div className='sub_title pb-lg-3 pb-sm-0'>
+              <h3>Trusted By</h3>
+            </div>
+            <div className="logos">
+              <div className="logo_track trust_client">
+                <img src={Trusted_logo1} />
+                <img src={Trusted_logo2} />
+                <img src={Trusted_logo3} />
+                <img src={Trusted_logo4} />
+                <img src={Trusted_logo5} />
+                <img src={Trusted_logo6} />
+
+                {/* duplicate for seamless loop */}
+                <img src={Trusted_logo1} />
+                <img src={Trusted_logo2} />
+                <img src={Trusted_logo3} />
+                <img src={Trusted_logo4} />
+                <img src={Trusted_logo5} />
+                <img src={Trusted_logo6} />
+              </div>
+            </div>
           <div className='sub_title mb-4 preciour_client'>
             <h3>Our Precious Clients</h3>
           </div>
           <div className="logos">
             <div className="logo_track client_logo_as">
-            <img src={cl1} alt="client logo" className="w-100"/>
-            <img src={cl2} alt="client logo" className="w-100"/>
-            <img src={cl3} alt="client logo" className="w-100"/>
-            <img src={cl4} alt="client logo" className="w-100"/>
-            <img src={cl5} alt="client logo" className="w-100"/>
-            <img src={cl6} alt="client logo" className="w-100"/>
-            <img src={cl7} alt="client logo" className="w-100"/>
-            <img src={cl8} alt="client logo" className="w-100"/>
-            <img src={cl9} alt="client logo" className="w-100"/>
-            <img src={cl10} alt="client logo" className="w-100"/>
-            <img src={cl11} alt="client logo" className="w-100"/>
-            <img src={cl12} alt="client logo" className="w-100"/>
-            <img src={cl13} alt="client logo" className="w-100"/>
-            <img src={cl14} alt="client logo" className="w-100"/>
-            <img src={cl15} alt="client logo" className="w-100"/>
+              <img src={cl1} alt="client logo" className="w-100" />
+              <img src={cl2} alt="client logo" className="w-100" />
+              <img src={cl3} alt="client logo" className="w-100" />
+              <img src={cl4} alt="client logo" className="w-100" />
+              <img src={cl5} alt="client logo" className="w-100" />
+              <img src={cl6} alt="client logo" className="w-100" />
+              <img src={cl7} alt="client logo" className="w-100" />
+              <img src={cl8} alt="client logo" className="w-100" />
+              <img src={cl9} alt="client logo" className="w-100" />
+              <img src={cl10} alt="client logo" className="w-100" />
+              <img src={cl11} alt="client logo" className="w-100" />
+              <img src={cl12} alt="client logo" className="w-100" />
+              <img src={cl13} alt="client logo" className="w-100" />
+              <img src={cl14} alt="client logo" className="w-100" />
+              <img src={cl15} alt="client logo" className="w-100" />
 
-            {/* duplicate for seamless loop */}
-            <img src={cl1} alt="client logo" className="w-100"/>
-            <img src={cl2} alt="client logo" className="w-100"/>
-            <img src={cl3} alt="client logo" className="w-100"/>
-            <img src={cl4} alt="client logo" className="w-100"/>
-            <img src={cl5} alt="client logo" className="w-100"/>
-            <img src={cl6} alt="client logo" className="w-100"/>
-            <img src={cl7} alt="client logo" className="w-100"/>
-            <img src={cl8} alt="client logo" className="w-100"/>
-            <img src={cl9} alt="client logo" className="w-100"/>
-            <img src={cl10} alt="client logo" className="w-100"/>
-            <img src={cl11} alt="client logo" className="w-100"/>
-            <img src={cl12} alt="client logo" className="w-100"/>
-            <img src={cl13} alt="client logo" className="w-100"/>
-            <img src={cl14} alt="client logo" className="w-100"/>
-            <img src={cl15} alt="client logo" className="w-100"/>
+              {/* duplicate for seamless loop */}
+              <img src={cl1} alt="client logo" className="w-100" />
+              <img src={cl2} alt="client logo" className="w-100" />
+              <img src={cl3} alt="client logo" className="w-100" />
+              <img src={cl4} alt="client logo" className="w-100" />
+              <img src={cl5} alt="client logo" className="w-100" />
+              <img src={cl6} alt="client logo" className="w-100" />
+              <img src={cl7} alt="client logo" className="w-100" />
+              <img src={cl8} alt="client logo" className="w-100" />
+              <img src={cl9} alt="client logo" className="w-100" />
+              <img src={cl10} alt="client logo" className="w-100" />
+              <img src={cl11} alt="client logo" className="w-100" />
+              <img src={cl12} alt="client logo" className="w-100" />
+              <img src={cl13} alt="client logo" className="w-100" />
+              <img src={cl14} alt="client logo" className="w-100" />
+              <img src={cl15} alt="client logo" className="w-100" />
             </div>
           </div>
         </div>

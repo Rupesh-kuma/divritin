@@ -201,8 +201,8 @@
 }
 
 .dot {
-    width: 14px;
-    height: 14px;
+    width: 9px;
+    height: 9px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.4);
     cursor: pointer;
@@ -211,8 +211,8 @@
 }
 
 .dot.active {
-    background: white;
-    width: 45px;
+    background: #1e3a8a;
+    width: 9;
     border-radius: 7px;
 }
 
