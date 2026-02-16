@@ -18,7 +18,7 @@ const ContactUs = () => {
                             </Link>
                         </li>
                         <li>
-                        <i class="fa-solid fa-angles-right"></i>
+                        <i className="fa-solid fa-angles-right"></i>
                         </li>
                         <li>
                             <span className="breadcrumb-entry">Contact</span>
@@ -28,7 +28,7 @@ const ContactUs = () => {
             </div>
             <div className="contactbg">
                 <div className="container-fluid contac_main">
-                    <div class="sub_title mb-4 pb-1">
+                    <div className="sub_title mb-4 pb-1">
                         <span>Contact Us</span>
                         <h3>Get in Touch With Our Technology Experts</h3>
                         <p>Get in touch with our expert team to discuss your business needs and digital goals. Whether you’re looking for custom software development, IT consulting, or scalable cloud solutions, we’re here to provide innovative technology that drives growth and efficiency.</p>
@@ -38,7 +38,7 @@ const ContactUs = () => {
                             <div className="elementor-widget-container mt-3">
                                 <div className="item--inner">
                                     <div className="item--icon">
-                                        <i class="fa-solid fa-location-arrow"></i>
+                                        <i className="fa-solid fa-location-arrow"></i>
                                     </div>
                                     <div className="item--meta">
                                         <h4 className="item--title"> Office address</h4>
@@ -52,7 +52,7 @@ const ContactUs = () => {
                             <div className="elementor-widget-container">
                                 <div className="item--inner">
                                     <div className="item--icon">
-                                        <i class="fa-solid fa-phone-volume"></i>
+                                        <i className="fa-solid fa-phone-volume"></i>
                                     </div>
                                     <div className="item--meta">
                                         <h4 className="item--title">Phone number</h4>
@@ -66,7 +66,7 @@ const ContactUs = () => {
                             <div className="elementor-widget-container">
                                 <div className="item--inner">
                                     <div className="item--icon">
-                                        <i class="fa-solid fa-envelope-open-text"></i>
+                                        <i className="fa-solid fa-envelope-open-text"></i>
                                     </div>
                                     <div className="item--meta">
                                         <h4 className="item--title">Mail address</h4>
@@ -143,7 +143,6 @@ const ContactUs = () => {
                                             id="message"
                                             placeholder="Type message*"
                                             required=""
-                                            defaultValue={""}
                                         />
                                     </div>
                                     <button type="submit" className="service_cta_button">

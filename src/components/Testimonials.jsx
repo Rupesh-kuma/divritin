@@ -48,25 +48,25 @@ const Testimonials = () => {
 
         <div className="settings">
 
-          <div class="testimonial-card">
-            <div class="item">
-              <div class="row">
-                <div class="col-lg-3">
-                  <div class="thumb">
+          <div className="testimonial-card">
+            <div className="item">
+              <div className="row">
+                <div className="col-lg-3">
+                  <div className="thumb">
                     <img decoding="async" src={client1} alt="Thumb" />
-                    <i class="fas fa-quote-right"></i>
+                    <i className="fas fa-quote-right"></i>
                   </div>
                 </div>
-                <div class="info col-lg-9">
+                <div className="info col-lg-9">
                   <p>Working with Divrit Technologies was a great experience. Their commitment to quality, transparency, and performance truly sets them apart in the IT industry.</p>
-                  <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                  <div className="rating">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star-half-alt"></i>
                   </div>
-                  <div class="provider">
+                  <div className="provider">
                     <h4>Aman Gupta</h4>
                     <span>Business Owner</span>
                   </div>
@@ -75,25 +75,25 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div class="testimonial-card">
-            <div class="item">
-              <div class="row">
-                <div class="col-lg-3">
-                  <div class="thumb">
+          <div className="testimonial-card">
+            <div className="item">
+              <div className="row">
+                <div className="col-lg-3">
+                  <div className="thumb">
                     <img decoding="async" src={client1} alt="Thumb" />
-                    <i class="fas fa-quote-right"></i>
+                    <i className="fas fa-quote-right"></i>
                   </div>
                 </div>
-                <div class="info col-lg-9">
+                <div className="info col-lg-9">
                   <p>Great support! Thank you for your prompt and effective service. Your friendly and professional support staff exceeded my expectations!</p>
-                  <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                  <div className="rating">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star-half-alt"></i>
                   </div>
-                  <div class="provider">
+                  <div className="provider">
                     <h4>William Hoy</h4>
                     <span>Head of IT</span>
                   </div>
@@ -102,25 +102,25 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div class="testimonial-card">
-            <div class="item">
-              <div class="row">
-                <div class="col-lg-3">
-                  <div class="thumb">
+          <div className="testimonial-card">
+            <div className="item">
+              <div className="row">
+                <div className="col-lg-3">
+                  <div className="thumb">
                     <img decoding="async" src={client1} alt="Thumb" />
-                    <i class="fas fa-quote-right"></i>
+                    <i className="fas fa-quote-right"></i>
                   </div>
                 </div>
-                <div class="info col-lg-9">
+                <div className="info col-lg-9">
                   <p>Wow! Very nice team. I'm so happy with your service. Great team! You managed to exceed my expectations. You guys are very efficient and I will refer more people to your company!</p>
-                  <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                  <div className="rating">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star-half-alt"></i>
                   </div>
-                  <div class="provider">
+                  <div className="provider">
                     <h4>Imaan Butt</h4>
                     <span>Head of IT</span>
                   </div>
@@ -129,25 +129,25 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div class="testimonial-card">
-            <div class="item">
-              <div class="row">
-                <div class="col-lg-3">
-                  <div class="thumb">
+          <div className="testimonial-card">
+            <div className="item">
+              <div className="row">
+                <div className="col-lg-3">
+                  <div className="thumb">
                     <img decoding="async" src={client1} alt="Thumb" />
-                    <i class="fas fa-quote-right"></i>
+                    <i className="fas fa-quote-right"></i>
                   </div>
                 </div>
-                <div class="info col-lg-9">
+                <div className="info col-lg-9">
                   <p>Superb customer service and an amazing product! I highly recommend them for their excellent professionalism and dedication.</p>
-                  <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                  <div className="rating">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star-half-alt"></i>
                   </div>
-                  <div class="provider">
+                  <div className="provider">
                     <h4>Ayesha Khan</h4>
                     <span>Operations Manager</span>
                   </div>

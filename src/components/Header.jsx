@@ -107,7 +107,7 @@ const Header = () => {
                                                         Custom Software Development
                                                     </Link>
                                                 </li>
-                                                {/*<li><Link class="dropdown-item" href="#cross-platform">Cross Platform App Development</Link></li>*/}
+                                                {/*<li><Link className="dropdown-item" href="#cross-platform">Cross Platform App Development</Link></li>*/}
                                                 <li>
                                                     <Link to="/Website-Design-Development" className="dropdown-item">
                                                         Website &amp; Design Development
@@ -121,7 +121,7 @@ const Header = () => {
                                                         Mobile App Development
                                                     </Link>
                                                 </li>
-                                                {/*<li><Link class="dropdown-item" href="#website-redesign">Website Re-design/Maintenance</Link></li>*/}
+                                                {/*<li><Link className="dropdown-item" href="#website-redesign">Website Re-design/Maintenance</Link></li>*/}
                                                 <li>
                                                     <Link
                                                         to="/Web-Mobile-App-Maintenance(AMC)"
@@ -162,10 +162,10 @@ const Header = () => {
                                                         Other Design Services
                                                     </Link>
                                                 </li>
-                                                {/*<li><Link class="dropdown-item" href="#mobile-dev">Logo design </Link></li>*/}
-                                                {/*<li><Link class="dropdown-item" href="#website-redesign">    Company Portfolio design</Link></li>*/}
-                                                {/*<li><Link class="dropdown-item" href="#mobile-redesign"> Graphical UI design</Link></li>*/}
-                                                {/*<li><Link class="dropdown-item" href="#mobile-redesign">    Prototype or Mock design </Link></li>*/}
+                                                {/*<li><Link className="dropdown-item" href="#mobile-dev">Logo design </Link></li>*/}
+                                                {/*<li><Link className="dropdown-item" href="#website-redesign">    Company Portfolio design</Link></li>*/}
+                                                {/*<li><Link className="dropdown-item" href="#mobile-redesign"> Graphical UI design</Link></li>*/}
+                                                {/*<li><Link className="dropdown-item" href="#mobile-redesign">    Prototype or Mock design </Link></li>*/}
                                             </ul>
                                         </li>
                                     </ul>

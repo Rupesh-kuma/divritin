@@ -21,7 +21,7 @@ const ServicesSection = () => {
     const servicesData = {
         "it-services": {
             title: "IT Services",
-            icon: "🔧",
+            icon: "👨‍💻",
             subServices: [
                 {
                     title: "Custom Software Development",
