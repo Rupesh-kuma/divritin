@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Header from "../components/Header";
 import Blog from "../components/Blog";
 import Testimonials from "../components/Testimonials";
 import about1 from '../assets/images/about_image.webp';
@@ -170,7 +169,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <Header />
+      
       <main>
         {/* hero section start */}
         <div className="slider-container">

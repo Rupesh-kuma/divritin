@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../assets/images/logo.png";
+import { Link } from "react-router-dom";
 const Header = () => {
 
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -18,14 +19,14 @@ const Header = () => {
                                 <div className="header-cta">
                                     <ul>
                                         <li>
-                                            <a href="mailto:info@divritin.com">
+                                            <Link href="mailto:info@divritin.com">
                                                 <i className="fa-regular fa-envelope"></i> info@divritin.com
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="tel:+919871886822">
+                                            <Link href="tel:+919871886822">
                                                 <i className="fa-solid fa-phone-flip"></i> +91-9871886822
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -33,18 +34,18 @@ const Header = () => {
                             <div className="col-md-5 col-12">
                                 <div className="header-right-cta d-flex justify-content-end">
                                     <div className="social-profile mr-30">
-                                        <a href="#">
+                                        <Link href="#">
                                             <i className="fab fa-facebook-f" />
-                                        </a>
-                                        <a href="#">
+                                        </Link>
+                                        <Link href="#">
                                             <i className="fab fa-twitter" />
-                                        </a>
-                                        <a href="#">
+                                        </Link>
+                                        <Link href="#">
                                             <i className="fab fa-behance" />
-                                        </a>
-                                        <a href="#">
+                                        </Link>
+                                        <Link href="#">
                                             <i className="fab fa-youtube" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -56,9 +57,9 @@ const Header = () => {
                 {/* Navbar */}
                 <nav className="navbar px-lg-5 px-sm-1 navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid px-0">
-                        <a className="navbar-brand" href="#">
+                        <Link to="/" className="navbar-brand">
                             <img src={logo} alt="logo" className="logo_header" />
-                        </a>
+                        </Link>
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -73,204 +74,199 @@ const Header = () => {
                         <div className="collapse navbar-collapse align_nav" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">
+                                    <Link to="/" className="nav-link active" aria-current="page">
                                         Home
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <a
+                                    <Link
+                                        to="/Core-Services-IT"
                                         className="nav-link dropdown-toggle"
-                                        href="#"
                                         id="coreServicesDropdown"
                                         role="button"
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
                                         Core Services - IT
-                                    </a>
+                                    </Link>
                                     <ul className="dropdown-menu pl-0" aria-labelledby="coreServicesDropdown">
                                         <li className="nav-item dropdown dropdown-submenu pl-0">
-                                            <a
+                                            <Link
+                                                to="/Application-Development"
                                                 className="dropdown-item dropdown-toggle"
-                                                href="#"
                                                 id="appDevDropdown"
                                                 role="button"
                                                 data-bs-toggle="dropdown"
                                                 aria-expanded="false"
                                             >
                                                 Application Development
-                                            </a>
+                                            </Link>
                                             <ul className="dropdown-menu" aria-labelledby="appDevDropdown">
                                                 <li>
-                                                    <a className="dropdown-item" href="#">
+                                                    <Link to="/Custom-Software-Development" className="dropdown-item">
                                                         Custom Software Development
-                                                    </a>
+                                                    </Link>
                                                 </li>
-                                                {/*<li><a class="dropdown-item" href="#cross-platform">Cross Platform App Development</a></li>*/}
+                                                {/*<li><Link class="dropdown-item" href="#cross-platform">Cross Platform App Development</Link></li>*/}
                                                 <li>
-                                                    <a className="dropdown-item" href="#">
+                                                    <Link to="/Website-Design-Development" className="dropdown-item">
                                                         Website &amp; Design Development
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a
+                                                    <Link
+                                                        to="/Mobile-App-Development"
                                                         className="dropdown-item"
-                                                        href="#"
                                                     >
                                                         Mobile App Development
-                                                    </a>
+                                                    </Link>
                                                 </li>
-                                                {/*<li><a class="dropdown-item" href="#website-redesign">Website Re-design/Maintenance</a></li>*/}
+                                                {/*<li><Link class="dropdown-item" href="#website-redesign">Website Re-design/Maintenance</Link></li>*/}
                                                 <li>
-                                                    <a
+                                                    <Link
+                                                        to="/Web-Mobile-App-Maintenance(AMC)"
                                                         className="dropdown-item"
-                                                        href="#"
                                                     >
                                                         Web-Mobile App Maintenance(AMC)
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown dropdown-submenu pl-0">
-                                            <a
+                                            <Link
+                                                to="/Application-Design"
                                                 className="dropdown-item dropdown-toggle"
-                                                href="#"
                                                 id="appDevDropdown"
                                                 role="button"
                                                 data-bs-toggle="dropdown"
                                                 aria-expanded="false"
                                             >
                                                 Application Design
-                                            </a>
+                                            </Link>
                                             <ul className="dropdown-menu" aria-labelledby="appDevDropdown">
                                                 <li>
-                                                    <a className="dropdown-item" href="#">
+                                                    <Link className="dropdown-item" to="/Website-UI/UX-design">
                                                         Website UI/UX design
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a
+                                                    <Link
+                                                        to="/Mobile-screen-design"
                                                         className="dropdown-item"
-                                                        href="#"
                                                     >
                                                         Mobile screen design
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="#web-dev">
+                                                    <Link to="/Other-Design-Services" className="dropdown-item" >
                                                         Other Design Services
-                                                    </a>
+                                                    </Link>
                                                 </li>
-                                                {/*<li><a class="dropdown-item" href="#mobile-dev">Logo design </a></li>*/}
-                                                {/*<li><a class="dropdown-item" href="#website-redesign">    Company Portfolio design</a></li>*/}
-                                                {/*<li><a class="dropdown-item" href="#mobile-redesign"> Graphical UI design</a></li>*/}
-                                                {/*<li><a class="dropdown-item" href="#mobile-redesign">    Prototype or Mock design </a></li>*/}
+                                                {/*<li><Link class="dropdown-item" href="#mobile-dev">Logo design </Link></li>*/}
+                                                {/*<li><Link class="dropdown-item" href="#website-redesign">    Company Portfolio design</Link></li>*/}
+                                                {/*<li><Link class="dropdown-item" href="#mobile-redesign"> Graphical UI design</Link></li>*/}
+                                                {/*<li><Link class="dropdown-item" href="#mobile-redesign">    Prototype or Mock design </Link></li>*/}
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
 
                                 <li className="nav-item dropdown">
-                                    <a
+                                    <Link
+                                        to="/Branding-Marketing"
                                         className="nav-link dropdown-toggle"
-                                        href="#"
                                         id="navbarDropdown1"
                                         role="button"
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
                                         Branding & Marketing
-                                    </a>
+                                    </Link>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
                                         <li>
-                                            <a className="dropdown-item" href="#">
+                                            <Link to="/Search-Engine-Optimization" className="dropdown-item" >
                                                 Search Engine Optimization (SEO)
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="#">
-                                                Social Media Optimization (SMO)
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="#">
+                                            <Link to="Pay-Per-Click/SEM-Paid-campaign" className="dropdown-item">
                                                 Pay-Per-Click/SEM Paid campaign
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="#">
+                                            <Link className="dropdown-item" to="/Other-Promotional-Services">
                                                 Other Promotional Services
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <a
+                                    <Link
+                                        to="/Technologies"
                                         className="nav-link dropdown-toggle"
-                                        href="#"
                                         id="navbarDropdown2"
                                         role="button"
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
                                         Technologies
-                                    </a>
+                                    </Link>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown2">
                                         <li>
-                                            <a className="dropdown-item" href="#">
+                                            <Link to="/Technologies" className="dropdown-item">
                                                 Technologies
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="#">
-                                                Case studies
-                                            </a>
+                                            <Link to="/Case-Studies" className="dropdown-item">
+                                                Case Studies
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="#">
+                                            <Link to="/Industries" className="dropdown-item">
                                                 Industries
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <a
+                                    <Link
+                                        to="/Company-Profile"
                                         className="nav-link dropdown-toggle"
-                                        href="#"
                                         id="navbarDropdown3"
                                         role="button"
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
                                         Company Profile
-                                    </a>
+                                    </Link>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown3">
                                         <li>
-                                            <a className="dropdown-item" href="#">
+                                            <Link to="/Our-Portfolios" className="dropdown-item">
                                                 Our Portfolios
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="#">
+                                            <Link to="/Our-Client" className="dropdown-item">
                                                 Our Client
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="#">
+                                            <Link to="/Event" className="dropdown-item">
                                                 Event
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="#">
+                                            <Link to="/Blogs" className="dropdown-item">
                                                 Blogs
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <Link to="/Contact-Us" className="nav-link">
                                         Contact Us
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
                                     <button className="menu-toggle-btn" onClick={toggleSidebar}>
@@ -281,14 +277,14 @@ const Header = () => {
                             <div className="wrappers">
                                 <ul>
                                     <li>
-                                        <a href="tel:+919871886822">
+                                        <Link to="tel:+919871886822">
                                             <i className="fa-solid fa-phone-volume"></i> +91-9871886822
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="mailto:info@divritin.com">
+                                        <Link to="mailto:info@divritin.com">
                                             <i className="fa-regular fa-envelope"></i> info@divritin.com
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -314,10 +310,10 @@ const Header = () => {
                     <div className="sidebar-content">
                         <ul className="sidebar-menu">
                             <li className="sidebar-menu-item">
-                                <a href="#" className="sidebar-menu-link">
+                                <Link to="/" className="sidebar-menu-link">
                                     <i className="fa-solid fa-house"></i>
                                     Home
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="sidebar-menu-item">
@@ -338,54 +334,54 @@ const Header = () => {
                                 </div>
                                 <ul className="sidebar-submenu">
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/Tally-Prime" className="sidebar-submenu-link">
                                             Tally Prime
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/Tally-Prime-Edit-Log" className="sidebar-submenu-link">
                                             Tally Prime Edit Log
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/Tally-Server" className="sidebar-submenu-link">
                                             Tally Server
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/Tally-prime-developer" className="sidebar-submenu-link">
                                             Tally prime developer
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/Tally-ERP" className="sidebar-submenu-link">
                                             Tally ERP
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/Tally-TSS" className="sidebar-submenu-link">
                                             Tally TSS (Tally Software Services)
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/Tally-Integration-Solutions" className="sidebar-submenu-link">
                                             Tally Integration Solutions
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/Tally-on-Cloud" className="sidebar-submenu-link">
                                             Tally on Cloud
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/Tally-Educational-Product" className="sidebar-submenu-link">
                                             Tally Educational Product
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/Tally-Downloads" className="sidebar-submenu-link">
                                             Tally Downloads
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
@@ -408,31 +404,31 @@ const Header = () => {
                                 </div>
                                 <ul className="sidebar-submenu">
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/Cloud-Solutions" className="sidebar-submenu-link">
                                             Cloud Solutions
-                                        </a>
+                                        </Link>
                                         <ul>
                                             <li className="sidebar-submenu-item">
-                                                <a href="#" className="sidebar-submenu-link">
+                                                <Link to="/Services-Hosting" className="sidebar-submenu-link">
                                                     Services & Hosting
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link to="/On-Demand-Workforce" className="sidebar-submenu-link">
                                             On Demand Workforce
-                                        </a>
+                                        </Link>
                                         <ul>
                                             <li className="sidebar-submenu-item">
-                                                <a href="#" className="sidebar-submenu-link">
+                                                <Link to="/Developer-Consultant" className="sidebar-submenu-link">
                                                     Developer & Consultant
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="sidebar-submenu-item">
-                                                <a href="#" className="sidebar-submenu-link">
+                                                <Link to="/Virtual-Assistant" className="sidebar-submenu-link">
                                                     Virtual Assistant
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </li>
@@ -459,53 +455,53 @@ const Header = () => {
                                 </div>
                                 <ul className="sidebar-submenu">
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link href="#" className="sidebar-submenu-link">
                                             Our Portfolios
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link href="#" className="sidebar-submenu-link">
                                             Our Client
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link href="#" className="sidebar-submenu-link">
                                             Event
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <a href="#" className="sidebar-submenu-link">
+                                        <Link href="#" className="sidebar-submenu-link">
                                             Blogs
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li> */}
                             <li className="sidebar-menu-item">
-                                <a href="#" className="sidebar-menu-link">
+                                <Link to="/Career" className="sidebar-menu-link">
                                     <i className="fa-solid fa-briefcase"></i>
                                     Career
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="sidebar-menu-item">
-                                <a href="#" className="sidebar-menu-link">
+                                <Link to="/Contact-Us" className="sidebar-menu-link">
                                     <i className="fa-solid fa-envelope"></i>
                                     Contact Us
-                                </a>
+                                </Link>
                             </li>
                         </ul>
 
                         {/* Contact Section */}
                         <div className="sidebar-contact">
                             <h4>Get In Touch</h4>
-                            <a href="tel:+919871886822" className="contact-item">
+                            <Link to="tel:+919871886822" className="contact-item">
                                 <i className="fa-solid fa-phone-volume"></i>
                                 <span>+91-9871886822</span>
-                            </a>
-                            <a href="mailto:info@divritin.com" className="contact-item">
+                            </Link>
+                            <Link to="mailto:info@divritin.com" className="contact-item">
                                 <i className="fa-regular fa-envelope"></i>
                                 <span>info@divritin.com</span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

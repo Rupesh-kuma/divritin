@@ -6,14 +6,19 @@ import Footer from './components/Footer';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ContactUs from './pages/ContactUs';
+import { Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
 
 
 function App() {
   return (
     <>
-      <Home/>
-      <ContactUs/>
-      <Footer/>
+    <Header />
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/contact-us' element={<ContactUs/>}/>
+    </Routes>
+    <Footer/>
     </>
   )
 }
