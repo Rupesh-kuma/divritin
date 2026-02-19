@@ -1,0 +1,238 @@
+{
+    "hero": {
+      "badge": "Application Development",
+      "title": "Web-Mobile App Maintenance (AMC)",
+      "subtitle": "Reliable Annual Maintenance Contracts to keep your web and mobile applications running at peak performance — always updated, always secure.",
+      "tags": [
+        "Bug Fixes",
+        "Security Patches",
+        "Performance Tuning",
+        "Feature Updates",
+        "24/7 Monitoring",
+        "Annual Contract"
+      ],
+      "bgImage": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1400&q=80",
+      "formTitle": "Get a FREE Consultation",
+      "formFields": [
+        "Your Name",
+        "Phone / Email",
+        "Current Platform"
+      ]
+    },
+    "intro": {
+      "label": "Annual Maintenance Contract (AMC) Services",
+      "heading": "Web-Mobile App Maintenance (AMC)",
+      "description": "Your software is a living product — it needs constant care to stay secure, performant, and competitive. Our Annual Maintenance Contract (AMC) services cover everything from bug fixes, security patches, and performance optimization to feature enhancements and technology upgrades. We act as your extended tech team so you can focus on your business.",
+      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80",
+      "stats": [
+        {
+          "num": "99.9%",
+          "label": "Uptime SLA"
+        },
+        {
+          "num": "< 4hr",
+          "label": "Avg Response Time"
+        },
+        {
+          "num": "100+",
+          "label": "Apps Under AMC"
+        },
+        {
+          "num": "8+",
+          "label": "Years Experience"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Our AMC Service Process",
+      "subtitle": "A structured maintenance workflow to keep your application healthy and growing.",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Application Audit & Onboarding",
+          "description": "We start with a thorough audit of your existing application — codebase, database, security, and performance — to establish a baseline and identify immediate risks.",
+          "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+          "points": [
+            "Full code & architecture review",
+            "Security vulnerability scan",
+            "Performance baseline measurement",
+            "Documentation & knowledge transfer"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "SLA & Support Plan Setup",
+          "description": "We define clear SLAs, escalation paths, and support tiers based on your business criticality and budget.",
+          "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=700&q=80",
+          "points": [
+            "Priority levels (P1–P4 tickets)",
+            "Response & resolution time SLAs",
+            "Dedicated point of contact",
+            "Monthly reporting cadence"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Proactive Monitoring",
+          "description": "We set up 24/7 automated monitoring for uptime, errors, performance, and security threats — catching issues before they impact your users.",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+          "points": [
+            "Uptime & availability monitoring",
+            "Error tracking (Sentry, Datadog)",
+            "Performance metrics (APM)",
+            "Security threat alerts"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Bug Fixes & Hotfixes",
+          "description": "All reported bugs are triaged, prioritized, and fixed within agreed SLA timeframes. Critical bugs get emergency hotfix releases.",
+          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+          "points": [
+            "Ticket-based bug tracking",
+            "Root cause analysis",
+            "Hotfix deployments for critical issues",
+            "Regression testing after every fix"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Security & Dependency Updates",
+          "description": "We keep your app's dependencies, frameworks, and libraries up to date — patching security vulnerabilities before they become exploits.",
+          "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=700&q=80",
+          "points": [
+            "Monthly dependency audits",
+            "Security patch management",
+            "SSL & certificate renewals",
+            "OWASP compliance reviews"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Feature Enhancements & Reporting",
+          "description": "Beyond maintenance, we help you evolve your product — adding small features, UI improvements, and delivering monthly performance reports.",
+          "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+          "points": [
+            "Planned feature enhancements",
+            "Monthly health & performance reports",
+            "Quarterly roadmap reviews",
+            "Upgrade recommendations"
+          ]
+        }
+      ]
+    },
+    "industries": {
+      "heading": "Industries We Serve",
+      "subtitle": "We maintain applications across all sectors — from startups to enterprises.",
+      "list": [
+        {
+          "icon": "🏥",
+          "title": "Healthcare",
+          "desc": "HIPAA-compliant maintenance for patient portals and clinical apps."
+        },
+        {
+          "icon": "🎓",
+          "title": "Education",
+          "desc": "LMS and e-learning platform uptime and content updates."
+        },
+        {
+          "icon": "🛒",
+          "title": "eCommerce",
+          "desc": "Store uptime, payment gateway updates, inventory sync fixes."
+        },
+        {
+          "icon": "🏦",
+          "title": "Finance & BFSI",
+          "desc": "Security patches, compliance updates for banking & insurance apps."
+        },
+        {
+          "icon": "✈️",
+          "title": "Travel",
+          "desc": "Booking engine maintenance, API integration updates."
+        },
+        {
+          "icon": "🚚",
+          "title": "Logistics",
+          "desc": "Fleet tracking app maintenance, real-time sync fixes."
+        },
+        {
+          "icon": "⚙️",
+          "title": "Manufacturing",
+          "desc": "ERP and IoT dashboard maintenance, downtime prevention."
+        },
+        {
+          "icon": "💼",
+          "title": "Enterprises",
+          "desc": "Mission-critical enterprise app support with strict SLAs."
+        }
+      ]
+    },
+    "whyUs": {
+      "heading": "Why Choose Our AMC?",
+      "subtitle": "Reliable, proactive, and cost-effective maintenance — your peace of mind guaranteed.",
+      "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+      "cards": [
+        {
+          "icon": "⏱️",
+          "title": "Fast Response SLA",
+          "desc": "P1 critical issues resolved within 4 hours — guaranteed."
+        },
+        {
+          "icon": "🛡️",
+          "title": "Proactive Security",
+          "desc": "We patch vulnerabilities before hackers find them."
+        },
+        {
+          "icon": "📊",
+          "title": "Monthly Reports",
+          "desc": "Clear, transparent reports on uptime, fixes, and performance."
+        },
+        {
+          "icon": "💰",
+          "title": "Cost-Effective",
+          "desc": "AMC is up to 60% cheaper than hiring in-house maintenance teams."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Our AMC Plans",
+      "subtitle": "Flexible maintenance plans to match your application's needs and budget.",
+      "list": [
+        {
+          "icon": "🔧",
+          "title": "Basic Maintenance",
+          "desc": "Bug fixes, security patches, and monthly uptime monitoring.",
+          "percent": 100,
+          "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&q=80"
+        },
+        {
+          "icon": "🚀",
+          "title": "Standard AMC",
+          "desc": "Everything in Basic + performance optimization & dependency updates.",
+          "percent": 100,
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&q=80"
+        },
+        {
+          "icon": "💎",
+          "title": "Premium AMC",
+          "desc": "Full-stack support with feature enhancements and dedicated developer.",
+          "percent": 100,
+          "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&q=80"
+        },
+        {
+          "icon": "🏢",
+          "title": "Enterprise Support",
+          "desc": "Custom SLAs, on-site support, 24/7 NOC, and dedicated team.",
+          "percent": 100,
+          "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=500&q=80"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Let's Maintain Your Application Together",
+      "subtitle": "Don't let bugs, downtime, or security issues hurt your business. Get an AMC quote today.",
+      "btnPrimary": "Get AMC Quote",
+      "btnSecondary": "View AMC Plans",
+      "bgImage": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1400&q=80"
+    }
+  }

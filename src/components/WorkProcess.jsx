@@ -6,9 +6,9 @@ const WorkProcess = () => {
             <section className="work-process-wrapper clinet_bg">
                 <div className="container-fluid px-lg-5 px-sm-1">
                 <div className='sub_title mx-5 px-5'>
-                    <span className="text-white">Our Work Process</span>
-                    <h3 className="text-white">How We Transform Ideas Into Reality</h3>
-                    <p className="text-white">
+                    <span>Our Work Process</span>
+                    <h3>How We Transform Ideas Into Reality</h3>
+                    <p>
                         With years of experience in the industry, we follow a proven methodology to deliver exceptional digital solutions that drive business growth and ensure your success in the digital landscape.
                     </p>
                 </div>

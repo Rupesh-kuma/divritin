@@ -1,0 +1,237 @@
+{
+    "hero": {
+      "badge": "Application Development",
+      "title": "Website & Design Development",
+      "subtitle": "High-performance, SEO-optimized, and visually stunning websites built with modern frameworks to power your online business.",
+      "tags": [
+        "React & Next.js",
+        "Node.js Backend",
+        "E-Commerce",
+        "CMS Development",
+        "Progressive Web Apps"
+      ],
+      "bgImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1400&q=80",
+      "formTitle": "Get a FREE Consultation",
+      "formFields": [
+        "Your Name",
+        "Phone / Email",
+        "Project Type"
+      ]
+    },
+    "intro": {
+      "label": "Full-Stack Web Development & Design",
+      "heading": "Website & Design Development",
+      "description": "We deliver end-to-end web development and design services — from dynamic corporate websites and e-commerce stores to complex web applications. Our team builds fast, secure, and scalable solutions using modern tech stacks that drive traffic, engagement, and conversions.",
+      "image": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=800&q=80",
+      "stats": [
+        {
+          "num": "350+",
+          "label": "Websites Delivered"
+        },
+        {
+          "num": "99%",
+          "label": "Uptime Guarantee"
+        },
+        {
+          "num": "40+",
+          "label": "Web Developers"
+        },
+        {
+          "num": "10+",
+          "label": "Years Experience"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Our Web Development Process",
+      "subtitle": "A proven methodology to build reliable, high-performing websites.",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Discovery & Planning",
+          "description": "Understanding your goals, audience, and technical requirements to create a detailed project roadmap.",
+          "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=700&q=80",
+          "points": [
+            "Business analysis",
+            "Sitemap planning",
+            "Technology selection",
+            "Timeline & budget"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "UI/UX Design",
+          "description": "Crafting intuitive, visually engaging interfaces that guide users naturally toward conversions.",
+          "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=700&q=80",
+          "points": [
+            "Wireframes & prototypes",
+            "Brand identity integration",
+            "User journey mapping",
+            "Responsive design"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Frontend Development",
+          "description": "Converting designs into pixel-perfect, interactive, and fast-loading frontend code.",
+          "image": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=700&q=80",
+          "points": [
+            "React / Vue / Angular",
+            "Performance optimization",
+            "Accessibility (WCAG)",
+            "Cross-browser compatibility"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Backend & API Development",
+          "description": "Building the engine behind your website — secure APIs, databases, and server logic.",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+          "points": [
+            "Node.js / Python / PHP",
+            "REST & GraphQL APIs",
+            "Database design",
+            "Auth & authorization"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Testing & QA",
+          "description": "Comprehensive testing to ensure zero critical bugs and excellent performance before go-live.",
+          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+          "points": [
+            "Functional & regression testing",
+            "Load & stress testing",
+            "Security audits",
+            "SEO technical audit"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Deployment & Support",
+          "description": "Launch on high-availability infrastructure with continuous monitoring and iterative updates.",
+          "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+          "points": [
+            "Cloud deployment",
+            "CDN configuration",
+            "Performance monitoring",
+            "Maintenance contracts"
+          ]
+        }
+      ]
+    },
+    "industries": {
+      "heading": "Industries We Serve",
+      "subtitle": "Specialized web development and design for every sector.",
+      "list": [
+        {
+          "icon": "🏥",
+          "title": "Healthcare",
+          "desc": "Patient portals, appointment booking, HIPAA-compliant platforms."
+        },
+        {
+          "icon": "🎓",
+          "title": "Education",
+          "desc": "LMS, e-learning portals, institution websites."
+        },
+        {
+          "icon": "🛒",
+          "title": "Retail & eCommerce",
+          "desc": "Custom storefronts, Shopify/Magento, POS integrations."
+        },
+        {
+          "icon": "🏦",
+          "title": "Finance",
+          "desc": "Secure banking portals, loan calculators, insurance platforms."
+        },
+        {
+          "icon": "✈️",
+          "title": "Travel",
+          "desc": "Booking engines, OTA platforms, hotel management."
+        },
+        {
+          "icon": "🏗️",
+          "title": "Real Estate",
+          "desc": "Property listing portals, CRM for agents, virtual tours."
+        },
+        {
+          "icon": "⚙️",
+          "title": "Manufacturing",
+          "desc": "B2B portals, product catalogues, dealer management."
+        },
+        {
+          "icon": "💼",
+          "title": "Corporate & B2B",
+          "desc": "Corporate websites, investor portals, intranet solutions."
+        }
+      ]
+    },
+    "whyUs": {
+      "heading": "Why Choose Us?",
+      "subtitle": "Speed, quality, and long-term reliability — guaranteed.",
+      "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=700&q=80",
+      "cards": [
+        {
+          "icon": "⚡",
+          "title": "Blazing Fast Performance",
+          "desc": "Core Web Vitals optimized — sub-2s load times with CDN & caching."
+        },
+        {
+          "icon": "🔍",
+          "title": "SEO-Optimized",
+          "desc": "Technical SEO baked in from day one — structured data, sitemaps."
+        },
+        {
+          "icon": "📱",
+          "title": "Mobile-First Design",
+          "desc": "Fully responsive and tested across 50+ device screen sizes."
+        },
+        {
+          "icon": "🔒",
+          "title": "Secure by Default",
+          "desc": "SSL, CSRF protection, input sanitization, regular security audits."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Our Web Services",
+      "subtitle": "From simple landing pages to complex enterprise platforms.",
+      "list": [
+        {
+          "icon": "🖥️",
+          "title": "Corporate Website",
+          "desc": "Professional, brand-focused websites that build credibility.",
+          "percent": 98,
+          "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&q=80"
+        },
+        {
+          "icon": "🛒",
+          "title": "E-Commerce Store",
+          "desc": "Custom online stores with secure checkout & payment integrations.",
+          "percent": 95,
+          "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&q=80"
+        },
+        {
+          "icon": "⚙️",
+          "title": "Web Applications",
+          "desc": "Complex data-driven apps with real-time features & integrations.",
+          "percent": 93,
+          "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&q=80"
+        },
+        {
+          "icon": "📝",
+          "title": "CMS Development",
+          "desc": "WordPress, Strapi, Contentful — easy-to-manage content systems.",
+          "percent": 90,
+          "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500&q=80"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ready to Launch Your Website?",
+      "subtitle": "Let's discuss your project. Get a free consultation and cost estimate from our experts.",
+      "btnPrimary": "Get Free Consultation",
+      "btnSecondary": "View Our Portfolio",
+      "bgImage": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1400&q=80"
+    }
+  }

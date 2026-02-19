@@ -1,0 +1,238 @@
+{
+    "hero": {
+      "badge": "Application Development",
+      "title": "Mobile App Development",
+      "subtitle": "Stunning, high-performance iOS and Android apps crafted with Flutter & React Native to engage your users and grow your business.",
+      "tags": [
+        "Flutter",
+        "React Native",
+        "iOS Apps",
+        "Android Apps",
+        "Cross-Platform",
+        "App Store Optimization"
+      ],
+      "bgImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1400&q=80",
+      "formTitle": "Get a FREE Consultation",
+      "formFields": [
+        "Your Name",
+        "Phone / Email",
+        "App Idea"
+      ]
+    },
+    "intro": {
+      "label": "Native & Cross-Platform Mobile Solutions",
+      "heading": "Mobile App Development",
+      "description": "We craft mobile apps that users love — fast, intuitive, and beautifully designed. Whether you need a native iOS/Android app or a cross-platform solution using Flutter or React Native, our mobile team delivers exceptional performance, pixel-perfect UI, and seamless backend integration.",
+      "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80",
+      "stats": [
+        {
+          "num": "150+",
+          "label": "Apps Launched"
+        },
+        {
+          "num": "4.8★",
+          "label": "Average App Rating"
+        },
+        {
+          "num": "30+",
+          "label": "Mobile Developers"
+        },
+        {
+          "num": "6+",
+          "label": "Years Experience"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Our App Development Process",
+      "subtitle": "From concept to App Store — a battle-tested, proven process.",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Ideation & Strategy",
+          "description": "We define your app's purpose, target users, core features, and monetization strategy before writing a single line of code.",
+          "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+          "points": [
+            "Market & competitor research",
+            "User persona definition",
+            "Feature prioritization (MVP)",
+            "Platform strategy"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "UI/UX Design",
+          "description": "Our designers craft beautiful, intuitive interfaces following Apple HIG and Material Design guidelines.",
+          "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=700&q=80",
+          "points": [
+            "Wireframes & prototypes",
+            "Custom UI component design",
+            "Accessibility (WCAG)",
+            "Micro-interaction design"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "App Development",
+          "description": "Engineering your app with clean, maintainable code — native Swift/Kotlin or cross-platform Flutter/React Native.",
+          "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=700&q=80",
+          "points": [
+            "Flutter / React Native / Swift / Kotlin",
+            "Offline-first architecture",
+            "Push notifications",
+            "Third-party SDK integrations"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Backend & API Integration",
+          "description": "Robust server-side logic, real-time sync, and secure API connections to power your app's features.",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+          "points": [
+            "REST & GraphQL APIs",
+            "Real-time with Firebase",
+            "Secure auth (OAuth, JWT, Biometrics)",
+            "Cloud storage & CDN"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Testing & QA",
+          "description": "Rigorous device and OS testing to ensure a flawless experience across all phones and tablets.",
+          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+          "points": [
+            "Testing on real devices",
+            "Automated UI testing",
+            "Performance & memory profiling",
+            "Security penetration testing"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Launch & Post-Launch Support",
+          "description": "We handle App Store / Play Store submission and provide ongoing updates and crash monitoring.",
+          "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+          "points": [
+            "App Store & Play Store submission",
+            "Crash monitoring with Sentry",
+            "Analytics integration",
+            "Iterative feature updates"
+          ]
+        }
+      ]
+    },
+    "industries": {
+      "heading": "Industries We Serve",
+      "subtitle": "Mobile solutions across every vertical — consumer to enterprise.",
+      "list": [
+        {
+          "icon": "🏥",
+          "title": "Healthcare",
+          "desc": "Patient apps, doctor booking, telemedicine, fitness trackers."
+        },
+        {
+          "icon": "🎓",
+          "title": "Education",
+          "desc": "Learning apps, exam prep, virtual classrooms, tutor platforms."
+        },
+        {
+          "icon": "🛒",
+          "title": "Retail",
+          "desc": "Shopping apps, loyalty programs, AR try-on, order tracking."
+        },
+        {
+          "icon": "🍕",
+          "title": "Food & Delivery",
+          "desc": "Restaurant apps, food delivery, grocery ordering."
+        },
+        {
+          "icon": "💳",
+          "title": "FinTech",
+          "desc": "Banking apps, wallets, investment platforms, expense trackers."
+        },
+        {
+          "icon": "✈️",
+          "title": "Travel",
+          "desc": "Travel booking, hotel apps, itinerary planners."
+        },
+        {
+          "icon": "🚚",
+          "title": "Logistics",
+          "desc": "Driver apps, shipment tracking, last-mile delivery."
+        },
+        {
+          "icon": "💼",
+          "title": "Enterprise",
+          "desc": "CRM apps, field force, approval workflows, enterprise portals."
+        }
+      ]
+    },
+    "whyUs": {
+      "heading": "Why Choose Us?",
+      "subtitle": "We ship apps that users actually love.",
+      "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=700&q=80",
+      "cards": [
+        {
+          "icon": "🎨",
+          "title": "Award-Worthy UI/UX",
+          "desc": "Intuitive flows, micro-animations, and pixel-perfect visuals."
+        },
+        {
+          "icon": "⚡",
+          "title": "Blazing Performance",
+          "desc": "60fps animations, optimized memory, sub-second cold starts."
+        },
+        {
+          "icon": "🔒",
+          "title": "Secure & Compliant",
+          "desc": "Biometric auth, encrypted storage, GDPR & HIPAA compliance."
+        },
+        {
+          "icon": "📊",
+          "title": "Analytics-Ready",
+          "desc": "Built-in event tracking, A/B testing, user behaviour analytics."
+        }
+      ]
+    },
+    "services": {
+      "heading": "Our Mobile Services",
+      "subtitle": "Every type of mobile solution under one roof.",
+      "list": [
+        {
+          "icon": "📱",
+          "title": "iOS App Development",
+          "desc": "Native Swift apps built for iPhone and iPad with Apple-quality standards.",
+          "percent": 96,
+          "image": "https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?w=500&q=80"
+        },
+        {
+          "icon": "🤖",
+          "title": "Android App Development",
+          "desc": "Kotlin-powered Android apps for the vast Android ecosystem.",
+          "percent": 95,
+          "image": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=500&q=80"
+        },
+        {
+          "icon": "🦋",
+          "title": "Flutter Development",
+          "desc": "One codebase, two platforms — beautiful cross-platform apps.",
+          "percent": 97,
+          "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&q=80"
+        },
+        {
+          "icon": "⚛️",
+          "title": "React Native",
+          "desc": "JavaScript-powered cross-platform apps with excellent community support.",
+          "percent": 93,
+          "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=500&q=80"
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ready to Build Your Mobile App?",
+      "subtitle": "Let's turn your app idea into a product your users will love. Free consultation, no commitment.",
+      "btnPrimary": "Get Free Consultation",
+      "btnSecondary": "See Our App Portfolio",
+      "bgImage": "https://images.unsplash.com/photo-1522125670776-3c7abb882bc2?w=1400&q=80"
+    }
+  }

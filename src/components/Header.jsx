@@ -103,19 +103,19 @@ const Header = () => {
                                             </Link>
                                             <ul className="dropdown-menu" aria-labelledby="appDevDropdown">
                                                 <li>
-                                                    <Link to="/Custom-Software-Development" className="dropdown-item">
+                                                    <Link to="/custom-software-development" className="dropdown-item">
                                                         Custom Software Development
                                                     </Link>
                                                 </li>
                                                 {/*<li><Link className="dropdown-item" href="#cross-platform">Cross Platform App Development</Link></li>*/}
                                                 <li>
-                                                    <Link to="/Website-Design-Development" className="dropdown-item">
+                                                    <Link to="/web-design-development" className="dropdown-item">
                                                         Website &amp; Design Development
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link
-                                                        to="/Mobile-App-Development"
+                                                        to="/mobile-app-development"
                                                         className="dropdown-item"
                                                     >
                                                         Mobile App Development
@@ -124,7 +124,7 @@ const Header = () => {
                                                 {/*<li><Link className="dropdown-item" href="#website-redesign">Website Re-design/Maintenance</Link></li>*/}
                                                 <li>
                                                     <Link
-                                                        to="/Web-Mobile-App-Maintenance(AMC)"
+                                                        to="/web-mobile-app-maintenance"
                                                         className="dropdown-item"
                                                     >
                                                         Web-Mobile App Maintenance(AMC)

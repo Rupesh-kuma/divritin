@@ -1,0 +1,237 @@
+{
+  "hero": {
+    "badge": "Application Development",
+    "title": "Custom Software Development",
+    "subtitle": "We build powerful, scalable, and tailor-made software solutions that solve your unique business challenges and accelerate digital growth.",
+    "tags": [
+      "Enterprise Software",
+      "Web Applications",
+      "Cloud Solutions",
+      "AI & ML Integration",
+      "Legacy Modernization"
+    ],
+    "bgImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1400&q=80",
+    "formTitle": "Get a FREE Consultation",
+    "formFields": [
+      "Your Name",
+      "Phone / Email",
+      "Service Needed"
+    ]
+  },
+  "intro": {
+    "label": "End-to-End Bespoke Software Engineering",
+    "heading": "Custom Software Development",
+    "description": "Looking for the best Custom Software Development Services? We are your trusted partner to build unique, scalable, and high-performance software tailored to your business. We specialize in custom application development, cloud-native solutions, AI-powered systems, and seamless integrations — delivering software that drives operational efficiency, reduces costs, and creates lasting competitive advantage.",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80",
+    "stats": [
+      {
+        "num": "200+",
+        "label": "Projects Delivered"
+      },
+      {
+        "num": "98%",
+        "label": "Client Satisfaction"
+      },
+      {
+        "num": "50+",
+        "label": "Expert Developers"
+      },
+      {
+        "num": "8+",
+        "label": "Years Experience"
+      }
+    ]
+  },
+  "process": {
+    "heading": "Our Software Development Process",
+    "subtitle": "A structured, agile approach that turns your vision into production-ready software.",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Discovery & Requirement Analysis",
+        "description": "We begin with deep-dive sessions to understand your business goals, existing workflows, and technical requirements. Our analysts create a comprehensive SRS document.",
+        "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+        "points": [
+          "Business goal alignment",
+          "Competitive & market analysis",
+          "Technology stack evaluation",
+          "KPI and success metrics"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Architecture & System Design",
+        "description": "Our architects design a robust, scalable system blueprint. We select the best-fit tech stack, define APIs, and plan microservices or monolithic architecture.",
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=700&q=80",
+        "points": [
+          "Cloud-native architecture planning",
+          "Database design & modelling",
+          "API and integration design",
+          "Security framework planning"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Agile Development & Sprints",
+        "description": "Development happens in iterative sprints with continuous feedback. Our engineers write clean, well-documented code following industry best practices.",
+        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=700&q=80",
+        "points": [
+          "Sprint-based delivery with demos",
+          "Version control & CI/CD pipelines",
+          "Code reviews & peer testing",
+          "Daily standups & progress reports"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Quality Assurance & Testing",
+        "description": "Every feature goes through rigorous testing — manual and automated — to ensure zero critical bugs and optimal performance before deployment.",
+        "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+        "points": [
+          "Functional & regression testing",
+          "Automated test suites",
+          "Security vulnerability assessments",
+          "Cross-platform testing"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Deployment & DevOps",
+        "description": "We deploy your software using modern DevOps practices — containerization, cloud infrastructure, and automated pipelines ensuring zero-downtime releases.",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+        "points": [
+          "Docker & Kubernetes",
+          "AWS / Azure / GCP deployment",
+          "Automated CI/CD pipelines",
+          "Infrastructure as Code"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Support & Optimization",
+        "description": "Post-launch, we provide continuous monitoring, bug fixes, feature enhancements, and performance tuning to keep your software at its best.",
+        "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+        "points": [
+          "24/7 monitoring & incident management",
+          "Proactive performance optimization",
+          "Feature upgrades & roadmap",
+          "SLA-backed support packages"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "heading": "Industries We Serve",
+    "subtitle": "We deliver custom software across diverse industries, understanding domain-specific challenges.",
+    "list": [
+      {
+        "icon": "🏥",
+        "title": "Healthcare & MedTech",
+        "desc": "EHR systems, telemedicine, patient portals, lab management."
+      },
+      {
+        "icon": "🎓",
+        "title": "Education & EdTech",
+        "desc": "LMS platforms, e-learning apps, student portals, virtual classrooms."
+      },
+      {
+        "icon": "🚚",
+        "title": "Logistics & Supply Chain",
+        "desc": "Fleet management, route optimization, warehouse automation."
+      },
+      {
+        "icon": "⚙️",
+        "title": "Manufacturing",
+        "desc": "IoT monitoring, ERP systems, predictive maintenance software."
+      },
+      {
+        "icon": "🛒",
+        "title": "Retail & eCommerce",
+        "desc": "Custom storefronts, POS systems, AI-driven recommendation engines."
+      },
+      {
+        "icon": "💳",
+        "title": "Finance & FinTech",
+        "desc": "Payment gateways, trading platforms, fraud detection."
+      },
+      {
+        "icon": "🏗️",
+        "title": "Construction & Real Estate",
+        "desc": "Project management tools, BIM integration, property portals."
+      },
+      {
+        "icon": "✈️",
+        "title": "Travel & Hospitality",
+        "desc": "Booking engines, hotel PMS, loyalty programs, OTA integrations."
+      }
+    ]
+  },
+  "whyUs": {
+    "heading": "Why Choose Us?",
+    "subtitle": "We deliver more than code — we deliver competitive advantage.",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=700&q=80",
+    "cards": [
+      {
+        "icon": "🎯",
+        "title": "Business-First Approach",
+        "desc": "Every line of code aligned to your business outcomes."
+      },
+      {
+        "icon": "🔒",
+        "title": "Enterprise-Grade Security",
+        "desc": "OWASP compliance, multi-layered security, penetration testing."
+      },
+      {
+        "icon": "📱",
+        "title": "Cross-Platform Ready",
+        "desc": "Works flawlessly across web, iOS, Android, and desktop."
+      },
+      {
+        "icon": "🚀",
+        "title": "Scalable Architecture",
+        "desc": "Built to handle 10x growth without redesign."
+      }
+    ]
+  },
+  "services": {
+    "heading": "Our Core Services",
+    "subtitle": "End-to-end capabilities to build, integrate, and evolve your software ecosystem.",
+    "list": [
+      {
+        "icon": "🖥️",
+        "title": "Web Application Development",
+        "desc": "Scalable, SEO-friendly web apps built with React, Node.js, Django.",
+        "percent": 97,
+        "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=500&q=80"
+      },
+      {
+        "icon": "📱",
+        "title": "Mobile App Development",
+        "desc": "Native iOS & Android and cross-platform apps with outstanding UX.",
+        "percent": 94,
+        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&q=80"
+      },
+      {
+        "icon": "☁️",
+        "title": "Cloud Software Solutions",
+        "desc": "Cloud-native apps, SaaS platforms, migration on AWS, Azure, GCP.",
+        "percent": 91,
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&q=80"
+      },
+      {
+        "icon": "🤖",
+        "title": "AI & ML Integration",
+        "desc": "Intelligent automation, NLP, computer vision, predictive analytics.",
+        "percent": 88,
+        "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=500&q=80"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to Build Your Custom Software?",
+    "subtitle": "Let's discuss your project. Get a free consultation and cost estimate from our experts.",
+    "btnPrimary": "Get Free Consultation",
+    "btnSecondary": "View Our Work",
+    "bgImage": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1400&q=80"
+  }
+}
