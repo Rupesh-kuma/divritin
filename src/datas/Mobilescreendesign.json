@@ -1,0 +1,326 @@
+{
+    "hero": {
+      "badge": "MOBILE SCREEN DESIGN",
+      "title": "Beautiful Mobile Screens That Users Can't Stop Using",
+      "subtitle": "Divrit Technologies crafts pixel-perfect iOS & Android screen designs that combine stunning visuals with intuitive interaction — delivering mobile experiences that retain users and drive business growth.",
+      "bgImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1600&q=80",
+      "tags": ["iOS Design", "Android Design", "App UI", "Interaction Design", "Screen Prototyping"],
+      "formTitle": "Get a FREE Consultation",
+      "formFields": [
+        "Your Name",
+        "Phone / Email",
+        "Project Type"
+      ]
+    },
+    "intro": {
+      "label": "End-to-End Mobile Screen Design Services",
+      "heading": "We Design Mobile Screens That Convert & Retain",
+      "description": "Looking for the best Mobile Screen Design Services? Divrit Technologies Pvt. Ltd. is your trusted partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in crafting tailor-made iOS and Android screen designs that are visually stunning, thumb-friendly, and performance-optimized. Our expert mobile designers blend user psychology, platform guidelines, and brand identity to create screens that users love — and businesses profit from.",
+      "image": "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=800&q=80",
+      "stats": [
+        { "num": "300+", "label": "Apps Designed" },
+        { "num": "98%",  "label": "Client Satisfaction" },
+        { "num": "40+",  "label": "Mobile Designers" },
+        { "num": "8+",   "label": "Years Experience" }
+      ]
+    },
+    "process": {
+      "heading": "Our Mobile Screen Design Process",
+      "subtitle": "A structured, platform-aware approach that transforms your app idea into stunning, user-tested mobile screens.",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Discovery & Mobile Strategy",
+          "description": "We begin by understanding your app's purpose, target audience, and platform requirements. Our team analyses competitor apps, user behavior patterns, and platform-specific conventions (iOS HIG & Material Design) to define a winning mobile strategy.",
+          "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+          "points": [
+            "App goal & audience analysis",
+            "iOS vs Android platform strategy",
+            "Competitor app benchmarking",
+            "Feature prioritization & scope"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "User Flow & Screen Architecture",
+          "description": "We map every user journey across all screens — onboarding, core features, settings, and edge cases. A clear screen architecture ensures smooth navigation and zero dead ends for your users.",
+          "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=700&q=80",
+          "points": [
+            "Complete screen flow mapping",
+            "Navigation architecture design",
+            "Onboarding & auth flow planning",
+            "Edge case & error state coverage"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Wireframe & Low-Fi Screens",
+          "description": "We create low-fidelity wireframes for every key screen before applying visual design. This ensures layout, content hierarchy, and interaction patterns are validated early — saving time and budget.",
+          "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=700&q=80",
+          "points": [
+            "Lo-fi wireframes for all screens",
+            "Content hierarchy planning",
+            "Thumb zone & gesture mapping",
+            "Stakeholder review & approval"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "High-Fidelity Screen Design",
+          "description": "We craft stunning, pixel-perfect high-fidelity screens following iOS Human Interface Guidelines and Material Design 3 principles. Every screen is designed for multiple device sizes — from small phones to large tablets.",
+          "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=700&q=80",
+          "points": [
+            "Hi-fi screens for all app states",
+            "iOS & Android platform-specific UI",
+            "Multiple device size variants",
+            "Dark mode & accessibility support"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Micro-interactions & Prototyping",
+          "description": "Static screens come alive with thoughtful micro-interactions, transitions, and animations. We build interactive prototypes in Figma so you can experience the real feel of the app before development begins.",
+          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+          "points": [
+            "Animated transitions & gestures",
+            "Micro-interaction design",
+            "Clickable Figma prototype",
+            "Real-device preview testing"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Developer Handoff & Support",
+          "description": "We deliver organized Figma files with auto-layout, design tokens, and platform-specific assets — iOS @1x/@2x/@3x and Android dp/sp specs. Our team supports developers throughout implementation to ensure pixel-perfect output.",
+          "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+          "points": [
+            "Figma files with auto-layout",
+            "iOS & Android asset export",
+            "Design tokens & spacing specs",
+            "Developer support during build"
+          ]
+        }
+      ]
+    },
+    "industries": {
+      "heading": "Industries We Design Mobile Apps For",
+      "subtitle": "Divrit Technologies brings domain-specific mobile design expertise across diverse industries — understanding platform conventions and unique user behaviors in each sector.",
+      "list": [
+        { "icon": "🏥", "title": "Healthcare & MedTech",      "desc": "Patient apps, doctor portals, medicine reminders, telemedicine screens." },
+        { "icon": "🎓", "title": "Education & EdTech",         "desc": "E-learning apps, student dashboards, quiz interfaces, virtual classroom screens." },
+        { "icon": "🛒", "title": "Retail & eCommerce",         "desc": "Shopping apps, product detail screens, cart & checkout, order tracking." },
+        { "icon": "💳", "title": "Finance & FinTech",          "desc": "Banking apps, wallet screens, investment dashboards, payment flows." },
+        { "icon": "🚚", "title": "Logistics & Delivery",       "desc": "Driver apps, tracking screens, delivery management, fleet dashboards." },
+        { "icon": "🏗️", "title": "Real Estate",                "desc": "Property listing apps, virtual tour screens, agent portals, booking flows." },
+        { "icon": "✈️", "title": "Travel & Hospitality",       "desc": "Booking apps, hotel screens, itinerary views, loyalty program interfaces." },
+        { "icon": "🎮", "title": "Gaming & Entertainment",     "desc": "Game UI screens, streaming app interfaces, social & leaderboard designs." }
+      ]
+    },
+    "cta": {
+      "heading": "Ready to Design Your Mobile App Screens?",
+      "subtitle": "Let's discuss your app project. Get a free consultation and screen design proposal from our mobile experts at Divrit Technologies.",
+      "btnPrimary": "Get Free Consultation",
+      "btnSecondary": "View Our Work",
+      "bgImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1400&q=80"
+    },
+    "services": [
+      {
+        "id": 1,
+        "icon": "📱",
+        "title": "iOS App Screen Design",
+        "description": "Pixel-perfect iPhone and iPad screen designs following Apple's Human Interface Guidelines — optimized for every device size from iPhone SE to iPad Pro.",
+        "color": "#FF6B35",
+        "features": ["iPhone & iPad Screens", "iOS HIG Compliance", "Dynamic Island UI", "App Store Assets"]
+      },
+      {
+        "id": 2,
+        "icon": "🤖",
+        "title": "Android App Screen Design",
+        "description": "Beautiful Material Design 3 screens for Android phones and tablets — following Google's latest design guidelines with adaptive layouts and dynamic color theming.",
+        "color": "#00D4FF",
+        "features": ["Material Design 3", "Adaptive Layouts", "Dynamic Color", "Play Store Assets"]
+      },
+      {
+        "id": 3,
+        "icon": "🔄",
+        "title": "Cross-Platform App Design",
+        "description": "Unified design systems for React Native, Flutter, and other cross-platform frameworks — one consistent visual language across iOS and Android simultaneously.",
+        "color": "#7C3AED",
+        "features": ["React Native UI", "Flutter Screens", "Unified Design System", "Platform Variants"]
+      },
+      {
+        "id": 4,
+        "icon": "✨",
+        "title": "Micro-interactions & Animation",
+        "description": "Thoughtful motion design and micro-interactions that bring your app screens to life — loading states, transitions, gestures, and feedback animations that delight users.",
+        "color": "#10B981",
+        "features": ["Screen Transitions", "Loading Animations", "Gesture Feedback", "Lottie Animations"]
+      },
+      {
+        "id": 5,
+        "icon": "🔎",
+        "title": "App UX Audit & Redesign",
+        "description": "We audit your existing mobile app screens to identify usability issues, drop-off points, and friction — then redesign with data-driven improvements for better retention.",
+        "color": "#F59E0B",
+        "features": ["Screen Audit Report", "Usability Testing", "Conversion Optimization", "Redesign Execution"]
+      },
+      {
+        "id": 6,
+        "icon": "🎨",
+        "title": "App Design System & UI Kit",
+        "description": "Scalable mobile component libraries and design tokens that keep your app screens consistent across all features — built for developer-friendly handoff and fast iteration.",
+        "color": "#EC4899",
+        "features": ["Mobile Component Library", "Design Tokens", "Theme Variants", "Developer Handoff"]
+      }
+    ],
+    "completedProjects": [
+      {
+        "id": 1,
+        "title": "PocketPay Wallet",
+        "category": "FinTech Mobile App",
+        "description": "Complete iOS & Android screen design for a digital wallet app. Simplified payment flows and intuitive dashboard screens increased daily active users by 89% post-launch.",
+        "tags": ["iOS", "Android", "FinTech"],
+        "stats": { "retention": "+89%", "conversion": "+112%", "duration": "10 Weeks" },
+        "color": "#00D4FF",
+        "bgColor": "rgba(0, 212, 255, 0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 2,
+        "title": "LearnPath EdTech",
+        "category": "Education Mobile App",
+        "description": "End-to-end mobile screen design for an e-learning app — gamified course screens, progress dashboards, and live class interfaces serving 30,000+ active learners.",
+        "tags": ["iOS", "EdTech", "Gamification"],
+        "stats": { "retention": "+135%", "conversion": "+67%", "duration": "12 Weeks" },
+        "color": "#7C3AED",
+        "bgColor": "rgba(124, 58, 237, 0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 3,
+        "title": "DocNow Healthcare",
+        "category": "Healthcare Mobile App",
+        "description": "Patient-facing iOS app screen redesign for instant doctor consultation booking. Streamlined screens reduced appointment booking time from 5 minutes to under 60 seconds.",
+        "tags": ["iOS", "Healthcare", "UX Redesign"],
+        "stats": { "retention": "+55%", "conversion": "+80%", "duration": "8 Weeks" },
+        "color": "#10B981",
+        "bgColor": "rgba(16, 185, 129, 0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 4,
+        "title": "StyleCart Fashion",
+        "category": "eCommerce Mobile App",
+        "description": "Full Android & iOS screen overhaul for a fashion shopping app — redesigned product screens, AR try-on feature, and one-tap checkout boosted conversions by 156%.",
+        "tags": ["Android", "eCommerce", "AR Feature"],
+        "stats": { "retention": "+98%", "conversion": "+156%", "duration": "7 Weeks" },
+        "color": "#F59E0B",
+        "bgColor": "rgba(245, 158, 11, 0.08)",
+        "status": "Completed",
+        "year": "2023"
+      },
+      {
+        "id": 5,
+        "title": "RideTrack Logistics",
+        "category": "Logistics Driver App",
+        "description": "Driver-facing Android app screen design for a last-mile delivery platform. Clear map screens, delivery task cards, and earnings dashboard reduced driver errors by 70%.",
+        "tags": ["Android", "Logistics", "Dashboard"],
+        "stats": { "retention": "+70%", "conversion": "+45%", "duration": "9 Weeks" },
+        "color": "#FF6B35",
+        "bgColor": "rgba(255, 107, 53, 0.08)",
+        "status": "Completed",
+        "year": "2023"
+      },
+      {
+        "id": 6,
+        "title": "StayEasy Hotels",
+        "category": "Travel & Hospitality App",
+        "description": "Hotel booking app screen design with immersive property galleries, seamless reservation flows, and loyalty dashboard — resulting in 3x increase in mobile bookings.",
+        "tags": ["iOS", "Travel", "Booking Flow"],
+        "stats": { "retention": "+190%", "conversion": "+220%", "duration": "11 Weeks" },
+        "color": "#EC4899",
+        "bgColor": "rgba(236, 72, 153, 0.08)",
+        "status": "Completed",
+        "year": "2023"
+      }
+    ],
+    "whyUs": [
+      {
+        "number": "01",
+        "title": "Platform-Native Expertise",
+        "description": "We design separately for iOS (HIG) and Android (Material Design 3) — respecting platform conventions so users feel instantly at home on your app."
+      },
+      {
+        "number": "02",
+        "title": "Thumb-First Design Thinking",
+        "description": "Every screen is designed for real-world mobile usage — thumb zones, one-handed interaction, and gesture navigation are considered in every layout decision."
+      },
+      {
+        "number": "03",
+        "title": "All Device Sizes Covered",
+        "description": "From iPhone SE to iPad Pro, from small Android phones to foldable screens — we design and deliver responsive screens for every device size variant."
+      },
+      {
+        "number": "04",
+        "title": "Developer-Ready Assets",
+        "description": "iOS @1x/@2x/@3x assets, Android dp/sp specs, design tokens, and organized Figma files — everything developers need for pixel-perfect implementation."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do you design for both iOS and Android?",
+        "answer": "Yes. We design platform-specific screens for both iOS (following Apple's Human Interface Guidelines) and Android (following Material Design 3). We also create unified cross-platform designs for React Native and Flutter apps."
+      },
+      {
+        "question": "How many screens are included in a mobile design project?",
+        "answer": "It depends on your app's scope. A typical MVP app has 20–40 screens. We provide a detailed screen list and timeline after our initial discovery call — no hidden surprises."
+      },
+      {
+        "question": "Do you design dark mode versions of the screens?",
+        "answer": "Yes. We design both light and dark mode variants for all screens as standard practice, along with accessibility-compliant color contrast ratios."
+      },
+      {
+        "question": "What files will I receive after the project?",
+        "answer": "You'll receive organized Figma source files, exported iOS assets (@1x/@2x/@3x), Android assets (mdpi/hdpi/xhdpi/xxhdpi), design tokens, and a developer spec sheet via Zeplin or Figma Dev Mode."
+      },
+      {
+        "question": "Can you redesign my existing mobile app screens?",
+        "answer": "Absolutely. We start with a thorough UX audit of your current app to identify drop-off points and usability issues — then redesign screens strategically for better retention and conversion."
+      },
+      {
+        "question": "Is Divrit Technologies a registered company?",
+        "answer": "Yes. Divrit Technologies Pvt. Ltd. is a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd., founded in 2017 with 300+ mobile apps designed across global markets."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Vikram Nair",
+        "role": "CEO, PocketPay",
+        "text": "Divrit Technologies nailed our wallet app design. The payment screens are so intuitive that our customer support queries dropped by 60%. Absolutely brilliant work.",
+        "rating": 5,
+        "avatar": "VN"
+      },
+      {
+        "name": "Sneha Joshi",
+        "role": "Product Lead, LearnPath",
+        "text": "The gamified screen designs they created boosted our daily active users by 135%. Students love the app now. Divrit Technologies truly understands mobile UX.",
+        "rating": 5,
+        "avatar": "SJ"
+      },
+      {
+        "name": "Rohan Desai",
+        "role": "Founder, StyleCart",
+        "text": "Our conversion rate jumped 156% after the redesign. The AR try-on screen was a game-changer. Divrit Technologies is the best mobile design team we've worked with.",
+        "rating": 5,
+        "avatar": "RD"
+      }
+    ],
+    "contact": {
+      "email": "hello@divritin.com",
+      "phone": "+91 98765 43210",
+      "subheading": "Tell us about your mobile app project and get a free consultation from Divrit Technologies' mobile design experts. We respond within 24 hours."
+    }
+  }

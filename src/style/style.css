@@ -1,6 +1,6 @@
 .background_footer {
     background:
-        linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
+        linear-gradient(#0e1e2a, #0e1e2a),
         url("../assets/Animetion/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,8 +26,10 @@
     left: 4px;
     background: #fff;
     border-radius: 20px;
+    display: none;
 }
 .footer_second h3::after{
+  display: none;
     content: "";
     width:5%;
     height: 1px;
@@ -74,8 +76,8 @@
 }
 .getintuch_footer i{
     font-size: 18px;
-    background-color: #fff;
-    color: #086AD7;
+    /* background-color: #fff; */
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,6 +89,7 @@
     margin-bottom: 0;
     color: #fff;
     font-size: 16px;
+    width: 100%;
 }
 .copy_right_main{
   background: #086AD7;
@@ -368,10 +371,12 @@
   -moz-border-radius: 50%;
   border-radius: 50%;
   }
-  
+  .container_padd_Res{
+    padding: 20px 60px;
+  }
 
   .inder_Sec {
-    padding: 3rem 0;
+    padding: 1rem 0;
     background-color: #ffff;
     overflow: hidden;
     position: relative;
@@ -1313,7 +1318,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 4% 0;
     background-attachment: fixed;
 }
 .client_logo_as img{

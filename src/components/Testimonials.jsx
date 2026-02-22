@@ -38,7 +38,7 @@ const Testimonials = () => {
 
 
   return (
-    <div className="background_image px-lg-5 px-sm-2">
+    <div className="background_image container_padd_Res">
       <div className="container-fluid">
         <div className='sub_title'>
           <span>What Our Clients Say</span>

@@ -151,14 +151,14 @@ const Header = () => {
                                                 </li>
                                                 <li>
                                                     <Link
-                                                        to="/Mobile-screen-design"
+                                                        to="/mobile-screen-design"
                                                         className="dropdown-item"
                                                     >
                                                         Mobile screen design
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/Other-Design-Services" className="dropdown-item" >
+                                                    <Link to="/other-design-services" className="dropdown-item" >
                                                         Other Design Services
                                                     </Link>
                                                 </li>

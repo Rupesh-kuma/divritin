@@ -254,7 +254,7 @@ const Home = () => {
         <ServicesSection />
 
         {/* about section */}
-        <div style={{ background: '#F5F5F5', }} className="p-lg-5 p-sm-2">
+        <div style={{ background: '#F5F5F5', }} className="container_padd_Res">
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-6 col-sm-12">
@@ -381,7 +381,7 @@ const Home = () => {
           </div>
         </div>
         {/* tecnology */}
-        <section className="hed_text inder_Sec px-lg-5 px-sm-1">
+        <section className="hed_text inder_Sec container_padd_Res">
           <div className="container-fluid">
             <div className='sub_title'>
               <span>Our Technology Expertise</span>
@@ -901,8 +901,8 @@ const Home = () => {
         <WorkProcess/>
         {/* client */}
 
-        <div className="container-fluid p-lg-5 p-sm-1">
-        <div className='sub_title pb-lg-3 pb-sm-0'>
+        <div className="container-fluid container_padd_Res">
+        <div className='sub_title  pb-sm-0'>
               <h3>Trusted By</h3>
             </div>
             <div className="logos">
@@ -925,7 +925,7 @@ const Home = () => {
                 <img src={cl1} />
               </div>
             </div>
-          <div className='sub_title mb-4 preciour_client'>
+          <div className='sub_title  preciour_client'>
             <h3>Our Precious Clients</h3>
           </div>
           <div className="logos">

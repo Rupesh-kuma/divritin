@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import data from "/src/datas/Uiuxdata.json";
+import data from "/src/datas/OtherDesignServices.json";
 
 /* ─── Bootstrap CDN injected once ─── */
 
-export default function UIUXDesignPage() {
+export default function OtherDesignServices() {
     const [activeFaq, setActiveFaq] = useState(null);
     const [activeStep, setActiveStep] = useState(1);
     const currentStep =

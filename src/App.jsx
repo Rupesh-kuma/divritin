@@ -13,6 +13,8 @@ import WebDesignDevelopment from './pages/Core-Services-IT/Webdesigndevelopment'
 import MobileAppDevelopment from './pages/Core-Services-IT/Mobileappdevelopment';
 import WebMobileAppMaintenance from './pages/Core-Services-IT/Webmobileappmaintenance';
 import UIUXDesignPage from './pages/Core-Services-IT/WebsiteUI/UXdesign';
+import Mobilescreendesign from './pages/Core-Services-IT/WebsiteUI/Mobilescreendesign';
+import OtherDesignServices from './pages/Core-Services-IT/WebsiteUI/OtherDesignServices';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
       <Route path='/mobile-app-development' element={<MobileAppDevelopment/>}/>
       <Route path='/web-mobile-app-maintenance' element={<WebMobileAppMaintenance/>}/>
       <Route path='/website-ui-ux-design' element={<UIUXDesignPage/>}/>
+      <Route path='/mobile-screen-design' element={<Mobilescreendesign/>}/>
+      <Route path='/other-design-services' element={<OtherDesignServices/>}/>
     </Routes>
     <Footer/>
     </>

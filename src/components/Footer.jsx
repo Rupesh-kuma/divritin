@@ -42,7 +42,7 @@ const Footer = () => {
                             {/* location section */}
                             <div className="d-flex getintuch_footer" style={{ marginTop: "-10px" }}>
                                 <i className="fa-solid fa-location-dot"></i>
-                                <Link to="#">Gaur city center ,Greater Noida west</Link>
+                                <Link to="https://maps.app.goo.gl/jPVUAmwB44PVArYAA">Centre, 8th Floor, Greater Noida W Rd, Gaur City 1, Sector 4, Greater Noida, Ghaziabad, Uttar Pradesh 201318</Link>
                             </div>
                             {/* mail section */}
                             <div className="d-flex getintuch_footer">
@@ -54,6 +54,15 @@ const Footer = () => {
                             <div className="d-flex getintuch_footer">
                                 <i className="fa-solid fa-phone-volume"></i>
                                 <Link to="tel:+919871886822">+91- 9871886822</Link>
+                            </div>
+                            {/* call section */}
+                            <div className="d-flex getintuch_footer">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                            <div>
+                           
+                            </div>
+                                <Link to="#">Monday to Friday:<br/>
+                            9:30 AM - 6:30 PM</Link>
                             </div>
                         </div>
                     </div>
