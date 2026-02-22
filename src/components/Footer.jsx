@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="row footer_main">
                         <div className="col-lg-3 col-sm-12">
                             <img src={logo} alt="logo footer" className="w-75" />
-                            <p>Divrit Technologies Pvt. Ltd. is an IT company that provides a one-stop solution for all IT services with its skilled team, best practices, and cutting-edge technologies</p>
+                            <p>Divrit Technologies Pvt. Ltd. is a leading IT solutions company delivering end-to-end, customized digital services. Backed by expert professionals and advanced technologies, we help businesses innovate, scale, and succeed in a digital-first world.</p>
 
                         </div>
                         <div className="col-lg-2 col-sm-12 footer_second">

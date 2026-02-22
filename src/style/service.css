@@ -262,7 +262,7 @@
   ───────────────────────────────────────── */
   .spb-industries {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(21%,1fr));
     gap: 16px;
   }
   .spb-industry-card {
@@ -276,8 +276,8 @@
   }
   .spb-industry-card:hover        { border-color:rgba(0,102,204,0.5); transform:translateY(-4px); }
   .spb-industry-card__icon  { display:block; font-size:30px; margin-bottom:10px; }
-  .spb-industry-card__title { font-size:14px; font-weight:700; color:#fff; margin-bottom:6px; }
-  .spb-industry-card__desc  { font-size:12px; color:var(--muted); line-height:1.5; }
+  .spb-industry-card__title { font-size:16px; font-weight:700; color:#fff; margin-bottom:6px; }
+  .spb-industry-card__desc  { font-size:14px; color:var(--muted); line-height:1.5; }
   
   /* ─────────────────────────────────────────
      5. WHY US
@@ -289,7 +289,7 @@
     align-items: start;
   }
   .spb-whyus__heading { font-size:clamp(20px,3vw,28px); font-weight:700; color:#fff; margin-bottom:10px; }
-  .spb-whyus__sub     { color:var(--muted); margin-bottom:24px; line-height:1.7; }
+  .spb-whyus__sub     { margin-bottom:24px; line-height:1.7; }
   
   .spb-feature-cards {
     display: grid;
@@ -308,7 +308,7 @@
   .spb-feature-card:hover           { border-left-color:var(--accent2); transform:translateY(-2px); }
   .spb-feature-card__icon  { font-size:22px; margin-bottom:8px; display:block; }
   .spb-feature-card__title { font-size:14px; font-weight:700; color:#fff; margin-bottom:4px; }
-  .spb-feature-card__desc  { font-size:12px; color:var(--muted); line-height:1.5; }
+  .spb-feature-card__desc  { font-size:14px; color:var(--muted); line-height:1.5; }
   
   .spb-whyus__img-wrap {
     position: relative;
@@ -324,6 +324,7 @@
     border: 1px solid var(--card-bdr);
     border-radius: var(--radius);
     padding: 28px;
+    margin-top: 7%;
   }
   .spb-service-bars__title { font-size:16px; font-weight:700; color:#fff; margin-bottom:24px; }
   .spb-service-bar         { margin-bottom:22px; }
@@ -332,7 +333,7 @@
   .spb-service-bar__icon   { font-size:20px; flex-shrink:0; margin-top:2px; }
   .spb-service-bar__info   { flex:1; }
   .spb-service-bar__name   { display:block; font-size:14px; font-weight:700; color:#fff; }
-  .spb-service-bar__desc   { display:block; font-size:12px; color:var(--muted); margin-top:2px; }
+  .spb-service-bar__desc   { display:block; font-size:14px; color:var(--muted); margin-top:2px; }
   .spb-service-bar__pct    { font-size:14px; font-weight:700; color:#0088ff; flex-shrink:0; }
   .spb-service-bar__track  { height:6px; background:rgba(255,255,255,0.09); border-radius:3px; overflow:hidden; }
   .spb-service-bar__fill   { height:100%; background:linear-gradient(90deg,#0066cc,#00aaff); border-radius:3px; transition:width 1s ease; }
@@ -342,8 +343,9 @@
   ───────────────────────────────────────── */
   .spb-service-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(21%,1fr));
     gap: 20px;
+
   }
   .spb-service-card {
     background: linear-gradient(135deg,rgba(0,102,204,0.08),rgba(0,68,170,0.04));
@@ -357,8 +359,8 @@
   .spb-service-card:hover         { background:linear-gradient(135deg,rgba(0,102,204,0.18),rgba(0,68,170,0.1)); transform:translateY(-4px); border-color:rgba(0,102,204,0.45); }
   .spb-service-card__img          { width:100%; height:130px; object-fit:cover; border-radius:8px; display:block; margin-bottom:16px; }
   .spb-service-card__icon         { font-size:28px; display:block; margin-bottom:12px; }
-  .spb-service-card__title        { font-size:16px; font-weight:700; color:#fff; margin-bottom:8px; }
-  .spb-service-card__desc         { font-size:13px; color:var(--muted); line-height:1.6; }
+  .spb-service-card__title        { font-size:16px; font-weight:700; color:#2E0B6F; margin-bottom:8px; }
+  .spb-service-card__desc         { font-size:14px; color:#000; line-height:1.6; }
   .spb-service-card__link         { display:block; margin-top:14px; font-size:13px; font-weight:600; color:#60a5fa; }
   
   /* ─────────────────────────────────────────

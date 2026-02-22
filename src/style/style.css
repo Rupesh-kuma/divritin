@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 4% 0;
+    padding: 4% 0 1% 0;
 }
 .footer_main p{
     color: #fff;
@@ -197,15 +197,18 @@
   
   .sub_title span
  {
-    font-size: 19px;
+    font-size: 31px;
     font-weight: 500;
     margin-bottom: 5px;
-    color: #086ad7;
-    display: flex;
+    color: #2e0b6f;
+    display:flex ;
     justify-content: center;
 }
+.abuot_p{
+  text-align: justify !important;
+}
 .sub_title h3{
-    font-size: 35px;
+    font-size: 30px;
     line-height: 41px;
     display: flex;
     justify-content: center;
@@ -428,9 +431,10 @@
 }
 .hlth-tech-skills {
   display: flex;
-  gap: 1rem;
+  gap: 0rem;
   flex-wrap: wrap;
   text-align: center;
+  justify-content: space-between;
 }
 .hlth-tech-skill img {
   width: 90px;
@@ -439,9 +443,10 @@
   margin: 0 auto 10px;
   background: #fff;
   border-radius: 8px;
+  border: 1px solid #ddd;
 }
 .hlth-tech-skill p {
-  font-size: 1rem;
+  font-size: 14px;
   color: #333;
   font-weight: 400;
   letter-spacing: normal;
@@ -710,7 +715,8 @@
 }
 
 .service_detail_content {
-  padding: 40px;
+  width: 60%;
+  padding: 4px 20px 0px 40px;
 }
 
 .service_detail_description {
@@ -822,11 +828,10 @@
 }
 
 .top_service_card.active {
-  background: linear-gradient(135deg, #2b5ab4 0%, #1e3a7a 100%);
-  color: #fff;
-  border-color: #2b5ab4;
+  background: #fff;
+  border-color: #2E0B6F;
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(43, 90, 180, 0.3);
+  box-shadow: 7px 19px 41px rgba(43, 90, 180, 0.3);
 }
 
 .top_service_icon {
@@ -840,15 +845,13 @@
 }
 
 .top_service_card h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0;
   color: #1a1a1a;
 }
 
-.top_service_card.active h3 {
-  color: #fff;
-}
+
 
 /* Service Detail Section */
 .service_detail_section {
@@ -915,9 +918,9 @@
 }
 
 .service_tab_item.active {
-  background: linear-gradient(135deg, #2b5ab4 0%, #1e3a7a 100%);
-  color: #fff;
-  border-color: #2b5ab4;
+  background:#fff;
+  
+  border-color: #2E0B6F;
   box-shadow: 0 8px 25px rgba(43, 90, 180, 0.3);
 }
 
@@ -951,6 +954,10 @@
 }
 .service_tab_item h4{
   font-size: 1rem;
+
+}
+.service_tab_item.active h4{
+  color: #000611;
 }
 /* Right Side - Details */
 .service_details_right {
@@ -962,6 +969,7 @@
 }
 
 .service_detail_item {
+  width: 100%;
   display: none;
   animation: fadeInUp 0.5s ease;
   padding: 1rem;
@@ -984,7 +992,7 @@
 }
 
 .service_detail_image {
-  width: 100%;
+  width: 40%;
     height: 371px;
     overflow: hidden;
     position: relative;
@@ -1018,8 +1026,12 @@
   margin: 0;
 }
 
-.service_detail_content {
-  padding: 40px;
+
+.service_detail_content p{
+  text-align: justify;
+}
+.service_detail_content ul{
+  padding-left: 19px;
 }
 
 .service_detail_description {
@@ -1282,9 +1294,19 @@
 }
 
 .logo_track img {
-  height: 100px;
-  margin: 0 22px;
+  height: 109px;
+  margin: 0 11px;
   object-fit: contain;
+  width: 205px !important;
+  background: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px dotted #2E0B6F;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.trust_client img:hover{
+  transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .clinet_bg{
   background: linear-gradient(rgb(246 246 246 / 12%), rgb(255 255 255 / 64%)), url(/src/assets/images/background_work.jpg);
@@ -1296,9 +1318,12 @@
 }
 .client_logo_as img{
 filter: grayscale(100%);
+
 }
 .client_logo_as img:hover{
   filter: grayscale(0);
+  transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .trust_client img{
   background-color: #fff;
@@ -1306,13 +1331,33 @@ filter: grayscale(100%);
   border-radius: 10px;
 }
 .skil_section_Res{
-  background:linear-gradient(270deg, #33b4ff 0, #00649e 100%) no-repeat padding-box;
+  background:transparent;
+  border-bottom: none;
+}
+.skil_section_Res li .active{
+width: 330px;
+border: 2px solid #2E0B6F !important;
+border-radius: 10px;
+background: #fff;
+box-shadow: 6px 8px 25px rgba(43, 90, 180, 0.3);
+
+}
+.skil_section_Res li{
+  width: 330px;
+border: 2px solid #837f8a !important;
+border-radius: 10px;
+
+}
+.skil_section_Res li button{
+  display: block;
+  width: 100%;
 }
 .tab_hss span {
-  color: #fffcfc;
+  color: #2e0b6f;
 }
+
 .nav-link[aria-selected="true"] .tab_hss span{
-  color:  #00649e !important;
+  color:  #2e0b6f !important;
 }
  /* Fixed Position Icons (Left Side) */
  .fixed-contact-icons {
@@ -1388,12 +1433,14 @@ filter: grayscale(100%);
 
 .stat-box {
   text-align: center;
-  border: 4px solid #2b5ab4;
-  padding: 6px 16px;
+  border: 2px solid #2E0B6F;
+  padding: 15px 16px;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
   opacity: 0;
+  width: 80%;
+  margin: 0 auto;
   transform: scale(0.8) rotate(-2deg);
   animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
   transition: all 0.3s ease;
@@ -1433,18 +1480,18 @@ filter: grayscale(100%);
   left: 10px;
   right: 10px;
   bottom: 10px;
-  border: 2px dashed #000;
+  border: 0px dashed #000;
   opacity: 0.3;
   pointer-events: none;
 }
 
 .stat-stamp {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 2px;
+  right: 2px;
   width: 43px;
   height: 43px;
-  border: 3px solid #00649e  ;
+  border: 3px solid #2E0B6F  ;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1452,7 +1499,7 @@ filter: grayscale(100%);
   font-family: 'Inter', monospace;
   font-size: 10px;
   font-weight: 700;
-  color: #2b5ab4  ;
+  color: #2e0b6f  ;
   transform: rotate(15deg);
   opacity: 0.7;
   animation: stampPulse 2s ease-in-out infinite;
@@ -1509,7 +1556,7 @@ filter: grayscale(100%);
   background: #1A1A1A;
 }
 
-.stat-box .stat-label::after { background: #2b5ab4 ; }
+.stat-box .stat-label::after { background: #2e0b6f ; }
 
 /* navbar section sidebar start*/
 .navbar {

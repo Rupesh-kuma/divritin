@@ -3,7 +3,7 @@ import Blog from "../components/Blog";
 import Testimonials from "../components/Testimonials";
 import about1 from '../assets/images/about_image.webp';
 import ServicesSection from "../components/ServicesSection";
-import client1 from "../assets/images/c1.webp";
+import accurect from "../assets/images/accurect.png";
 import client2 from "../assets/images/logo_client.webp";
 import client3 from "../assets/images/client_logo.webp";
 import client4 from "../assets/images/client_logo_3.webp";
@@ -14,7 +14,7 @@ import Trusted_logo3 from "../assets/images/b4.webp";
 import Trusted_logo4 from "../assets/images/b5.webp";
 import Trusted_logo5 from "../assets/images/b6.webp";
 import Trusted_logo6 from "../assets/images/b7.webp";
-import cl1 from "../assets/images/cl1.webp";
+import cl1 from "../assets/images/accurect.png";
 import cl2 from "../assets/images/cl2.webp";
 import cl3 from "../assets/images/cl3.webp";
 import cl4 from "../assets/images/cl4.webp";
@@ -48,6 +48,26 @@ import flask from "../assets/images/flask.svg";
 import nodejs from "../assets/images/nodejs.svg";
 import postsql from "../assets/images/postsql.svg";
 import mysql from "../assets/images/mysql.svg";
+import bootstrap from "../assets/images/bootstrap.webp";
+import wordpress from "../assets/images/wordpress.webp";
+import TailwindCss from "../assets/images/TailwindCss.webp";
+import c_longuage from "../assets/images/c_longuage.webp";
+import Express from "../assets/images/Express.webp";
+import net_core from "../assets/images/net_core.webp";
+import MongoDB from "../assets/images/MongoDB.webp";
+import Firebase from "../assets/images/Firebase.webp";
+import Microsoft from "../assets/images/Microsoft.webp";
+import Redis from "../assets/images/Redis.webp";
+import Relational from "../assets/images/Relational.webp";
+import NoSQL_Databases from "../assets/images/NoSQL_Databases.webp";
+import Cloud_Databases from "../assets/images/Cloud_Databases.webp";
+import DropboxBusiness from "../assets/images/DropboxBusiness.webp";
+import OneDriveCloudStorage from "../assets/images/OneDriveCloudStorage.webp";
+import PrivateCloudStorageSolutions from "../assets/images/PrivateCloudStorageSolutions.webp";
+import ObjectStorage from "../assets/images/ObjectStorage.webp";
+import ObjectStorages from "../assets/images/ObjectStorages.webp";
+import ScalableCloudDatabases from "../assets/images/ScalableCloudDatabases.webp";
+import EncryptedSecureStorage from "../assets/images/EncryptedSecureStorage.webp";
 import aws from "../assets/images/aws.svg";
 import azure from "../assets/images/azure.svg";
 import google from "../assets/images/google.svg";
@@ -198,14 +218,14 @@ const Home = () => {
                 We help to Grow your Business & Clientele. Through the empowering of technologies
               </p>
               <div className="button-group">
-                <button className="btn btn-primary">
-                  SERVICE WE PROVIDE
-                  <span className="btn-arrow">→</span>
+                <button className="btn banner_btn">
+                Get Connect with Our Experts
+                  {/* <span className="btn-arrow">→</span> */}
                 </button>
-                <button className="btn btn-secondary">
+                {/* <button className="btn btn-secondary">
                   LEARN MORE
                   <span className="btn-arrow">→</span>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -239,12 +259,12 @@ const Home = () => {
             <div className="row">
               <div className="col-lg-6 col-sm-12">
                 <div className='sub_title'>
-                  <span className="justify-content-lg-start">Introduction</span>
+                  <span className="justify-content-lg-start">Who We Are :</span>
                   <h3 className="justify-content-lg-start align-iteams-lg-start">Empowering Your Digital Journey for Business</h3>
-                  <p className="text-start">
-                  Divrit Technologies Pvt. Ltd. is an IT company that provides a one-stop solution for all IT services with its skilled team, best practices, and cutting-edge technologies. We deliver tailored solutions for our IT partners. Divrit Technologies is a sister company of Katyayni Technologies Pvt. Ltd., founded in 2017.
+                  <p className="abuot_p">
+                  <strong>Divrit Technologies Pvt. Ltd.</strong> is an IT company that provides a one-stop solution for all IT services with its skilled team, best practices, and cutting-edge technologies. We deliver tailored solutions for our IT partners. Divrit Technologies is a sister company of Katyayni Technologies Pvt. Ltd., founded in 2017.
                   </p>
-                  <p className="text-start">We are committed to providing cost-effective, high-quality solutions for our partners. Our experienced team strives to help increase business revenue and clientele through skilled work and best practices. Trust us, and let us help you achieve your goals.</p>
+                  <p className="abuot_p">We are committed to providing cost-effective, high-quality solutions for our partners. Our experienced team strives to help increase business revenue and clientele through skilled work and best practices. Trust us, and let us help you achieve your goals.</p>
                 </div>
 
                 <div className="row box_rox">
@@ -531,6 +551,36 @@ const Home = () => {
                                 />
                                 <p>Angular</p>
                               </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Angular"
+                                  decoding="async"
+                                  id="MjM2MDoxMjU=-1"
+                                  src={bootstrap}
+                                  loading="lazy"
+                                />
+                                <p>Bootstrap</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Angular"
+                                  decoding="async"
+                                  id="MjM2MDoxMjU=-1"
+                                  src={TailwindCss}
+                                  loading="lazy"
+                                />
+                                <p>Tailwind CSS</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Angular"
+                                  decoding="async"
+                                  id="MjM2MDoxMjU=-1"
+                                  src={wordpress}
+                                  loading="lazy"
+                                />
+                                <p>WordPress</p>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -586,6 +636,13 @@ const Home = () => {
                                 />
                                 <p>JAVA</p>
                               </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="c#"
+                                  src={c_longuage}
+                                />
+                                <p>C#</p>
+                              </div>
                             </div>
                           </div>
                           <div className="hlth-tech-section">
@@ -626,6 +683,20 @@ const Home = () => {
                                 />
                                 <p>Node.Js</p>
                               </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Express.js"
+                                  src={Express}
+                                />
+                                <p>Express.js</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt=".NET Core"
+                                  src={net_core}
+                                />
+                                <p>.NET Core</p>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -644,6 +715,13 @@ const Home = () => {
                           <div className="hlth-tech-section">
                             <h3>Database</h3>
                             <div className="hlth-tech-skills">
+                            <div className="hlth-tech-skill">
+                                <img
+                                  alt="MySQL"
+                                  src={mysql}
+                                />
+                                <p>MySQL</p>
+                              </div>
                               <div className="hlth-tech-skill">
                                 <img
                                   alt="JavaScript"
@@ -653,10 +731,64 @@ const Home = () => {
                               </div>
                               <div className="hlth-tech-skill">
                                 <img
-                                  alt="mysql"
-                                  src={mysql}
+                                  alt="MongoDB"
+                                  src={MongoDB}
                                 />
-                                <p>mysql</p>
+                                <p>MongoDB</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Firebase"
+                                  src={Firebase}
+                                />
+                                <p>Firebase</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Microsoft SQL Server"
+                                  src={Microsoft}
+                                />
+                                <p>Microsoft SQL Server</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Redis"
+                                  src={Redis}
+                                />
+                                <p>Redis</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="hlth-tech-section">
+                            <h3>Data Storage & Management Systems</h3>
+                            <div className="hlth-tech-skills">
+                            <div className="hlth-tech-skill">
+                                <img
+                                  alt="MySQL"
+                                  src={Relational}
+                                />
+                                <p>Relational Databases (SQL)</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="NoSQL Databases"
+                                  src={NoSQL_Databases}
+                                />
+                                <p>NoSQL Databases</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Cloud Databases"
+                                  src={Cloud_Databases}
+                                />
+                                <p>Cloud Databases</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Real-Time Databases"
+                                  src={Firebase}
+                                />
+                                <p>Real-Time Databases</p>
                               </div>
                             </div>
                           </div>
@@ -697,7 +829,64 @@ const Home = () => {
                                 />
                                 <p>Google Cloud Platform</p>
                               </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Dropbox Business"
+                                  src={DropboxBusiness}
+                                />
+                                <p>Dropbox Business</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="OneDrive Cloud Storage"
+                                  src={OneDriveCloudStorage}
+                                />
+                                <p>OneDrive Cloud Storage</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Private Cloud Storage Solutions"
+                                  src={PrivateCloudStorageSolutions}
+                                />
+                                <p>Private Cloud Storage Solutions</p>
+                              </div>
                             </div>
+                            
+                          </div>
+                          <div className="hlth-tech-section">
+                            <h3>Cloud-Based Data Management</h3>
+                            <div className="hlth-tech-skills">
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Object Storage"
+                                  src={ObjectStorage}
+                                />
+                                <p>Object Storage</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Backup & Disaster Recovery Storage"
+                                  src={ObjectStorages}
+                                />
+                                <p>Backup & Disaster Recovery Storage</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Scalable Cloud Databases"
+                                  src={ScalableCloudDatabases}
+                                />
+                                <p>Scalable Cloud Databases</p>
+                              </div>
+                              <div className="hlth-tech-skill">
+                                <img
+                                  alt="Encrypted Secure Storage"
+                                  src={EncryptedSecureStorage}
+                                />
+                                <p>Encrypted Secure Storage</p>
+                              </div>
+                              
+                            </div>
+                            
                           </div>
                         </div>
                       </div>
@@ -724,6 +913,7 @@ const Home = () => {
                 <img src={Trusted_logo4} />
                 <img src={Trusted_logo5} />
                 <img src={Trusted_logo6} />
+                <img src={cl1} />
 
                 {/* duplicate for seamless loop */}
                 <img src={Trusted_logo1} />
@@ -732,6 +922,7 @@ const Home = () => {
                 <img src={Trusted_logo4} />
                 <img src={Trusted_logo5} />
                 <img src={Trusted_logo6} />
+                <img src={cl1} />
               </div>
             </div>
           <div className='sub_title mb-4 preciour_client'>

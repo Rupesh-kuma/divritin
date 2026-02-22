@@ -1,0 +1,325 @@
+{
+  "hero": {
+    "badge": "UI/UX DESIGN",
+    "title": "Design Experiences That Convert & Delight",
+    "subtitle": "Divritin is a UI/UX design studio that merges user needs with business objectives — creating interfaces that are visually stunning, highly functional, and built for real results.",
+    "bgImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1600&q=80",
+    "tags": ["User Research", "Wireframing", "UI Design", "Prototyping", "Design Systems"],
+    "formTitle": "Get a FREE Consultation",
+      "formFields": [
+        "Your Name",
+        "Phone / Email",
+        "Project Type"
+      ]
+  },
+  "intro": {
+    "label": "End-to-End Bespoke Software Engineering",
+    "heading": "Custom Software Development",
+    "description": "Looking for the best Custom Software Development Services? We are your trusted partner to build unique, scalable, and high-performance software tailored to your business. We specialize in custom application development, cloud-native solutions, AI-powered systems, and seamless integrations — delivering software that drives operational efficiency, reduces costs, and creates lasting competitive advantage.",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80",
+    "stats": [
+      {
+        "num": "200+",
+        "label": "Projects Delivered"
+      },
+      {
+        "num": "98%",
+        "label": "Client Satisfaction"
+      },
+      {
+        "num": "50+",
+        "label": "Expert Developers"
+      },
+      {
+        "num": "8+",
+        "label": "Years Experience"
+      }
+    ]
+  },
+  "process": {
+    "heading": "Our Software Development Process",
+    "subtitle": "A structured, agile approach that turns your vision into production-ready software.",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Discovery & Requirement Analysis",
+        "description": "We begin with deep-dive sessions to understand your business goals, existing workflows, and technical requirements. Our analysts create a comprehensive SRS document.",
+        "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+        "points": [
+          "Business goal alignment",
+          "Competitive & market analysis",
+          "Technology stack evaluation",
+          "KPI and success metrics"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Architecture & System Design",
+        "description": "Our architects design a robust, scalable system blueprint. We select the best-fit tech stack, define APIs, and plan microservices or monolithic architecture.",
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=700&q=80",
+        "points": [
+          "Cloud-native architecture planning",
+          "Database design & modelling",
+          "API and integration design",
+          "Security framework planning"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Agile Development & Sprints",
+        "description": "Development happens in iterative sprints with continuous feedback. Our engineers write clean, well-documented code following industry best practices.",
+        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=700&q=80",
+        "points": [
+          "Sprint-based delivery with demos",
+          "Version control & CI/CD pipelines",
+          "Code reviews & peer testing",
+          "Daily standups & progress reports"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Quality Assurance & Testing",
+        "description": "Every feature goes through rigorous testing — manual and automated — to ensure zero critical bugs and optimal performance before deployment.",
+        "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+        "points": [
+          "Functional & regression testing",
+          "Automated test suites",
+          "Security vulnerability assessments",
+          "Cross-platform testing"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Deployment & DevOps",
+        "description": "We deploy your software using modern DevOps practices — containerization, cloud infrastructure, and automated pipelines ensuring zero-downtime releases.",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+        "points": [
+          "Docker & Kubernetes",
+          "AWS / Azure / GCP deployment",
+          "Automated CI/CD pipelines",
+          "Infrastructure as Code"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Support & Optimization",
+        "description": "Post-launch, we provide continuous monitoring, bug fixes, feature enhancements, and performance tuning to keep your software at its best.",
+        "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+        "points": [
+          "24/7 monitoring & incident management",
+          "Proactive performance optimization",
+          "Feature upgrades & roadmap",
+          "SLA-backed support packages"
+        ]
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": 1,
+      "icon": "🔍",
+      "title": "User Research & Strategy",
+      "description": "Deep behavioral analysis, audience insights, and competitive research to craft design strategies that convert visitors into loyal users.",
+      "color": "#FF6B35",
+      "features": ["User Interviews", "Persona Creation", "Competitor Analysis", "Journey Mapping"]
+    },
+    {
+      "id": 2,
+      "icon": "✏️",
+      "title": "Wireframing & Prototyping",
+      "description": "From low-fidelity sketches to interactive prototypes — test before you build, iterate before you invest in development.",
+      "color": "#00D4FF",
+      "features": ["Clickable Prototypes", "User Flow Mapping", "Information Architecture", "Rapid Iteration"]
+    },
+    {
+      "id": 3,
+      "icon": "🎨",
+      "title": "UI Design & Branding",
+      "description": "Visually stunning interfaces with cohesive brand identity using modern design systems that leave a lasting impression.",
+      "color": "#7C3AED",
+      "features": ["Visual Design", "Design Systems", "Brand Identity", "Icon Design"]
+    },
+    {
+      "id": 4,
+      "icon": "📱",
+      "title": "Mobile App Design",
+      "description": "iOS & Android experiences crafted for thumb-first interaction, speed, and delight — optimized for every screen size.",
+      "color": "#10B981",
+      "features": ["iOS Design", "Android Design", "Gesture Navigation", "App Store Assets"]
+    },
+    {
+      "id": 5,
+      "icon": "🔎",
+      "title": "UX Audit & Optimization",
+      "description": "Identify friction points, improve conversion paths and redesign underperforming flows for measurable business outcomes.",
+      "color": "#F59E0B",
+      "features": ["Heatmap Analysis", "Conversion Optimization", "Accessibility Review", "Performance UX"]
+    },
+    {
+      "id": 6,
+      "icon": "⚙️",
+      "title": "Design Systems",
+      "description": "Scalable component libraries and design tokens that keep your product consistent, efficient, and easy to maintain as it grows.",
+      "color": "#EC4899",
+      "features": ["Component Library", "Design Tokens", "Style Guide", "Developer Handoff"]
+    }
+  ],
+  
+  "completedProjects": [
+    {
+      "id": 1,
+      "title": "FinTrack Pro",
+      "category": "FinTech App",
+      "description": "Complete redesign of a financial management app that increased user retention by 67% and reduced onboarding drop-off by 45%.",
+      "tags": ["Mobile App", "FinTech", "Dashboard"],
+      "stats": { "retention": "+67%", "conversion": "+89%", "duration": "8 Weeks" },
+      "color": "#00D4FF",
+      "bgColor": "rgba(0, 212, 255, 0.08)",
+      "status": "Completed",
+      "year": "2024"
+    },
+    {
+      "id": 2,
+      "title": "EduSpace LMS",
+      "category": "EdTech Platform",
+      "description": "End-to-end UX design for an e-learning platform serving 50,000+ students with intuitive course management and progress tracking.",
+      "tags": ["Web App", "EdTech", "SaaS"],
+      "stats": { "retention": "+120%", "conversion": "+55%", "duration": "12 Weeks" },
+      "color": "#7C3AED",
+      "bgColor": "rgba(124, 58, 237, 0.08)",
+      "status": "Completed",
+      "year": "2024"
+    },
+    {
+      "id": 3,
+      "title": "MediCare Connect",
+      "category": "Healthcare Platform",
+      "description": "Patient-doctor portal redesign that simplified appointment booking and reduced patient support queries by 38%.",
+      "tags": ["Healthcare", "Web Portal", "UX Audit"],
+      "stats": { "retention": "+45%", "conversion": "+72%", "duration": "10 Weeks" },
+      "color": "#10B981",
+      "bgColor": "rgba(16, 185, 129, 0.08)",
+      "status": "Completed",
+      "year": "2024"
+    },
+    {
+      "id": 4,
+      "title": "ShopVibe E-Commerce",
+      "category": "E-Commerce Redesign",
+      "description": "Complete UI/UX overhaul for a fashion retail platform that boosted checkout completion by 93% and average order value by 28%.",
+      "tags": ["E-Commerce", "Retail", "Mobile"],
+      "stats": { "retention": "+93%", "conversion": "+134%", "duration": "6 Weeks" },
+      "color": "#F59E0B",
+      "bgColor": "rgba(245, 158, 11, 0.08)",
+      "status": "Completed",
+      "year": "2023"
+    },
+    {
+      "id": 5,
+      "title": "PropFind Real Estate",
+      "category": "Real Estate App",
+      "description": "Property search and listing platform with AR property preview feature, resulting in 3x increase in property inquiries.",
+      "tags": ["Real Estate", "Mobile App", "AR Integration"],
+      "stats": { "retention": "+180%", "conversion": "+200%", "duration": "14 Weeks" },
+      "color": "#FF6B35",
+      "bgColor": "rgba(255, 107, 53, 0.08)",
+      "status": "Completed",
+      "year": "2023"
+    },
+    {
+      "id": 6,
+      "title": "LogiTrack Dashboard",
+      "category": "Logistics SaaS",
+      "description": "Complex data dashboard for logistics operations that reduced task completion time by 60% through simplified navigation.",
+      "tags": ["SaaS", "Dashboard", "B2B"],
+      "stats": { "retention": "+60%", "conversion": "+48%", "duration": "16 Weeks" },
+      "color": "#EC4899",
+      "bgColor": "rgba(236, 72, 153, 0.08)",
+      "status": "Completed",
+      "year": "2023"
+    }
+  ],
+  "industries": [
+    { "name": "SaaS & Tech Products", "icon": "💻" },
+    { "name": "E-Commerce & Retail", "icon": "🛍️" },
+    { "name": "Healthcare & MedTech", "icon": "🏥" },
+    { "name": "EdTech & Learning", "icon": "📚" },
+    { "name": "FinTech & Banking", "icon": "💰" },
+    { "name": "Real Estate", "icon": "🏠" },
+    { "name": "Travel & Hospitality", "icon": "✈️" },
+    { "name": "Startups & MVPs", "icon": "🚀" }
+  ],
+  "whyUs": [
+    {
+      "number": "01",
+      "title": "Research-First Approach",
+      "description": "Every design decision is rooted in user research, behavioral data, and competitive analysis — not gut feelings or assumptions."
+    },
+    {
+      "number": "02",
+      "title": "Conversion-Focused Design",
+      "description": "We optimize every interaction for your business goal — whether that's signups, purchases, or user retention metrics."
+    },
+    {
+      "number": "03",
+      "title": "Rapid Sprint-Based Delivery",
+      "description": "Sprint-based workflow with weekly deliverables so you see progress fast and can course-correct early without wasting budget."
+    },
+    {
+      "number": "04",
+      "title": "Developer-Ready Handoff",
+      "description": "Organized Figma files, design tokens, component docs, and Zeplin specs that developers actually love working with."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does a UI/UX design project take?",
+      "answer": "Typically 4–12 weeks depending on scope. A landing page redesign can take 2 weeks, while a full product design system may take 3 months. We'll give you a precise timeline after understanding your requirements."
+    },
+    {
+      "question": "Do you provide Figma design files?",
+      "answer": "Yes, all deliverables include organized Figma files with components, auto-layout, design tokens, and developer handoff specs via Zeplin or Figma Dev Mode."
+    },
+    {
+      "question": "Can you redesign an existing product?",
+      "answer": "Absolutely. We start with a comprehensive UX audit to identify pain points, then redesign strategically — preserving what works and fixing what doesn't, all backed by user data."
+    },
+    {
+      "question": "What tools do you use for design?",
+      "answer": "We use Figma for UI/UX design, FigJam for workshops, Maze for usability testing, Lottie for animations, and Zeplin or Figma Dev Mode for developer handoff."
+    },
+    {
+      "question": "Do you offer ongoing design support after project delivery?",
+      "answer": "Yes! We offer flexible retainer packages for ongoing design support, new feature design, and continuous UX optimization after the initial project is delivered."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Rahul Sharma",
+      "role": "CEO, FinTrack Pro",
+      "text": "Divritin transformed our app from confusing to beautiful. User retention jumped 67% within 2 months of launch. Best investment we made.",
+      "rating": 5,
+      "avatar": "RS"
+    },
+    {
+      "name": "Priya Mehta",
+      "role": "Product Manager, EduSpace",
+      "text": "Their research-first approach was eye-opening. They discovered user pain points we never knew existed and fixed them elegantly.",
+      "rating": 5,
+      "avatar": "PM"
+    },
+    {
+      "name": "Arjun Kapoor",
+      "role": "Founder, ShopVibe",
+      "text": "Professional, fast, and incredibly talented. The new checkout flow boosted our conversions by 134%. Highly recommend Divritin!",
+      "rating": 5,
+      "avatar": "AK"
+    }
+  ],
+  "contact": {
+    "heading": "Ready to Build Something Extraordinary?",
+    "subheading": "Tell us about your project. We'll respond within 24 hours with a tailored proposal and free consultation.",
+    "email": "hello@divritin.com",
+    "phone": "+91 98765 43210"
+  }
+}

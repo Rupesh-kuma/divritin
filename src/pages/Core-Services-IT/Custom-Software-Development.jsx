@@ -168,10 +168,10 @@ export default function CustomSoftwareDevelopment() {
               ))}
             </div>
 
-            <div className="spb-whyus__img-wrap">
+            {/* <div className="spb-whyus__img-wrap">
               <img src={data.whyUs.image} alt="Why choose us" loading="lazy" />
               <div className="spb-intro__img-overlay" />
-            </div>
+            </div> */}
           </div>
 
           <div className="spb-service-bars">

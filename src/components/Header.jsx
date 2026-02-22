@@ -145,7 +145,7 @@ const Header = () => {
                                             </Link>
                                             <ul className="dropdown-menu" aria-labelledby="appDevDropdown">
                                                 <li>
-                                                    <Link className="dropdown-item" to="/Website-UI/UX-design">
+                                                    <Link className="dropdown-item" to="/website-ui-ux-design">
                                                         Website UI/UX design
                                                     </Link>
                                                 </li>

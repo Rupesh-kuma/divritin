@@ -30,11 +30,15 @@ const ServicesSection = () => {
                     description:
                         "We build scalable, secure, and custom software solutions designed to streamline operations and accelerate business growth.",
                     features: [
-                        "Enterprise Software Solutions",
                         "Custom Web Applications",
+                        "E-commerce Platform Development",
+                        "CRM & ERP Development",
+                        "Custom CMS Development",
+                        "Enterprise Software Solutions",
                         "API Development & Integration",
                         "Cloud-Based Systems",
-                        "Automation Solutions"
+                        "Automation Solutions",
+
                     ]
                 },
                 {
@@ -42,13 +46,15 @@ const ServicesSection = () => {
                     icon: "🌐",
                     image: Website_Design_Development,
                     description:
-                        "We design high-performance, responsive, and visually engaging websites that convert visitors into customers.",
+                        "At Divrit Technologies Pvt Ltd, we create high-performance, secure, and scalable websites that help businesses establish a strong digital presence and convert visitors into loyal customers. Our team combines modern design principles.",
                     features: [
+                        "Custom Website Development",
                         "Responsive UI/UX Design",
                         "E-Commerce Development",
                         "CMS Development",
                         "SEO Optimized Websites",
-                        "Speed Optimization"
+                        "Speed Optimization",
+                        "Website Maintenance & Support"
                     ]
                 },
                 {
@@ -56,13 +62,15 @@ const ServicesSection = () => {
                     icon: "📱",
                     image: Mobile_App_Development,
                     description:
-                        "We create powerful Android and iOS mobile applications that deliver seamless user experiences and business value.",
+                        "At Divrit Technologies Pvt. Ltd., we design and develop high-performance mobile applications that help businesses engage customers, streamline operations, and scale digitally. Our expert developers build secure, intuitive.",
                     features: [
-                        "Native Android & iOS Apps",
-                        "Cross-Platform Apps",
-                        "Custom UI/UX",
+                        "Native Android & iOS App Development",
+                        "Cross-Platform App Development",
+                        "Custom UI/UX Design",
                         "Secure Backend Integration",
-                        "App Maintenance"
+                        "Scalable App Architecture",
+                        "App Testing & Quality Assurance",
+                        "App Maintenance & Support"
                     ]
                 },
                 {
@@ -70,13 +78,14 @@ const ServicesSection = () => {
                     icon: "🛠️",
                     image: Web_Mobile_App_Maintenance,
                     description:
-                        "Ensure smooth performance of your digital platforms with our comprehensive maintenance and support services.",
+                        "At Divrit Technologies Pvt. Ltd., we understand that launching a website or mobile application is just the beginning. Continuous monitoring, regular updates, and proactive support are essential to ensure smooth performance, security, and long-term reliability.",
                     features: [
                         "24/7 Technical Support",
-                        "Bug Fixing & Updates",
-                        "Performance Monitoring",
+                        "Bug Fixing & Regular Updates",
+                        "Performance Monitoring & Optimization",
                         "Security Enhancements",
-                        "Backup & Recovery"
+                        "Backup & Recovery Management",
+                        "Version Upgrades & Feature Improvements"
                     ]
                 }
             ]
@@ -91,13 +100,14 @@ const ServicesSection = () => {
                     icon: "🚀",
                     image: Cloud_Migration,
                     description:
-                        "Seamlessly move your infrastructure and applications to secure cloud environments with minimal downtime.",
+                        "At Divrit Technologies Pvt. Ltd., we help businesses transition smoothly from traditional infrastructure to secure, scalable, and high-performance cloud environments. Our cloud migration solutions are designed to minimize downtime, protect critical data, and ensure optimal system performance throughout the migration process.",
                     features: [
                         "AWS & Azure Migration",
                         "Hybrid Cloud Setup",
-                        "Data Transfer",
-                        "Security Compliance",
-                        "Performance Optimization"
+                        "Secure Data Transfer",
+                        "Cloud Security & Compliance",
+                        "Performance Optimization",
+                        "Cloud Architecture Planning"
                     ]
                 },
                 {
@@ -105,13 +115,14 @@ const ServicesSection = () => {
                     icon: "💾",
                     image: Cloud_Storage,
                     description:
-                        "Reliable and scalable cloud storage solutions to protect and manage your business data efficiently.",
+                        "At Divrit Technologies Pvt. Ltd., we provide secure, scalable, and high-performance cloud storage solutions that help businesses store, manage, and protect their critical data with complete reliability. Our cloud storage services are designed to ensure data accessibility, disaster protection, and cost efficiency while maintaining the highest security standards.",
                     features: [
                         "Secure Data Storage",
                         "Automatic Backups",
-                        "Disaster Recovery",
-                        "High Availability",
-                        "Cost Optimization"
+                        "Disaster Recovery Solutions",
+                        "High Availability & Redundancy",
+                        "Cost Optimization & Resource Management",
+                        "Continuous Monitoring & Support"
                     ]
                 },
                 {
@@ -119,13 +130,14 @@ const ServicesSection = () => {
                     icon: "⚙️",
                     image: Cloud_Management,
                     description:
-                        "End-to-end cloud infrastructure monitoring, optimization, and security management services.",
+                        "At Divrit Technologies Pvt. Ltd., we deliver end-to-end cloud management services that ensure your cloud infrastructure remains secure, optimized, and highly available at all times. Our experts handle monitoring, performance tuning, cost control, and security management so you can focus on growing your business while we manage your cloud operations efficiently.",
                     features: [
                         "Infrastructure Monitoring",
-                        "Cost Control",
-                        "Security Management",
-                        "Auto Scaling",
-                        "System Optimization"
+                        "Cost Control & Resource Optimization",
+                        "Cloud Security Management",
+                        "Auto Scaling & Load Management",
+                        "System Optimization & Performance Tuning",
+                        "Backup Management & Disaster Recovery"
                     ]
                 },
                 {
@@ -133,13 +145,13 @@ const ServicesSection = () => {
                     icon: "📦",
                     image: SaaS_Solutions,
                     description:
-                        "Custom SaaS product development and deployment for scalable business applications.",
+                        "At Divrit Technologies Pvt. Ltd., we design and develop scalable, secure, and high-performance Software as a Service (SaaS) solutions that help businesses streamline operations, improve customer engagement, and grow faster in the digital ecosystem. Our custom SaaS platforms are built with cloud-native architectures to ensure flexibility, reliability, and long-term success.",
                     features: [
-                        "Custom SaaS Platforms",
-                        "Subscription Management",
-                        "Cloud Hosting",
-                        "User Analytics",
-                        "Continuous Upgrades"
+                        "Custom SaaS Platform Development",
+                        "Subscription & Billing Management",
+                        "Cloud Hosting & Infrastructure Setup",
+                        "User Analytics & Reporting",
+                        "Ongoing Support & Maintenance"
                     ]
                 }
             ]
@@ -154,13 +166,14 @@ const ServicesSection = () => {
                     icon: "🧑‍💼",
                     image: Resource_Augmentation,
                     description:
-                        "Quickly scale your workforce with skilled IT professionals for short-term business needs.",
+                        "At Divrit Technologies Pvt. Ltd., we help businesses quickly scale their teams with highly skilled IT professionals to meet short-term project demands and workload spikes. Our temporary staffing solutions provide immediate access to experienced talent without the long-term hiring burden, enabling faster delivery and operational flexibility.",
                     features: [
                         "Skilled Developers",
-                        "QA Engineers",
-                        "IT Support Staff",
-                        "Flexible Contracts",
-                        "Immediate Hiring"
+                        "QA Engineers & Testers",
+                        "IT Support & Technical Staff",
+                        "Flexible Contract Models",
+                        "Immediate Hiring & Fast Onboarding",
+                        "Project-Based Team Scaling"
                     ]
                 },
                 {
@@ -168,13 +181,14 @@ const ServicesSection = () => {
                     icon: "💻",
                     image: Developer_Consultant,
                     description:
-                        "Hire experienced developers and consultants on flexible engagement models.",
+                        "At Divrit Technologies Pvt. Ltd., we provide highly skilled developers and IT consultants on flexible monthly and hourly engagement models to help businesses execute projects faster and more efficiently. Our dedicated professionals work as an extension of your in-house team, ensuring seamless collaboration, transparency, and high-quality delivery.",
                     features: [
                         "Dedicated Developers",
                         "Project Consultants",
-                        "Agile Delivery",
-                        "Direct Communication",
-                        "Cost Efficient"
+                        "Agile Delivery Model",
+                        "Direct Communication & Collaboration",
+                        "Cost-Efficient Engagement",
+                        "Quality Assurance & Reporting"
                     ]
                 },
                 {
@@ -182,13 +196,14 @@ const ServicesSection = () => {
                     icon: "📞",
                     image: Virtual_Assistance,
                     description:
-                        "Professional virtual support services to manage operations and administrative tasks remotely.",
+                        "At Divrit Technologies Pvt. Ltd., we provide professional virtual assistance services to help businesses manage daily operations, administrative responsibilities, and customer interactions efficiently. Our skilled virtual professionals work remotely as an extension of your team, ensuring smooth workflows, improved productivity, and cost-effective operational support.",
                     features: [
-                        "Customer Support",
-                        "Data Management",
-                        "Email Handling",
-                        "Scheduling",
-                        "Remote Operations"
+                        "Customer Support Services",
+                        "Data Management & Processing",
+                        "Email Handling & Communication",
+                        "Scheduling & Calendar Management",
+                        "Remote Operations Support",
+                        "Flexible Engagement Models"
                     ]
                 },
                 {
@@ -196,13 +211,14 @@ const ServicesSection = () => {
                     icon: "🤝",
                     image: Team_Extension,
                     description:
-                        "Extend your existing team with dedicated skilled professionals for long-term projects.",
+                        "At Divrit Technologies Pvt. Ltd., our Team Extension services allow businesses to scale their workforce with dedicated, highly skilled professionals who integrate seamlessly into your existing team for long-term project success. We provide full-time developers and IT specialists who work exclusively on your projects, ensuring consistency, ownership, and high-quality delivery.",
                     features: [
-                        "Long-Term Resources",
-                        "Seamless Integration",
-                        "Full-Time Developers",
-                        "Project Ownership",
-                        "Continuous Support"
+                        "Long-Term Dedicated Resources",
+                        "Seamless Team Integration",
+                        "Full-Time Developers & Specialists",
+                        "Project Ownership & Accountability",
+                        "Continuous Support & Performance Monitoring",
+                        "Transparent Communication & Reporting"
                     ]
                 }
             ]
@@ -217,13 +233,14 @@ const ServicesSection = () => {
                     icon: "⚙️",
                     image: Tally_Customization,
                     description:
-                        "Custom Tally ERP modules tailored to match your business processes.",
+                        "At Divrit Technologies Pvt. Ltd., we provide tailored Tally ERP customization solutions designed to align perfectly with your business operations and reporting needs. Our experts modify and enhance Tally functionalities to streamline workflows, improve financial visibility, and automate routine accounting processes.",
                     features: [
-                        "Custom Reports",
-                        "Invoice Formats",
+                        "Custom Financial & MIS Reports",
+                        "Customized Invoice & Document Formats",
                         "Process Automation",
-                        "User Controls",
-                        "Business Logic Setup"
+                        "User Role & Access Controls",
+                        "Business Logic & Workflow Setup",
+                        "Performance Optimization & Support"
                     ]
                 },
                 {
@@ -231,13 +248,15 @@ const ServicesSection = () => {
                     icon: "📁",
                     image: Data_Migration,
                     description:
-                        "Secure and accurate migration of your business data into Tally ERP systems.",
+                        "At Divrit Technologies Pvt. Ltd., we ensure secure, accurate, and seamless migration of your business data into Tally ERP systems without disruption to your daily operations. Our structured data migration process protects data integrity while improving system performance and usability.",
                     features: [
                         "Legacy Data Transfer",
-                        "Error-Free Migration",
-                        "Backup Handling",
-                        "Verification",
-                        "System Optimization"
+                        "Error-Free Data Validation",
+                        "Secure Backup Handling",
+                        "Post-Migration Verification",
+                        "System Performance Optimization",
+                        "Minimal Downtime Process",
+                        "Compliance & Data Security"
                     ]
                 },
                 {
@@ -245,13 +264,15 @@ const ServicesSection = () => {
                     icon: "🔗",
                     image: Tally_Integration,
                     description:
-                        "Integrate Tally with other business tools and platforms seamlessly.",
+                        "At Divrit Technologies Pvt. Ltd., we provide seamless Tally integration solutions that connect your accounting system with other business tools and platforms to create a unified and automated workflow. Our integrations help eliminate manual data entry, improve accuracy, and enhance operational efficiency across departments.",
                     features: [
                         "CRM Integration",
-                        "Inventory Systems",
-                        "Payment Gateways",
-                        "ERP Integration",
-                        "Automation"
+                        "Inventory Management System Integration",
+                        "Payment Gateway Integration",
+                        "ERP System Integration",
+                        "Process Automation",
+                        "API-Based Secure Connectivity",
+                        "Real-Time Reporting & Dashboards"
                     ]
                 },
                 {
@@ -259,13 +280,14 @@ const ServicesSection = () => {
                     icon: "🎓",
                     image: Tally_Training,
                     description:
-                        "Professional training sessions to help your team use Tally efficiently.",
+                        "At Divrit Technologies Pvt. Ltd., we offer professional Tally training programs designed to help businesses and teams use Tally ERP efficiently, accurately, and confidently. Our hands-on training sessions focus on real-world accounting scenarios, compliance requirements, and reporting needs to improve productivity and financial control.",
                     features: [
-                        "User Training",
-                        "Advanced Accounting",
-                        "GST Compliance",
-                        "Reporting",
-                        "Practical Workshops"
+                        "User-Level Training",
+                        "Advanced Accounting Techniques",
+                        "GST Compliance & Taxation Setup",
+                        "Custom Reporting & MIS Creation",
+                        "Practical Hands-On Workshops",
+                        "Post-Training Support"
                     ]
                 }
             ]
@@ -339,12 +361,12 @@ const ServicesSection = () => {
 
                                         <ul>
                                             {sub.features.map((f, idx) => (
-                                                <li key={idx}>✔ {f}</li>
+                                                <li key={idx}>{f}</li>
                                             ))}
                                         </ul>
 
                                         <button className="service_cta_button">
-                                            Learn More →
+                                        Explore More →
                                         </button>
                                     </div>
 

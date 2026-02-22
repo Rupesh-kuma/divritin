@@ -12,6 +12,7 @@ import CustomSoftwareDevelopment from './pages/Core-Services-IT/Custom-Software-
 import WebDesignDevelopment from './pages/Core-Services-IT/Webdesigndevelopment';
 import MobileAppDevelopment from './pages/Core-Services-IT/Mobileappdevelopment';
 import WebMobileAppMaintenance from './pages/Core-Services-IT/Webmobileappmaintenance';
+import UIUXDesignPage from './pages/Core-Services-IT/WebsiteUI/UXdesign';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Route path='/web-design-development' element={<WebDesignDevelopment/>}/>
       <Route path='/mobile-app-development' element={<MobileAppDevelopment/>}/>
       <Route path='/web-mobile-app-maintenance' element={<WebMobileAppMaintenance/>}/>
+      <Route path='/website-ui-ux-design' element={<UIUXDesignPage/>}/>
     </Routes>
     <Footer/>
     </>

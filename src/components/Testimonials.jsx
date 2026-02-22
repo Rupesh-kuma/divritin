@@ -42,8 +42,8 @@ const Testimonials = () => {
       <div className="container-fluid">
         <div className='sub_title'>
           <span>What Our Clients Say</span>
-          <h3>Trusted by Businesses for Reliable IT Solutions</h3>
-          <p>Our clients trust us to deliver high-quality IT services that drive efficiency, innovation, and business success. Here’s what they have to say about working with our expert team and technology-driven solutions.</p>
+          <h3 className="text-white">Trusted by Businesses for Reliable IT Solutions</h3>
+          <p className="text-white">Our clients trust us to deliver high-quality IT services that drive efficiency, innovation, and business success. Here’s what they have to say about working with our expert team and technology-driven solutions.</p>
         </div>
 
         <div className="settings">
