@@ -1,0 +1,404 @@
+{
+    "hero": {
+      "badge": "PAY-PER-CLICK / SEM",
+      "title": "Reach Your Customers Instantly with Paid Campaigns",
+      "subtitle": "Divrit Technologies delivers result-driven PPC & SEM campaigns that put your business at the top of Google, drive targeted traffic, generate qualified leads, and maximize your return on every rupee spent.",
+      "bgImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=80",
+      "tags": ["Google Ads", "Meta Ads", "Search Campaigns", "Display Ads", "Retargeting"],
+      "formTitle": "Get a FREE PPC Audit",
+      "formFields": [
+        "Your Name",
+        "Phone / Email",
+        "Website URL"
+      ]
+    },
+  
+    "intro": {
+      "label": "End-to-End PPC & SEM Services",
+      "heading": "Paid Campaigns That Deliver Instant Results & Maximum ROI",
+      "description": "Looking for the best PPC & SEM Services in India? Divrit Technologies Pvt. Ltd. is your trusted paid advertising partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in keyword research, campaign setup, ad copy optimization, audience targeting, retargeting, and performance tracking — delivering cost-effective, result-driven paid advertising campaigns built for measurable business growth. Our certified Google Ads specialists have successfully managed 1000+ campaigns across industries.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      "stats": [
+        { "num": "1000+", "label": "Campaigns Managed"  },
+        { "num": "4.5x",  "label": "Avg ROAS Delivered" },
+        { "num": "60%",   "label": "Avg Cost Reduction"  },
+        { "num": "8+",    "label": "Years Experience"    }
+      ]
+    },
+  
+    "adPlatforms": [
+      {
+        "icon": "🔍",
+        "name": "Google Search Ads",
+        "desc": "Appear at the top of Google search results for your most valuable keywords — capturing high-intent users at the exact moment they're looking for your product or service.",
+        "color": "#4285F4",
+        "bg": "rgba(66,133,244,0.08)",
+        "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=600&q=80"
+      },
+      {
+        "icon": "🖼️",
+        "name": "Google Display Ads",
+        "desc": "Reach your audience across 2 million+ websites, apps, and YouTube with visually compelling banner ads that build brand awareness and drive remarketing conversions.",
+        "color": "#34A853",
+        "bg": "rgba(52,168,83,0.08)",
+        "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&q=80"
+      },
+      {
+        "icon": "🛒",
+        "name": "Google Shopping Ads",
+        "desc": "Showcase your products directly in Google search results with images, prices, and store name — driving highly qualified shoppers straight to your product pages.",
+        "color": "#FBBC04",
+        "bg": "rgba(251,188,4,0.08)",
+        "image": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&q=80"
+      },
+      {
+        "icon": "👥",
+        "name": "Meta / Facebook Ads",
+        "desc": "Reach highly targeted audiences on Facebook and Instagram with precision — interest targeting, lookalike audiences, and retargeting campaigns that drive leads and sales.",
+        "color": "#1877F2",
+        "bg": "rgba(24,119,242,0.08)",
+        "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=600&q=80"
+      },
+      {
+        "icon": "▶️",
+        "name": "YouTube Video Ads",
+        "desc": "Engage your audience with compelling video ads on YouTube — skippable and non-skippable formats that build brand awareness and drive conversions at scale.",
+        "color": "#FF0000",
+        "bg": "rgba(255,0,0,0.08)",
+        "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&q=80"
+      },
+      {
+        "icon": "💼",
+        "name": "LinkedIn Ads",
+        "desc": "Target B2B decision-makers by job title, industry, company size, and seniority — LinkedIn Ads deliver the highest-quality B2B leads for enterprise and professional services.",
+        "color": "#0A66C2",
+        "bg": "rgba(10,102,194,0.08)",
+        "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=80"
+      }
+    ],
+  
+    "campaignProcess": [
+      "Best Landing Page creation for maximum campaign conversions",
+      "AdWords & Ads Manager Account Creation & Setup",
+      "Website Goal & Conversion Analysis",
+      "Keyword Research & Negative Keyword Planning",
+      "Text Ads, Image Ads & Video Ad Creation",
+      "Ad Copy A/B Testing for best CTR",
+      "Smart Bid Management & Budget Optimization",
+      "Audience & Placement Targeting Setup",
+      "Continuous monitoring & performance optimization",
+      "Weekly & Monthly performance reporting",
+      "Retargeting & Remarketing Campaign Setup",
+      "Conversion Tracking & ROI measurement"
+    ],
+  
+    "services": [
+      {
+        "id": 1,
+        "icon": "🔍",
+        "title": "Google Search Ads",
+        "description": "Dominate Google's first page for your most profitable keywords. We research, build, and optimize search campaigns that capture high-intent buyers at the exact moment they search.",
+        "color": "#4285F4",
+        "features": ["Keyword Research", "Ad Copy Writing", "Quality Score Optimization", "Bid Strategy"]
+      },
+      {
+        "id": 2,
+        "icon": "🖥️",
+        "title": "Google Display & Remarketing",
+        "description": "Re-engage website visitors and reach new audiences across 2M+ sites with compelling display ads. Our retargeting campaigns bring back lost visitors and convert them into customers.",
+        "color": "#34A853",
+        "features": ["Banner Ad Design", "Audience Targeting", "Retargeting Setup", "GDN Placements"]
+      },
+      {
+        "id": 3,
+        "icon": "👥",
+        "title": "Meta / Facebook & Instagram Ads",
+        "description": "Precision-targeted Facebook and Instagram ad campaigns using interest targeting, custom audiences, and lookalike audiences — delivering leads and sales at the lowest possible cost per result.",
+        "color": "#1877F2",
+        "features": ["Audience Targeting", "Creative Design", "Lead Generation Ads", "Lookalike Audiences"]
+      },
+      {
+        "id": 4,
+        "icon": "🛒",
+        "title": "Google Shopping & eCommerce Ads",
+        "description": "Maximize eCommerce revenue with Google Shopping campaigns — product listing ads that show images, prices, and reviews directly in search results to drive qualified buyer clicks.",
+        "color": "#FBBC04",
+        "features": ["Product Feed Setup", "Shopping Campaign", "ROAS Optimization", "Dynamic Ads"]
+      },
+      {
+        "id": 5,
+        "icon": "🎯",
+        "title": "Performance Max Campaigns",
+        "description": "Leverage Google's AI-powered Performance Max campaigns to reach customers across Search, Display, YouTube, Gmail, and Maps — all from a single goal-based campaign.",
+        "color": "#FF6B35",
+        "features": ["AI-Powered Bidding", "All-Channel Reach", "Asset Group Optimization", "Conversion Focus"]
+      },
+      {
+        "id": 6,
+        "icon": "📊",
+        "title": "PPC Audit & Campaign Rescue",
+        "description": "Already running ads but not getting results? We audit your existing campaigns — identifying wasted spend, poor quality scores, and missed opportunities — then rebuild for maximum ROI.",
+        "color": "#EC4899",
+        "features": ["Full Campaign Audit", "Wasted Spend Analysis", "Quality Score Fix", "Restructure & Rebuild"]
+      }
+    ],
+  
+    "process": {
+      "heading": "Our PPC Campaign Management Process",
+      "subtitle": "A data-driven, ROI-focused paid advertising process that maximizes every rupee of your ad budget — from setup to continuous optimization.",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Business & Goal Analysis",
+          "description": "We start by understanding your business, target audience, competitive landscape, and advertising goals. We audit your website for conversion-readiness and set up proper conversion tracking to measure every lead and sale.",
+          "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+          "points": [
+            "Business & competitor analysis",
+            "Target audience & buyer persona",
+            "Website conversion audit",
+            "KPI & ROAS goal setting"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Keyword Research & Campaign Strategy",
+          "description": "We conduct deep keyword research to identify high-intent, high-value search terms your customers are using. We build a negative keyword list to prevent budget waste and map keywords to the right campaign structure.",
+          "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=700&q=80",
+          "points": [
+            "High-intent keyword research",
+            "Negative keyword planning",
+            "Campaign & ad group structure",
+            "Budget allocation strategy"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Ad Creation & Landing Pages",
+          "description": "Our copywriters craft compelling, high-CTR ad copies with strong headlines and clear CTAs. We also design or optimize dedicated landing pages to ensure maximum conversion rate from every click you pay for.",
+          "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=700&q=80",
+          "points": [
+            "High-CTR ad copy writing",
+            "Responsive search ad creation",
+            "Landing page design & optimization",
+            "Ad extension setup"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Campaign Launch & Tracking Setup",
+          "description": "We set up your campaigns with precise audience targeting, bidding strategies, and conversion tracking. Every click, form fill, call, and purchase is tracked so we know exactly what's delivering ROI.",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+          "points": [
+            "Campaign & ad group launch",
+            "Google Tag Manager setup",
+            "Conversion tracking (leads & sales)",
+            "Call tracking integration"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Optimization & A/B Testing",
+          "description": "Once live, we continuously monitor performance — testing ad variations, adjusting bids, refining audiences, and pausing underperforming keywords — to progressively lower your CPC and increase conversion rate.",
+          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+          "points": [
+            "Ad copy A/B split testing",
+            "Bid & budget optimization",
+            "Audience & placement refinement",
+            "Quality score improvement"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Reporting & Strategy Refinement",
+          "description": "We deliver clear weekly and monthly performance reports — impressions, clicks, CTR, CPC, conversions, cost per lead, and ROAS — with transparent insights and a forward-looking optimization plan.",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "points": [
+            "Weekly performance snapshots",
+            "Monthly detailed PPC report",
+            "ROAS & cost per lead tracking",
+            "Strategy refinement recommendations"
+          ]
+        }
+      ]
+    },
+  
+    "industries": {
+      "heading": "Industries We Run PPC Campaigns For",
+      "subtitle": "Divrit Technologies delivers specialized PPC and SEM strategies across diverse industries — understanding unique buyer intent, keyword competition, and conversion goals in each sector.",
+      "list": [
+        { "icon": "⚙️",  "title": "Manufacturing & Industrial",    "desc": "B2B lead generation ads, industrial keyword targeting, supplier inquiry campaigns." },
+        { "icon": "🏗️",  "title": "Real Estate & Construction",    "desc": "Property buyer lead ads, location targeting, Google Maps ads, developer campaigns." },
+        { "icon": "🎓",  "title": "Education & Institutes",         "desc": "Admission lead campaigns, course promotion ads, scholarship keyword targeting." },
+        { "icon": "💄",  "title": "Beauty, Salon & Wellness",       "desc": "Local service ads, appointment booking campaigns, beauty product promotion." },
+        { "icon": "🏥",  "title": "Healthcare & Medical",           "desc": "Patient lead generation, hospital & clinic ads, specialist doctor campaigns." },
+        { "icon": "🏢",  "title": "Corporate & Business",           "desc": "B2B lead generation, brand awareness campaigns, corporate service promotion." },
+        { "icon": "✈️",  "title": "Travel, Tour & Hospitality",    "desc": "Tour package ads, hotel booking campaigns, destination keyword targeting." },
+        { "icon": "🍕",  "title": "Hotel & Restaurant",             "desc": "Local search ads, food delivery campaigns, table booking promotion." },
+        { "icon": "💳",  "title": "Finance, Loan & Insurance",      "desc": "High-intent loan & insurance lead ads, financial product keyword campaigns." },
+        { "icon": "🚚",  "title": "Logistics & Transportation",     "desc": "B2B freight inquiry ads, fleet service campaigns, logistics lead generation." }
+      ]
+    },
+  
+    "cta": {
+      "heading": "Ready to Launch Campaigns That Actually Convert?",
+      "subtitle": "Get a free PPC audit and campaign roadmap from Divrit Technologies' certified Google Ads experts. We'll show you exactly how to get better results from your ad budget.",
+      "btnPrimary": "Get Free PPC Audit",
+      "btnSecondary": "View Our Results",
+      "bgImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1400&q=80"
+    },
+  
+    "completedProjects": [
+      {
+        "id": 1,
+        "title": "SwiftLoan FinTech",
+        "category": "Finance — Google Search Ads",
+        "description": "Google Search campaign for a personal loan app — achieved ₹180 cost per qualified lead for highly competitive 'instant personal loan' keywords, scaling to 800+ leads per month within 90 days.",
+        "tags": ["Google Ads", "Finance", "Lead Gen"],
+        "stats": { "retention": "800+ Leads/mo", "conversion": "₹180 CPL", "duration": "90 Days" },
+        "color": "#4285F4",
+        "bgColor": "rgba(66,133,244,0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 2,
+        "title": "GlowCare Clinic",
+        "category": "Healthcare — Local Search Ads",
+        "description": "Google Local Search Ads and call campaigns for a multi-city dermatology clinic chain — reduced cost per appointment from ₹650 to ₹195 while tripling monthly appointment bookings.",
+        "tags": ["Google Ads", "Healthcare", "Local"],
+        "stats": { "retention": "3x Appointments", "conversion": "₹195 CPA", "duration": "60 Days" },
+        "color": "#34A853",
+        "bgColor": "rgba(52,168,83,0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 3,
+        "title": "StyleNest eCommerce",
+        "category": "Retail — Google Shopping Ads",
+        "description": "Google Shopping + Performance Max campaign for a fashion eCommerce store — achieved 6.2x ROAS within 45 days, scaling monthly revenue from ₹4L to ₹28L through product feed optimization.",
+        "tags": ["Shopping Ads", "eCommerce", "ROAS"],
+        "stats": { "retention": "6.2x ROAS", "conversion": "₹28L Revenue", "duration": "45 Days" },
+        "color": "#FBBC04",
+        "bgColor": "rgba(251,188,4,0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 4,
+        "title": "BrightMinds EdTech",
+        "category": "Education — Meta & Google Ads",
+        "description": "Combined Google + Meta lead generation campaign for an online learning platform — generated 1,200+ student enrollment leads per month at ₹95 cost per lead during peak admission season.",
+        "tags": ["Meta Ads", "Google Ads", "Education"],
+        "stats": { "retention": "1200+ Leads/mo", "conversion": "₹95 CPL", "duration": "3 Months" },
+        "color": "#1877F2",
+        "bgColor": "rgba(24,119,242,0.08)",
+        "status": "Completed",
+        "year": "2023"
+      },
+      {
+        "id": 5,
+        "title": "UrbanEdge Real Estate",
+        "category": "Real Estate — Search & Display",
+        "description": "Google Search + Display retargeting campaign for a premium residential developer — generated 350+ qualified buyer inquiries per month at ₹420 CPL for properties worth ₹1Cr+.",
+        "tags": ["Google Ads", "Real Estate", "Retargeting"],
+        "stats": { "retention": "350+ Leads/mo", "conversion": "₹420 CPL", "duration": "4 Months" },
+        "color": "#FF6B35",
+        "bgColor": "rgba(255,107,53,0.08)",
+        "status": "Completed",
+        "year": "2023"
+      },
+      {
+        "id": 6,
+        "title": "WanderFly Travel",
+        "category": "Travel — YouTube & Search Ads",
+        "description": "YouTube video ads + Google Search campaign for a travel agency — YouTube ads drove brand awareness while search ads captured intent, generating 500+ tour package inquiries monthly at 4.8x ROAS.",
+        "tags": ["YouTube Ads", "Travel", "Search"],
+        "stats": { "retention": "500+ Inquiries/mo", "conversion": "4.8x ROAS", "duration": "3 Months" },
+        "color": "#EC4899",
+        "bgColor": "rgba(236,72,153,0.08)",
+        "status": "Completed",
+        "year": "2023"
+      }
+    ],
+  
+    "whyUs": [
+      {
+        "number": "01",
+        "title": "Certified Google Ads Specialists",
+        "description": "Our team holds active Google Ads certifications across Search, Display, Shopping, and Video — ensuring your campaigns are managed by verified experts who know the platform inside out."
+      },
+      {
+        "number": "02",
+        "title": "Zero Wasted Ad Spend",
+        "description": "We obsessively eliminate budget waste through negative keyword management, audience exclusions, and placement targeting — ensuring every rupee reaches a potential customer, not bots or irrelevant clicks."
+      },
+      {
+        "number": "03",
+        "title": "Full Funnel Campaign Strategy",
+        "description": "From awareness to conversion — we build campaigns that cover the entire buyer journey using Search, Display, Video, and Retargeting together for maximum impact and ROI."
+      },
+      {
+        "number": "04",
+        "title": "100% Transparent Reporting",
+        "description": "Weekly snapshots and detailed monthly reports with every metric that matters — impressions, clicks, CTR, CPC, conversions, CPL, and ROAS. No vanity metrics, no hiding poor performance."
+      }
+    ],
+  
+    "faqs": [
+      {
+        "question": "What is PPC and how does it work?",
+        "answer": "PPC (Pay-Per-Click) is a digital advertising model where you pay only when someone clicks your ad. Your ads appear at the top of Google or on social platforms based on your bid and quality score. You set a budget, we optimize campaigns to get maximum clicks and conversions within that budget."
+      },
+      {
+        "question": "How much budget do I need to start Google Ads?",
+        "answer": "You can start Google Ads with as little as ₹5,000–₹10,000 per month for local campaigns. For competitive industries like finance or real estate, we recommend ₹30,000–₹1,00,000+ per month for meaningful results. We help you determine the right budget based on your goals and competition."
+      },
+      {
+        "question": "How quickly will I see results from PPC campaigns?",
+        "answer": "Unlike SEO, PPC delivers results immediately — your ads can appear and generate leads on the very first day of launch. However, optimal performance is typically achieved within 30–60 days as we gather data, test ad variations, and refine targeting for your specific audience."
+      },
+      {
+        "question": "Do you manage both Google Ads and Meta (Facebook/Instagram) Ads?",
+        "answer": "Yes. We manage campaigns across Google Ads (Search, Display, Shopping, YouTube, Performance Max), Meta Ads (Facebook & Instagram), and LinkedIn Ads. We recommend the right platform mix based on your business type, target audience, and goals."
+      },
+      {
+        "question": "What is ROAS and what ROAS can I expect?",
+        "answer": "ROAS (Return on Ad Spend) is the revenue generated for every rupee spent on ads. For example, 4x ROAS means ₹4 revenue for every ₹1 spent. Our average ROAS across campaigns is 4.5x, though this varies significantly by industry. We set realistic ROAS targets based on your specific market."
+      },
+      {
+        "question": "Is Divrit Technologies a registered company?",
+        "answer": "Yes. Divrit Technologies Pvt. Ltd. is a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd., founded in 2017 with 1000+ paid campaigns successfully managed across industries in India and globally."
+      }
+    ],
+  
+    "testimonials": [
+      {
+        "name": "Rajesh Khanna",
+        "role": "CEO, SwiftLoan FinTech",
+        "text": "Divrit Technologies took our Google Ads from ₹650 CPL to ₹180 CPL within 3 months while tripling our lead volume. Their campaign optimization is exceptional. Best PPC agency we've worked with.",
+        "rating": 5,
+        "avatar": "RK"
+      },
+      {
+        "name": "Meera Nair",
+        "role": "Marketing Director, StyleNest",
+        "text": "6.2x ROAS from our Google Shopping campaigns — our revenue went from ₹4 lakhs to ₹28 lakhs per month in just 45 days. Divrit Technologies completely transformed our eCommerce performance.",
+        "rating": 5,
+        "avatar": "MN"
+      },
+      {
+        "name": "Dr. Arun Sharma",
+        "role": "Director, GlowCare Clinics",
+        "text": "We were spending a fortune on Google Ads with poor results. Divrit Technologies audited our account and rebuilt the campaigns — our appointment bookings tripled while costs dropped 70%. Incredible results.",
+        "rating": 5,
+        "avatar": "AS"
+      }
+    ],
+  
+    "contact": {
+      "email": "hello@divritin.com",
+      "phone": "+91 98765 43210",
+      "subheading": "Get a free PPC audit and campaign roadmap from Divrit Technologies' certified Google Ads experts. We respond within 24 hours."
+    }
+  }

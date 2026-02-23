@@ -1,0 +1,358 @@
+{
+    "hero": {
+      "badge": "SEARCH ENGINE OPTIMIZATION",
+      "title": "Rank Higher on Google & Drive Real Business Growth",
+      "subtitle": "Divrit Technologies delivers data-driven SEO strategies that increase organic traffic, improve search rankings, and generate qualified leads — turning your website into your best-performing sales channel.",
+      "bgImage": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1600&q=80",
+      "tags": ["On-Page SEO", "Technical SEO", "Link Building", "Local SEO", "E-Commerce SEO"],
+      "formTitle": "Get a FREE SEO Audit",
+      "formFields": [
+        "Your Name",
+        "Phone / Email",
+        "Website URL"
+      ]
+    },
+    "intro": {
+      "label": "End-to-End Search Engine Optimization",
+      "heading": "SEO That Delivers Rankings, Traffic & Revenue",
+      "description": "Looking for the best SEO Services in India? Divrit Technologies Pvt. Ltd. is your trusted SEO partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in result-driven search engine optimization that goes beyond keyword rankings. Our SEO experts combine technical excellence, content strategy, and authority building to deliver sustainable organic growth — helping businesses increase website traffic, generate qualified leads, and achieve measurable ROI from search.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "stats": [
+        { "num": "400+", "label": "Websites Ranked" },
+        { "num": "3x",   "label": "Avg Traffic Growth" },
+        { "num": "150+", "label": "Keywords on Page 1" },
+        { "num": "8+",   "label": "Years Experience" }
+      ]
+    },
+    "benefits": [
+      {
+        "icon": "📈",
+        "title": "Increase Organic Traffic",
+        "desc": "Drive consistent, high-quality visitors to your website without paying for every click — organic traffic that keeps growing month over month."
+      },
+      {
+        "icon": "🎯",
+        "title": "Target the Right Audience",
+        "desc": "Reach users who are actively searching for your products or services — high-intent visitors who are ready to convert."
+      },
+      {
+        "icon": "💰",
+        "title": "Best ROI Marketing Channel",
+        "desc": "SEO delivers one of the highest returns on investment of any digital channel — with results that compound over time unlike paid ads."
+      },
+      {
+        "icon": "🏆",
+        "title": "Beat Your Competitors",
+        "desc": "Outrank competitors on Google for your most valuable keywords — capture market share and establish your brand as the industry leader."
+      },
+      {
+        "icon": "🔒",
+        "title": "Build Long-Term Authority",
+        "desc": "Strong SEO builds lasting domain authority and brand credibility — making it harder for competitors to displace you from top rankings."
+      },
+      {
+        "icon": "📊",
+        "title": "Measurable Results",
+        "desc": "Full transparency with monthly ranking reports, traffic analytics, and conversion tracking — you always know exactly what your SEO investment is delivering."
+      }
+    ],
+    "process": {
+      "heading": "Our SEO Process",
+      "subtitle": "A transparent, data-driven SEO methodology that delivers consistent ranking improvements and organic growth month after month.",
+      "steps": [
+        {
+          "id": 1,
+          "title": "SEO Audit & Competitor Analysis",
+          "description": "We start with a comprehensive technical SEO audit of your website — identifying crawl errors, page speed issues, broken links, duplicate content, and on-page gaps. We also benchmark your top 5 competitors to find ranking opportunities.",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "points": [
+            "Full technical SEO site audit",
+            "Competitor keyword gap analysis",
+            "Backlink profile review",
+            "Core Web Vitals assessment"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Keyword Research & Strategy",
+          "description": "We identify high-value, intent-driven keywords your target audience is searching — balancing search volume, competition, and business relevance to build a keyword strategy that drives qualified traffic, not just rankings.",
+          "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=700&q=80",
+          "points": [
+            "High-intent keyword identification",
+            "Long-tail keyword opportunities",
+            "Search volume & difficulty analysis",
+            "Keyword-to-page mapping"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "On-Page SEO Optimization",
+          "description": "We optimize every page on your website — title tags, meta descriptions, headings, content structure, internal linking, image alt text, and schema markup — to ensure Google fully understands and ranks your content.",
+          "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=700&q=80",
+          "points": [
+            "Title tags & meta descriptions",
+            "Content optimization & structuring",
+            "Schema markup implementation",
+            "Internal linking strategy"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Technical SEO & Site Speed",
+          "description": "We fix all technical issues that prevent Google from properly crawling and indexing your website — improving site speed, mobile-friendliness, Core Web Vitals, XML sitemaps, robots.txt, and HTTPS security.",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+          "points": [
+            "Page speed & Core Web Vitals",
+            "Mobile-first optimization",
+            "Crawlability & indexation fixes",
+            "XML sitemap & robots.txt"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Content & Authority Building",
+          "description": "We create SEO-optimized blog content, landing pages, and resource articles that attract links and rank for informational keywords — building topical authority that signals expertise to Google in your industry.",
+          "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=700&q=80",
+          "points": [
+            "SEO content creation & blogs",
+            "High-authority link building",
+            "Guest posting & PR outreach",
+            "Topical authority development"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Reporting & Ongoing Optimization",
+          "description": "Every month we deliver a clear ranking and traffic report — showing keyword position changes, organic traffic growth, and conversion improvements. We continuously refine our strategy based on data and algorithm updates.",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "points": [
+            "Monthly ranking & traffic report",
+            "Google Analytics & Search Console",
+            "Algorithm update monitoring",
+            "Continuous strategy refinement"
+          ]
+        }
+      ]
+    },
+    "industries": {
+      "heading": "Industries We Provide SEO Services For",
+      "subtitle": "Divrit Technologies delivers specialized SEO strategies across diverse industries — understanding unique search behavior, keyword intent, and competitive landscape in each sector.",
+      "list": [
+        { "icon": "🏥", "title": "Healthcare & Medical",        "desc": "Doctor & clinic SEO, hospital rankings, health blog content, local medical search." },
+        { "icon": "🎓", "title": "Education & EdTech",           "desc": "School & university SEO, course rankings, admission query traffic, LMS optimization." },
+        { "icon": "🛒", "title": "eCommerce & Retail",           "desc": "Product page SEO, category optimization, Google Shopping, eCommerce traffic growth." },
+        { "icon": "💳", "title": "Finance & FinTech",            "desc": "Loan, insurance & investment SEO, high-competition BFSI keyword rankings." },
+        { "icon": "🏗️", "title": "Real Estate & Construction",   "desc": "Property listing SEO, builder website rankings, location-based real estate search." },
+        { "icon": "🚚", "title": "Logistics & Manufacturing",    "desc": "B2B SEO, industrial keyword targeting, supplier discovery traffic, export lead generation." },
+        { "icon": "✈️", "title": "Travel & Hospitality",         "desc": "Hotel SEO, travel blog content, destination keyword rankings, OTA competitor strategy." },
+        { "icon": "⚖️", "title": "Legal & Professional Services","desc": "Law firm SEO, CA & consultant rankings, local professional service search optimization." }
+      ]
+    },
+    "cta": {
+      "heading": "Ready to Dominate Google Search Results?",
+      "subtitle": "Get a free SEO audit and ranking roadmap from Divrit Technologies' SEO experts. We'll show you exactly what's holding your website back.",
+      "btnPrimary": "Get Free SEO Audit",
+      "btnSecondary": "View Our Results",
+      "bgImage": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1400&q=80"
+    },
+    "services": [
+      {
+        "id": 1,
+        "icon": "🔍",
+        "title": "On-Page SEO",
+        "description": "Complete optimization of every page — title tags, meta descriptions, headings, content, schema markup, and internal links — making your website perfectly understood by Google.",
+        "color": "#FF6B35",
+        "features": ["Title & Meta Optimization", "Content Structuring", "Schema Markup", "Internal Linking"]
+      },
+      {
+        "id": 2,
+        "icon": "⚙️",
+        "title": "Technical SEO",
+        "description": "Fix all technical barriers that prevent Google from crawling and ranking your website — speed, mobile-friendliness, Core Web Vitals, indexation, and site architecture.",
+        "color": "#00D4FF",
+        "features": ["Site Speed Optimization", "Core Web Vitals", "Crawl Error Fixes", "Mobile-First SEO"]
+      },
+      {
+        "id": 3,
+        "icon": "🔗",
+        "title": "Link Building & Off-Page SEO",
+        "description": "Build high-quality backlinks from authoritative websites through strategic outreach, guest posting, digital PR, and content marketing — boosting your domain authority and rankings.",
+        "color": "#7C3AED",
+        "features": ["Authority Link Building", "Guest Posting", "Digital PR", "Broken Link Outreach"]
+      },
+      {
+        "id": 4,
+        "icon": "📍",
+        "title": "Local SEO",
+        "description": "Dominate local search results and Google Maps for your city or region — perfect for businesses targeting local customers across India or specific geographic markets.",
+        "color": "#10B981",
+        "features": ["Google Business Profile", "Local Citations", "Map Pack Rankings", "Review Strategy"]
+      },
+      {
+        "id": 5,
+        "icon": "🛒",
+        "title": "E-Commerce SEO",
+        "description": "Specialized SEO for online stores — optimizing product pages, category pages, and site structure to drive high-intent shoppers from Google directly to your products.",
+        "color": "#F59E0B",
+        "features": ["Product Page SEO", "Category Optimization", "Google Shopping", "Review Schema"]
+      },
+      {
+        "id": 6,
+        "icon": "✍️",
+        "title": "SEO Content Marketing",
+        "description": "Strategic blog posts, landing pages, and resource articles optimized to rank, attract backlinks, and convert readers into leads — building topical authority in your industry.",
+        "color": "#EC4899",
+        "features": ["Keyword-Targeted Blogs", "Pillar Page Strategy", "Content Clusters", "Lead Magnet Content"]
+      }
+    ],
+    "completedProjects": [
+      {
+        "id": 1,
+        "title": "MediCure Hospitals",
+        "category": "Healthcare SEO",
+        "description": "Ranked a multi-specialty hospital for 200+ medical keywords including 'best cardiologist in Delhi' and 'hospital near me'. Organic traffic grew 3x in 6 months with 4x increase in appointment bookings.",
+        "tags": ["Healthcare", "Local SEO", "Content"],
+        "stats": { "retention": "+312%", "conversion": "+4x Leads", "duration": "6 Months" },
+        "color": "#10B981",
+        "bgColor": "rgba(16, 185, 129, 0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 2,
+        "title": "FashionNest eCommerce",
+        "category": "E-Commerce SEO",
+        "description": "Scaled organic revenue for a fashion e-commerce store from ₹2L to ₹18L/month through product page optimization, category SEO, and 500+ long-tail keyword rankings.",
+        "tags": ["eCommerce", "On-Page SEO", "Content"],
+        "stats": { "retention": "+800%", "conversion": "+9x Revenue", "duration": "8 Months" },
+        "color": "#7C3AED",
+        "bgColor": "rgba(124, 58, 237, 0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 3,
+        "title": "LoanBridge FinTech",
+        "category": "Finance SEO",
+        "description": "Ranked a fintech startup for highly competitive keywords like 'personal loan online' and 'instant loan app' — achieving Page 1 rankings that drive 5,000+ qualified monthly loan inquiries.",
+        "tags": ["FinTech", "Technical SEO", "Link Building"],
+        "stats": { "retention": "+450%", "conversion": "+5000 Leads", "duration": "10 Months" },
+        "color": "#00D4FF",
+        "bgColor": "rgba(0, 212, 255, 0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 4,
+        "title": "EduPrime Coaching",
+        "category": "Education SEO",
+        "description": "Helped a coaching institute rank for 150+ education keywords including 'best UPSC coaching Delhi'. Organic admissions inquiries increased by 380% in one academic year.",
+        "tags": ["Education", "Local SEO", "Blog SEO"],
+        "stats": { "retention": "+380%", "conversion": "+280 Admissions", "duration": "7 Months" },
+        "color": "#F59E0B",
+        "bgColor": "rgba(245, 158, 11, 0.08)",
+        "status": "Completed",
+        "year": "2023"
+      },
+      {
+        "id": 5,
+        "title": "PropEdge Real Estate",
+        "category": "Real Estate SEO",
+        "description": "Ranked a real estate developer for 'luxury flats in Noida' and 20+ location-based property keywords. Google Maps Pack ranking drove 200+ qualified buyer inquiries per month.",
+        "tags": ["Real Estate", "Local SEO", "GMB"],
+        "stats": { "retention": "+520%", "conversion": "+200 Inquiries", "duration": "9 Months" },
+        "color": "#FF6B35",
+        "bgColor": "rgba(255, 107, 53, 0.08)",
+        "status": "Completed",
+        "year": "2023"
+      },
+      {
+        "id": 6,
+        "title": "LegalEdge Law Firm",
+        "category": "Legal Services SEO",
+        "description": "Ranked Delhi's top law firm for 'corporate lawyer Delhi' and 80+ legal service keywords. Organic client inquiries grew from 10 to 120+ per month within 8 months.",
+        "tags": ["Legal", "Content SEO", "Authority Building"],
+        "stats": { "retention": "+1100%", "conversion": "+12x Clients", "duration": "8 Months" },
+        "color": "#EC4899",
+        "bgColor": "rgba(236, 72, 153, 0.08)",
+        "status": "Completed",
+        "year": "2023"
+      }
+    ],
+    "whyUs": [
+      {
+        "number": "01",
+        "title": "White-Hat SEO Only",
+        "description": "We use only Google-approved, white-hat SEO techniques — no shortcuts, no black-hat tactics. Your rankings are safe, sustainable, and built to last through algorithm updates."
+      },
+      {
+        "number": "02",
+        "title": "Full Transparency & Reporting",
+        "description": "Monthly ranking reports, traffic dashboards, and strategy calls — you always know exactly what we're doing, why we're doing it, and what results it's delivering."
+      },
+      {
+        "number": "03",
+        "title": "Industry-Specific SEO Strategy",
+        "description": "We don't use cookie-cutter SEO templates. Every strategy is custom-built for your industry, competition level, and business goals — for results that actually matter."
+      },
+      {
+        "number": "04",
+        "title": "ROI-Focused Approach",
+        "description": "We focus on keywords and traffic that drive real business outcomes — leads, sales, and revenue — not just vanity metrics like impressions or generic keyword rankings."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How long does SEO take to show results?",
+        "answer": "SEO typically takes 3–6 months to show significant ranking improvements, with major traffic and lead growth visible by month 6–12. Highly competitive industries may take longer. We provide monthly progress reports so you can track growth throughout."
+      },
+      {
+        "question": "Do you guarantee Page 1 Google rankings?",
+        "answer": "No ethical SEO agency can guarantee specific rankings — Google's algorithm is constantly evolving. However, we have a proven track record of achieving Page 1 rankings for 150+ keywords across competitive industries, and we back our work with transparent monthly reporting."
+      },
+      {
+        "question": "What is included in your monthly SEO service?",
+        "answer": "Our monthly SEO retainer includes keyword tracking, on-page optimizations, technical fixes, content creation, link building, Google Search Console monitoring, and a detailed monthly performance report."
+      },
+      {
+        "question": "Do you work on both new and existing websites?",
+        "answer": "Yes. We provide SEO services for both new websites (building authority from scratch) and existing websites (auditing, fixing issues, and scaling rankings). We start with a comprehensive audit regardless."
+      },
+      {
+        "question": "Will my rankings drop if I stop SEO?",
+        "answer": "Rankings built through strong SEO are durable, but they can gradually decline without ongoing optimization as competitors continue investing. We recommend viewing SEO as a continuous investment for sustained market leadership."
+      },
+      {
+        "question": "Is Divrit Technologies a registered company?",
+        "answer": "Yes. Divrit Technologies Pvt. Ltd. is a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd., founded in 2017 with 400+ websites successfully ranked across India and global markets."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Dr. Rajan Verma",
+        "role": "Director, MediCure Hospitals",
+        "text": "Divrit Technologies took our hospital from Page 5 to Page 1 for our most important keywords. Our online appointment bookings increased 4x in just 6 months. Exceptional SEO work.",
+        "rating": 5,
+        "avatar": "RV"
+      },
+      {
+        "name": "Nisha Agarwal",
+        "role": "Founder, FashionNest",
+        "text": "Our organic revenue grew from ₹2 lakhs to ₹18 lakhs per month thanks to Divrit's eCommerce SEO. They truly understand how to drive sales from search, not just traffic.",
+        "rating": 5,
+        "avatar": "NA"
+      },
+      {
+        "name": "Advocate Suresh Kumar",
+        "role": "Senior Partner, LegalEdge",
+        "text": "From 10 to 120+ monthly organic client inquiries in 8 months. Divrit Technologies is the best SEO investment our law firm has ever made. Transparent, professional, and results-driven.",
+        "rating": 5,
+        "avatar": "SK"
+      }
+    ],
+    "contact": {
+      "email": "hello@divritin.com",
+      "phone": "+91 98765 43210",
+      "subheading": "Get a free SEO audit and ranking roadmap from Divrit Technologies' SEO experts. We respond within 24 hours."
+    }
+  }

@@ -1,0 +1,404 @@
+{
+    "hero": {
+      "badge": "PROMOTIONAL SERVICES / BRANDING",
+      "title": "Amplify Your Brand Across Every Channel",
+      "subtitle": "Divrit Technologies delivers end-to-end promotional services — from influencer marketing and email campaigns to SMS marketing, WhatsApp automation, and event promotions — ensuring your brand reaches, engages, and converts your target audience at every touchpoint.",
+      "bgImage": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1600&q=80",
+      "tags": ["Influencer Marketing", "Email Marketing", "SMS Marketing", "WhatsApp Marketing", "PR & Media"],
+      "formTitle": "Get a FREE Strategy Session",
+      "formFields": [
+        "Your Name",
+        "Phone / Email",
+        "Website URL"
+      ]
+    },
+  
+    "intro": {
+      "label": "360° Promotional Services",
+      "heading": "Promotional Campaigns That Build Brand & Drive Revenue",
+      "description": "Looking for the best Promotional Marketing Services in India? Divrit Technologies Pvt. Ltd. is your trusted brand promotion partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in influencer marketing, email & SMS automation, WhatsApp campaigns, PR outreach, affiliate marketing, and event promotions — delivering cost-effective, multi-channel promotional strategies built for measurable brand growth and customer acquisition. Our marketing specialists have successfully executed 800+ promotional campaigns across industries.",
+      "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=800&q=80",
+      "stats": [
+        { "num": "800+", "label": "Campaigns Executed"   },
+        { "num": "3.8x", "label": "Avg Engagement Lift"  },
+        { "num": "55%",  "label": "Avg Cost Reduction"   },
+        { "num": "8+",   "label": "Years Experience"     }
+      ]
+    },
+  
+    "adPlatforms": [
+      {
+        "icon": "📣",
+        "name": "Influencer Marketing",
+        "desc": "Partner with nano, micro, and macro influencers across Instagram, YouTube, and LinkedIn — reaching authentic, engaged audiences that trust the creators they follow, driving awareness and conversions.",
+        "color": "#E1306C",
+        "bg": "rgba(225,48,108,0.08)",
+        "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&q=80"
+      },
+      {
+        "icon": "📧",
+        "name": "Email Marketing",
+        "desc": "Build and nurture customer relationships with data-driven email campaigns — newsletters, drip sequences, abandoned cart emails, and promotional blasts with high open rates and measurable ROI.",
+        "color": "#FF6B35",
+        "bg": "rgba(255,107,53,0.08)",
+        "image": "https://images.unsplash.com/photo-1596526131083-e8c633064dbc?w=600&q=80"
+      },
+      {
+        "icon": "💬",
+        "name": "WhatsApp Marketing",
+        "desc": "Reach customers directly on WhatsApp — the highest-open-rate channel in India. Automated broadcasts, catalog sharing, order updates, and personalized promotional messages at scale.",
+        "color": "#25D366",
+        "bg": "rgba(37,211,102,0.08)",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80"
+      },
+      {
+        "icon": "📱",
+        "name": "SMS Marketing",
+        "desc": "Instant, high-delivery promotional and transactional SMS campaigns — flash sales, event reminders, OTP, appointment confirmations, and bulk SMS with 98% delivery rates.",
+        "color": "#4285F4",
+        "bg": "rgba(66,133,244,0.08)",
+        "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&q=80"
+      },
+      {
+        "icon": "📰",
+        "name": "PR & Media Outreach",
+        "desc": "Get your brand featured in top media outlets, news portals, and industry publications — press releases, journalist outreach, brand stories, and thought leadership placement that builds credibility.",
+        "color": "#9333EA",
+        "bg": "rgba(147,51,234,0.08)",
+        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=80"
+      },
+      {
+        "icon": "🤝",
+        "name": "Affiliate & Partner Marketing",
+        "desc": "Build a performance-based affiliate network — recruit partners, manage commissions, track conversions, and scale your reach through third-party publishers and referral channels without upfront ad spend.",
+        "color": "#FBBC04",
+        "bg": "rgba(251,188,4,0.08)",
+        "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80"
+      }
+    ],
+  
+    "campaignProcess": [
+      "Brand audit & target audience profiling",
+      "Multi-channel promotional strategy planning",
+      "Influencer identification & vetting process",
+      "Email list building & segmentation setup",
+      "WhatsApp Business API integration & automation",
+      "Creative content & campaign collateral design",
+      "Campaign launch across selected channels",
+      "Real-time performance monitoring & tracking",
+      "A/B testing of messaging & creatives",
+      "PR outreach & media placement execution",
+      "Weekly & monthly performance reporting",
+      "Campaign scaling & budget optimization"
+    ],
+  
+    "services": [
+      {
+        "id": 1,
+        "icon": "🌟",
+        "title": "Influencer Marketing",
+        "description": "We identify, vet, and manage influencer partnerships across Instagram, YouTube, and LinkedIn — from nano influencers for hyper-local reach to macro influencers for mass brand awareness campaigns.",
+        "color": "#E1306C",
+        "features": ["Influencer Discovery", "Campaign Briefing", "Content Approval", "ROI Tracking"]
+      },
+      {
+        "id": 2,
+        "icon": "📧",
+        "title": "Email Marketing & Automation",
+        "description": "Full-service email marketing — list building, segmentation, template design, automated drip campaigns, and performance optimization. We turn your email list into a high-ROI revenue channel.",
+        "color": "#FF6B35",
+        "features": ["List Segmentation", "Drip Automation", "Template Design", "A/B Testing"]
+      },
+      {
+        "id": 3,
+        "icon": "💬",
+        "title": "WhatsApp Marketing",
+        "description": "Official WhatsApp Business API campaigns with personalized bulk messaging, automated chatbots, catalog showcasing, and broadcast lists — achieving 90%+ open rates that email and SMS can't match.",
+        "color": "#25D366",
+        "features": ["Bulk Broadcasting", "Chatbot Setup", "Catalog Integration", "Auto-Replies"]
+      },
+      {
+        "id": 4,
+        "icon": "📱",
+        "title": "SMS & Bulk Messaging",
+        "description": "High-delivery SMS campaigns for promotional offers, event alerts, appointment reminders, and transactional messages. DLT-compliant bulk SMS with real-time delivery tracking and analytics.",
+        "color": "#4285F4",
+        "features": ["Bulk SMS", "DLT Compliance", "Transactional SMS", "Delivery Tracking"]
+      },
+      {
+        "id": 5,
+        "icon": "🎪",
+        "title": "Event & Offline Promotions",
+        "description": "End-to-end event marketing — from pre-event buzz campaigns and on-ground activations to post-event content amplification across digital channels. We make your events memorable and measurable.",
+        "color": "#FF6B35",
+        "features": ["Pre-Event Campaigns", "On-Ground Activation", "Live Social Coverage", "Post-Event Amplification"]
+      },
+      {
+        "id": 6,
+        "icon": "📰",
+        "title": "PR & Media Coverage",
+        "description": "Get your brand story published on top news portals, industry blogs, and media outlets. Press release writing, journalist outreach, and guaranteed publication on premium media platforms.",
+        "color": "#9333EA",
+        "features": ["Press Release Writing", "Media Outreach", "Brand Story Placement", "Crisis PR"]
+      }
+    ],
+  
+    "process": {
+      "heading": "Our Promotional Campaign Management Process",
+      "subtitle": "A data-driven, multi-channel promotional process that maximizes brand reach and customer acquisition — from strategy to execution and continuous optimization.",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Brand & Audience Analysis",
+          "description": "We begin by auditing your existing brand presence, understanding your target audience personas, competitive landscape, and promotional goals. We identify the highest-impact channels for your specific business and audience.",
+          "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+          "points": [
+            "Brand audit & positioning review",
+            "Target audience persona mapping",
+            "Competitor promotional analysis",
+            "Channel selection & priority planning"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Strategy & Campaign Planning",
+          "description": "We build a comprehensive, multi-channel promotional strategy — defining messaging, content themes, channel mix, budget allocation, and KPIs for each campaign. Every campaign has a clear goal and measurable success criteria.",
+          "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=700&q=80",
+          "points": [
+            "Multi-channel campaign strategy",
+            "Messaging & content theme planning",
+            "Budget allocation across channels",
+            "KPI & success metric definition"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Creative Production & Setup",
+          "description": "Our creative team produces campaign assets — email templates, WhatsApp message scripts, SMS copy, influencer briefs, social creatives, and PR pitches. All content is designed for maximum engagement and conversion.",
+          "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=700&q=80",
+          "points": [
+            "Email template & sequence design",
+            "WhatsApp & SMS copy creation",
+            "Influencer brief & content guidelines",
+            "PR materials & press kit creation"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Campaign Launch & Distribution",
+          "description": "We execute campaigns across all selected channels simultaneously — launching email sequences, scheduling WhatsApp broadcasts, activating influencer posts, distributing press releases, and deploying SMS blasts with precise timing.",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+          "points": [
+            "Synchronized multi-channel launch",
+            "Influencer post coordination",
+            "PR & media distribution",
+            "Real-time monitoring & alerts"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Optimization & A/B Testing",
+          "description": "We continuously test and optimize every element — subject lines, send times, influencer content, messaging tone, and CTAs — using data to improve engagement rates, reduce costs, and increase conversions progressively.",
+          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+          "points": [
+            "Email subject line A/B testing",
+            "WhatsApp message variant testing",
+            "Influencer content performance review",
+            "Channel budget reallocation"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Reporting & Strategy Refinement",
+          "description": "We deliver transparent weekly and monthly performance reports covering reach, engagement, open rates, CTR, conversions, cost per acquisition, and ROI across every channel — with clear insights and forward-looking recommendations.",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "points": [
+            "Weekly channel performance snapshots",
+            "Monthly multi-channel detailed report",
+            "ROI & CAC tracking per channel",
+            "Strategy refinement recommendations"
+          ]
+        }
+      ]
+    },
+  
+    "industries": {
+      "heading": "Industries We Run Promotional Campaigns For",
+      "subtitle": "Divrit Technologies delivers specialized promotional strategies across diverse industries — understanding unique audience behaviors, channel preferences, and messaging requirements in each sector.",
+      "list": [
+        { "icon": "🛒", "title": "eCommerce & Retail",           "desc": "Flash sale campaigns, abandoned cart emails, WhatsApp offers, influencer unboxing promotions." },
+        { "icon": "🏥", "title": "Healthcare & Wellness",         "desc": "Patient awareness campaigns, health camp promotions, SMS appointment reminders, wellness influencers." },
+        { "icon": "🎓", "title": "Education & EdTech",            "desc": "Admission campaigns, course launch emails, scholarship SMS, educational influencer partnerships." },
+        { "icon": "🏗️", "title": "Real Estate & Construction",   "desc": "Property launch campaigns, site visit SMS, WhatsApp catalog sharing, media PR coverage." },
+        { "icon": "💳", "title": "Finance & BFSI",               "desc": "Product launch campaigns, customer retention emails, regulatory-compliant SMS, fintech PR." },
+        { "icon": "✈️", "title": "Travel & Hospitality",         "desc": "Seasonal offer campaigns, travel influencer partnerships, hotel WhatsApp booking promotions." },
+        { "icon": "💄", "title": "Beauty & Lifestyle",            "desc": "Beauty influencer campaigns, product launch emails, salon WhatsApp promotions, lifestyle PR." },
+        { "icon": "🍕", "title": "Food & Restaurant",             "desc": "Food influencer reviews, offer SMS blasts, WhatsApp menu sharing, food festival promotions." },
+        { "icon": "💻", "title": "IT & SaaS",                    "desc": "Product launch PR, developer community outreach, webinar promotion, B2B email nurturing." },
+        { "icon": "🚚", "title": "Logistics & B2B Services",      "desc": "B2B email campaigns, LinkedIn outreach, industry PR, partner affiliate marketing programs." }
+      ]
+    },
+  
+    "cta": {
+      "heading": "Ready to Promote Your Brand Across Every Channel?",
+      "subtitle": "Get a free promotional strategy session and campaign roadmap from Divrit Technologies' specialists. We'll show you exactly how to maximize your brand's reach and ROI across the right channels.",
+      "btnPrimary": "Get Free Strategy Session",
+      "btnSecondary": "View Our Results",
+      "bgImage": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1400&q=80"
+    },
+  
+    "completedProjects": [
+      {
+        "id": 1,
+        "title": "GlowUp Beauty Brand",
+        "category": "Beauty — Influencer Marketing",
+        "description": "Managed a 45-day influencer campaign with 120 micro-influencers across Instagram and YouTube — generated 2.8M organic reach, 180K+ new followers, and 3,200 direct product sales at ₹85 cost per sale.",
+        "tags": ["Influencer Marketing", "Instagram", "Beauty"],
+        "stats": { "retention": "2.8M Reach", "conversion": "₹85 CPS", "duration": "45 Days" },
+        "color": "#E1306C",
+        "bgColor": "rgba(225,48,108,0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 2,
+        "title": "MediCare Hospital Chain",
+        "category": "Healthcare — WhatsApp & SMS",
+        "description": "WhatsApp broadcast campaign for 5-city hospital chain — health camp promotions and appointment reminders via WhatsApp & SMS achieved 94% message open rate and 4,200+ confirmed appointments in 30 days.",
+        "tags": ["WhatsApp Marketing", "SMS", "Healthcare"],
+        "stats": { "retention": "4200+ Appts", "conversion": "94% Open Rate", "duration": "30 Days" },
+        "color": "#25D366",
+        "bgColor": "rgba(37,211,102,0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 3,
+        "title": "LearnSphere EdTech",
+        "category": "Education — Email Marketing",
+        "description": "12-week drip email campaign for course enrollment — segmented list of 85,000 subscribers, 42% average open rate, generating 2,100+ course enrollments at ₹320 cost per enrollment, 3.9x campaign ROAS.",
+        "tags": ["Email Marketing", "EdTech", "Drip Campaign"],
+        "stats": { "retention": "2100+ Enrollments", "conversion": "₹320 CPE", "duration": "12 Weeks" },
+        "color": "#FF6B35",
+        "bgColor": "rgba(255,107,53,0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 4,
+        "title": "UrbanEats Food Delivery",
+        "category": "Food & Restaurant — Multi-Channel",
+        "description": "Combined WhatsApp offers + food influencer campaign + SMS flash sale promotion — achieved 38% increase in weekly orders, 15,000 new app downloads, and ₹12L additional monthly revenue within 60 days.",
+        "tags": ["WhatsApp", "Influencer", "SMS"],
+        "stats": { "retention": "38% Order Lift", "conversion": "15K App Downloads", "duration": "60 Days" },
+        "color": "#FBBC04",
+        "bgColor": "rgba(251,188,4,0.08)",
+        "status": "Completed",
+        "year": "2023"
+      },
+      {
+        "id": 5,
+        "title": "NexaTech SaaS Launch",
+        "category": "IT & SaaS — PR & Media",
+        "description": "Product launch PR campaign — press releases published on 45+ media portals including YourStory, Inc42, and Economic Times. Generated 1.2M media impressions, 8,500 trial signups, and ₹2.4Cr in pipeline within 90 days.",
+        "tags": ["PR & Media", "SaaS", "Product Launch"],
+        "stats": { "retention": "1.2M Impressions", "conversion": "8500 Signups", "duration": "90 Days" },
+        "color": "#9333EA",
+        "bgColor": "rgba(147,51,234,0.08)",
+        "status": "Completed",
+        "year": "2023"
+      },
+      {
+        "id": 6,
+        "title": "WanderStay Travel",
+        "category": "Travel — Influencer + Email",
+        "description": "Combined travel influencer campaign (25 travel creators) + segmented email marketing to 60K subscribers — generated 650+ resort bookings, ₹1.8Cr revenue, 4.2x ROAS across combined channels in peak season.",
+        "tags": ["Influencer", "Email", "Travel"],
+        "stats": { "retention": "650+ Bookings", "conversion": "4.2x ROAS", "duration": "3 Months" },
+        "color": "#4285F4",
+        "bgColor": "rgba(66,133,244,0.08)",
+        "status": "Completed",
+        "year": "2023"
+      }
+    ],
+  
+    "whyUs": [
+      {
+        "number": "01",
+        "title": "Multi-Channel Expertise",
+        "description": "From influencer marketing and WhatsApp automation to email sequences and PR outreach — we manage all promotional channels under one roof, ensuring consistent brand messaging and cross-channel synergy."
+      },
+      {
+        "number": "02",
+        "title": "Performance-First Approach",
+        "description": "Every promotional campaign is tied to measurable KPIs — reach, engagement, leads, conversions, and ROI. We never run campaigns for vanity metrics; every rupee spent is tracked to a business outcome."
+      },
+      {
+        "number": "03",
+        "title": "Verified Influencer Network",
+        "description": "We maintain a vetted database of 5,000+ influencers across categories and tiers — pre-screened for authentic engagement, audience quality, and brand safety. No fake followers, no inflated stats."
+      },
+      {
+        "number": "04",
+        "title": "100% Transparent Reporting",
+        "description": "Weekly and monthly reports covering every metric across every channel — reach, open rates, CTR, conversions, CPL, ROAS, and earned media value — with zero fluff and full accountability."
+      }
+    ],
+  
+    "faqs": [
+      {
+        "question": "What promotional services does Divrit Technologies offer?",
+        "answer": "We offer a full suite of promotional services including influencer marketing, email marketing & automation, WhatsApp marketing via official Business API, bulk SMS campaigns, PR & media outreach, affiliate marketing, and event promotions — all managed under one roof for consistent, cross-channel brand promotion."
+      },
+      {
+        "question": "How much does influencer marketing cost?",
+        "answer": "Influencer marketing costs vary based on influencer tier. Nano influencers (10K–50K followers) typically charge ₹3,000–₹15,000 per post. Micro influencers (50K–500K) range from ₹15,000–₹1,00,000. Macro influencers charge ₹1,00,000–₹10,00,000+. We help you build a campaign within your budget using the right mix of influencer tiers."
+      },
+      {
+        "question": "What open rates can I expect from WhatsApp marketing?",
+        "answer": "WhatsApp marketing through the official Business API delivers 90–98% message open rates — significantly higher than email (20–40%) or SMS (35–50%). This makes it the highest-engagement promotional channel for direct customer communication in India. We set up official API-based campaigns to ensure delivery and compliance."
+      },
+      {
+        "question": "Can you manage PR and get my brand featured in media?",
+        "answer": "Yes. We offer PR services including press release writing and distribution, journalist outreach, guaranteed publication on media portals (YourStory, Inc42, Business Standard, etc.), and brand story placement. PR packages are available based on the type and reach of coverage required."
+      },
+      {
+        "question": "How quickly will promotional campaigns show results?",
+        "answer": "Timelines vary by channel. WhatsApp and SMS campaigns deliver results within 24–48 hours of launch. Influencer campaigns show engagement within days of going live. Email marketing results build over 2–4 weeks. PR campaigns show media coverage within 7–14 days of outreach. Full multi-channel campaign impact is typically measurable within 30–60 days."
+      },
+      {
+        "question": "Is Divrit Technologies a registered company?",
+        "answer": "Yes. Divrit Technologies Pvt. Ltd. is a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd., founded in 2017 with 800+ promotional campaigns successfully executed across industries in India and globally."
+      }
+    ],
+  
+    "testimonials": [
+      {
+        "name": "Priya Sharma",
+        "role": "Brand Head, GlowUp Beauty",
+        "text": "The influencer campaign Divrit ran for us was exceptional — 120 micro-influencers, 2.8 million organic reach, and over 3,000 product sales in 45 days. The ROI was incredible. They know how to pick the right influencers for your brand.",
+        "rating": 5,
+        "avatar": "PS"
+      },
+      {
+        "name": "Dr. Vikram Nair",
+        "role": "Director, MediCare Hospitals",
+        "text": "We used Divrit's WhatsApp marketing for our health camps across 5 cities. The 94% open rate was astonishing — we've never seen anything like it with email or SMS. 4,200 appointment bookings in a single month. Highly recommend.",
+        "rating": 5,
+        "avatar": "VN"
+      },
+      {
+        "name": "Arjun Mehta",
+        "role": "CEO, NexaTech Solutions",
+        "text": "Divrit handled our SaaS product launch PR and got us featured in YourStory, Inc42, and Economic Times within 2 weeks. 1.2 million media impressions and over 8,000 trial signups. The best marketing investment we've made.",
+        "rating": 5,
+        "avatar": "AM"
+      }
+    ],
+  
+    "contact": {
+      "email": "hello@divritin.com",
+      "phone": "+91 98765 43210",
+      "subheading": "Get a free promotional strategy session from Divrit Technologies' marketing specialists. We respond within 24 hours."
+    }
+  }

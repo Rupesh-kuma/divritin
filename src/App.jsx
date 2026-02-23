@@ -1,5 +1,6 @@
 import './App.css';
 import './style/responsive.css';
+import './js/slider.js';
 import react from "react";
 import Home from './pages/Home'
 import Footer from './components/Footer';
@@ -15,6 +16,10 @@ import WebMobileAppMaintenance from './pages/Core-Services-IT/Webmobileappmainte
 import UIUXDesignPage from './pages/Core-Services-IT/WebsiteUI/UXdesign';
 import Mobilescreendesign from './pages/Core-Services-IT/WebsiteUI/Mobilescreendesign';
 import OtherDesignServices from './pages/Core-Services-IT/WebsiteUI/OtherDesignServices';
+import Searchengineoptimization from './pages/Branding-Marketing/SearchEngineOptimization';
+import Smo from './pages/Branding-Marketing/smo';
+import Ppc from './pages/Branding-Marketing/Ppc';
+import Promotionalservices from './pages/Branding-Marketing/Promotionalservices';
 
 
 function App() {
@@ -31,6 +36,10 @@ function App() {
       <Route path='/website-ui-ux-design' element={<UIUXDesignPage/>}/>
       <Route path='/mobile-screen-design' element={<Mobilescreendesign/>}/>
       <Route path='/other-design-services' element={<OtherDesignServices/>}/>
+      <Route path='/search-engine-optimization' element={<Searchengineoptimization/>}/>
+      <Route path='/social-media-optimization' element={<Smo/>}/>
+      <Route path='/pay-per-click' element={<Ppc/>}/>
+      <Route path='/other-promotional-services' element={<Promotionalservices/>}/>
     </Routes>
     <Footer/>
     </>

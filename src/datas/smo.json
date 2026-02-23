@@ -1,0 +1,405 @@
+{
+    "hero": {
+      "badge": "SOCIAL MEDIA OPTIMIZATION",
+      "title": "Grow Your Brand on Social Media & Build Real Engagement",
+      "subtitle": "Divrit Technologies delivers result-driven SMO strategies that grow your followers, increase brand awareness, boost engagement, and turn your social media into a powerful lead generation engine for your business.",
+      "bgImage": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1600&q=80",
+      "tags": ["Instagram Growth", "Facebook Marketing", "LinkedIn SMO", "YouTube Optimization", "Twitter / X"],
+      "formTitle": "Get a FREE SMO Consultation",
+      "formFields": [
+        "Your Name",
+        "Phone / Email",
+        "Social Media Handle / URL"
+      ]
+    },
+  
+    "intro": {
+      "label": "End-to-End Social Media Optimization",
+      "heading": "Turn Social Media Into Your Biggest Growth Channel",
+      "description": "Looking for the best Social Media Optimization Services in India? Divrit Technologies Pvt. Ltd. is your trusted SMO partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in optimizing social media profiles, creating and scheduling content, targeting the right audience, managing campaigns, tracking performance, and analyzing results — delivering strategies built to increase traffic, strengthen brand visibility, and grow your social media influence effectively.",
+      "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=800&q=80",
+      "stats": [
+        { "num": "350+", "label": "Brands Grown"        },
+        { "num": "10M+", "label": "Reach Generated"     },
+        { "num": "98%",  "label": "Client Satisfaction"  },
+        { "num": "8+",   "label": "Years Experience"    }
+      ]
+    },
+  
+    "platforms": [
+      {
+        "icon": "👥",
+        "name": "Facebook Marketing",
+        "desc": "We create compelling Facebook campaigns that increase brand awareness, generate leads, and drive conversions — with precise audience targeting tailored to your business goals.",
+        "color": "#1877F2",
+        "bg": "rgba(24,119,242,0.08)",
+        "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=600&q=80"
+      },
+      {
+        "icon": "🐦",
+        "name": "Twitter / X Marketing",
+        "desc": "We leverage Twitter/X to boost brand visibility, engage your target audience through trending conversations, threads, and strategic posting that drives meaningful interactions.",
+        "color": "#1DA1F2",
+        "bg": "rgba(29,161,242,0.08)",
+        "image": "https://images.unsplash.com/photo-1611605698335-8441f9abe5e1?w=600&q=80"
+      },
+      {
+        "icon": "📌",
+        "name": "Pinterest Marketing",
+        "desc": "We optimize your Pinterest presence — creating boards, curating content, and optimizing pins with relevant keywords and hashtags for maximum visibility, reach, and traffic generation.",
+        "color": "#E60023",
+        "bg": "rgba(230,0,35,0.08)",
+        "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&q=80"
+      },
+      {
+        "icon": "💼",
+        "name": "LinkedIn Marketing",
+        "desc": "We leverage LinkedIn — the world's largest professional network — to showcase your expertise, build meaningful business connections, and generate high-quality B2B leads.",
+        "color": "#0A66C2",
+        "bg": "rgba(10,102,194,0.08)",
+        "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=80"
+      },
+      {
+        "icon": "📸",
+        "name": "Instagram Marketing",
+        "desc": "We craft a captivating Instagram presence — from stunning visuals and engaging reels to strategic hashtags and stories — that tells your brand story and converts followers into customers.",
+        "color": "#E1306C",
+        "bg": "rgba(225,48,108,0.08)",
+        "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80"
+      },
+      {
+        "icon": "▶️",
+        "name": "YouTube Marketing",
+        "desc": "We help you build and grow a YouTube channel with compelling video content, SEO-optimized titles and descriptions, and a consistent upload strategy that drives subscribers and views.",
+        "color": "#FF0000",
+        "bg": "rgba(255,0,0,0.08)",
+        "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&q=80"
+      }
+    ],
+  
+    "services": [
+      {
+        "id": 1,
+        "icon": "🔍",
+        "title": "Competitor Analysis",
+        "description": "We deeply analyze your competitors' social strategies — content approach, posting frequency, engagement tactics, and audience — to identify gaps and opportunities your brand can capitalize on.",
+        "color": "#FF6B35",
+        "features": ["Competitor Content Audit", "Gap Opportunity Analysis", "Benchmark Tracking", "Strategy Insights"]
+      },
+      {
+        "id": 2,
+        "icon": "📋",
+        "title": "SMO Strategy",
+        "description": "We build a comprehensive, platform-specific social media optimization strategy — aligning content themes, posting schedules, audience targeting, and KPIs with your business growth objectives.",
+        "color": "#00D4FF",
+        "features": ["Custom SMO Roadmap", "Platform Strategy", "Audience Targeting", "KPI Planning"]
+      },
+      {
+        "id": 3,
+        "icon": "#️⃣",
+        "title": "Hashtag Strategy",
+        "description": "We research and create powerful hashtag sets for every post — combining high-volume, niche, and branded hashtags to dramatically expand your organic reach and content discoverability.",
+        "color": "#7C3AED",
+        "features": ["Hashtag Research", "Branded Hashtags", "Niche Tag Sets", "Reach Optimization"]
+      },
+      {
+        "id": 4,
+        "icon": "📅",
+        "title": "Social Media Posting",
+        "description": "We create and schedule carefully curated social media posts — captivating visuals, informative content, and engaging storytelling — published at optimal times for maximum reach and engagement.",
+        "color": "#10B981",
+        "features": ["Content Calendar", "Optimal Scheduling", "Visual Design", "Caption Writing"]
+      },
+      {
+        "id": 5,
+        "icon": "📣",
+        "title": "Social Media Marketing",
+        "description": "We promote your brand across Facebook, Instagram, LinkedIn, and other platforms through targeted campaigns, boosted posts, and community management that drives real traffic and conversions.",
+        "color": "#F59E0B",
+        "features": ["Campaign Management", "Paid Promotion", "Community Engagement", "Lead Generation"]
+      },
+      {
+        "id": 6,
+        "icon": "✍️",
+        "title": "Content Marketing",
+        "description": "We create valuable, relevant content — blogs, infographics, reels, and carousels — that attracts and engages your target audience, driving organic traffic and building long-term brand trust.",
+        "color": "#EC4899",
+        "features": ["Blog & Article Writing", "Infographic Design", "Reel & Video Content", "Brand Storytelling"]
+      },
+      {
+        "id": 7,
+        "icon": "📊",
+        "title": "Analytics Consultancy",
+        "description": "We analyze your social media data to provide clear insights and actionable strategies — helping you understand what's working, what's not, and how to continuously improve performance.",
+        "color": "#00D4FF",
+        "features": ["Performance Analytics", "Engagement Tracking", "Audience Insights", "Monthly Reports"]
+      },
+      {
+        "id": 8,
+        "icon": "🎯",
+        "title": "Conversion Rate Optimization",
+        "description": "We optimize your social media profiles, bio links, CTAs, and content strategy to increase the percentage of followers who take action — visiting your website, filling forms, or making purchases.",
+        "color": "#FF6B35",
+        "features": ["CTA Optimization", "Bio Link Strategy", "Landing Page Sync", "Lead Funnel Design"]
+      }
+    ],
+  
+    "process": {
+      "heading": "Our SMO Process",
+      "subtitle": "A transparent, platform-specific social media optimization methodology that delivers consistent follower growth and brand engagement month after month.",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Social Media Audit & Research",
+          "description": "We start with a comprehensive audit of your existing social media profiles — analyzing content performance, audience demographics, engagement rates, and competitor benchmarks to build a winning SMO strategy.",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "points": [
+            "Full profile & content audit",
+            "Competitor social benchmarking",
+            "Target audience persona mapping",
+            "Platform-specific opportunity analysis"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Profile Optimization",
+          "description": "We optimize every element of your social profiles — bio, profile photo, cover image, highlights, keywords, and link strategy — to maximize discoverability and create the strongest first impression.",
+          "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=700&q=80",
+          "points": [
+            "Bio & description optimization",
+            "Profile & cover image design",
+            "Keyword-rich profile setup",
+            "Link & CTA strategy setup"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Content Strategy & Calendar",
+          "description": "We develop a detailed monthly content calendar with platform-specific post formats — reels, carousels, stories, infographics — optimized for each platform's algorithm and peak audience activity times.",
+          "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=700&q=80",
+          "points": [
+            "Monthly content calendar",
+            "Platform-specific post formats",
+            "Trending topic & hashtag research",
+            "Brand voice & tone guidelines"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Content Creation & Publishing",
+          "description": "Our creative team designs and writes high-quality social media content — eye-catching graphics, reel scripts, engaging captions — then publishes at optimal times for maximum organic reach.",
+          "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=700&q=80",
+          "points": [
+            "Graphic & reel content creation",
+            "SEO-optimized captions",
+            "30+ researched hashtags per post",
+            "Optimal time scheduling"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Community Management",
+          "description": "We actively manage your social media community — responding to comments, DMs, and mentions, engaging with followers, and building relationships that convert audience members into loyal brand advocates.",
+          "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=700&q=80",
+          "points": [
+            "Comment & DM management",
+            "Follower engagement & replies",
+            "Brand reputation monitoring",
+            "Influencer & collab outreach"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Analytics & Monthly Reporting",
+          "description": "Every month we deliver a clear performance report — follower growth, reach, impressions, engagement rate, and top-performing content — with actionable recommendations to continuously improve your social ROI.",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "points": [
+            "Monthly growth & reach report",
+            "Engagement rate analysis",
+            "Top content performance review",
+            "Strategy refinement recommendations"
+          ]
+        }
+      ]
+    },
+  
+    "industries": {
+      "heading": "Industries We Provide SMO Services For",
+      "subtitle": "Divrit Technologies delivers specialized SMO strategies across diverse industries — understanding unique audience behavior, content trends, and platform preferences in each sector.",
+      "list": [
+        { "icon": "⚙️",  "title": "Manufacturing & Industrial",    "desc": "B2B brand building, product showcase, LinkedIn authority, industry thought leadership." },
+        { "icon": "🏗️",  "title": "Real Estate & Construction",    "desc": "Property reels, virtual tours, project launch campaigns, buyer community engagement." },
+        { "icon": "🎓",  "title": "Education & Institutes",         "desc": "Campus social branding, admission campaigns, student community building, EdTech growth." },
+        { "icon": "💄",  "title": "Beauty, Salon & Wellness",       "desc": "Before-after reels, service showcasing, influencer tie-ups, local community growth." },
+        { "icon": "🏥",  "title": "Healthcare & Medical",           "desc": "Doctor branding, health tips content, clinic social presence, patient trust building." },
+        { "icon": "🏢",  "title": "Corporate & Business",           "desc": "LinkedIn thought leadership, company culture content, B2B lead generation, brand PR." },
+        { "icon": "✈️",  "title": "Travel, Tour & Hospitality",    "desc": "Destination reels, hotel social branding, travel inspiration content, booking CTAs." },
+        { "icon": "🍕",  "title": "Hotel & Restaurant",             "desc": "Food photography posts, daily specials, customer UGC, local audience engagement." },
+        { "icon": "💳",  "title": "Finance, Loan & Insurance",      "desc": "Financial tips content, trust-building posts, LinkedIn authority, lead generation." },
+        { "icon": "🚚",  "title": "Logistics & Transportation",     "desc": "Fleet showcase, service posts, B2B LinkedIn presence, client testimonial content." }
+      ]
+    },
+  
+    "cta": {
+      "heading": "Ready to Dominate Social Media?",
+      "subtitle": "Get a free social media audit and growth roadmap from Divrit Technologies' SMO experts. We'll show you exactly how to grow your brand online.",
+      "btnPrimary": "Get Free SMO Audit",
+      "btnSecondary": "View Our Results",
+      "bgImage": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1400&q=80"
+    },
+  
+    "completedProjects": [
+      {
+        "id": 1,
+        "title": "GlowSkin Beauty",
+        "category": "Beauty & Skincare Brand",
+        "description": "Grew a skincare brand's Instagram from 2,400 to 68,000 followers in 8 months through strategic reels, influencer collaborations, and consistent brand content — resulting in 3x product sales.",
+        "tags": ["Instagram", "Reels", "Influencer"],
+        "stats": { "retention": "68K Followers", "conversion": "3x Sales", "duration": "8 Months" },
+        "color": "#E1306C",
+        "bgColor": "rgba(225,48,108,0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 2,
+        "title": "TechAxis IT Solutions",
+        "category": "B2B LinkedIn SMO",
+        "description": "Built a strong LinkedIn presence for a B2B IT company — growing from 800 to 15,000 followers with thought leadership content that generated 120+ qualified enterprise leads monthly.",
+        "tags": ["LinkedIn", "B2B", "Thought Leadership"],
+        "stats": { "retention": "15K Followers", "conversion": "120+ Leads/mo", "duration": "6 Months" },
+        "color": "#0A66C2",
+        "bgColor": "rgba(10,102,194,0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 3,
+        "title": "CrunchBite Restaurant",
+        "category": "Food & Restaurant SMO",
+        "description": "Managed Instagram and Facebook for a restaurant chain — daily food content, reels, and offer promotions grew their social following by 400% and increased dine-in footfall by 65%.",
+        "tags": ["Instagram", "Facebook", "Local"],
+        "stats": { "retention": "+400% Followers", "conversion": "+65% Footfall", "duration": "5 Months" },
+        "color": "#FF6B35",
+        "bgColor": "rgba(255,107,53,0.08)",
+        "status": "Completed",
+        "year": "2024"
+      },
+      {
+        "id": 4,
+        "title": "BrightPath EdTech",
+        "category": "Education Brand SMO",
+        "description": "Built a YouTube channel and Instagram presence for an EdTech startup — 0 to 25,000 YouTube subscribers and 18,000 Instagram followers in 9 months with educational content strategy.",
+        "tags": ["YouTube", "Instagram", "EdTech"],
+        "stats": { "retention": "25K YouTube Subs", "conversion": "18K Instagram", "duration": "9 Months" },
+        "color": "#7C3AED",
+        "bgColor": "rgba(124,58,237,0.08)",
+        "status": "Completed",
+        "year": "2023"
+      },
+      {
+        "id": 5,
+        "title": "LuxeNest Real Estate",
+        "category": "Real Estate Social Media",
+        "description": "Property showcase reels and virtual tour content on Instagram and YouTube generated 3x more qualified buyer inquiries for a premium real estate developer within 6 months.",
+        "tags": ["Instagram", "YouTube", "Real Estate"],
+        "stats": { "retention": "+320% Reach", "conversion": "3x Inquiries", "duration": "6 Months" },
+        "color": "#10B981",
+        "bgColor": "rgba(16,185,129,0.08)",
+        "status": "Completed",
+        "year": "2023"
+      },
+      {
+        "id": 6,
+        "title": "WanderLust Travel",
+        "category": "Travel & Hospitality SMO",
+        "description": "Destination content strategy and reels grew a travel company's Instagram to 45,000 followers — with story-led booking CTAs generating 200+ monthly travel package inquiries.",
+        "tags": ["Instagram", "Travel", "Reels"],
+        "stats": { "retention": "45K Followers", "conversion": "200+ Bookings/mo", "duration": "7 Months" },
+        "color": "#00D4FF",
+        "bgColor": "rgba(0,212,255,0.08)",
+        "status": "Completed",
+        "year": "2023"
+      }
+    ],
+  
+    "whyUs": [
+      {
+        "number": "01",
+        "title": "100% Organic — No Fake Followers",
+        "description": "We grow your social media through genuine content and real engagement strategies — never through bots, fake followers, or black-hat tactics that risk your account or credibility."
+      },
+      {
+        "number": "02",
+        "title": "Platform-Specific Expertise",
+        "description": "Instagram, LinkedIn, YouTube, Facebook — each platform has its own algorithm and audience behavior. We craft tailored strategies for each platform, not a generic one-size-fits-all approach."
+      },
+      {
+        "number": "03",
+        "title": "In-House Creative Team",
+        "description": "Our designers, videographers, and copywriters create all content in-house — ensuring brand consistency, fast turnaround, and high-quality creatives that stand out in crowded social feeds."
+      },
+      {
+        "number": "04",
+        "title": "Transparent Monthly Reporting",
+        "description": "Every month you receive a detailed performance report — follower count, reach, engagement rate, and lead metrics — with complete transparency on results and what we're improving next."
+      }
+    ],
+  
+    "faqs": [
+      {
+        "question": "Why is SMO important for my business?",
+        "answer": "SMO is crucial because it allows you to connect with your audience, build brand loyalty, and drive organic traffic to your website. By optimizing your social media presence, you can effectively promote your products or services, engage with customers, and gain valuable insights to improve your overall marketing strategy."
+      },
+      {
+        "question": "How can SMO help in increasing website traffic?",
+        "answer": "SMO drives website traffic by creating and sharing compelling content that encourages users to click through to your website. By engaging with your audience on social media, sharing blog posts, promoting special offers, and optimizing profile bio links, we create multiple pathways that funnel social followers directly to your website."
+      },
+      {
+        "question": "How long does it take to see SMO results?",
+        "answer": "Meaningful follower growth and engagement improvements are typically visible within 60–90 days of consistent SMO. Significant brand awareness and lead generation results generally show by month 4–6, depending on your industry, competition level, and starting point."
+      },
+      {
+        "question": "Which social media platforms do you manage?",
+        "answer": "We manage all major platforms — Instagram, Facebook, LinkedIn, YouTube, Twitter/X, and Pinterest. We recommend the best platform mix for your business based on your target audience, industry, and business goals."
+      },
+      {
+        "question": "Do you create the content or do we need to provide it?",
+        "answer": "We handle everything in-house — our creative team designs graphics, writes captions, scripts reels, and creates all content. You simply review and approve before publishing. You can optionally provide raw photos or videos that we incorporate into the content."
+      },
+      {
+        "question": "Is Divrit Technologies a registered company?",
+        "answer": "Yes. Divrit Technologies Pvt. Ltd. is a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd., founded in 2017 with 350+ brands successfully grown across social media platforms in India and globally."
+      }
+    ],
+  
+    "testimonials": [
+      {
+        "name": "Riya Sharma",
+        "role": "Founder, GlowSkin Beauty",
+        "text": "Divrit Technologies grew our Instagram from 2,400 to 68,000 followers in 8 months. Our product sales tripled. The reel content they create is absolutely stunning and perfectly on-brand.",
+        "rating": 5,
+        "avatar": "RS"
+      },
+      {
+        "name": "Amit Verma",
+        "role": "CEO, TechAxis IT Solutions",
+        "text": "Their LinkedIn SMO strategy transformed our B2B brand. We went from being invisible to generating 120+ qualified leads per month purely from organic LinkedIn content. Exceptional ROI.",
+        "rating": 5,
+        "avatar": "AV"
+      },
+      {
+        "name": "Neha Patel",
+        "role": "Marketing Head, CrunchBite",
+        "text": "Our restaurant's social media was completely dead before Divrit Technologies. Now we have a 400% bigger audience and dine-in footfall has increased 65%. The food reels they create are viral-worthy!",
+        "rating": 5,
+        "avatar": "NP"
+      }
+    ],
+  
+    "contact": {
+      "email": "hello@divritin.com",
+      "phone": "+91 98765 43210",
+      "subheading": "Get a free social media audit and growth roadmap from Divrit Technologies' SMO experts. We respond within 24 hours."
+    }
+  }

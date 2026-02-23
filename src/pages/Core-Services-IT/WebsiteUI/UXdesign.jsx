@@ -10,39 +10,6 @@ export default function UIUXDesignPage() {
         data.process.steps.find((s) => s.id === activeStep) ||
         data.process.steps[0];
 
-    useEffect(() => {
-        // Vanilla JS se select kiya element
-        jQuery(document).ready(function ($) {
-            // Team Slider - shows 4 items
-            $('.settings_ul').slick({
-                infinite: true,
-                infinite: true,
-                speed: 700,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                arrows: true,
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 2
-                        }
-                    },
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 1
-                        }
-                    }
-                ]
-            });
-        })
-
-
-    }, []);
-
     return (
         <div className="dv-page">
             {/* ── SPB HERO ── */}

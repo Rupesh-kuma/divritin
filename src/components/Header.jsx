@@ -184,17 +184,22 @@ const Header = () => {
                                     </Link>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
                                         <li>
-                                            <Link to="/Search-Engine-Optimization" className="dropdown-item" >
+                                            <Link to="/search-engine-optimization" className="dropdown-item" >
                                                 Search Engine Optimization (SEO)
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="Pay-Per-Click/SEM-Paid-campaign" className="dropdown-item">
+                                            <Link to="/social-media-optimization" className="dropdown-item" >
+                                            Social Media Optimization (SMO)
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/pay-per-click" className="dropdown-item">
                                                 Pay-Per-Click/SEM Paid campaign
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="dropdown-item" to="/Other-Promotional-Services">
+                                            <Link className="dropdown-item" to="/other-promotional-services">
                                                 Other Promotional Services
                                             </Link>
                                         </li>
