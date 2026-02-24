@@ -6,12 +6,12 @@ const Footer = () => {
             <div className="background_footer px-lg-5 px-sm-2">
                 <div className="container-fluid">
                     <div className="row footer_main">
-                        <div className="col-lg-3 col-sm-12">
-                            <img src={logo} alt="logo footer" className="w-75" />
+                        <div className="col-lg-3 col-sm-12 footer_logos">
+                            <img src={logo} alt="logo footer "  />
                             <p>Divrit Technologies Pvt. Ltd. is a leading IT solutions company delivering end-to-end, customized digital services. Backed by expert professionals and advanced technologies, we help businesses innovate, scale, and succeed in a digital-first world.</p>
 
                         </div>
-                        <div className="col-lg-2 col-sm-12 footer_second">
+                        <div className="col-lg-2 col-sm-6 footer_second">
                             <h3>Company Info</h3>
                             <ul>
                                 <li><Link to="/about">About Us</Link></li>
@@ -20,7 +20,7 @@ const Footer = () => {
                                 <li><Link to="">Career</Link></li>
                             </ul>
                         </div>
-                        <div className="col-lg-2 col-sm-12 footer_second">
+                        <div className="col-lg-2 col-sm-6 footer_second">
                             <h3>Our Services</h3>
                             <ul>
                                 <li><Link to="/about">IT Services</Link></li>
@@ -29,7 +29,7 @@ const Footer = () => {
                                 <li><Link to="">Tally Implementation</Link></li>
                             </ul>
                         </div>
-                        <div className="col-lg-2 col-sm-12 footer_second">
+                        <div className="col-lg-2 col-sm-6 footer_second">
                             <h3>Legal</h3>
                             <ul>
                                 <li><Link to="/about">Privacy Policy</Link></li>
@@ -37,7 +37,7 @@ const Footer = () => {
                                 <li><Link to="">Terms & Conditions</Link></li>
                             </ul>
                         </div>
-                        <div className="col-lg-3 col-sm-12 footer_second">
+                        <div className="col-lg-3 col-sm-6 footer_second">
                             <h3>Touch Point</h3>
                             {/* location section */}
                             <div className="d-flex getintuch_footer" style={{ marginTop: "-10px" }}>

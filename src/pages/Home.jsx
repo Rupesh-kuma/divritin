@@ -146,42 +146,7 @@ const Home = () => {
 
     updateSlider();
 
-    const CircularProgress = ({ percent }) => {
-      const radius = 60;
-      const circumference = 2 * Math.PI * radius;
-      const offset = circumference - (percent / 100) * circumference;
-
-      return (
-        <div className="circle_percent" data-percent={percent}>
-          <svg width="120" height="120">
-            <circle
-              cx="60"
-              cy="60"
-              r={radius}
-              stroke="#e6e6e6"
-              strokeWidth="10"
-              fill="none"
-            />
-            <circle
-              cx="60"
-              cy="60"
-              r={radius}
-              stroke="#2b5ab4"
-              strokeWidth="10"
-              fill="none"
-              strokeDasharray={circumference}
-              strokeDashoffset={offset}
-              strokeLinecap="round"
-              transform="rotate(-90 60 60)"
-              style={{
-                transition: 'stroke-dashoffset 2s ease-in-out'
-              }}
-            />
-          </svg>
-          <span className="percent_text">{percent}%</span>
-        </div>
-      );
-    };
+    
 
     // Use karna:
 
@@ -189,7 +154,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      
+
       <main>
         {/* hero section start */}
         <div className="slider-container">
@@ -219,7 +184,7 @@ const Home = () => {
               </p>
               <div className="button-group">
                 <button className="btn banner_btn">
-                Get Connect with Our Experts
+                  Get Connect with Our Experts
                   {/* <span className="btn-arrow">→</span> */}
                 </button>
                 {/* <button className="btn btn-secondary">
@@ -262,7 +227,7 @@ const Home = () => {
                   <span className="justify-content-lg-start">Who We Are :</span>
                   <h3 className="justify-content-lg-start align-iteams-lg-start">Empowering Your Digital Journey for Business</h3>
                   <p className="abuot_p">
-                  <strong>Divrit Technologies Pvt. Ltd.</strong> is an IT company that provides a one-stop solution for all IT services with its skilled team, best practices, and cutting-edge technologies. We deliver tailored solutions for our IT partners. Divrit Technologies is a sister company of Katyayni Technologies Pvt. Ltd., founded in 2017.
+                    <strong>Divrit Technologies Pvt. Ltd.</strong> is an IT company that provides a one-stop solution for all IT services with its skilled team, best practices, and cutting-edge technologies. We deliver tailored solutions for our IT partners. Divrit Technologies is a sister company of Katyayni Technologies Pvt. Ltd., founded in 2017.
                   </p>
                   <p className="abuot_p">We are committed to providing cost-effective, high-quality solutions for our partners. Our experienced team strives to help increase business revenue and clientele through skilled work and best practices. Trust us, and let us help you achieve your goals.</p>
                 </div>
@@ -284,17 +249,8 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="col-4">
-                    <div className="circle_percent" data-percent="95">
-                      <svg viewBox="0 0 140 140">
-                        <circle cx="70" cy="70" r="65" />
-                        <circle
-                          cx="70"
-                          cy="70"
-                          r="65"
-                          transform="rotate(-90 70 70)"
-                        />
-                      </svg>
-                      <span className="percent_text">95%</span>
+                    <div class="why-ring">
+                      <span class="why-ring-inner">95%</span>
                     </div>
                   </div>
 
@@ -311,18 +267,10 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="col-4">
-                    <div className="circle_percent" data-percent="100">
-                      <svg viewBox="0 0 140 140">
-                        <circle cx="70" cy="70" r="65" />
-                        <circle
-                          cx="70"
-                          cy="70"
-                          r="65"
-                          transform="rotate(-90 70 70)"
-                        />
-                      </svg>
-                      <span className="percent_text">100%</span>
+                  <div class="why-ring why-ring--b">
+                      <span class="why-ring-inner">100%</span>
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -715,7 +663,7 @@ const Home = () => {
                           <div className="hlth-tech-section">
                             <h3>Database</h3>
                             <div className="hlth-tech-skills">
-                            <div className="hlth-tech-skill">
+                              <div className="hlth-tech-skill">
                                 <img
                                   alt="MySQL"
                                   src={mysql}
@@ -762,7 +710,7 @@ const Home = () => {
                           <div className="hlth-tech-section">
                             <h3>Data Storage & Management Systems</h3>
                             <div className="hlth-tech-skills">
-                            <div className="hlth-tech-skill">
+                              <div className="hlth-tech-skill">
                                 <img
                                   alt="MySQL"
                                   src={Relational}
@@ -851,7 +799,7 @@ const Home = () => {
                                 <p>Private Cloud Storage Solutions</p>
                               </div>
                             </div>
-                            
+
                           </div>
                           <div className="hlth-tech-section">
                             <h3>Cloud-Based Data Management</h3>
@@ -884,9 +832,9 @@ const Home = () => {
                                 />
                                 <p>Encrypted Secure Storage</p>
                               </div>
-                              
+
                             </div>
-                            
+
                           </div>
                         </div>
                       </div>
@@ -898,33 +846,33 @@ const Home = () => {
           </div>
         </section>
 
-        <WorkProcess/>
+        <WorkProcess />
         {/* client */}
 
         <div className="container-fluid container_padd_Res">
-        <div className='sub_title  pb-sm-0'>
-              <h3>Trusted By</h3>
-            </div>
-            <div className="logos">
-              <div className="logo_track trust_client">
-                <img src={Trusted_logo1} />
-                <img src={Trusted_logo2} />
-                <img src={Trusted_logo3} />
-                <img src={Trusted_logo4} />
-                <img src={Trusted_logo5} />
-                <img src={Trusted_logo6} />
-                <img src={cl1} />
+          <div className='sub_title  pb-sm-0'>
+            <h3>Trusted By</h3>
+          </div>
+          <div className="logos">
+            <div className="logo_track trust_client">
+              <img src={Trusted_logo1} />
+              <img src={Trusted_logo2} />
+              <img src={Trusted_logo3} />
+              <img src={Trusted_logo4} />
+              <img src={Trusted_logo5} />
+              <img src={Trusted_logo6} />
+              <img src={cl1} />
 
-                {/* duplicate for seamless loop */}
-                <img src={Trusted_logo1} />
-                <img src={Trusted_logo2} />
-                <img src={Trusted_logo3} />
-                <img src={Trusted_logo4} />
-                <img src={Trusted_logo5} />
-                <img src={Trusted_logo6} />
-                <img src={cl1} />
-              </div>
+              {/* duplicate for seamless loop */}
+              <img src={Trusted_logo1} />
+              <img src={Trusted_logo2} />
+              <img src={Trusted_logo3} />
+              <img src={Trusted_logo4} />
+              <img src={Trusted_logo5} />
+              <img src={Trusted_logo6} />
+              <img src={cl1} />
             </div>
+          </div>
           <div className='sub_title  preciour_client'>
             <h3>Our Precious Clients</h3>
           </div>

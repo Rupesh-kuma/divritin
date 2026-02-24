@@ -5,7 +5,7 @@ const WorkProcess = () => {
 
             <section className="work-process-wrapper clinet_bg container_padd_Res">
                 <div className="container-fluid">
-                    <div className='sub_title mx-5 px-5'>
+                    <div className='sub_title mx-lg-5 px-lg-5 px-sm-0 px-0'>
                         <span>Our Work Process</span>
                         <h3>How We Transform Ideas Into Reality</h3>
                         <p>
