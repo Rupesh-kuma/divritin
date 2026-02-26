@@ -1,0 +1,199 @@
+{
+    "hero": {
+      "badge": "✦ Our Blog",
+      "title": "Insights, Ideas & Tech Trends",
+      "subtitle": "Stay ahead of the curve with expert articles on technology, design, business strategy, and digital transformation from the Divrit Technologies team.",
+      "bgImage": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1600&q=80",
+      "tags": ["Technology", "UI/UX Design", "AI & ML", "FinTech", "Mobile Dev", "Web Dev", "Business", "Case Studies"],
+      "formTitle": "Get Articles in Your Inbox",
+      "formFields": ["Your Name", "Email Address"]
+    },
+  
+    "intro": {
+      "label": "✦ Knowledge Hub",
+      "heading": "200+ Articles Written by Real Practitioners",
+      "description": "Our blog isn't written by content mills — every article comes from developers, designers, and strategists who actively build products. Practical, honest, and always up to date.",
+      "image": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=800&q=80",
+      "stats": [
+        { "num": "200+", "label": "Articles Published" },
+        { "num": "50K+", "label": "Monthly Readers" },
+        { "num": "15+",  "label": "Expert Authors" },
+        { "num": "8+",   "label": "Topic Categories" }
+      ]
+    },
+  
+    "categories": ["All", "Technology", "UI/UX", "AI & ML", "FinTech", "Mobile", "Web Dev", "Business"],
+  
+    "featured": {
+      "id": 1,
+      "category": "AI & ML",
+      "tag": "AI & ML",
+      "title": "How AI is Reshaping Software Development in 2025: What Every Developer Needs to Know",
+      "excerpt": "From AI pair programmers to autonomous testing agents — the role of the developer is changing faster than anyone predicted. Here's what's actually happening on the ground.",
+      "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80",
+      "author": "Rahul Verma",
+      "authorRole": "CTO, Divrit Technologies",
+      "authorAvatar": "RV",
+      "date": "Jan 28, 2025",
+      "readTime": "8 min read",
+      "bgColor": "#a78bfa"
+    },
+  
+    "blogs": [
+      {
+        "id": 2,
+        "category": "UI/UX",
+        "tag": "UI/UX",
+        "title": "The 7 UX Mistakes Killing Your App's Retention Rate",
+        "excerpt": "Most apps lose 70% of users within the first week. These are the design decisions that cause it — and how to fix them before your next release.",
+        "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=700&q=80",
+        "author": "Priya Singh",
+        "authorAvatar": "PS",
+        "date": "Jan 22, 2025",
+        "readTime": "6 min read",
+        "bgColor": "#f472b6",
+        "tags": ["UX Design", "Mobile", "Retention"]
+      },
+      {
+        "id": 3,
+        "category": "FinTech",
+        "tag": "FinTech",
+        "title": "Building RBI-Compliant FinTech Apps: A Complete 2025 Checklist",
+        "excerpt": "Compliance isn't optional in FinTech. Here's every regulation you need to know — and how to build for them from day one without slowing your team down.",
+        "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=700&q=80",
+        "author": "Amit Joshi",
+        "authorAvatar": "AJ",
+        "date": "Jan 18, 2025",
+        "readTime": "10 min read",
+        "bgColor": "#22d3ee",
+        "tags": ["FinTech", "Compliance", "RBI"]
+      },
+      {
+        "id": 4,
+        "category": "Mobile",
+        "tag": "Mobile",
+        "title": "Flutter vs React Native in 2025: Which Should You Pick?",
+        "excerpt": "After building 40+ mobile apps in both frameworks, here's our honest, data-backed comparison — including performance benchmarks, team velocity, and real project outcomes.",
+        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=700&q=80",
+        "author": "Sneha Patel",
+        "authorAvatar": "SP",
+        "date": "Jan 14, 2025",
+        "readTime": "7 min read",
+        "bgColor": "#f97316",
+        "tags": ["Flutter", "React Native", "Mobile Dev"]
+      },
+      {
+        "id": 5,
+        "category": "Web Dev",
+        "tag": "Web Dev",
+        "title": "Next.js 15 App Router: Everything You Need to Know",
+        "excerpt": "The App Router changes everything about how you structure Next.js projects. We migrated 3 production apps and learned some hard lessons — here's what to expect.",
+        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=700&q=80",
+        "author": "Rahul Verma",
+        "authorAvatar": "RV",
+        "date": "Jan 10, 2025",
+        "readTime": "9 min read",
+        "bgColor": "#4ade80",
+        "tags": ["Next.js", "React", "Frontend"]
+      },
+      {
+        "id": 6,
+        "category": "Business",
+        "tag": "Business",
+        "title": "How to Choose the Right Tech Partner for Your Startup",
+        "excerpt": "Not all agencies are created equal. After 8 years of building for startups, here are the 10 questions you must ask before signing any development contract.",
+        "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+        "author": "Divrit Team",
+        "authorAvatar": "DT",
+        "date": "Jan 05, 2025",
+        "readTime": "5 min read",
+        "bgColor": "#fbbf24",
+        "tags": ["Startup", "Business", "Tech Partner"]
+      },
+      {
+        "id": 7,
+        "category": "Technology",
+        "tag": "Technology",
+        "title": "Microservices vs Monolith: What We Actually Recommend in 2025",
+        "excerpt": "The architecture debate rages on. But after deploying both at scale, we have a clear, nuanced answer — and it depends on exactly where you are in your product journey.",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+        "author": "Karan Mehta",
+        "authorAvatar": "KM",
+        "date": "Dec 28, 2024",
+        "readTime": "8 min read",
+        "bgColor": "#fb7185",
+        "tags": ["Architecture", "Backend", "Scalability"]
+      },
+      {
+        "id": 8,
+        "category": "AI & ML",
+        "tag": "AI & ML",
+        "title": "Building Your First RAG Pipeline: A Step-by-Step Guide",
+        "excerpt": "Retrieval Augmented Generation is transforming how businesses use LLMs. Here's a practical, production-ready implementation guide using LangChain and OpenAI.",
+        "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=700&q=80",
+        "author": "Neha Sharma",
+        "authorAvatar": "NS",
+        "date": "Dec 20, 2024",
+        "readTime": "12 min read",
+        "bgColor": "#a78bfa",
+        "tags": ["AI", "LangChain", "OpenAI", "RAG"]
+      },
+      {
+        "id": 9,
+        "category": "UI/UX",
+        "tag": "UI/UX",
+        "title": "Dark Mode Done Right: Design Principles & Implementation",
+        "excerpt": "Dark mode is more than inverting colors. Here's how to implement it correctly — with proper contrast ratios, color token architecture, and user preference persistence.",
+        "image": "https://images.unsplash.com/photo-1545670723-196ed0954986?w=700&q=80",
+        "author": "Priya Singh",
+        "authorAvatar": "PS",
+        "date": "Dec 15, 2024",
+        "readTime": "6 min read",
+        "bgColor": "#f472b6",
+        "tags": ["Dark Mode", "Design System", "CSS"]
+      }
+    ],
+  
+    "newsletter": {
+      "heading": "Never Miss an Article",
+      "desc": "Join 50,000+ developers, designers, and tech leaders who get our best content every week — no spam, unsubscribe anytime.",
+      "placeholder": "Enter your email address",
+      "btnLabel": "Subscribe Free →"
+    },
+  
+    "topics": [
+      { "icon": "🤖", "title": "AI & Machine Learning", "count": "32 Articles", "color": "#a78bfa" },
+      { "icon": "📱", "title": "Mobile Development",    "count": "28 Articles", "color": "#f97316" },
+      { "icon": "🎨", "title": "UI/UX Design",          "count": "35 Articles", "color": "#f472b6" },
+      { "icon": "🏦", "title": "FinTech",               "count": "22 Articles", "color": "#22d3ee" },
+      { "icon": "🌐", "title": "Web Development",       "count": "45 Articles", "color": "#4ade80" },
+      { "icon": "💼", "title": "Business & Strategy",   "count": "18 Articles", "color": "#fbbf24" }
+    ],
+  
+    "faqs": [
+      {
+        "question": "How often do you publish new content?",
+        "answer": "We publish 3–4 new articles every week, covering technology trends, practical tutorials, case studies, and business strategy for digital product teams."
+      },
+      {
+        "question": "Can I contribute a guest article?",
+        "answer": "Yes! We accept guest contributions from practitioners in tech, design, and business. Submit your pitch to blog@divritin.com with your topic idea and a brief bio."
+      },
+      {
+        "question": "Are the articles beginner-friendly or advanced?",
+        "answer": "We write for both. Each article is tagged with a difficulty level — beginner, intermediate, or advanced — so you can filter for your experience level."
+      },
+      {
+        "question": "Can I republish or share Divrit blog content?",
+        "answer": "You can share articles freely with attribution. For republishing full articles on your own platform, please reach out to us for written permission."
+      }
+    ],
+  
+    "cta": {
+      "heading": "Have a Topic You Want Us to Cover?",
+      "subtitle": "Send us your questions, challenges, or ideas — we write content based on what our community actually needs.",
+      "bgImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600&q=80",
+      "btnPrimary": "Suggest a Topic →",
+      "btnSecondary": "View Case Studies"
+    }
+  }

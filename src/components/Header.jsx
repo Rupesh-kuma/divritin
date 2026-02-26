@@ -207,7 +207,7 @@ const Header = () => {
                                 </li>
                                 <li className="nav-item dropdown">
                                     <Link
-                                        to="/Technologies"
+                                        to="/technologies"
                                         className="nav-link dropdown-toggle"
                                         id="navbarDropdown2"
                                         role="button"
@@ -218,17 +218,17 @@ const Header = () => {
                                     </Link>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown2">
                                         <li>
-                                            <Link to="/Technologies" className="dropdown-item">
+                                            <Link to="/technologies" className="dropdown-item">
                                                 Technologies
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/Case-Studies" className="dropdown-item">
+                                            <Link to="/case-studies" className="dropdown-item">
                                                 Case Studies
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/Industries" className="dropdown-item">
+                                            <Link to="/industries" className="dropdown-item">
                                                 Industries
                                             </Link>
                                         </li>
@@ -247,12 +247,12 @@ const Header = () => {
                                     </Link>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown3">
                                         <li>
-                                            <Link to="/Our-Portfolios" className="dropdown-item">
+                                            <Link to="/our-portfolios" className="dropdown-item">
                                                 Our Portfolios
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/Our-Client" className="dropdown-item">
+                                            <Link to="/our-client" className="dropdown-item">
                                                 Our Client
                                             </Link>
                                         </li>
@@ -262,7 +262,7 @@ const Header = () => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/Blogs" className="dropdown-item">
+                                            <Link to="/blogs" className="dropdown-item">
                                                 Blogs
                                             </Link>
                                         </li>

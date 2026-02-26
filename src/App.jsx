@@ -20,6 +20,12 @@ import Searchengineoptimization from './pages/Branding-Marketing/SearchEngineOpt
 import Smo from './pages/Branding-Marketing/smo';
 import Ppc from './pages/Branding-Marketing/Ppc';
 import Promotionalservices from './pages/Branding-Marketing/Promotionalservices';
+import Technologies from './pages/Technologies/Technologies';
+import CaseStudies from './pages/Technologies/Casestudies';
+import Industries from './pages/Technologies/Industrie';
+import OurPortfolios from './pages/Company-Profile/OurPortfolios';
+import Ourclient from './pages/Company-Profile/OurClient';
+import Blogs from './pages/Company-Profile/Blogs';
 
 
 function App() {
@@ -40,6 +46,12 @@ function App() {
       <Route path='/social-media-optimization' element={<Smo/>}/>
       <Route path='/pay-per-click' element={<Ppc/>}/>
       <Route path='/other-promotional-services' element={<Promotionalservices/>}/>
+      <Route path='/technologies' element={<Technologies/>}/>
+      <Route path='/case-studies' element={<CaseStudies/>}/>
+      <Route path='/industries' element={<Industries/>}/>
+      <Route path='/our-portfolios' element={<OurPortfolios/>}/>
+      <Route path='/our-client' element={<Ourclient/>}/>
+      <Route path='/blogs' element={<Blogs/>}/>
     </Routes>
     <Footer/>
     </>

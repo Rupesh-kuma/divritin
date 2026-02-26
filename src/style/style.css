@@ -2425,3 +2425,22 @@ textarea.form-control {
 .loction_contact iframe{
   filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
+
+.client_logo_ass{
+  column-count: 5;
+  gap:10px;
+} 
+.client_logo_ass img {
+  width: 100%;
+  height: 200px;
+  gap: 10px;
+  margin: 13px 13px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 22px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.client_logo_ass img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
