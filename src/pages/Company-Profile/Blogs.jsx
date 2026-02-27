@@ -138,7 +138,7 @@ export default function Blogs() {
                     </div>
 
                     {/* ── Filter Pills ── */}
-                    <div className="bl-filter-bar">
+                    <div className=" cs-filter-bar mb-2">
                         {data.categories.map((cat) => (
                             <button
                                 key={cat}

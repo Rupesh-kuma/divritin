@@ -7,7 +7,7 @@
 
 /* ── Filter Bar ── */
 .cs-filter-bar {
-  display: flex;
+  /* display: inline-block; */
   flex-wrap: wrap;
   gap: 10px;
   border: 1px solid #ddd;
@@ -22,9 +22,9 @@
 .cs-filter-pill {
   padding: 8px 20px;
   border-radius: 100px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid #fff;
   background: transparent;
-  color: rgba(255, 255, 255, 0.55);
+  color: #fff;
   font-size: 0.82rem;
   font-weight: 500;
   cursor: pointer;
@@ -742,12 +742,7 @@
 /* ════════════════════════════════
    FILTER / CATEGORY BAR
 ════════════════════════════════ */
-.bl-filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 40px;
-}
+
 
 .bl-filter-pill {
   padding: 8px 20px;
