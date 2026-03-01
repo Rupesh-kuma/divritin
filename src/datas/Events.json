@@ -1,0 +1,250 @@
+{
+    "hero": {
+      "badge": "✦ Events & Conferences",
+      "title": "Where You'll Find Us Next",
+      "subtitle": "Divrit Technologies actively participates in top tech conferences, industry expos, and networking summits — connecting with global partners, clients, and the latest innovations.",
+      "bgImage": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1600&q=80",
+      "tags": ["Tech Conferences", "Industry Expos", "Summits", "Networking", "Hackathons", "Award Ceremonies"],
+      "formTitle": "Meet Us at an Event",
+      "formFields": ["Your Name", "Email Address", "Phone Number", "Event Name"]
+    },
+  
+    "intro": {
+      "label": "✦ Our Presence",
+      "heading": "Active Participants in the Global Tech Ecosystem",
+      "description": "We believe staying connected with the industry is what keeps our work sharp. Our team regularly attends leading tech events — learning, networking, and showcasing what Divrit Technologies stands for on a global stage.",
+      "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
+      "stats": [
+        { "num": "40+",  "label": "Events Attended" },
+        { "num": "15+",  "label": "Cities Visited" },
+        { "num": "500+", "label": "Connections Made" },
+        { "num": "8+",   "label": "Years Active" }
+      ]
+    },
+  
+    "filters": ["All", "Conference", "Expo", "Summit", "Hackathon", "Awards", "Networking"],
+  
+    "upcomingEvents": [
+      {
+        "id": 1,
+        "type": "Conference",
+        "tag": "Conference",
+        "title": "Google Cloud Next 2025",
+        "description": "The world's biggest Google Cloud event. Our team will be attending to explore the latest in AI infrastructure, cloud-native development, and enterprise solutions.",
+        "image": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=700&q=80",
+        "date": "Apr 9–11, 2025",
+        "location": "Las Vegas, USA",
+        "organizer": "Google",
+        "bgColor": "#4285F4",
+        "status": "Upcoming",
+        "tags": ["Cloud", "AI", "Google", "Enterprise"]
+      },
+      {
+        "id": 2,
+        "type": "Expo",
+        "tag": "Expo",
+        "title": "NASSCOM Technology & Leadership Forum 2025",
+        "description": "India's most prestigious tech leadership forum. We'll be representing Divrit Technologies and connecting with India's top IT decision-makers and innovators.",
+        "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=700&q=80",
+        "date": "Feb 12–14, 2025",
+        "location": "Mumbai, India",
+        "organizer": "NASSCOM",
+        "bgColor": "#f97316",
+        "status": "Upcoming",
+        "tags": ["IT Leadership", "India Tech", "NASSCOM", "Networking"]
+      },
+      {
+        "id": 3,
+        "type": "Conference",
+        "tag": "Conference",
+        "title": "AWS re:Invent 2025",
+        "description": "Amazon's annual cloud computing conference. Our engineering team attends every year to stay ahead of the latest AWS services, architecture patterns, and DevOps innovations.",
+        "image": "https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc?w=700&q=80",
+        "date": "Dec 1–5, 2025",
+        "location": "Las Vegas, USA",
+        "organizer": "Amazon Web Services",
+        "bgColor": "#f59e0b",
+        "status": "Upcoming",
+        "tags": ["AWS", "Cloud", "DevOps", "Serverless"]
+      },
+      {
+        "id": 4,
+        "type": "Summit",
+        "tag": "Summit",
+        "title": "India Mobile Congress 2025",
+        "description": "Asia's largest tech, telecom & startup event. We'll be there exploring the future of mobile technology, 5G, and connected devices alongside India's brightest tech minds.",
+        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=700&q=80",
+        "date": "Oct 15–18, 2025",
+        "location": "New Delhi, India",
+        "organizer": "DoT & COAI",
+        "bgColor": "#a78bfa",
+        "status": "Upcoming",
+        "tags": ["Mobile", "5G", "Telecom", "Startups"]
+      },
+      {
+        "id": 5,
+        "type": "Hackathon",
+        "tag": "Hackathon",
+        "title": "Smart India Hackathon 2025",
+        "description": "India's biggest hackathon platform. Divrit Technologies participates as a mentor organization, supporting teams solving real-world problems with technology.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=700&q=80",
+        "date": "Mar 2025",
+        "location": "Pan India",
+        "organizer": "Ministry of Education, Govt. of India",
+        "bgColor": "#4ade80",
+        "status": "Upcoming",
+        "tags": ["Hackathon", "Government", "Innovation", "Mentoring"]
+      },
+      {
+        "id": 6,
+        "type": "Networking",
+        "tag": "Networking",
+        "title": "TiE Delhi-NCR Annual Summit",
+        "description": "A premier entrepreneurship and startup networking event. Our leadership team connects with founders, investors, and enterprise decision-makers in the Delhi-NCR ecosystem.",
+        "image": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=700&q=80",
+        "date": "Mar 20, 2025",
+        "location": "Gurgaon, India",
+        "organizer": "TiE Delhi-NCR",
+        "bgColor": "#22d3ee",
+        "status": "Upcoming",
+        "tags": ["Startups", "Networking", "Delhi NCR", "Investors"]
+      }
+    ],
+  
+    "pastEvents": [
+      {
+        "id": 7,
+        "type": "Awards",
+        "tag": "Awards",
+        "title": "Amazon SPN Excellence Awards 2024",
+        "description": "Divrit Technologies was recognized at the Amazon Export Connect 2024 — winning the Best Advertisement Optimization & Account Management award for Amazon Global Selling.",
+        "image": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=700&q=80",
+        "date": "Dec 2024",
+        "location": "Yashobhoomi, Dwarka, Delhi",
+        "organizer": "Amazon India",
+        "bgColor": "#fbbf24",
+        "status": "Attended",
+        "highlight": "🏆 Award Won",
+        "tags": ["Amazon", "Award", "E-Commerce", "Recognition"]
+      },
+      {
+        "id": 8,
+        "type": "Conference",
+        "tag": "Conference",
+        "title": "Google Cloud Next 2024",
+        "description": "Our engineering team attended Google Cloud Next 2024 to explore AI/ML tooling, cloud infrastructure updates, and form partnerships with global tech leaders.",
+        "image": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=700&q=80",
+        "date": "Apr 2024",
+        "location": "Las Vegas, USA",
+        "organizer": "Google",
+        "bgColor": "#4285F4",
+        "status": "Attended",
+        "highlight": null,
+        "tags": ["Google Cloud", "AI", "Engineering"]
+      },
+      {
+        "id": 9,
+        "type": "Expo",
+        "tag": "Expo",
+        "title": "NASSCOM Technology Forum 2024",
+        "description": "Connected with 500+ India tech leaders, explored enterprise digital transformation trends, and represented Divrit Technologies in the IT services space.",
+        "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=700&q=80",
+        "date": "Feb 2024",
+        "location": "Mumbai, India",
+        "organizer": "NASSCOM",
+        "bgColor": "#f97316",
+        "status": "Attended",
+        "highlight": null,
+        "tags": ["NASSCOM", "IT", "Leadership"]
+      },
+      {
+        "id": 10,
+        "type": "Summit",
+        "tag": "Summit",
+        "title": "India Mobile Congress 2024",
+        "description": "Explored 5G, IoT, and mobile-first tech solutions. Our mobile development team gained key insights into next-gen mobile architecture and connected device ecosystems.",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=700&q=80",
+        "date": "Oct 2024",
+        "location": "New Delhi, India",
+        "organizer": "DoT & COAI",
+        "bgColor": "#a78bfa",
+        "status": "Attended",
+        "highlight": null,
+        "tags": ["Mobile", "5G", "IoT"]
+      }
+    ],
+  
+    "whyAttend": [
+      {
+        "number": "01",
+        "title": "Stay Ahead of the Curve",
+        "description": "Industry events give our team first-hand access to the latest technologies, frameworks, and trends before they go mainstream — so our clients always get cutting-edge solutions."
+      },
+      {
+        "number": "02",
+        "title": "Build Global Partnerships",
+        "description": "Every event is an opportunity to connect with global vendors, cloud providers, and technology partners — expanding the ecosystem we can leverage for our clients."
+      },
+      {
+        "number": "03",
+        "title": "Represent Our Clients",
+        "description": "When Divrit attends events, we carry our clients' ambitions with us — learning what's next so we can apply it directly to the products we build for them."
+      },
+      {
+        "number": "04",
+        "title": "Industry Recognition",
+        "description": "Our participation in events like Amazon SPN Excellence Awards reflects the quality of work we deliver — building credibility that directly benefits every client we serve."
+      }
+    ],
+  
+    "testimonials": [
+      {
+        "text": "Knowing that Divrit actively participates in global tech events gives me confidence. They're always current, always learning, and it shows in their work.",
+        "name": "Rajan Mehta",
+        "role": "CEO, ShopWave",
+        "rating": 5,
+        "avatar": "RM"
+      },
+      {
+        "text": "Their team came back from AWS re:Invent and immediately suggested architecture improvements for our platform. That kind of proactive thinking is rare.",
+        "name": "Priya Sharma",
+        "role": "CTO, NeoBank",
+        "rating": 5,
+        "avatar": "PS"
+      },
+      {
+        "text": "The recognition Divrit received at Amazon's own awards ceremony told me everything I needed to know about their credibility before I signed the contract.",
+        "name": "Dr. Anil Kapoor",
+        "role": "Director, MediTrack",
+        "rating": 5,
+        "avatar": "AK"
+      }
+    ],
+  
+    "faqs": [
+      {
+        "question": "Can we meet the Divrit team at an upcoming event?",
+        "answer": "Absolutely! If you're attending any of the events listed here, reach out to us at info@divritin.com and we'll arrange a meeting. We love connecting with potential clients and partners in person."
+      },
+      {
+        "question": "Does Divrit sponsor or speak at industry events?",
+        "answer": "We are open to speaking opportunities at relevant tech events. Our leadership team has spoken on topics including AI product development, e-commerce technology, and cloud-native architecture. Contact us for speaking enquiries."
+      },
+      {
+        "question": "How does attending events benefit your clients?",
+        "answer": "Every event our team attends translates directly into better solutions for our clients. We bring back cutting-edge knowledge, new tools, and partnerships that we apply to the products we build."
+      },
+      {
+        "question": "Do you attend events outside India?",
+        "answer": "Yes! We regularly attend global events like Google Cloud Next and AWS re:Invent in the US, alongside India-focused events like NASSCOM and India Mobile Congress — giving us both a global and local perspective."
+      }
+    ],
+  
+    "cta": {
+      "heading": "Meet Us at Our Next Event",
+      "subtitle": "Planning to attend any of these events? Let's connect in person.",
+      "bgImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600&q=80",
+      "btnPrimary": "Schedule a Meeting →",
+      "btnSecondary": "Contact Us"
+    }
+  }

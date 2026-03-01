@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import blogimage1 from '../assets/images/Driving Digital Growth with Smart IT Solutions.webp';
 import blogimage2 from '../assets/images/Team Collaboration That Builds Strong Digital Success.webp';
 const Blog = () => {
@@ -25,7 +26,7 @@ const Blog = () => {
                                         <a href="#" aria-label="name">Driving Digital Growth with Smart IT Solutions</a>
                                     </h3>
                                     <p>Divrit Technologies Pvt. Ltd. empowers businesses with tailored IT services using skilled professionals and cutting-edge technologies. Our one-stop digital solutions help partners streamline operations, enhance performance, and scale efficiently in today’s competitive market.</p>
-                                    <div className="wrapper"><a href="#">IT Solution</a></div>
+                                    <div className="wrapper"><Link to="/blogs">IT Solution</Link></div>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +44,7 @@ const Blog = () => {
                                         <a href="#" aria-label="name">Team Collaboration That Builds Strong Digital Success</a>
                                     </h3>
                                     <p>At Divrit Technologies, our experienced team works collaboratively to deliver cost-effective and high-quality IT solutions. Through best practices and innovation, we help our partners grow revenue and expand their client base with confidence.</p>
-                                    <div className="wrapper"><a href="#">Team Work</a></div>
+                                    <div className="wrapper"><Link to="/blogs">Team Work</Link></div>
                                 </div>
                             </div>
                         </div>

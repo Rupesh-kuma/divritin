@@ -1,8 +1,11 @@
 // src/pages/WebDesignDevelopment.jsx
 import { useState } from "react";
 import data from "/src/datas/WebDesignDevelopment.json";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function WebDesignDevelopment() {
+  const navigate = useNavigate();
+
   const [activeStep, setActiveStep] = useState(1);
   const currentStep =
     data.process.steps.find((s) => s.id === activeStep) ||
@@ -209,7 +212,7 @@ export default function WebDesignDevelopment() {
 
           <div className="spb-service-cards">
             {data.services.list.map((svc) => (
-              <div key={svc.title} className="spb-service-card">
+              <div key={svc.title} className="spb-service-card" onClick={() => navigate(svc.links)}>
                 {svc.image && (
                   <img
                     src={svc.image}
@@ -221,7 +224,7 @@ export default function WebDesignDevelopment() {
                 <span className="spb-service-card__icon">{svc.icon}</span>
                 <h3 className="spb-service-card__title">{svc.title}</h3>
                 <p className="spb-service-card__desc">{svc.desc}</p>
-                <span className="spb-service-card__link">Learn More →</span>
+                <Link to={svc.links} className="spb-service-card__link">Learn More →</Link>
               </div>
             ))}
           </div>

@@ -3,7 +3,7 @@
     "badge": "UI/UX DESIGN",
     "title": "Design Experiences That Convert & Delight",
     "subtitle": "Divrit Technologies delivers research-driven UI/UX design that transforms complex user problems into elegant, high-performing digital interfaces — built to grow your business.",
-    "bgImage": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=1600&q=80",
+    "bgImage": "./src/assets/images/UI_UX_DESIGN_banner.webp",
     "tags": ["User Research", "Wireframing", "UI Design", "Prototyping", "Design Systems"],
     "formTitle": "Get a FREE Consultation",
     "formFields": [
@@ -16,7 +16,7 @@
     "label": "End-to-End UI/UX Design Services",
     "heading": "We Create Interfaces People Love to Use",
     "description": "Looking for the best UI/UX Design Services? Divrit Technologies Pvt. Ltd. is your trusted partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in creating tailor-made digital experiences that are not just beautiful but measurably effective. Our expert designers blend user psychology, business strategy, and visual craft to deliver interfaces that increase engagement, reduce churn, and convert more users.",
-    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80",
+    "image": "./src/assets/images/UI_UX_DESIGN_about.webp",
     "stats": [
       { "num": "500+", "label": "Projects Delivered" },
       { "num": "98%",  "label": "Client Satisfaction" },
@@ -32,7 +32,7 @@
         "id": 1,
         "title": "Discovery & Research",
         "description": "We start with deep-dive sessions to understand your business goals, target users, and market landscape. Our designers conduct stakeholder workshops, user interviews, and competitive benchmarking to build a solid foundation.",
-        "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+        "image": "./src/assets/images/UI_UX_DESIGN_Discovery_Research.webp",
         "points": [
           "Stakeholder interviews & workshops",
           "User persona development",
@@ -44,7 +44,7 @@
         "id": 2,
         "title": "Define & Information Architecture",
         "description": "We synthesize research findings into user journeys, site maps, and a clear content strategy. Our team plans intuitive navigation and logical layout ensuring every user finds exactly what they need.",
-        "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=700&q=80",
+        "image": "./src/assets/images/UI_UX_DESIGN_Information_Architecture.webp",
         "points": [
           "User journey & flow mapping",
           "Site map & page hierarchy",
@@ -56,7 +56,7 @@
         "id": 3,
         "title": "Wireframing & Prototyping",
         "description": "Low and mid-fidelity wireframes establish layout, hierarchy, and interaction flow. Clickable prototypes let you test and validate the experience before any visual design or development begins.",
-        "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=700&q=80",
+        "image": "./src/assets/images/UI_UX_DESIGN_Wireframing_Prototyping.webp",
         "points": [
           "Lo-fi & hi-fi wireframes",
           "Interactive clickable prototypes",
@@ -68,7 +68,7 @@
         "id": 4,
         "title": "UI Design & Visual Language",
         "description": "We craft pixel-perfect, responsive UI designs grounded in your brand identity. Every color, typeface, spacing, and component is chosen intentionally — balancing aesthetics with usability.",
-        "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=700&q=80",
+        "image": "./src/assets/images/UI_UX_DESIGN_UI_Design_Visual_Language.webp",
         "points": [
           "High-fidelity UI screens (all breakpoints)",
           "Design system & component library",
@@ -80,7 +80,7 @@
         "id": 5,
         "title": "Usability Testing & Iteration",
         "description": "Every design goes through moderated usability testing with real users. We gather qualitative and quantitative feedback, then rapidly iterate to eliminate all friction before development starts.",
-        "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+        "image": "./src/assets/images/wdd_Testing_QA.webp",
         "points": [
           "Moderated usability test sessions",
           "Heatmap & click-path analysis",
@@ -92,7 +92,7 @@
         "id": 6,
         "title": "Developer Handoff & Support",
         "description": "We deliver meticulously organized Figma files, design tokens, component docs, and Zeplin specs. Our team stays available during development to ensure pixel-perfect, flawless implementation.",
-        "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+        "image": "./src/assets/images/wdd_Deployment_Support.webp",
         "points": [
           "Organized Figma source files",
           "Design tokens & style guide",
@@ -121,7 +121,7 @@
     "subtitle": "Let's discuss your project. Get a free consultation and proposal from our UI/UX experts at Divrit Technologies.",
     "btnPrimary": "Get Free Consultation",
     "btnSecondary": "View Our Work",
-    "bgImage": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1400&q=80"
+    "bgImage": "./src/assets/images/cta.webp"
   },
   "services": [
     {
@@ -176,75 +176,81 @@
   "completedProjects": [
     {
       "id": 1,
-      "title": "FinTrack Pro",
-      "category": "FinTech App",
-      "description": "Complete UI/UX redesign of a personal finance management app. Simplified onboarding and intuitive dashboard increased user retention by 67% within 60 days of launch.",
-      "tags": ["Mobile App", "FinTech", "Dashboard"],
-      "stats": { "retention": "+67%", "conversion": "+89%", "duration": "8 Weeks" },
-      "color": "#00D4FF",
-      "bgColor": "rgba(0, 212, 255, 0.08)",
-      "status": "Completed",
-      "year": "2024"
+      "title": "Accurate Control & Automation Website",
+      "category": "Corporate Website",
+      "description": "Designed and developed a modern corporate website for Accurate Control & Automation to showcase industrial automation solutions, products, and engineering expertise with improved performance, structured navigation, and professional brand presentation.",
+      "tags": ["Corporate Website", "Industrial Automation", "Engineering"],
+      "stats": {
+        "retention": "+55%",
+        "conversion": "+72%",
+        "duration": "1 Weeks"
+      },
+      "bgColor": "./src/assets/images/Accurate_project.webp"
     },
     {
       "id": 2,
-      "title": "EduSpace LMS",
-      "category": "EdTech Platform",
-      "description": "End-to-end UX design for an e-learning platform serving 50,000+ students — intuitive course management, progress tracking, and gamified learning paths.",
-      "tags": ["Web App", "EdTech", "SaaS"],
-      "stats": { "retention": "+120%", "conversion": "+55%", "duration": "12 Weeks" },
-      "color": "#7C3AED",
-      "bgColor": "rgba(124, 58, 237, 0.08)",
-      "status": "Completed",
-      "year": "2024"
+      "title": "FitMeals Healthy Meal Subscription Platform",
+      "category": "FoodTech Platform",
+      "description": "Designed and developed a modern healthy meal subscription platform enabling users to explore customized diet plans, manage meal subscriptions, and access nutrition-based food services through a seamless digital experience.",
+      "tags": ["FoodTech", "Subscription Platform", "Health & Nutrition"],
+      "stats": {
+        "retention": "+62%",
+        "conversion": "+78%",
+        "duration": "4 Weeks"
+      },
+      "bgColor": "./src/assets/images/fitmeals_project.webp"
     },
     {
       "id": 3,
-      "title": "MediCare Connect",
-      "category": "Healthcare Platform",
-      "description": "Patient-doctor portal redesign that simplified appointment booking and reduced inbound support queries by 38% through better self-service UX flows.",
-      "tags": ["Healthcare", "Web Portal", "UX Audit"],
-      "stats": { "retention": "+45%", "conversion": "+72%", "duration": "10 Weeks" },
-      "color": "#10B981",
-      "bgColor": "rgba(16, 185, 129, 0.08)",
-      "status": "Completed",
-      "year": "2024"
+      "title": "BookMyTrip Travel Booking & Reservation Platform",
+      "category": "TravelTech Platform",
+      "description": "Designed and developed an all-in-one travel booking platform enabling users to search and book flights, hotels, buses, visa services, and holiday packages through a seamless and user-friendly digital experience.",
+      "tags": ["Travel Platform", "Booking System", "Tourism Tech"],
+      "stats": {
+        "retention": "+58%",
+        "conversion": "+74%",
+        "duration": "6 Weeks"
+      },
+      "bgColor": "./src/assets/images/bookmytrip_project.webp"
     },
     {
       "id": 4,
-      "title": "ShopVibe E-Commerce",
-      "category": "E-Commerce Redesign",
-      "description": "Full UI/UX overhaul for a fashion retail platform — optimized checkout flow, smarter filtering, and personalized recommendations boosted conversions by 134%.",
-      "tags": ["E-Commerce", "Retail", "Mobile"],
-      "stats": { "retention": "+93%", "conversion": "+134%", "duration": "6 Weeks" },
-      "color": "#F59E0B",
-      "bgColor": "rgba(245, 158, 11, 0.08)",
-      "status": "Completed",
-      "year": "2023"
+      "title": "Organic India Wellness & E-Commerce Platform",
+      "category": "E-Commerce Website",
+      "description": "Designed and developed a modern wellness e-commerce platform for Organic India to showcase certified organic products, herbal supplements, and wellness solutions with improved user experience, faster browsing, and seamless product discovery.",
+      "tags": ["E-Commerce", "Wellness Brand", "Organic Products"],
+      "stats": {
+        "retention": "+64%",
+        "conversion": "+81%",
+        "duration": "7 Weeks"
+      },
+      "bgColor": "./src/assets/images/organicindia_project.webp"
     },
     {
       "id": 5,
-      "title": "PropFind Real Estate",
-      "category": "Real Estate App",
-      "description": "Property discovery platform with AR-powered virtual preview. The redesigned UX resulted in a 3x increase in property inquiry submissions within the first quarter.",
-      "tags": ["Real Estate", "Mobile App", "AR Integration"],
-      "stats": { "retention": "+180%", "conversion": "+200%", "duration": "14 Weeks" },
-      "color": "#FF6B35",
-      "bgColor": "rgba(255, 107, 53, 0.08)",
-      "status": "Completed",
-      "year": "2023"
+      "title": "Travel4Delight Tour & Travel Booking Website",
+      "category": "Travel Website",
+      "description": "Designed and developed a modern travel booking website for Travel4Delight to showcase international and domestic tour packages, enable seamless trip planning, and provide users with personalized travel experiences through an intuitive digital platform.",
+      "tags": ["Travel Agency", "Tour Booking", "Holiday Packages"],
+      "stats": {
+        "retention": "+59%",
+        "conversion": "+76%",
+        "duration": "9 Weeks"
+      },
+      "bgColor": "./src/assets/images/travel4delight_project.webp"
     },
     {
       "id": 6,
-      "title": "LogiTrack Dashboard",
-      "category": "Logistics SaaS",
-      "description": "Enterprise logistics operations dashboard redesign. Simplified navigation and smart data visualization reduced average task completion time by 60%.",
-      "tags": ["SaaS", "Dashboard", "B2B"],
-      "stats": { "retention": "+60%", "conversion": "+48%", "duration": "16 Weeks" },
-      "color": "#EC4899",
-      "bgColor": "rgba(236, 72, 153, 0.08)",
-      "status": "Completed",
-      "year": "2023"
+      "title": "Flashpoint Logistics Event Effects & Equipment Platform",
+      "category": "E-Commerce Website",
+      "description": "Designed and developed a specialized e-commerce platform for Flashpoint Logistics to showcase and manage live event special-effects equipment, enabling seamless product discovery, inventory visibility, and streamlined purchasing for event and fireworks professionals.",
+      "tags": ["E-Commerce", "Event Technology", "Product Catalog"],
+      "stats": {
+        "retention": "+57%",
+        "conversion": "+69%",
+        "duration": "10 Weeks"
+      },
+      "bgColor": "./src/assets/images/flashpoint_project.webp"
     }
   ],
   "whyUs": [

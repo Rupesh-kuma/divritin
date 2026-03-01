@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const WorkProcess = () => {
     return (
         <>
@@ -100,10 +102,10 @@ const WorkProcess = () => {
                     </div>
                     {/* CTA Button */}
                     <div className="d-flex justify-content-center">
-                        <a href="#" className="service_cta_button mb-4">
+                        <Link to="/custom-software-development" className="service_cta_button mb-4">
                             Start Your Project Today
                             <i className="fas fa-arrow-right" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section >

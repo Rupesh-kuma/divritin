@@ -10,7 +10,7 @@
       "AI & ML Integration",
       "Legacy Modernization"
     ],
-    "bgImage": "/src/assets/images/CustomSoftwareDevelopment_banner.webp",
+    "bgImage": "./src/assets/images/CustomSoftwareDevelopment_banner.webp",
     "formTitle": "Get a FREE Consultation",
     "formFields": [
       "Your Name",
@@ -22,7 +22,7 @@
     "label": "End-to-End Bespoke Software Engineering",
     "heading": "Custom Software Development",
     "description": "Looking for the best Custom Software Development Services? We are your trusted partner to build unique, scalable, and high-performance software tailored to your business. We specialize in custom application development, cloud-native solutions, AI-powered systems, and seamless integrations — delivering software that drives operational efficiency, reduces costs, and creates lasting competitive advantage.",
-    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80",
+    "image": "./src/assets/images/CustomSoftwareDevelopment_2.webp",
     "stats": [
       {
         "num": "200+",
@@ -50,7 +50,7 @@
         "id": 1,
         "title": "Discovery & Requirement Analysis",
         "description": "We begin with deep-dive sessions to understand your business goals, existing workflows, and technical requirements. Our analysts create a comprehensive SRS document.",
-        "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+        "image": "./src/assets/images/RequirementAnalysis.png",
         "points": [
           "Business goal alignment",
           "Competitive & market analysis",
@@ -62,7 +62,7 @@
         "id": 2,
         "title": "Architecture & System Design",
         "description": "Our architects design a robust, scalable system blueprint. We select the best-fit tech stack, define APIs, and plan microservices or monolithic architecture.",
-        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=700&q=80",
+        "image": "./src/assets/images/ArchitectureSystemDesign.webp",
         "points": [
           "Cloud-native architecture planning",
           "Database design & modelling",
@@ -74,7 +74,7 @@
         "id": 3,
         "title": "Agile Development & Sprints",
         "description": "Development happens in iterative sprints with continuous feedback. Our engineers write clean, well-documented code following industry best practices.",
-        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=700&q=80",
+        "image": "./src/assets/images/AgileDevelopmentSprints.webp",
         "points": [
           "Sprint-based delivery with demos",
           "Version control & CI/CD pipelines",
@@ -86,7 +86,7 @@
         "id": 4,
         "title": "Quality Assurance & Testing",
         "description": "Every feature goes through rigorous testing — manual and automated — to ensure zero critical bugs and optimal performance before deployment.",
-        "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+        "image": "./src/assets/images/QualityAssuranceTesting.webp",
         "points": [
           "Functional & regression testing",
           "Automated test suites",
@@ -98,7 +98,7 @@
         "id": 5,
         "title": "Deployment & DevOps",
         "description": "We deploy your software using modern DevOps practices — containerization, cloud infrastructure, and automated pipelines ensuring zero-downtime releases.",
-        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+        "image": "./src/assets/images/DeploymentDevOps.webp",
         "points": [
           "Docker & Kubernetes",
           "AWS / Azure / GCP deployment",
@@ -110,7 +110,7 @@
         "id": 6,
         "title": "Support & Optimization",
         "description": "Post-launch, we provide continuous monitoring, bug fixes, feature enhancements, and performance tuning to keep your software at its best.",
-        "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+        "image": "./src/assets/images/SupportOptimization.webp",
         "points": [
           "24/7 monitoring & incident management",
           "Proactive performance optimization",
@@ -169,7 +169,7 @@
   "whyUs": {
     "heading": "Why Choose Us?",
     "subtitle": "We deliver more than code — we deliver competitive advantage.",
-    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=700&q=80",
+    "image": "./src/assets/images/why_choose.webp",
     "cards": [
       {
         "icon": "🎯",
@@ -198,32 +198,32 @@
     "subtitle": "End-to-end capabilities to build, integrate, and evolve your software ecosystem.",
     "list": [
       {
-        "icon": "🖥️",
         "title": "Web Application Development",
         "desc": "Scalable, SEO-friendly web apps built with React, Node.js, Django.",
         "percent": 97,
-        "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=500&q=80"
+        "image": "./src/assets/images/Wad.webp",
+        "learn":"/web-design-development"
       },
       {
-        "icon": "📱",
         "title": "Mobile App Development",
         "desc": "Native iOS & Android and cross-platform apps with outstanding UX.",
         "percent": 94,
-        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&q=80"
+        "image": "./src/assets/images/mad.webp",
+        "learn":"/mobile-app-development"
       },
       {
-        "icon": "☁️",
         "title": "Cloud Software Solutions",
         "desc": "Cloud-native apps, SaaS platforms, migration on AWS, Azure, GCP.",
         "percent": 91,
-        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&q=80"
+        "image": "./src/assets/images/css.webp",
+        "learn":"/web-mobile-app-maintenance"
       },
       {
-        "icon": "🤖",
         "title": "AI & ML Integration",
         "desc": "Intelligent automation, NLP, computer vision, predictive analytics.",
         "percent": 88,
-        "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=500&q=80"
+        "image": "./src/assets/images/ai_and_ml.webp",
+        "learn":"/other-promotional-services"
       }
     ]
   },
@@ -232,6 +232,7 @@
     "subtitle": "Let's discuss your project. Get a free consultation and cost estimate from our experts.",
     "btnPrimary": "Get Free Consultation",
     "btnSecondary": "View Our Work",
-    "bgImage": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1400&q=80"
+    "work_nav":"/our-portfolios",
+    "bgImage": "./src/assets/images/cta.webp"
   }
 }

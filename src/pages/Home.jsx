@@ -72,9 +72,16 @@ import aws from "../assets/images/aws.svg";
 import azure from "../assets/images/azure.svg";
 import google from "../assets/images/google.svg";
 import WorkProcess from "../components/WorkProcess";
+import clinetLogo from "/src/datas/ourClient.json";
 
 const Home = () => {
+  const half = Math.ceil(clinetLogo.logos.length / 2);
+
+  const firstRow = clinetLogo.logos.slice(0, half);
+  const secondRow = clinetLogo.logos.slice(half);
   useEffect(() => {
+   
+
 
     let currentSlide = 0;
     const sliderWrapper = document.getElementById('sliderWrapper');
@@ -183,10 +190,10 @@ const Home = () => {
                 We help to Grow your Business & Clientele. Through the empowering of technologies
               </p>
               <div className="button-group">
-                <button className="btn banner_btn">
+                <a href="/Contact-Us" className="btn banner_btn">
                   Get Connect with Our Experts
                   {/* <span className="btn-arrow">→</span> */}
-                </button>
+                </a>
                 {/* <button className="btn btn-secondary">
                   LEARN MORE
                   <span className="btn-arrow">→</span>
@@ -877,41 +884,36 @@ const Home = () => {
             <h3>Our Precious Clients</h3>
           </div>
           <div className="logos">
-            <div className="logo_track client_logo_as">
-              <img src={cl1} alt="client logo" className="w-100" />
-              <img src={cl2} alt="client logo" className="w-100" />
-              <img src={cl3} alt="client logo" className="w-100" />
-              <img src={cl4} alt="client logo" className="w-100" />
-              <img src={cl5} alt="client logo" className="w-100" />
-              <img src={cl6} alt="client logo" className="w-100" />
-              <img src={cl7} alt="client logo" className="w-100" />
-              <img src={cl8} alt="client logo" className="w-100" />
-              <img src={cl9} alt="client logo" className="w-100" />
-              <img src={cl10} alt="client logo" className="w-100" />
-              <img src={cl11} alt="client logo" className="w-100" />
-              <img src={cl12} alt="client logo" className="w-100" />
-              <img src={cl13} alt="client logo" className="w-100" />
-              <img src={cl14} alt="client logo" className="w-100" />
-              <img src={cl15} alt="client logo" className="w-100" />
 
-              {/* duplicate for seamless loop */}
-              <img src={cl1} alt="client logo" className="w-100" />
-              <img src={cl2} alt="client logo" className="w-100" />
-              <img src={cl3} alt="client logo" className="w-100" />
-              <img src={cl4} alt="client logo" className="w-100" />
-              <img src={cl5} alt="client logo" className="w-100" />
-              <img src={cl6} alt="client logo" className="w-100" />
-              <img src={cl7} alt="client logo" className="w-100" />
-              <img src={cl8} alt="client logo" className="w-100" />
-              <img src={cl9} alt="client logo" className="w-100" />
-              <img src={cl10} alt="client logo" className="w-100" />
-              <img src={cl11} alt="client logo" className="w-100" />
-              <img src={cl12} alt="client logo" className="w-100" />
-              <img src={cl13} alt="client logo" className="w-100" />
-              <img src={cl14} alt="client logo" className="w-100" />
-              <img src={cl15} alt="client logo" className="w-100" />
-            </div>
-          </div>
+{/* FIRST ROW */}
+<div className="logo_track client_logo_as mb-4">
+  {firstRow.map((item, index) => (
+    <a
+      key={index}
+      href={item.url}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img src={item.logo} alt={item.name} />
+    </a>
+  ))}
+</div>
+
+{/* SECOND ROW */}
+<div className="logo_track client_logo_as second_row">
+  {secondRow.map((item, index) => (
+    <a
+      key={index}
+      href={item.url}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img src={item.logo} alt={item.name} />
+    </a>
+  ))}
+</div>
+
+</div>
         </div>
         {/* Testimonials section */}
         <Testimonials />

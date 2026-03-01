@@ -1,8 +1,12 @@
 // src/pages/CustomSoftwareDevelopment.jsx
 import data from '/src/datas/CustomSoftwareDevelopment.json'
 import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+
+
 
 export default function CustomSoftwareDevelopment() {
+  const navigate = useNavigate();
   const [activeStep, setActiveStep] = useState(1);
   const currentStep =
     data.process.steps.find((s) => s.id === activeStep) ||
@@ -10,7 +14,6 @@ export default function CustomSoftwareDevelopment() {
 
   return (
     <div className="spb">
-
       {/* ══ 1. HERO ══ */}
       <section
         className="spb-hero"
@@ -144,7 +147,7 @@ export default function CustomSoftwareDevelopment() {
           </div>
 
           <div className="spb-center" style={{ marginTop: 28 }}>
-            <button className="spb-btn spb-btn--outline">View All Industries →</button>
+            <Link to="/industries" className="spb-btn spb-btn--outline">View All Industries →</Link>
           </div>
         </div>
       </section>
@@ -209,7 +212,7 @@ export default function CustomSoftwareDevelopment() {
 
           <div className="spb-service-cards">
             {data.services.list.map((svc) => (
-              <div key={svc.title} className="spb-service-card">
+              <div key={svc.title} className="spb-service-card" onClick={() => navigate(svc.learn)}>
                 {svc.image && (
                   <img
                     src={svc.image}
@@ -218,10 +221,10 @@ export default function CustomSoftwareDevelopment() {
                     loading="lazy"
                   />
                 )}
-                <span className="spb-service-card__icon">{svc.icon}</span>
-                <h3 className="spb-service-card__title">{svc.title}</h3>
+                {/* <span className="spb-service-card__icon">{svc.icon}</span> */}
+                <h3 className="spb-service-card__title" >{svc.title}</h3>
                 <p className="spb-service-card__desc">{svc.desc}</p>
-                <span className="spb-service-card__link">Learn More →</span>
+                <a href={svc.learn} className="spb-service-card__link">Learn More →</a>
               </div>
             ))}
           </div>
@@ -238,8 +241,8 @@ export default function CustomSoftwareDevelopment() {
           <h2 className="spb-cta__title">{data.cta.heading}</h2>
           <p className="spb-cta__sub">{data.cta.subtitle}</p>
           <div className="spb-cta__btns">
-            <button className="spb-btn spb-btn--white">{data.cta.btnPrimary}</button>
-            <button className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</button>
+            <Link to="tel:+919871886822" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+            <Link to={data.cta.work_nav} className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
           </div>
         </div>
       </section>

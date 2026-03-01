@@ -118,11 +118,8 @@ export default function UIUXDesignPage() {
                             <div className="col-md-6 col-lg-4" key={p.id}>
                                 <div className="proj-card">
                                     <div className="proj-card-top">
-                                        <div className="proj-done-badge">
-                                            <span className="green-dot" />{p.status} &bull; {p.year}
-                                        </div>
-                                        <div className="proj-visual" style={{ background: p.bgColor, "--pj-clr": p.bgColor }}>
-                                            {/* <span style={{ position:"relative", zIndex:1 }}>{emojiMap[p.id]}</span> */}
+                                        <div className="proj-visual">
+                                            <img src={p.bgColor} alt={p.title} />
                                         </div>
                                     </div>
                                     <div className="proj-body">

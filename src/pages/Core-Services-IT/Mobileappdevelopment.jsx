@@ -1,8 +1,10 @@
 // src/pages/MobileAppDevelopment.jsx
 import { useState } from "react";
 import data from "/src/datas/MobileAppDevelopment.json";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function MobileAppDevelopment() {
+    const navigate = useNavigate();
     const [activeStep, setActiveStep] = useState(1);
     const currentStep =
         data.process.steps.find((s) => s.id === activeStep) ||
@@ -60,7 +62,7 @@ export default function MobileAppDevelopment() {
                         <span className="spb-label">{data.intro.label}</span>
                         <h2 className="spb-intro__heading">{data.intro.heading}</h2>
                         <p className="spb-intro__desc">{data.intro.description}</p>
-                        <button className="spb-btn spb-btn--primary">Discover More →</button>
+                        <Link to="/Contact-Us" className="spb-btn spb-btn--primary">Start Your Project →</Link>
 
                         <div className="spb-stats">
                             {data.intro.stats.map((s) => (
@@ -135,7 +137,7 @@ export default function MobileAppDevelopment() {
 
                     <div className="spb-industries">
                         {data.industries.list.map((ind) => (
-                            <div key={ind.title} className="spb-industry-card">
+                            <div key={ind.title} className="spb-industry-card" onClick={()=>navigate("/industries")}>
                                 <span className="spb-industry-card__icon">{ind.icon}</span>
                                 <h4 className="spb-industry-card__title">{ind.title}</h4>
                                 <p className="spb-industry-card__desc">{ind.desc}</p>
@@ -144,7 +146,7 @@ export default function MobileAppDevelopment() {
                     </div>
 
                     <div className="spb-center" style={{ marginTop: 28 }}>
-                        <button className="spb-btn spb-btn--outline">View All Industries →</button>
+                        <Link to="/industries" className="spb-btn spb-btn--outline">View All Industries →</Link>
                     </div>
                 </div>
             </section>
@@ -221,7 +223,7 @@ export default function MobileAppDevelopment() {
                                 <span className="spb-service-card__icon">{svc.icon}</span>
                                 <h3 className="spb-service-card__title">{svc.title}</h3>
                                 <p className="spb-service-card__desc">{svc.desc}</p>
-                                <span className="spb-service-card__link">Learn More →</span>
+                                <Link href="tel:+919871886822" className="spb-service-card__link">Speak With Developer 📲</Link>
                             </div>
                         ))}
                     </div>
@@ -238,8 +240,8 @@ export default function MobileAppDevelopment() {
                     <h2 className="spb-cta__title">{data.cta.heading}</h2>
                     <p className="spb-cta__sub">{data.cta.subtitle}</p>
                     <div className="spb-cta__btns">
-                        <button className="spb-btn spb-btn--white">{data.cta.btnPrimary}</button>
-                        <button className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</button>
+                        <Link to="tel:+919871886822" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+                        <Link to="/our-portfolios" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
                     </div>
                 </div>
             </section>

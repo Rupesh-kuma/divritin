@@ -1,8 +1,10 @@
 // src/pages/WebMobileAppMaintenance.jsx
 import { useState } from "react";
 import data from "/src/datas/WebMobileAppMaintenance.json";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 
 export default function WebMobileAppMaintenance() {
+  const Navigate=useNavigate();
   const [activeStep, setActiveStep] = useState(1);
   const currentStep =
     data.process.steps.find((s) => s.id === activeStep) ||
@@ -60,7 +62,7 @@ export default function WebMobileAppMaintenance() {
             <span className="spb-label">{data.intro.label}</span>
             <h2 className="spb-intro__heading">{data.intro.heading}</h2>
             <p className="spb-intro__desc">{data.intro.description}</p>
-            <button className="spb-btn spb-btn--primary">Discover More →</button>
+            <Link to="/Contact-Us" className="spb-btn spb-btn--primary">Start Your Project →</Link>
 
             <div className="spb-stats">
               {data.intro.stats.map((s) => (
@@ -135,7 +137,7 @@ export default function WebMobileAppMaintenance() {
 
           <div className="spb-industries">
             {data.industries.list.map((ind) => (
-              <div key={ind.title} className="spb-industry-card">
+              <div key={ind.title} className="spb-industry-card" onClick={()=>Navigate("/industries")}>
                 <span className="spb-industry-card__icon">{ind.icon}</span>
                 <h4 className="spb-industry-card__title">{ind.title}</h4>
                 <p className="spb-industry-card__desc">{ind.desc}</p>
@@ -144,7 +146,7 @@ export default function WebMobileAppMaintenance() {
           </div>
 
           <div className="spb-center" style={{ marginTop: 28 }}>
-            <button className="spb-btn spb-btn--outline">View All Industries →</button>
+            <Link to="/industries" className="spb-btn spb-btn--outline">View All Industries →</Link>
           </div>
         </div>
       </section>
@@ -221,7 +223,7 @@ export default function WebMobileAppMaintenance() {
                 <span className="spb-service-card__icon">{svc.icon}</span>
                 <h3 className="spb-service-card__title">{svc.title}</h3>
                 <p className="spb-service-card__desc">{svc.desc}</p>
-                <span className="spb-service-card__link">Learn More →</span>
+                <Link to="tel:+919871886822" className="spb-service-card__link">Talk to Expert →</Link>
               </div>
             ))}
           </div>
@@ -238,8 +240,8 @@ export default function WebMobileAppMaintenance() {
           <h2 className="spb-cta__title">{data.cta.heading}</h2>
           <p className="spb-cta__sub">{data.cta.subtitle}</p>
           <div className="spb-cta__btns">
-            <button className="spb-btn spb-btn--white">{data.cta.btnPrimary}</button>
-            <button className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</button>
+            <Link to="tel:+919871886822" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+            <Link to="/Contact-Us" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
           </div>
         </div>
       </section>

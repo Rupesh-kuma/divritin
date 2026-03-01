@@ -27,6 +27,7 @@ const ServicesSection = () => {
                     title: "Custom Software Development",
                     icon: "💻",
                     image: custom_software_development,
+                    explore:"/custom-software-development",
                     description:
                         "We build scalable, secure, and custom software solutions designed to streamline operations and accelerate business growth.",
                     features: [
@@ -45,6 +46,7 @@ const ServicesSection = () => {
                     title: "Website Design & Development",
                     icon: "🌐",
                     image: Website_Design_Development,
+                    explore:"/web-design-development",
                     description:
                         "At Divrit Technologies Pvt Ltd, we create high-performance, secure, and scalable websites that help businesses establish a strong digital presence and convert visitors into loyal customers. Our team combines modern design principles.",
                     features: [
@@ -61,6 +63,7 @@ const ServicesSection = () => {
                     title: "Mobile App Development",
                     icon: "📱",
                     image: Mobile_App_Development,
+                    explore:"/mobile-app-development",
                     description:
                         "At Divrit Technologies Pvt. Ltd., we design and develop high-performance mobile applications that help businesses engage customers, streamline operations, and scale digitally. Our expert developers build secure, intuitive.",
                     features: [
@@ -77,6 +80,7 @@ const ServicesSection = () => {
                     title: "Web-Mobile App Maintenance (AMC)",
                     icon: "🛠️",
                     image: Web_Mobile_App_Maintenance,
+                    explore:"/web-mobile-app-maintenance",
                     description:
                         "At Divrit Technologies Pvt. Ltd., we understand that launching a website or mobile application is just the beginning. Continuous monitoring, regular updates, and proactive support are essential to ensure smooth performance, security, and long-term reliability.",
                     features: [
@@ -365,9 +369,9 @@ const ServicesSection = () => {
                                             ))}
                                         </ul>
 
-                                        <button className="service_cta_button">
+                                        <a href={sub.explore} className="service_cta_button">
                                         Explore More →
-                                        </button>
+                                        </a>
                                     </div>
 
                                 </div>

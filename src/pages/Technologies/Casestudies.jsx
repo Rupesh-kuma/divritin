@@ -1,9 +1,9 @@
 import { useState } from "react";
 import data from "/src/datas/CaseStudies.json";
+import { Link } from "react-router-dom";
 
 export default function CaseStudies() {
     const [activeFilter, setActiveFilter] = useState("All");
-    const [activeFaq, setActiveFaq] = useState(null);
 
     const filtered =
         activeFilter === "All"
@@ -58,7 +58,7 @@ export default function CaseStudies() {
                         <span className="spb-label">{data.intro.label}</span>
                         <h2 className="spb-intro__heading">{data.intro.heading}</h2>
                         <p className="spb-intro__desc">{data.intro.description}</p>
-                        <button className="spb-btn spb-btn--primary">Explore Projects →</button>
+                        <Link to="/Contact-Us" className="spb-btn spb-btn--primary">Start Your Project →</Link>
                         <div className="spb-stats">
                             {data.intro.stats.map((s) => (
                                 <div key={s.label} className="spb-stat">
@@ -95,18 +95,7 @@ export default function CaseStudies() {
                         </div>
                     </div>
 
-                    {/* Filter Pills */}
-                    <div className="cs-filter-bar mb-2">
-                        {data.filters.map((f) => (
-                            <button
-                                key={f}
-                                className={`cs-filter-pill ${activeFilter === f ? "cs-filter-pill--active" : ""}`}
-                                onClick={() => setActiveFilter(f)}
-                            >
-                                {f}
-                            </button>
-                        ))}
-                    </div>
+
 
                     {/* ── Featured Cards (large, 2-col) ── */}
                     {featured.length > 0 && (
@@ -124,7 +113,6 @@ export default function CaseStudies() {
                                             <div className="cs-feat-card__body">
                                                 <span
                                                     className="cs-cat-badge"
-                                                    style={{ borderColor: cs.bgColor, color: cs.bgColor }}
                                                 >
                                                     {cs.category}
                                                 </span>
@@ -135,19 +123,19 @@ export default function CaseStudies() {
                                                 {/* Metrics */}
                                                 <div className="cs-metrics">
                                                     <div className="cs-metric">
-                                                        <div className="cs-metric__val" style={{ color: cs.bgColor }}>
+                                                        <div className="cs-metric__val" >
                                                             {cs.stats.metric1Val}
                                                         </div>
                                                         <div className="cs-metric__lbl">{cs.stats.metric1Label}</div>
                                                     </div>
                                                     <div className="cs-metric">
-                                                        <div className="cs-metric__val" style={{ color: cs.bgColor }}>
+                                                        <div className="cs-metric__val">
                                                             {cs.stats.metric2Val}
                                                         </div>
                                                         <div className="cs-metric__lbl">{cs.stats.metric2Label}</div>
                                                     </div>
                                                     <div className="cs-metric">
-                                                        <div className="cs-metric__val" style={{ color: cs.bgColor }}>
+                                                        <div className="cs-metric__val" >
                                                             {cs.stats.metric3Val}
                                                         </div>
                                                         <div className="cs-metric__lbl">{cs.stats.metric3Label}</div>
@@ -200,7 +188,7 @@ export default function CaseStudies() {
                                                 <div className="d-flex align-items-center justify-content-between mb-2">
                                                     <span
                                                         className="cs-cat-badge"
-                                                        style={{ borderColor: cs.bgColor, color: cs.bgColor }}
+                                                        
                                                     >
                                                         {cs.category}
                                                     </span>
@@ -220,19 +208,19 @@ export default function CaseStudies() {
                                                 {/* Metrics */}
                                                 <div className="cs-metrics cs-metrics--sm">
                                                     <div className="cs-metric">
-                                                        <div className="cs-metric__val" style={{ color: cs.bgColor }}>
+                                                        <div className="cs-metric__val">
                                                             {cs.stats.metric1Val}
                                                         </div>
                                                         <div className="cs-metric__lbl">{cs.stats.metric1Label}</div>
                                                     </div>
                                                     <div className="cs-metric">
-                                                        <div className="cs-metric__val" style={{ color: cs.bgColor }}>
+                                                        <div className="cs-metric__val" >
                                                             {cs.stats.metric2Val}
                                                         </div>
                                                         <div className="cs-metric__lbl">{cs.stats.metric2Label}</div>
                                                     </div>
                                                     <div className="cs-metric">
-                                                        <div className="cs-metric__val" style={{ color: cs.bgColor }}>
+                                                        <div className="cs-metric__val">
                                                             {cs.stats.metric3Val}
                                                         </div>
                                                         <div className="cs-metric__lbl">{cs.stats.metric3Label}</div>
@@ -252,23 +240,16 @@ export default function CaseStudies() {
                             </div>
                         </>
                     )}
-
-                    {/* Empty state */}
-                    {filtered.length === 0 && (
-                        <div className="cs-empty">
-                            <p>No projects found for <strong>{activeFilter}</strong>. More coming soon!</p>
-                        </div>
-                    )}
                 </div>
             </section>
 
             {/* ══ 4. TESTIMONIALS + FAQ ══ */}
-            <section className="testmonial_bgs">
+            {/* <section className="testmonial_bgs">
                 <div className="spb-container container-fluid">
-                    <div className="row g-5">
+                    <div className="row g-5"> */}
 
                         {/* Testimonials */}
-                        <div className="col-12 col-lg-5">
+                        {/* <div className="col-12 col-lg-5">
                             <div className="spb-label">✦ Client Love</div>
                             <h2 className="spb-intro__heading mb-4">What Our Clients Say</h2>
                             <div className="settings_ul">
@@ -288,10 +269,10 @@ export default function CaseStudies() {
                                     </div>
                                 ))}
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* FAQ */}
-                        <div className="col-12 col-lg-7">
+                        {/* <div className="col-12 col-lg-7">
                             <div className="spb-label">✦ FAQ</div>
                             <h2 className="spb-intro__heading mb-4">Common Questions</h2>
                             <div style={{ maxWidth: 760, margin: "0 auto" }}>
@@ -311,11 +292,11 @@ export default function CaseStudies() {
                                     </div>
                                 ))}
                             </div>
-                        </div>
+                        </div> */}
 
-                    </div>
+                    {/* </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* ══ 5. CTA ══ */}
             <section
@@ -327,8 +308,8 @@ export default function CaseStudies() {
                     <h2 className="spb-cta__title">{data.cta.heading}</h2>
                     <p className="spb-cta__sub">{data.cta.subtitle}</p>
                     <div className="spb-cta__btns">
-                        <button className="spb-btn spb-btn--white">{data.cta.btnPrimary}</button>
-                        <button className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</button>
+                        <Link to="tel:+919871886822" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+            <Link to="/Contact-Us" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
                     </div>
                 </div>
             </section>

@@ -278,6 +278,24 @@ width: 100%;
 .spb-cta {
     padding: 0px 0px;
 }
+
+/* contact us page responsive */
+.contac_main {
+    padding: 0 3rem;
+}
+#ct-pagetitle
+ {
+    padding: 12% 0;
+ }
+ #ct-pagetitle .ct-page-title {
+    font-size: 35px;
+}
+.contactbg{
+    padding: 31px 0px 17px 0px;
+}
+.elementor-widget-container{
+    margin: 0px 0px 17px 0px;
+}
 }
 /* 📱 Tablet (max-width: 1024px) end*/
 
@@ -515,7 +533,30 @@ font-size: 17px;
     .spb-service-card {
         padding: 8px;
     }
-
+    .elementor-widget-container {
+        padding: 11px;
+    }
+    .item--icon i {
+        font-size: 25px;
+    }
+    .item--icon {
+        min-width: 28px;
+    }
+    .contac_main {
+        padding: 0 2rem;
+    }
+    #ct-pagetitle .ct-page-title {
+        font-size: 25px;
+    }
+    .testmonial_bgs .col-5{
+        width: 100% !important;
+    }
+    .testmonial_bgs .col-7{
+        width: 100% !important;
+    }
+    .why-card{
+        flex-direction: column;
+    }
 }
 @media (max-width: 480px) {
 .navbar-collapse{

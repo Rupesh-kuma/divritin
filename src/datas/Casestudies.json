@@ -1,216 +1,358 @@
 {
-    "hero": {
-      "badge": "✦ Case Studies",
-      "title": "Real Projects. Real Impact.",
-      "subtitle": "Explore how Divrit Technologies has transformed businesses across industries through cutting-edge digital solutions.",
-      "bgImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&q=80",
-      "tags": ["Web Apps", "Mobile", "AI/ML", "FinTech", "HealthTech", "E-Commerce"],
-      "formTitle": "Start Your Project",
-      "formFields": ["Your Name", "Email Address", "Phone Number", "Project Brief"]
+  "hero": {
+    "badge": "✦ Case Studies",
+    "title": "Real Projects. Real Impact.",
+    "subtitle": "Explore how Divrit Technologies has transformed businesses across industries through cutting-edge digital solutions.",
+    "bgImage": "./src/assets/images/Case_Studies_banner.webp",
+    "tags": [
+      "Web Apps",
+      "Mobile",
+      "AI/ML",
+      "FinTech",
+      "HealthTech",
+      "E-Commerce"
+    ],
+    "formTitle": "Start Your Project",
+    "formFields": [
+      "Your Name",
+      "Email Address",
+      "Phone Number",
+      "Project Brief"
+    ]
+  },
+  "intro": {
+    "label": "✦ Our Work",
+    "heading": "300+ Projects Delivered Across 30+ Industries",
+    "description": "From early-stage startups to enterprise brands, we've helped businesses build digital products that grow users, increase revenue, and create lasting impact. Every case study here reflects a real partnership, a real challenge, and a real result.",
+    "image": "./src/assets/images/Case_Studies_about.webp",
+    "stats": [
+      {
+        "num": "300+",
+        "label": "Projects Done"
+      },
+      {
+        "num": "98%",
+        "label": "Client Satisfaction"
+      },
+      {
+        "num": "30+",
+        "label": "Industries"
+      },
+      {
+        "num": "8+",
+        "label": "Years Experience"
+      }
+    ]
+  },
+  "filters": [
+    "All",
+    "Web App",
+    "Mobile",
+    "E-Commerce",
+    "AI/ML",
+    "FinTech",
+    "HealthTech"
+  ],
+  "caseStudies": [
+    {
+      "id": 1,
+      "client": "Municipal Council Hanumangarh",
+      "category": "GOVERNMENT PORTAL",
+      "tag": "Case Study",
+      "title": "Municipal Council Hanumangarh",
+      "description": "Designed and developed a modern digital municipal platform to improve citizen engagement, streamline public services, and provide faster access to online government services with an enhanced user experience.",
+      "image": "./src/assets/images/muncipal_council_hanumangarh.webp",
+      "year": "2024",
+      "duration": "8 Months",
+      "status": "Completed",
+      "bgColor": "#f97316",
+      "tech": [
+        "React.js",
+        "Node.js",
+        "Government CMS",
+        "Cloud Hosting",
+        "Responsive UI"
+      ],
+      "stats": {
+        "metric1Val": "3×",
+        "metric1Label": "Faster Performance",
+        "metric2Val": "60%",
+        "metric2Label": "UX Improvement",
+        "metric3Val": "2M+",
+        "metric3Label": "Citizen Services Access"
+      },
+      "challenge": "The existing municipal website had outdated design, slow performance, limited accessibility, and difficulty for citizens in accessing important services and information online.",
+      "solution": "We redesigned and rebuilt the platform with a modern responsive interface, optimized performance, improved navigation structure, and integrated online citizen services for seamless digital governance.",
+      "featured": false
     },
-  
-    "intro": {
-      "label": "✦ Our Work",
-      "heading": "150+ Projects Delivered Across 12+ Industries",
-      "description": "From early-stage startups to enterprise brands, we've helped businesses build digital products that grow users, increase revenue, and create lasting impact. Every case study here reflects a real partnership, a real challenge, and a real result.",
-      "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80",
-      "stats": [
-        { "num": "150+", "label": "Projects Done" },
-        { "num": "98%",  "label": "Client Satisfaction" },
-        { "num": "12+",  "label": "Industries" },
-        { "num": "8+",   "label": "Years Experience" }
-      ]
+    {
+      "id": 2,
+      "client": "Kinetic Renewables Group (KRG)",
+      "category": "CORPORATE WEBSITE",
+      "tag": "Renewable Energy",
+      "title": "Kinetic Renewables Group Website",
+      "description": "Developed a modern corporate website for Kinetic Renewables Group to showcase renewable energy initiatives, improve global brand presence, and deliver a seamless browsing experience across devices.",
+      "image": "./src/assets/images/krg_case.webp",
+      "year": "2024",
+      "duration": "6 Months",
+      "status": "Completed",
+      "bgColor": "#0ea5e9",
+      "tech": [
+        "React.js",
+        "Node.js",
+        "Responsive Design",
+        "Cloud Hosting",
+        "SEO Optimization"
+      ],
+      "stats": {
+        "metric1Val": "2.5×",
+        "metric1Label": "Faster Load Speed",
+        "metric2Val": "70%+",
+        "metric2Label": "Engagement Increase",
+        "metric3Val": "100%",
+        "metric3Label": "Mobile Optimized"
+      },
+      "challenge": "The previous website lacked modern design standards, had slow performance, and did not effectively communicate the company's renewable energy vision and global projects.",
+      "solution": "We redesigned the website with a clean corporate UI, optimized performance, implemented responsive layouts, and structured content to better highlight projects, sustainability goals, and company achievements.",
+      "featured": false
     },
-  
-    "filters": ["All", "Web App", "Mobile", "E-Commerce", "AI/ML", "FinTech", "HealthTech"],
-  
-    "caseStudies": [
-      {
-        "id": 1,
-        "client": "ShopWave",
-        "category": "E-Commerce",
-        "tag": "E-Commerce",
-        "title": "Next-Gen E-Commerce Platform for 2M+ Users",
-        "description": "Rebuilt a legacy e-commerce platform from scratch — delivering 3× faster load times, a modern UI, and a 45% jump in conversions.",
-        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=700&q=80",
-        "year": "2024",
-        "duration": "8 Months",
-        "status": "Completed",
-        "bgColor": "#f97316",
-        "tech": ["React.js", "Node.js", "PostgreSQL", "AWS"],
-        "stats": {
-          "metric1Val": "3×",    "metric1Label": "Faster Load",
-          "metric2Val": "45%",   "metric2Label": "Conversion Up",
-          "metric3Val": "2M+",   "metric3Label": "Active Users"
-        },
-        "challenge": "Their legacy platform was crashing under load, had poor mobile UX, and was losing 60% of users at checkout.",
-        "solution": "We rebuilt the entire stack using React + Node microservices, implemented lazy loading, and redesigned the checkout flow.",
-        "featured": true
+    {
+      "id": 3,
+      "client": "KeepDiving",
+      "category": "MOBILE APPLICATION",
+      "tag": "Social Platform",
+      "title": "KeepDiving Community App",
+      "description": "Developed a social community mobile application for divers to connect, share experiences, and explore diving locations worldwide with a seamless and engaging user experience.",
+      "image": "./src/assets/images/goDive.webp",
+      "year": "2023",
+      "duration": "7 Months",
+      "status": "Completed",
+      "bgColor": "#1e3a8a",
+      "tech": [
+        "React Native",
+        "Node.js",
+        "REST API",
+        "Cloud Hosting",
+        "Mobile UI/UX"
+      ],
+      "stats": {
+        "metric1Val": "50K+",
+        "metric1Label": "App Downloads",
+        "metric2Val": "4.8★",
+        "metric2Label": "User Rating",
+        "metric3Val": "30%",
+        "metric3Label": "Engagement Growth"
       },
-      {
-        "id": 2,
-        "client": "NeoBank",
-        "category": "FinTech",
-        "tag": "FinTech",
-        "title": "Secure Mobile Banking App with Real-Time Transactions",
-        "description": "A fully compliant digital banking app with biometric auth, real-time payments, and AI-powered fraud detection for 500K+ users.",
-        "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=700&q=80",
-        "year": "2024",
-        "duration": "10 Months",
-        "status": "Completed",
-        "bgColor": "#22d3ee",
-        "tech": ["Flutter", "Python", "MongoDB", "Google Cloud"],
-        "stats": {
-          "metric1Val": "500K+", "metric1Label": "Downloads",
-          "metric2Val": "99.9%", "metric2Label": "Uptime",
-          "metric3Val": "0.2s",  "metric3Label": "Txn Speed"
-        },
-        "challenge": "Building a secure, RBI-compliant banking app with sub-second transaction speeds and fraud protection from day one.",
-        "solution": "Flutter for cross-platform delivery, Python ML models for fraud detection, and a microservices backend on GCP.",
-        "featured": true
+      "challenge": "The client required a scalable social platform where divers could share posts, interact with the community, and access diving-related content through a smooth mobile experience.",
+      "solution": "We designed and developed a modern mobile app with social feed functionality, real-time interactions, optimized media handling, and an intuitive UI to enhance community engagement.",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "client": "Global Parcel Tracking Corp",
+      "category": "LOGISTICS PLATFORM",
+      "tag": "Tracking System",
+      "title": "Global Parcel Tracking & Shipment Monitoring Platform",
+      "description": "Developed a real-time parcel tracking platform enabling users to monitor shipments globally with live tracking, shipment visibility, and secure logistics management.",
+      "image": "./src/assets/images/global_parcel.webp",
+      "year": "2023",
+      "duration": "6 Months",
+      "status": "Completed",
+      "bgColor": "#0ea5e9",
+      "tech": [
+        "React.js",
+        "Node.js",
+        "REST API",
+        "Cloud Hosting",
+        "Real-time Tracking System"
+      ],
+      "stats": {
+        "metric1Val": "1M+",
+        "metric1Label": "Parcels Tracked",
+        "metric2Val": "2×",
+        "metric2Label": "Tracking Speed",
+        "metric3Val": "99.9%",
+        "metric3Label": "System Uptime"
       },
-      {
-        "id": 3,
-        "client": "MediTrack",
-        "category": "HealthTech",
-        "tag": "HealthTech",
-        "title": "AI-Powered Patient Management & Diagnostics Platform",
-        "description": "An intelligent healthcare dashboard for 300+ clinics enabling early diagnosis, appointment scheduling, and EHR management.",
-        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=700&q=80",
-        "year": "2023",
-        "duration": "12 Months",
-        "status": "Completed",
-        "bgColor": "#4ade80",
-        "tech": ["React.js", "Django", "TensorFlow", "Azure"],
-        "stats": {
-          "metric1Val": "300+",  "metric1Label": "Clinics",
-          "metric2Val": "60%",   "metric2Label": "Faster Diagnosis",
-          "metric3Val": "1.2M+", "metric3Label": "Patients Served"
-        },
-        "challenge": "Clinics were using paper records and manual scheduling — causing delays, errors, and poor patient outcomes.",
-        "solution": "Built a unified EHR + scheduling platform with TensorFlow-powered diagnostic assistance for doctors.",
-        "featured": false
+      "challenge": "The existing system lacked real-time shipment visibility, had complex navigation, and users faced difficulty tracking parcels across multiple locations.",
+      "solution": "We built a streamlined tracking platform with real-time shipment updates, optimized backend APIs, improved UI navigation, and secure monitoring features for global logistics operations.",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "client": "Phere Saath",
+      "category": "MATRIMONIAL PLATFORM",
+      "tag": "Web Platform",
+      "title": "Phere Saath Matrimonial & Matchmaking Platform",
+      "description": "Designed and developed a modern matrimonial platform enabling users to create profiles, connect securely, and discover compatible matches through an intuitive and user-friendly interface.",
+      "image": "./src/assets/images/Phere_saath.webp",
+      "year": "2024",
+      "duration": "9 Months",
+      "status": "Completed",
+      "bgColor": "#f43f5e",
+      "tech": [
+        "React.js",
+        "Node.js",
+        "REST API",
+        "Cloud Hosting",
+        "Responsive UI"
+      ],
+      "stats": {
+        "metric1Val": "25K+",
+        "metric1Label": "User Registrations",
+        "metric2Val": "3×",
+        "metric2Label": "User Engagement",
+        "metric3Val": "100%",
+        "metric3Label": "Mobile Responsive"
       },
-      {
-        "id": 4,
-        "client": "PropNest",
-        "category": "Web App",
-        "tag": "Web App",
-        "title": "Smart Real Estate Discovery Platform with AI Matching",
-        "description": "An intelligent property discovery engine with virtual tours, AI recommendations, and mortgage calculators for buyers.",
-        "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=700&q=80",
-        "year": "2023",
-        "duration": "6 Months",
-        "status": "Completed",
-        "bgColor": "#a78bfa",
-        "tech": ["Next.js", "Node.js", "Redis", "AWS"],
-        "stats": {
-          "metric1Val": "80K+", "metric1Label": "Listings",
-          "metric2Val": "4×",   "metric2Label": "Leads Growth",
-          "metric3Val": "35%",  "metric3Label": "Bounce Drop"
-        },
-        "challenge": "Users were bouncing within seconds due to slow search, irrelevant results, and no personalization.",
-        "solution": "Built AI-powered matching, lazy-loaded virtual tours, and a Redis-cached search engine delivering results in <200ms.",
-        "featured": false
+      "challenge": "The platform required a secure and scalable matchmaking system with easy profile management, smooth login experience, and improved usability for users across devices.",
+      "solution": "We built a responsive matrimonial platform with secure authentication, optimized profile browsing, advanced search features, and a modern UI to enhance user interaction and matchmaking efficiency.",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "client": "Cedur",
+      "category": "HR MANAGEMENT SYSTEM",
+      "tag": "Web Application",
+      "title": "Cedur Employee Attendance & Payroll Management System",
+      "description": "Developed a centralized HR management platform to streamline employee attendance, payroll processing, and workforce administration through an intuitive dashboard and automated workflows.",
+      "image": "./src/assets/images/cedur.webp",
+      "year": "2023",
+      "duration": "7 Months",
+      "status": "Completed",
+      "bgColor": "#14b8a6",
+      "tech": [
+        "React.js",
+        "Node.js",
+        "REST API",
+        "MySQL",
+        "Cloud Hosting"
+      ],
+      "stats": {
+        "metric1Val": "90%",
+        "metric1Label": "Process Automation",
+        "metric2Val": "60%",
+        "metric2Label": "Admin Time Saved",
+        "metric3Val": "100%",
+        "metric3Label": "Centralized Records"
       },
-      {
-        "id": 5,
-        "client": "RouteIQ",
-        "category": "AI/ML",
-        "tag": "AI/ML",
-        "title": "ML-Driven Logistics Optimization Saving $2M Annually",
-        "description": "A route optimization engine using machine learning that reduced delivery costs by 38% and improved on-time rates to 97%.",
-        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=700&q=80",
-        "year": "2024",
-        "duration": "9 Months",
-        "status": "Completed",
-        "bgColor": "#fbbf24",
-        "tech": ["Python", "TensorFlow", "Docker", "GCP"],
-        "stats": {
-          "metric1Val": "$2M",  "metric1Label": "Annual Savings",
-          "metric2Val": "38%",  "metric2Label": "Cost Reduction",
-          "metric3Val": "97%",  "metric3Label": "On-Time Rate"
-        },
-        "challenge": "Manual route planning was costing the client $2M+ per year in fuel, overtime, and missed deliveries.",
-        "solution": "Developed a real-time ML optimization engine that recalculates 10,000+ routes per minute based on live traffic data.",
-        "featured": false
+      "challenge": "Manual attendance tracking and payroll calculations were time-consuming, error-prone, and lacked centralized employee data management.",
+      "solution": "We built an integrated HR platform featuring attendance tracking, payroll automation, employee management modules, and reporting dashboards to simplify HR operations.",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "client": "AstroJyotish",
+      "category": "MOBILE APPLICATION",
+      "tag": "Astrology App",
+      "title": "AstroJyotish Astrology Consultation & Prediction App",
+      "description": "Developed a mobile astrology platform enabling users to access personalized horoscope insights, astrology consultations, and spiritual guidance through a seamless and user-friendly mobile experience.",
+      "image": "./src/assets/images/astrojyotish.webp",
+      "year": "2024",
+      "duration": "6 Months",
+      "status": "Completed",
+      "bgColor": "#facc15",
+      "tech": [
+        "React Native",
+        "Node.js",
+        "REST API",
+        "Firebase",
+        "Cloud Hosting"
+      ],
+      "stats": {
+        "metric1Val": "50K+",
+        "metric1Label": "App Users",
+        "metric2Val": "4.7★",
+        "metric2Label": "User Rating",
+        "metric3Val": "99%",
+        "metric3Label": "App Stability"
       },
-      {
-        "id": 6,
-        "client": "Learnly",
-        "category": "Mobile",
-        "tag": "Mobile",
-        "title": "Gamified EdTech App with 800K+ Active Learners",
-        "description": "A cross-platform learning app with live sessions, AI tutoring, gamification, and offline-first architecture.",
-        "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=700&q=80",
-        "year": "2023",
-        "duration": "7 Months",
-        "status": "Completed",
-        "bgColor": "#f472b6",
-        "tech": ["React Native", "Node.js", "Firebase", "AWS"],
-        "stats": {
-          "metric1Val": "800K+", "metric1Label": "Learners",
-          "metric2Val": "4.8★",  "metric2Label": "App Rating",
-          "metric3Val": "72%",   "metric3Label": "Retention"
-        },
-        "challenge": "Low engagement and high drop-off after the first week — learners were losing motivation without structure.",
-        "solution": "Introduced AI-personalized learning paths, streak gamification, and offline mode for users with low connectivity.",
-        "featured": false
-      }
-    ],
-  
-    "testimonials": [
-      {
-        "text": "Divrit didn't just build our platform — they understood our vision and delivered something that completely transformed how our users shop online.",
-        "name": "Rajan Mehta",
-        "role": "CEO, ShopWave",
-        "rating": 5,
-        "avatar": "RM"
+      "challenge": "Users required a reliable and easy-to-use astrology platform with secure login, personalized predictions, and smooth mobile performance across devices.",
+      "solution": "We designed and developed a responsive mobile app with secure authentication, optimized performance, intuitive UI, and personalized astrology features to enhance user engagement.",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "client": "Smart Product Scanner",
+      "category": "AI MOBILE APPLICATION",
+      "tag": "AI Recognition",
+      "title": "AI-Powered Product Scanning & Recognition Mobile App",
+      "description": "Developed an AI-driven mobile application that allows users to scan products using camera or uploaded images to instantly identify items and retrieve relevant product information.",
+      "image": "./src/assets/images/product_scanner.webp",
+      "year": "2024",
+      "duration": "5 Months",
+      "status": "Completed",
+      "bgColor": "#14b8a6",
+      "tech": [
+        "React Native",
+        "Node.js",
+        "Computer Vision",
+        "AI/ML API",
+        "Cloud Hosting"
+      ],
+      "stats": {
+        "metric1Val": "95%",
+        "metric1Label": "Scan Accuracy",
+        "metric2Val": "<2s",
+        "metric2Label": "Recognition Time",
+        "metric3Val": "40K+",
+        "metric3Label": "Scans Processed"
       },
-      {
-        "text": "The fintech app they built exceeded every benchmark we set. Security, speed, and design — all flawless. Our users absolutely love it.",
-        "name": "Priya Sharma",
-        "role": "CTO, NeoBank",
-        "rating": 5,
-        "avatar": "PS"
-      },
-      {
-        "text": "Our patient management is 60% faster thanks to their AI platform. The impact on healthcare delivery has been genuinely life-changing.",
-        "name": "Dr. Anil Kapoor",
-        "role": "Director, MediTrack",
-        "rating": 5,
-        "avatar": "AK"
-      }
-    ],
-  
-    "faqs": [
-      {
-        "question": "How long does a typical project take?",
-        "answer": "Project timelines vary by scope. A mobile app typically takes 4–8 months, while complex enterprise platforms can take 10–14 months. We provide a detailed timeline during the discovery phase."
-      },
-      {
-        "question": "Do you work with startups or only enterprises?",
-        "answer": "We work with both. We've helped early-stage startups launch their MVP in 3 months and helped enterprise clients rebuild legacy systems at scale."
-      },
-      {
-        "question": "What industries do you specialize in?",
-        "answer": "FinTech, HealthTech, E-Commerce, EdTech, Real Estate, and Logistics are our core verticals — but we've successfully delivered projects across 12+ industries."
-      },
-      {
-        "question": "Can I see more detailed case study documentation?",
-        "answer": "Absolutely. For NDA-protected projects we share detailed decks on request. Contact us and we'll arrange a walkthrough call with the project lead."
-      },
-      {
-        "question": "What happens after the project is delivered?",
-        "answer": "We offer 3–6 months of post-launch support, performance monitoring, and iterative improvement cycles as part of all our engagement packages."
-      }
-    ],
-  
-    "cta": {
-      "heading": "Ready to Be Our Next Success Story?",
-      "subtitle": "Let's build something that drives real results for your business.",
-      "bgImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600&q=80",
-      "btnPrimary": "Start a Project →",
-      "btnSecondary": "View Technologies"
+      "challenge": "Users needed a fast and accurate way to identify products through mobile devices without manual searching or complex input methods.",
+      "solution": "We implemented AI-based image recognition with real-time camera scanning, optimized processing pipelines, and an intuitive mobile interface for seamless product identification.",
+      "featured": false
     }
+  ],
+  "testimonials": [
+    {
+      "text": "Divrit didn't just build our platform — they understood our vision and delivered something that completely transformed how our users shop online.",
+      "name": "Rajan Mehta",
+      "role": "CEO, ShopWave",
+      "rating": 5,
+      "avatar": "RM"
+    },
+    {
+      "text": "The fintech app they built exceeded every benchmark we set. Security, speed, and design — all flawless. Our users absolutely love it.",
+      "name": "Priya Sharma",
+      "role": "CTO, NeoBank",
+      "rating": 5,
+      "avatar": "PS"
+    },
+    {
+      "text": "Our patient management is 60% faster thanks to their AI platform. The impact on healthcare delivery has been genuinely life-changing.",
+      "name": "Dr. Anil Kapoor",
+      "role": "Director, MediTrack",
+      "rating": 5,
+      "avatar": "AK"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does a typical project take?",
+      "answer": "Project timelines vary by scope. A mobile app typically takes 4–8 months, while complex enterprise platforms can take 10–14 months. We provide a detailed timeline during the discovery phase."
+    },
+    {
+      "question": "Do you work with startups or only enterprises?",
+      "answer": "We work with both. We've helped early-stage startups launch their MVP in 3 months and helped enterprise clients rebuild legacy systems at scale."
+    },
+    {
+      "question": "What industries do you specialize in?",
+      "answer": "FinTech, HealthTech, E-Commerce, EdTech, Real Estate, and Logistics are our core verticals — but we've successfully delivered projects across 12+ industries."
+    },
+    {
+      "question": "Can I see more detailed case study documentation?",
+      "answer": "Absolutely. For NDA-protected projects we share detailed decks on request. Contact us and we'll arrange a walkthrough call with the project lead."
+    },
+    {
+      "question": "What happens after the project is delivered?",
+      "answer": "We offer 3–6 months of post-launch support, performance monitoring, and iterative improvement cycles as part of all our engagement packages."
+    }
+  ],
+  "cta": {
+    "heading": "Ready to Be Our Next Success Story?",
+    "subtitle": "Let's build something that drives real results for your business.",
+    "bgImage": "./src/assets/images/cta.webp",
+    "btnPrimary": "Start a Project →",
+    "btnSecondary": "View Technologies"
   }
+}

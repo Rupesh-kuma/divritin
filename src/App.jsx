@@ -26,11 +26,15 @@ import Industries from './pages/Technologies/Industrie';
 import OurPortfolios from './pages/Company-Profile/OurPortfolios';
 import Ourclient from './pages/Company-Profile/OurClient';
 import Blogs from './pages/Company-Profile/Blogs';
+import Events from './pages/Company-Profile/Event';
+import AutoPopup from './components/AutoPopup';
 
 
 function App() {
+
   return (
     <>
+    <AutoPopup/>
     <Header />
     <Routes>
       <Route path='/' element={<Home/>}/>
@@ -52,6 +56,7 @@ function App() {
       <Route path='/our-portfolios' element={<OurPortfolios/>}/>
       <Route path='/our-client' element={<Ourclient/>}/>
       <Route path='/blogs' element={<Blogs/>}/>
+      <Route path='/events' element={<Events/>}/>
     </Routes>
     <Footer/>
     </>

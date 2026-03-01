@@ -257,7 +257,7 @@ const Header = () => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/Event" className="dropdown-item">
+                                            <Link to="/events" className="dropdown-item">
                                                 Event
                                             </Link>
                                         </li>
