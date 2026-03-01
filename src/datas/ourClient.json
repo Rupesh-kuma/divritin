@@ -2,244 +2,244 @@
     "logos": [
         {
             "name":"accurect",
-            "logo":"./src/assets/images/accurect.png",
+            "logo":"/images/accurect.png",
             "url":"https://accuratecaindia.com/"
         },
         {
             "name":"Astoria",
-            "logo":"./src/assets/images/astoria.webp",
+            "logo":"/images/astoria.webp",
             "url":"https://astorialockandsafe.com/"
         },
         {
             "name":"Flash Point",
-            "logo":"./src/assets/images/Flash_point_logo.webp",
+            "logo":"/images/Flash_point_logo.webp",
             "url":"https://flashpointlogistics.com/"
         },
         {
             "name":"New Beginnings Church of Astoria",
-            "logo":"./src/assets/images/New_Beginnings_church_of_astoria_logo.webp",
+            "logo":"/images/New_Beginnings_church_of_astoria_logo.webp",
             "url":"https://nbchurchastoria.org/"
         },
         {
             "name":"Roberts Hot Tubs",
-            "logo":"./src/assets/images/Roberts_Hot_Tubs_logo.webp",
+            "logo":"/images/Roberts_Hot_Tubs_logo.webp",
             "url":"https://rhtubs.com/"
         },
         {
             "name":"Trading Dirt",
-            "logo":"./src/assets/images/Trading_dirt.webp",
+            "logo":"/images/Trading_dirt.webp",
             "url":"https://tradingdirt.com/"
         },
         {
             "name":"The Scindia School",
-            "logo":"./src/assets/images/The_Scindia_School.webp",
+            "logo":"/images/The_Scindia_School.webp",
             "url":"https://www.scindia.edu/"
         },
         {
             "name":"Usbe Information Technology",
-            "logo":"./src/assets/images/usbe_information_technology.webp",
+            "logo":"/images/usbe_information_technology.webp",
             "url":"https://www.blackengineer.com/"
         },
         {
             "name":"jim dunham and associates real estate",
-            "logo":"./src/assets/images/jim_dunham_and_associates_real_estate.webp",
+            "logo":"/images/jim_dunham_and_associates_real_estate.webp",
             "url":"https://www.jimdunhamassociates.com/"
         },
         {
             "name":"Auto Hotel",
-            "logo":"./src/assets/images/Auto_hotel_logo.webp",
+            "logo":"/images/Auto_hotel_logo.webp",
             "url":"https://omni.com.gt/"
         },
         {
             "name":"Liv",
-            "logo":"./src/assets/images/Liv.webp",
+            "logo":"/images/Liv.webp",
             "url":"https://livmotel.com.ec/es-ES"
         },
         {
             "name":"Rredc",
-            "logo":"./src/assets/images/Rredc_logo.webp",
+            "logo":"/images/Rredc_logo.webp",
             "url":"https://rredc.com/"
         },
         {
             "name":"Swiftwater Safety Institute",
-            "logo":"./src/assets/images/swiftwatersafetyinstitute_logo.webp",
+            "logo":"/images/swiftwatersafetyinstitute_logo.webp",
             "url":"https://www.swiftwatersafetyinstitute.com/"
         },
         {
             "name":"Gilliam Generator",
-            "logo":"./src/assets/images/gilliamgenerator_logo.webp",
+            "logo":"/images/gilliamgenerator_logo.webp",
             "url":"https://gilliamgenerator.com/"
         },
         {
             "name":"Alicehogan Consulting",
-            "logo":"./src/assets/images/alicehoganconsulting_logo.webp",
+            "logo":"/images/alicehoganconsulting_logo.webp",
             "url":"https://alicehoganconsulting.com/"
         },
         {
             "name":"Goldsteinmd",
-            "logo":"./src/assets/images/goldsteinmd_logo.webp",
+            "logo":"/images/goldsteinmd_logo.webp",
             "url":"https://www.goldsteinmd.com/"
         },
         {
             "name":"coinography",
-            "logo":"./src/assets/images/coinography_logo.webp",
+            "logo":"/images/coinography_logo.webp",
             "url":"https://coinography.com/"
         },
         {
             "name":"nftinsidernews",
-            "logo":"./src/assets/images/nftinsidernews_logo.webp",
+            "logo":"/images/nftinsidernews_logo.webp",
             "url":"https://nftinsidernews.com/"
         },
         {
             "name":"Fluence Meditek",
-            "logo":"./src/assets/images/fluence_meditek_logo.webp",
+            "logo":"/images/fluence_meditek_logo.webp",
             "url":"https://www.fluencemeditek.com/"
         },
         {
             "name":"Razor Thin Consulting Group",
-            "logo":"./src/assets/images/Razor_Thin_Consulting_Group_logo.webp",
+            "logo":"/images/Razor_Thin_Consulting_Group_logo.webp",
             "url":"https://businessconsultantsnyc.com/"
         },
         {
             "name":"Steinway Auto Repairs",
-            "logo":"./src/assets/images/steinway_auto_repairs_logo.webp",
+            "logo":"/images/steinway_auto_repairs_logo.webp",
             "url":"https://steinwayautorepairs.net/"
         },
         {
             "name":"Mostoke",
-            "logo":"./src/assets/images/mostoke_logo.webp",
+            "logo":"/images/mostoke_logo.webp",
             "url":"https://www.mostoke.com/"
         },
         {
             "name":"Hispanic Engineer",
-            "logo":"./src/assets/images/Hispanic_engineer_logo.webp",
+            "logo":"/images/Hispanic_engineer_logo.webp",
             "url":"https://hispanicengineer.com/"
         },
         {
             "name":"momgreta preschoo",
-            "logo":"./src/assets/images/momgretapreschoo_logo.webp",
+            "logo":"/images/momgretapreschoo_logo.webp",
             "url":"https://momgretapreschool.co.za/"
         },
         {
             "name":"woman of color",
-            "logo":"./src/assets/images/woman_of_color_logo.webp",
+            "logo":"/images/woman_of_color_logo.webp",
             "url":"https://womenofcoloronline.com/"
         },
         {
             "name":"australiacosmeticclinics",
-            "logo":"./src/assets/images/australiacosmeticclinics_logo.webp",
+            "logo":"/images/australiacosmeticclinics_logo.webp",
             "url":"https://australiacosmeticclinics.com.au/"
         },
         {
             "name":"vital Advanced medical center",
-            "logo":"./src/assets/images/vital_Advanced_medical_center_logo.webp",
+            "logo":"/images/vital_Advanced_medical_center_logo.webp",
             "url":"https://vitalamc.com/"
         },
         {
             "name":"Vetted",
-            "logo":"./src/assets/images/Vetted_logo.webp",
+            "logo":"/images/Vetted_logo.webp",
             "url":"https://vettederp.com/"
         },
         {
             "name":"DAY ZERO WATER",
-            "logo":"./src/assets/images/DAY_ZERO_WATER_logo.webp",
+            "logo":"/images/DAY_ZERO_WATER_logo.webp",
             "url":"https://dzwater.org/"
         },
         {
             "name":"Black Doctor",
-            "logo":"./src/assets/images/Black_Doctor_logo.webp",
+            "logo":"/images/Black_Doctor_logo.webp",
             "url":"https://blackdoctor.org/"
         },
         {
             "name":"Bright shine bharat",
-            "logo":"./src/assets/images/Bright_shine_bharat_logo.webp",
+            "logo":"/images/Bright_shine_bharat_logo.webp",
             "url":"https://brightshinebharat.com/"
         },
         {
             "name":"Fitmeals",
-            "logo":"./src/assets/images/Fitmeals_logo.webp",
+            "logo":"/images/Fitmeals_logo.webp",
             "url":"https://fitmeals.divritin.com/"
         },
         {
             "name":"aayushi enterprises",
-            "logo":"./src/assets/images/aayushi_enterpriess_logo.webp",
+            "logo":"/images/aayushi_enterpriess_logo.webp",
             "url":"https://aayushienterprises.co.in/"
         },
         {
             "name":"Black Doctor",
-            "logo":"./src/assets/images/Burgers_take_away_logo.webp"
+            "logo":"/images/Burgers_take_away_logo.webp"
         },
         {
             "name":"space cube Architects",
-            "logo":"./src/assets/images/space_cube_Architects_logo.webp"
+            "logo":"/images/space_cube_Architects_logo.webp"
         },
         {
             "name":"Knowlarity",
-            "logo":"./src/assets/images/Knowlarity.webp"
+            "logo":"/images/Knowlarity.webp"
         },
         {
             "name":"hinden india",
-            "logo":"./src/assets/images/hinden_india_logo.webp"
+            "logo":"/images/hinden_india_logo.webp"
         },
         {
             "name":"jim dunham",
-            "logo":"./src/assets/images/jim_dunham_logo.webp"
+            "logo":"/images/jim_dunham_logo.webp"
         },
         {
             "name":"hrem",
-            "logo":"./src/assets/images/cl7.webp"
+            "logo":"/images/cl7.webp"
         },
         {
             "name":"Wimpy",
-            "logo":"./src/assets/images/cl13.webp"
+            "logo":"/images/cl13.webp"
         },
         {
             "name":"google",
-            "logo":"./src/assets/images/cl2.webp"
+            "logo":"/images/cl2.webp"
         },
         {
             "name":"Bcg",
-            "logo":"./src/assets/images/cl3.webp"
+            "logo":"/images/cl3.webp"
         },
         {
             "name":"Kfc",
-            "logo":"./src/assets/images/cl4.webp"
+            "logo":"/images/cl4.webp"
         },
         {
             "name":"TGI friday",
-            "logo":"./src/assets/images/cl5.webp"
+            "logo":"/images/cl5.webp"
         },
         {
             "name":"Moo",
-            "logo":"./src/assets/images/cl6.webp"
+            "logo":"/images/cl6.webp"
         },
         {
             "name":"hardees",
-            "logo":"./src/assets/images/cl8.webp"
+            "logo":"/images/cl8.webp"
         },
         {
             "name":"Bajaj",
-            "logo":"./src/assets/images/cl9.webp"
+            "logo":"/images/cl9.webp"
         },
         {
             "name":"Dominos pizza",
-            "logo":"./src/assets/images/cl10.webp"
+            "logo":"/images/cl10.webp"
         },
         {
             "name":"Super she",
-            "logo":"./src/assets/images/cl11.webp"
+            "logo":"/images/cl11.webp"
         },
         {
             "name":"Empire Hotal",
-            "logo":"./src/assets/images/cl12.webp"
+            "logo":"/images/cl12.webp"
         },
         {
             "name":"Jobget",
-            "logo":"./src/assets/images/cl14.webp"
+            "logo":"/images/cl14.webp"
         },
         {
             "name":"Asian Bank",
-            "logo":"./src/assets/images/cl15.webp"
+            "logo":"/images/cl15.webp"
         }
     ]
   }

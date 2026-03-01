@@ -10,7 +10,7 @@
       "AI & ML Integration",
       "Legacy Modernization"
     ],
-    "bgImage": "./src/assets/images/CustomSoftwareDevelopment_banner.webp",
+    "bgImage": "/images/CustomSoftwareDevelopment_banner.webp",
     "formTitle": "Get a FREE Consultation",
     "formFields": [
       "Your Name",
@@ -22,7 +22,7 @@
     "label": "End-to-End Bespoke Software Engineering",
     "heading": "Custom Software Development",
     "description": "Looking for the best Custom Software Development Services? We are your trusted partner to build unique, scalable, and high-performance software tailored to your business. We specialize in custom application development, cloud-native solutions, AI-powered systems, and seamless integrations — delivering software that drives operational efficiency, reduces costs, and creates lasting competitive advantage.",
-    "image": "./src/assets/images/CustomSoftwareDevelopment_2.webp",
+    "image": "/images/CustomSoftwareDevelopment_2.webp",
     "stats": [
       {
         "num": "200+",
@@ -50,7 +50,7 @@
         "id": 1,
         "title": "Discovery & Requirement Analysis",
         "description": "We begin with deep-dive sessions to understand your business goals, existing workflows, and technical requirements. Our analysts create a comprehensive SRS document.",
-        "image": "./src/assets/images/RequirementAnalysis.png",
+        "image": "/images/RequirementAnalysis.png",
         "points": [
           "Business goal alignment",
           "Competitive & market analysis",
@@ -62,7 +62,7 @@
         "id": 2,
         "title": "Architecture & System Design",
         "description": "Our architects design a robust, scalable system blueprint. We select the best-fit tech stack, define APIs, and plan microservices or monolithic architecture.",
-        "image": "./src/assets/images/ArchitectureSystemDesign.webp",
+        "image": "/images/ArchitectureSystemDesign.webp",
         "points": [
           "Cloud-native architecture planning",
           "Database design & modelling",
@@ -74,7 +74,7 @@
         "id": 3,
         "title": "Agile Development & Sprints",
         "description": "Development happens in iterative sprints with continuous feedback. Our engineers write clean, well-documented code following industry best practices.",
-        "image": "./src/assets/images/AgileDevelopmentSprints.webp",
+        "image": "/images/AgileDevelopmentSprints.webp",
         "points": [
           "Sprint-based delivery with demos",
           "Version control & CI/CD pipelines",
@@ -86,7 +86,7 @@
         "id": 4,
         "title": "Quality Assurance & Testing",
         "description": "Every feature goes through rigorous testing — manual and automated — to ensure zero critical bugs and optimal performance before deployment.",
-        "image": "./src/assets/images/QualityAssuranceTesting.webp",
+        "image": "/images/QualityAssuranceTesting.webp",
         "points": [
           "Functional & regression testing",
           "Automated test suites",
@@ -98,7 +98,7 @@
         "id": 5,
         "title": "Deployment & DevOps",
         "description": "We deploy your software using modern DevOps practices — containerization, cloud infrastructure, and automated pipelines ensuring zero-downtime releases.",
-        "image": "./src/assets/images/DeploymentDevOps.webp",
+        "image": "/images/DeploymentDevOps.webp",
         "points": [
           "Docker & Kubernetes",
           "AWS / Azure / GCP deployment",
@@ -110,7 +110,7 @@
         "id": 6,
         "title": "Support & Optimization",
         "description": "Post-launch, we provide continuous monitoring, bug fixes, feature enhancements, and performance tuning to keep your software at its best.",
-        "image": "./src/assets/images/SupportOptimization.webp",
+        "image": "/images/SupportOptimization.webp",
         "points": [
           "24/7 monitoring & incident management",
           "Proactive performance optimization",
@@ -169,7 +169,7 @@
   "whyUs": {
     "heading": "Why Choose Us?",
     "subtitle": "We deliver more than code — we deliver competitive advantage.",
-    "image": "./src/assets/images/why_choose.webp",
+    "image": "/images/why_choose.webp",
     "cards": [
       {
         "icon": "🎯",
@@ -201,28 +201,28 @@
         "title": "Web Application Development",
         "desc": "Scalable, SEO-friendly web apps built with React, Node.js, Django.",
         "percent": 97,
-        "image": "./src/assets/images/Wad.webp",
+        "image": "/images/Wad.webp",
         "learn":"/web-design-development"
       },
       {
         "title": "Mobile App Development",
         "desc": "Native iOS & Android and cross-platform apps with outstanding UX.",
         "percent": 94,
-        "image": "./src/assets/images/mad.webp",
+        "image": "/images/mad.webp",
         "learn":"/mobile-app-development"
       },
       {
         "title": "Cloud Software Solutions",
         "desc": "Cloud-native apps, SaaS platforms, migration on AWS, Azure, GCP.",
         "percent": 91,
-        "image": "./src/assets/images/css.webp",
+        "image": "/images/css.webp",
         "learn":"/web-mobile-app-maintenance"
       },
       {
         "title": "AI & ML Integration",
         "desc": "Intelligent automation, NLP, computer vision, predictive analytics.",
         "percent": 88,
-        "image": "./src/assets/images/ai_and_ml.webp",
+        "image": "/images/ai_and_ml.webp",
         "learn":"/other-promotional-services"
       }
     ]
@@ -233,6 +233,6 @@
     "btnPrimary": "Get Free Consultation",
     "btnSecondary": "View Our Work",
     "work_nav":"/our-portfolios",
-    "bgImage": "./src/assets/images/cta.webp"
+    "bgImage": "/images/cta.webp"
   }
 }

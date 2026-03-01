@@ -11,7 +11,7 @@
         "Cross-Platform",
         "App Store Optimization"
       ],
-      "bgImage": "./src/assets/images/mad_banner.webp",
+      "bgImage": "/images/mad_banner.webp",
       "formTitle": "Get a FREE Consultation",
       "formFields": [
         "Your Name",
@@ -23,7 +23,7 @@
       "label": "Native & Cross-Platform Mobile Solutions",
       "heading": "Mobile App Development",
       "description": "We craft mobile apps that users love — fast, intuitive, and beautifully designed. Whether you need a native iOS/Android app or a cross-platform solution using Flutter or React Native, our mobile team delivers exceptional performance, pixel-perfect UI, and seamless backend integration.",
-      "image": "./src/assets/images/mad_about.webp",
+      "image": "/images/mad_about.webp",
       "stats": [
         {
           "num": "150+",
@@ -51,7 +51,7 @@
           "id": 1,
           "title": "Ideation & Strategy",
           "description": "We define your app's purpose, target users, core features, and monetization strategy before writing a single line of code.",
-          "image": "./src/assets/images/mad_DiscoveryPlanning.webp",
+          "image": "/images/mad_DiscoveryPlanning.webp",
           "points": [
             "Market & competitor research",
             "User persona definition",
@@ -63,7 +63,7 @@
           "id": 2,
           "title": "UI/UX Design",
           "description": "Our designers craft beautiful, intuitive interfaces following Apple HIG and Material Design guidelines.",
-          "image": "./src/assets/images/wdd_UI_UXDesign.webp",
+          "image": "/images/wdd_UI_UXDesign.webp",
           "points": [
             "Wireframes & prototypes",
             "Custom UI component design",
@@ -75,7 +75,7 @@
           "id": 3,
           "title": "App Development",
           "description": "Engineering your app with clean, maintainable code — native Swift/Kotlin or cross-platform Flutter/React Native.",
-          "image": "./src/assets/images/mad_App_Development.webp",
+          "image": "/images/mad_App_Development.webp",
           "points": [
             "Flutter / React Native / Swift / Kotlin",
             "Offline-first architecture",
@@ -87,7 +87,7 @@
           "id": 4,
           "title": "Backend & API Integration",
           "description": "Robust server-side logic, real-time sync, and secure API connections to power your app's features.",
-          "image": "./src/assets/images/wdd_Backend_API_Development.webp",
+          "image": "/images/wdd_Backend_API_Development.webp",
           "points": [
             "REST & GraphQL APIs",
             "Real-time with Firebase",
@@ -99,7 +99,7 @@
           "id": 5,
           "title": "Testing & QA",
           "description": "Rigorous device and OS testing to ensure a flawless experience across all phones and tablets.",
-          "image": "./src/assets/images/wdd_Testing_QA.webp",
+          "image": "/images/wdd_Testing_QA.webp",
           "points": [
             "Testing on real devices",
             "Automated UI testing",
@@ -111,7 +111,7 @@
           "id": 6,
           "title": "Launch & Post-Launch Support",
           "description": "We handle App Store / Play Store submission and provide ongoing updates and crash monitoring.",
-          "image": "./src/assets/images/mad_Launch_Post_Launch_Support.webp",
+          "image": "/images/mad_Launch_Post_Launch_Support.webp",
           "points": [
             "App Store & Play Store submission",
             "Crash monitoring with Sentry",
@@ -202,25 +202,25 @@
           "title": "iOS App Development",
           "desc": "Native Swift apps built for iPhone and iPad with Apple-quality standards.",
           "percent": 96,
-          "image": "./src/assets/images/mad_iOS_App_Development.webp"
+          "image": "/images/mad_iOS_App_Development.webp"
         },
         {
           "title": "Android App Development",
           "desc": "Kotlin-powered Android apps for the vast Android ecosystem.",
           "percent": 95,
-          "image": "./src/assets/images/mad_Android_App_Development.webp"
+          "image": "/images/mad_Android_App_Development.webp"
         },
         {
           "title": "Flutter Development",
           "desc": "One codebase, two platforms — beautiful cross-platform apps.",
           "percent": 97,
-          "image": "./src/assets/images/mad_App_Development.webp"
+          "image": "/images/mad_App_Development.webp"
         },
         {
           "title": "React Native",
           "desc": "JavaScript-powered cross-platform apps with excellent community support.",
           "percent": 93,
-          "image": "./src/assets/images/mad_React_Native.webp"
+          "image": "/images/mad_React_Native.webp"
         }
       ]
     },
@@ -229,6 +229,6 @@
       "subtitle": "Let's turn your app idea into a product your users will love. Free consultation, no commitment.",
       "btnPrimary": "Get Free Consultation",
       "btnSecondary": "See Our App Portfolio",
-      "bgImage": "./src/assets/images/cta.webp"
+      "bgImage": "/images/cta.webp"
     }
   }

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import client1 from "../assets/images/cliente.png";
+import client1 from "/images/cliente.png";
 
 const Testimonials = () => {
 

@@ -3,7 +3,7 @@
     "badge": "UI/UX DESIGN",
     "title": "Design Experiences That Convert & Delight",
     "subtitle": "Divrit Technologies delivers research-driven UI/UX design that transforms complex user problems into elegant, high-performing digital interfaces — built to grow your business.",
-    "bgImage": "./src/assets/images/UI_UX_DESIGN_banner.webp",
+    "bgImage": "/images/UI_UX_DESIGN_banner.webp",
     "tags": ["User Research", "Wireframing", "UI Design", "Prototyping", "Design Systems"],
     "formTitle": "Get a FREE Consultation",
     "formFields": [
@@ -16,7 +16,7 @@
     "label": "End-to-End UI/UX Design Services",
     "heading": "We Create Interfaces People Love to Use",
     "description": "Looking for the best UI/UX Design Services? Divrit Technologies Pvt. Ltd. is your trusted partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in creating tailor-made digital experiences that are not just beautiful but measurably effective. Our expert designers blend user psychology, business strategy, and visual craft to deliver interfaces that increase engagement, reduce churn, and convert more users.",
-    "image": "./src/assets/images/UI_UX_DESIGN_about.webp",
+    "image": "/images/UI_UX_DESIGN_about.webp",
     "stats": [
       { "num": "500+", "label": "Projects Delivered" },
       { "num": "98%",  "label": "Client Satisfaction" },
@@ -32,7 +32,7 @@
         "id": 1,
         "title": "Discovery & Research",
         "description": "We start with deep-dive sessions to understand your business goals, target users, and market landscape. Our designers conduct stakeholder workshops, user interviews, and competitive benchmarking to build a solid foundation.",
-        "image": "./src/assets/images/UI_UX_DESIGN_Discovery_Research.webp",
+        "image": "/images/UI_UX_DESIGN_Discovery_Research.webp",
         "points": [
           "Stakeholder interviews & workshops",
           "User persona development",
@@ -44,7 +44,7 @@
         "id": 2,
         "title": "Define & Information Architecture",
         "description": "We synthesize research findings into user journeys, site maps, and a clear content strategy. Our team plans intuitive navigation and logical layout ensuring every user finds exactly what they need.",
-        "image": "./src/assets/images/UI_UX_DESIGN_Information_Architecture.webp",
+        "image": "/images/UI_UX_DESIGN_Information_Architecture.webp",
         "points": [
           "User journey & flow mapping",
           "Site map & page hierarchy",
@@ -56,7 +56,7 @@
         "id": 3,
         "title": "Wireframing & Prototyping",
         "description": "Low and mid-fidelity wireframes establish layout, hierarchy, and interaction flow. Clickable prototypes let you test and validate the experience before any visual design or development begins.",
-        "image": "./src/assets/images/UI_UX_DESIGN_Wireframing_Prototyping.webp",
+        "image": "/images/UI_UX_DESIGN_Wireframing_Prototyping.webp",
         "points": [
           "Lo-fi & hi-fi wireframes",
           "Interactive clickable prototypes",
@@ -68,7 +68,7 @@
         "id": 4,
         "title": "UI Design & Visual Language",
         "description": "We craft pixel-perfect, responsive UI designs grounded in your brand identity. Every color, typeface, spacing, and component is chosen intentionally — balancing aesthetics with usability.",
-        "image": "./src/assets/images/UI_UX_DESIGN_UI_Design_Visual_Language.webp",
+        "image": "/images/UI_UX_DESIGN_UI_Design_Visual_Language.webp",
         "points": [
           "High-fidelity UI screens (all breakpoints)",
           "Design system & component library",
@@ -80,7 +80,7 @@
         "id": 5,
         "title": "Usability Testing & Iteration",
         "description": "Every design goes through moderated usability testing with real users. We gather qualitative and quantitative feedback, then rapidly iterate to eliminate all friction before development starts.",
-        "image": "./src/assets/images/wdd_Testing_QA.webp",
+        "image": "/images/wdd_Testing_QA.webp",
         "points": [
           "Moderated usability test sessions",
           "Heatmap & click-path analysis",
@@ -92,7 +92,7 @@
         "id": 6,
         "title": "Developer Handoff & Support",
         "description": "We deliver meticulously organized Figma files, design tokens, component docs, and Zeplin specs. Our team stays available during development to ensure pixel-perfect, flawless implementation.",
-        "image": "./src/assets/images/wdd_Deployment_Support.webp",
+        "image": "/images/wdd_Deployment_Support.webp",
         "points": [
           "Organized Figma source files",
           "Design tokens & style guide",
@@ -121,7 +121,7 @@
     "subtitle": "Let's discuss your project. Get a free consultation and proposal from our UI/UX experts at Divrit Technologies.",
     "btnPrimary": "Get Free Consultation",
     "btnSecondary": "View Our Work",
-    "bgImage": "./src/assets/images/cta.webp"
+    "bgImage": "/images/cta.webp"
   },
   "services": [
     {
@@ -185,7 +185,7 @@
         "conversion": "+72%",
         "duration": "1 Weeks"
       },
-      "bgColor": "./src/assets/images/Accurate_project.webp"
+      "bgColor": "/images/Accurate_project.webp"
     },
     {
       "id": 2,
@@ -198,7 +198,7 @@
         "conversion": "+78%",
         "duration": "4 Weeks"
       },
-      "bgColor": "./src/assets/images/fitmeals_project.webp"
+      "bgColor": "/images/fitmeals_project.webp"
     },
     {
       "id": 3,
@@ -211,7 +211,7 @@
         "conversion": "+74%",
         "duration": "6 Weeks"
       },
-      "bgColor": "./src/assets/images/bookmytrip_project.webp"
+      "bgColor": "/images/bookmytrip_project.webp"
     },
     {
       "id": 4,
@@ -224,7 +224,7 @@
         "conversion": "+81%",
         "duration": "7 Weeks"
       },
-      "bgColor": "./src/assets/images/organicindia_project.webp"
+      "bgColor": "/images/organicindia_project.webp"
     },
     {
       "id": 5,
@@ -237,7 +237,7 @@
         "conversion": "+76%",
         "duration": "9 Weeks"
       },
-      "bgColor": "./src/assets/images/travel4delight_project.webp"
+      "bgColor": "/images/travel4delight_project.webp"
     },
     {
       "id": 6,
@@ -250,7 +250,7 @@
         "conversion": "+69%",
         "duration": "10 Weeks"
       },
-      "bgColor": "./src/assets/images/flashpoint_project.webp"
+      "bgColor": "/images/flashpoint_project.webp"
     }
   ],
   "whyUs": [

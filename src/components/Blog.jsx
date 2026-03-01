@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import blogimage1 from '../assets/images/Driving Digital Growth with Smart IT Solutions.webp';
-import blogimage2 from '../assets/images/Team Collaboration That Builds Strong Digital Success.webp';
+import blogimage1 from '/images/Driving Digital Growth with Smart IT Solutions.webp';
+import blogimage2 from '/images/Team Collaboration That Builds Strong Digital Success.webp';
 const Blog = () => {
     return (
         <>

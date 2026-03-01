@@ -36,7 +36,7 @@
 .slide-1 {
     background: 
       linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%),
-      url("../assets/images/banner3.webp");
+      url("/images/banner3.webp");
       
     background-size: cover;
     background-position: center;
@@ -47,7 +47,7 @@
 .slide-2 {
     background: 
       linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%),
-      url("../assets/images/banner2.webp");
+      url("/images/banner2.webp");
       
     background-size: cover;
     background-position: center;
@@ -58,7 +58,7 @@
 .slide-3 {
     background: 
       linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%),
-      url("../assets/images/banner1.webp");
+      url("/images/banner1.webp");
       
     background-size: cover;
     background-position: center;
@@ -69,7 +69,7 @@
 .slide-4 {
     background: 
       linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%),
-      url("../assets/images/banner4.jpeg");
+      url("/images/banner4.jpeg");
       
     background-size: cover;
     background-position: center;
