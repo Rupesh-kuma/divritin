@@ -3,7 +3,7 @@
       "badge": "SOCIAL MEDIA OPTIMIZATION",
       "title": "Grow Your Brand on Social Media & Build Real Engagement",
       "subtitle": "Divrit Technologies delivers result-driven SMO strategies that grow your followers, increase brand awareness, boost engagement, and turn your social media into a powerful lead generation engine for your business.",
-      "bgImage": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1600&q=80",
+      "bgImage": "/images/smo_banner.webp",
       "tags": ["Instagram Growth", "Facebook Marketing", "LinkedIn SMO", "YouTube Optimization", "Twitter / X"],
       "formTitle": "Get a FREE SMO Consultation",
       "formFields": [
@@ -17,7 +17,7 @@
       "label": "End-to-End Social Media Optimization",
       "heading": "Turn Social Media Into Your Biggest Growth Channel",
       "description": "Looking for the best Social Media Optimization Services in India? Divrit Technologies Pvt. Ltd. is your trusted SMO partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in optimizing social media profiles, creating and scheduling content, targeting the right audience, managing campaigns, tracking performance, and analyzing results — delivering strategies built to increase traffic, strengthen brand visibility, and grow your social media influence effectively.",
-      "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=800&q=80",
+      "image": "/images/smo.webp",
       "stats": [
         { "num": "350+", "label": "Brands Grown"        },
         { "num": "10M+", "label": "Reach Generated"     },
@@ -26,56 +26,7 @@
       ]
     },
   
-    "platforms": [
-      {
-        "icon": "👥",
-        "name": "Facebook Marketing",
-        "desc": "We create compelling Facebook campaigns that increase brand awareness, generate leads, and drive conversions — with precise audience targeting tailored to your business goals.",
-        "color": "#1877F2",
-        "bg": "rgba(24,119,242,0.08)",
-        "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=600&q=80"
-      },
-      {
-        "icon": "🐦",
-        "name": "Twitter / X Marketing",
-        "desc": "We leverage Twitter/X to boost brand visibility, engage your target audience through trending conversations, threads, and strategic posting that drives meaningful interactions.",
-        "color": "#1DA1F2",
-        "bg": "rgba(29,161,242,0.08)",
-        "image": "https://images.unsplash.com/photo-1611605698335-8441f9abe5e1?w=600&q=80"
-      },
-      {
-        "icon": "📌",
-        "name": "Pinterest Marketing",
-        "desc": "We optimize your Pinterest presence — creating boards, curating content, and optimizing pins with relevant keywords and hashtags for maximum visibility, reach, and traffic generation.",
-        "color": "#E60023",
-        "bg": "rgba(230,0,35,0.08)",
-        "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&q=80"
-      },
-      {
-        "icon": "💼",
-        "name": "LinkedIn Marketing",
-        "desc": "We leverage LinkedIn — the world's largest professional network — to showcase your expertise, build meaningful business connections, and generate high-quality B2B leads.",
-        "color": "#0A66C2",
-        "bg": "rgba(10,102,194,0.08)",
-        "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=80"
-      },
-      {
-        "icon": "📸",
-        "name": "Instagram Marketing",
-        "desc": "We craft a captivating Instagram presence — from stunning visuals and engaging reels to strategic hashtags and stories — that tells your brand story and converts followers into customers.",
-        "color": "#E1306C",
-        "bg": "rgba(225,48,108,0.08)",
-        "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80"
-      },
-      {
-        "icon": "▶️",
-        "name": "YouTube Marketing",
-        "desc": "We help you build and grow a YouTube channel with compelling video content, SEO-optimized titles and descriptions, and a consistent upload strategy that drives subscribers and views.",
-        "color": "#FF0000",
-        "bg": "rgba(255,0,0,0.08)",
-        "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&q=80"
-      }
-    ],
+  
   
     "services": [
       {
@@ -152,7 +103,7 @@
           "id": 1,
           "title": "Social Media Audit & Research",
           "description": "We start with a comprehensive audit of your existing social media profiles — analyzing content performance, audience demographics, engagement rates, and competitor benchmarks to build a winning SMO strategy.",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "image": "/images/seo_Competitor_Analysis.webp",
           "points": [
             "Full profile & content audit",
             "Competitor social benchmarking",
@@ -164,7 +115,7 @@
           "id": 2,
           "title": "Profile Optimization",
           "description": "We optimize every element of your social profiles — bio, profile photo, cover image, highlights, keywords, and link strategy — to maximize discoverability and create the strongest first impression.",
-          "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=700&q=80",
+          "image": "/images/smo_Profile_Optimization.webp",
           "points": [
             "Bio & description optimization",
             "Profile & cover image design",
@@ -176,7 +127,7 @@
           "id": 3,
           "title": "Content Strategy & Calendar",
           "description": "We develop a detailed monthly content calendar with platform-specific post formats — reels, carousels, stories, infographics — optimized for each platform's algorithm and peak audience activity times.",
-          "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=700&q=80",
+          "image": "/images/seo_Content_Authority_Building.webp",
           "points": [
             "Monthly content calendar",
             "Platform-specific post formats",
@@ -188,7 +139,7 @@
           "id": 4,
           "title": "Content Creation & Publishing",
           "description": "Our creative team designs and writes high-quality social media content — eye-catching graphics, reel scripts, engaging captions — then publishes at optimal times for maximum organic reach.",
-          "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=700&q=80",
+          "image": "/images/smo_Content_Creation_Publishing.webp",
           "points": [
             "Graphic & reel content creation",
             "SEO-optimized captions",
@@ -200,7 +151,7 @@
           "id": 5,
           "title": "Community Management",
           "description": "We actively manage your social media community — responding to comments, DMs, and mentions, engaging with followers, and building relationships that convert audience members into loyal brand advocates.",
-          "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=700&q=80",
+          "image": "/images/smo_Community_Management.webp",
           "points": [
             "Comment & DM management",
             "Follower engagement & replies",
@@ -212,7 +163,7 @@
           "id": 6,
           "title": "Analytics & Monthly Reporting",
           "description": "Every month we deliver a clear performance report — follower growth, reach, impressions, engagement rate, and top-performing content — with actionable recommendations to continuously improve your social ROI.",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "image": "/images/seo_Reporting_Ongoing_Optimization.webp",
           "points": [
             "Monthly growth & reach report",
             "Engagement rate analysis",
@@ -245,7 +196,7 @@
       "subtitle": "Get a free social media audit and growth roadmap from Divrit Technologies' SMO experts. We'll show you exactly how to grow your brand online.",
       "btnPrimary": "Get Free SMO Audit",
       "btnSecondary": "View Our Results",
-      "bgImage": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1400&q=80"
+      "bgImage": "/images/cta.webp"
     },
   
     "completedProjects": [
@@ -257,9 +208,7 @@
         "tags": ["Instagram", "Reels", "Influencer"],
         "stats": { "retention": "68K Followers", "conversion": "3x Sales", "duration": "8 Months" },
         "color": "#E1306C",
-        "bgColor": "rgba(225,48,108,0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "rgba(225,48,108,0.08)"
       },
       {
         "id": 2,
@@ -269,9 +218,7 @@
         "tags": ["LinkedIn", "B2B", "Thought Leadership"],
         "stats": { "retention": "15K Followers", "conversion": "120+ Leads/mo", "duration": "6 Months" },
         "color": "#0A66C2",
-        "bgColor": "rgba(10,102,194,0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "rgba(10,102,194,0.08)"
       },
       {
         "id": 3,
@@ -281,9 +228,7 @@
         "tags": ["Instagram", "Facebook", "Local"],
         "stats": { "retention": "+400% Followers", "conversion": "+65% Footfall", "duration": "5 Months" },
         "color": "#FF6B35",
-        "bgColor": "rgba(255,107,53,0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "rgba(255,107,53,0.08)"
       },
       {
         "id": 4,
@@ -293,9 +238,7 @@
         "tags": ["YouTube", "Instagram", "EdTech"],
         "stats": { "retention": "25K YouTube Subs", "conversion": "18K Instagram", "duration": "9 Months" },
         "color": "#7C3AED",
-        "bgColor": "rgba(124,58,237,0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "rgba(124,58,237,0.08)"
       },
       {
         "id": 5,
@@ -305,9 +248,7 @@
         "tags": ["Instagram", "YouTube", "Real Estate"],
         "stats": { "retention": "+320% Reach", "conversion": "3x Inquiries", "duration": "6 Months" },
         "color": "#10B981",
-        "bgColor": "rgba(16,185,129,0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "rgba(16,185,129,0.08)"
       },
       {
         "id": 6,
@@ -317,9 +258,7 @@
         "tags": ["Instagram", "Travel", "Reels"],
         "stats": { "retention": "45K Followers", "conversion": "200+ Bookings/mo", "duration": "7 Months" },
         "color": "#00D4FF",
-        "bgColor": "rgba(0,212,255,0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "rgba(0,212,255,0.08)"
       }
     ],
   
@@ -395,11 +334,5 @@
         "rating": 5,
         "avatar": "NP"
       }
-    ],
-  
-    "contact": {
-      "email": "hello@divritin.com",
-      "phone": "+91 98765 43210",
-      "subheading": "Get a free social media audit and growth roadmap from Divrit Technologies' SMO experts. We respond within 24 hours."
-    }
+    ]
   }

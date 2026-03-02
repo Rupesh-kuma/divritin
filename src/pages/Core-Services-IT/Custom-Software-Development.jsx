@@ -12,6 +12,10 @@ export default function CustomSoftwareDevelopment() {
     data.process.steps.find((s) => s.id === activeStep) ||
     data.process.steps[0];
 
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      sendEmail(e.target);
+    };
   return (
     <div className="spb">
       {/* ══ 1. HERO ══ */}
@@ -40,16 +44,20 @@ export default function CustomSoftwareDevelopment() {
           <div className="spb-hero__form">
             <p className="spb-hero__form-title">{data.hero.formTitle}</p>
             <p className="spb-hero__form-sub">Experts ready to help you</p>
+            <form onSubmit={handleSubmit}>
             {data.hero.formFields.map((field) => (
               <input
                 key={field}
+                name={field}
                 placeholder={field}
                 className="spb-input"
+                required
               />
             ))}
             <button className="spb-btn spb-btn--primary spb-btn--full">
               Submit Now →
             </button>
+            </form>
           </div>
 
         </div>
@@ -63,7 +71,7 @@ export default function CustomSoftwareDevelopment() {
             <span className="spb-label">{data.intro.label}</span>
             <h2 className="spb-intro__heading">{data.intro.heading}</h2>
             <p className="spb-intro__desc">{data.intro.description}</p>
-            <button className="spb-btn spb-btn--primary">Discover More →</button>
+            <Link to="/Contact-Us" className="spb-btn spb-btn--primary">Start Your Project →</Link>
 
             <div className="spb-stats">
               {data.intro.stats.map((s) => (

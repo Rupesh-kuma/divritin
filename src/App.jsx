@@ -28,6 +28,7 @@ import Ourclient from './pages/Company-Profile/OurClient';
 import Blogs from './pages/Company-Profile/Blogs';
 import Events from './pages/Company-Profile/Event';
 import AutoPopup from './components/AutoPopup';
+import NotFound from './components/not-found';
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
       <Route path='/our-client' element={<Ourclient/>}/>
       <Route path='/blogs' element={<Blogs/>}/>
       <Route path='/events' element={<Events/>}/>
+      <Route path='/page-not-found' element={<NotFound/>}/>
     </Routes>
     <Footer/>
     </>

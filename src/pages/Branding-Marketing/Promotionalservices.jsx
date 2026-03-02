@@ -149,12 +149,12 @@ export default function Ppc() {
             </section>
 
             {/* SERVICES */}
-            <section class="spb-section spb-section--alt">
+            <section className="spb-section spb-section--alt">
                 <div className="spb-container container-fluid">
                     <div className="row align-items-end mb-5">
                         <div className="col-lg-6">
                             <div className="sec-tag">✦ What We Offer</div>
-                            <h2 class="spb-intro__heading">Our Promotional & Marketing Services</h2>
+                            <h2 className="spb-intro__heading">Our Promotional & Marketing Services</h2>
                         </div>
                         <div className="col-lg-6">
                             <p className="sec-p">From influencer campaigns and WhatsApp automation to email marketing and PR outreach — we manage every type of promotional campaign with a focus on brand growth, engagement, and measurable ROI.</p>
@@ -179,7 +179,7 @@ export default function Ppc() {
             <section className="spb-section">
                 <div className="spb-container container-fluid">
                     <div className="spb-section__head">
-                        <div class="spb-label">✦ Our Methodology</div>
+                        <div className="spb-label">✦ Our Methodology</div>
                         <h2 className="spb-section__title">{data.process.heading}</h2>
                         <p className="spb-section__sub">{data.process.subtitle}</p>
                     </div>
@@ -267,7 +267,7 @@ export default function Ppc() {
                 <div className="spb-container container-fluid">
                     <div className="row align-items-end mb-2">
                         <div className="col-lg-6">
-                            <div class="spb-label">✦ Why Choose Us</div>
+                            <div className="spb-label">✦ Why Choose Us</div>
                             <h2 className="spb-intro__heading">Why Divrit Technologies<br/>for Promotional Marketing?</h2>
                         </div>
                         <div className="col-lg-6">
@@ -296,8 +296,8 @@ export default function Ppc() {
                 <div className="spb-container container-fluid">
                     <div className="row align-items-end mb-5">
                         <div className="col-lg-6">
-                            <div class="spb-label">✦ Industries We Serve</div>
-                            <h2 class="spb-intro__heading">{data.industries.heading}</h2>
+                            <div className="spb-label">✦ Industries We Serve</div>
+                            <h2 className="spb-intro__heading">{data.industries.heading}</h2>
                         </div>
                         <div className="col-lg-6">
                             <p className="sec-p">{data.industries.subtitle}</p>

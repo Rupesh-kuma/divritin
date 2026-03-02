@@ -1,7 +1,34 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "/images/logo.png";
 import { Link } from "react-router-dom";
 const Header = () => {
+    useEffect(() => {
+        const navbar = document.getElementById("navbarSupportedContent");
+      
+        const handleClick = (e) => {
+          // agar dropdown toggle par click hua → kuch mat karo
+          if (e.target.closest(".dropdown-toggle")) {
+            return;
+          }
+      
+          // sirf actual page links par close karo
+          if (e.target.closest(".dropdown-item, .nav-link")) {
+            if (navbar.classList.contains("show")) {
+              const collapse =
+                window.bootstrap.Collapse.getInstance(navbar) ||
+                new window.bootstrap.Collapse(navbar, { toggle: false });
+      
+              collapse.hide();
+            }
+          }
+        };
+      
+        navbar.addEventListener("click", handleClick);
+      
+        return () => {
+          navbar.removeEventListener("click", handleClick);
+        };
+      }, []);
 
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -339,52 +366,52 @@ const Header = () => {
                                 </div>
                                 <ul className="sidebar-submenu">
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/Tally-Prime" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             Tally Prime
                                         </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/Tally-Prime-Edit-Log" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             Tally Prime Edit Log
                                         </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/Tally-Server" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             Tally Server
                                         </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/Tally-prime-developer" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             Tally prime developer
                                         </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/Tally-ERP" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             Tally ERP
                                         </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/Tally-TSS" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             Tally TSS (Tally Software Services)
                                         </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/Tally-Integration-Solutions" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             Tally Integration Solutions
                                         </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/Tally-on-Cloud" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             Tally on Cloud
                                         </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/Tally-Educational-Product" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             Tally Educational Product
                                         </Link>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/Tally-Downloads" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             Tally Downloads
                                         </Link>
                                     </li>
@@ -409,29 +436,29 @@ const Header = () => {
                                 </div>
                                 <ul className="sidebar-submenu">
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/Cloud-Solutions" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             Cloud Solutions
                                         </Link>
                                         <ul>
                                             <li className="sidebar-submenu-item">
-                                                <Link to="/Services-Hosting" className="sidebar-submenu-link">
+                                                <Link to="/page-not-found" className="sidebar-submenu-link">
                                                     Services & Hosting
                                                 </Link>
                                             </li>
                                         </ul>
                                     </li>
                                     <li className="sidebar-submenu-item">
-                                        <Link to="/On-Demand-Workforce" className="sidebar-submenu-link">
+                                        <Link to="/page-not-found" className="sidebar-submenu-link">
                                             On Demand Workforce
                                         </Link>
                                         <ul>
                                             <li className="sidebar-submenu-item">
-                                                <Link to="/Developer-Consultant" className="sidebar-submenu-link">
+                                                <Link to="/page-not-found" className="sidebar-submenu-link">
                                                     Developer & Consultant
                                                 </Link>
                                             </li>
                                             <li className="sidebar-submenu-item">
-                                                <Link to="/Virtual-Assistant" className="sidebar-submenu-link">
+                                                <Link to="/page-not-found" className="sidebar-submenu-link">
                                                     Virtual Assistant
                                                 </Link>
                                             </li>
@@ -482,7 +509,7 @@ const Header = () => {
                                 </ul>
                             </li> */}
                             <li className="sidebar-menu-item">
-                                <Link to="/Career" className="sidebar-menu-link">
+                                <Link to="/page-not-found" className="sidebar-menu-link">
                                     <i className="fa-solid fa-briefcase"></i>
                                     Career
                                 </Link>

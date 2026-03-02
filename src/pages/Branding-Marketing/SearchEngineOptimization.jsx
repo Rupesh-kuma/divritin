@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import data from "/src/datas/SearchEngineOptimization.json";
+import { Link, useNavigate } from "react-router-dom";
     
 const tools = [
     { icon: "🔍", name: "Google Search Console" },
@@ -17,12 +18,16 @@ const tools = [
 const projEmoji = { 1: "🏥", 2: "🛒", 3: "💳", 4: "🎓", 5: "🏗️", 6: "⚖️" };
 
 export default function Searchengineoptimization() {
+    const navigate=useNavigate();
     const [activeFaq, setActiveFaq] = useState(null);
     const [activeStep, setActiveStep] = useState(1);
     const currentStep =
         data.process.steps.find((s) => s.id === activeStep) ||
         data.process.steps[0];
-
+        const handleSubmit = (e) => {
+            e.preventDefault();
+            sendEmail(e.target);
+          };
 
     return (
         <div className="seo-page">
@@ -51,16 +56,20 @@ export default function Searchengineoptimization() {
                     <div className="spb-hero__form">
                         <p className="spb-hero__form-title">{data.hero.formTitle}</p>
                         <p className="spb-hero__form-sub">Experts ready to help you</p>
+                        <form onSubmit={handleSubmit}>
                         {data.hero.formFields.map((field) => (
                             <input
                                 key={field}
+                                name={field}
                                 placeholder={field}
                                 className="spb-input"
+                                required
                             />
                         ))}
-                        <button className="spb-btn spb-btn--primary spb-btn--full">
+                        <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
                             Submit Now →
                         </button>
+                        </form>
                     </div>
 
                 </div>
@@ -74,7 +83,7 @@ export default function Searchengineoptimization() {
                         <span className="spb-label">{data.intro.label}</span>
                         <h2 className="spb-intro__heading">{data.intro.heading}</h2>
                         <p className="spb-intro__desc">{data.intro.description}</p>
-                        <button className="spb-btn spb-btn--primary">Discover More →</button>
+                        <Link to="/Contact_Us" className="spb-btn spb-btn--primary">Start Your Project →</Link>
 
                         <div className="spb-stats">
                             {data.intro.stats.map((s) => (
@@ -121,12 +130,12 @@ export default function Searchengineoptimization() {
             </section>
 
             {/* SERVICES */}
-            <section class="spb-section spb-section--alt">
+            <section className="spb-section spb-section--alt">
                 <div className="spb-container container-fluid">
                     <div className="row align-items-end mb-5">
                         <div className="col-lg-6">
                             <div className="sec-tag">✦ What We Do</div>
-                            <h2 class="spb-intro__heading">Our SEO Services</h2>
+                            <h2 className="spb-intro__heading">Our SEO Services</h2>
                         </div>
                         <div className="col-lg-6">
                             <p className="sec-p">From technical audits to content strategy and link building — our comprehensive SEO services cover every aspect of ranking your website on Google.</p>
@@ -151,7 +160,7 @@ export default function Searchengineoptimization() {
             <section className="spb-section">
                 <div className="spb-container container-fluid">
                     <div className="spb-section__head">
-                        <div class="spb-label">✦ How We Do It</div>
+                        <div className="spb-label">✦ How We Do It</div>
                         <h2 className="spb-section__title">{data.process.heading}</h2>
                         <p className="spb-section__sub">{data.process.subtitle}</p>
                     </div>
@@ -210,7 +219,6 @@ export default function Searchengineoptimization() {
                                 <div className="proj-card">
                                     <div className="proj-card-top">
                                     <div className="proj-done-badge">
-                                            <span className="green-dot" />{p.status} &bull; {p.year}
                                         </div>
                                         <div className="proj-visual" style={{ background: p.bgColor, "--pj-clr": p.bgColor }}>
                                             <span style={{ position: "relative", zIndex: 1 }}>{projEmoji[p.id]}</span>
@@ -238,8 +246,8 @@ export default function Searchengineoptimization() {
             <section className="dv-sec dark-sec">
                 <div className="container">
                     <div className="text-center mb-5">
-                        <div class="spb-label">✦ Tools We Use</div>
-                        <h2 class="spb-intro__heading">Industry-Leading SEO Tools</h2>
+                        <div className="spb-label">✦ Tools We Use</div>
+                        <h2 className="spb-intro__heading">Industry-Leading SEO Tools</h2>
                         <p className="sec-p mx-auto" style={{ maxWidth: 500 }}>We use the best SEO tools in the industry to research, execute, and track your rankings with precision and transparency.</p>
                     </div>
                     <div className="tools-grid">
@@ -257,8 +265,8 @@ export default function Searchengineoptimization() {
                 <div className="spb-container container-fluid">
                     <div className="row align-items-end mb-5">
                         <div className="col-lg-6">
-                            <div class="spb-label">✦ Industries We Serve</div>
-                            <h2 class="spb-intro__heading">{data.industries.heading}</h2>
+                            <div className="spb-label">✦ Industries We Serve</div>
+                            <h2 className="spb-intro__heading">{data.industries.heading}</h2>
                         </div>
                         <div className="col-lg-6">
                             <p className="sec-p">{data.industries.subtitle}</p>
@@ -266,7 +274,7 @@ export default function Searchengineoptimization() {
                     </div>
                     <div className="spb-industries">
                         {data.industries.list.map((ind, i) => (
-                            <div className="spb-industry-card" key={i}>
+                            <div className="spb-industry-card" key={i} onClick={()=>navigate("/industries")}>
                                     <div className="spb-industry-card__icon">{ind.icon}</div>
                                     <div className="spb-industry-card__title">{ind.title}</div>
                                     <div className="spb-industry-card__desc">{ind.desc}</div>
@@ -281,7 +289,7 @@ export default function Searchengineoptimization() {
                 <div className="spb-container container-fluid">
                     <div className="row align-items-end mb-2">
                         <div className="col-lg-6">
-                            <div class="spb-label">✦ Why Divrit Technologies</div>
+                            <div className="spb-label">✦ Why Divrit Technologies</div>
                             <h2 className="spb-intro__heading">SEO That Delivers<br />Measurable ROI</h2>
                         </div>
                         <div className="col-lg-6">
@@ -363,8 +371,8 @@ export default function Searchengineoptimization() {
                     <h2 className="spb-cta__title">{data.cta.heading}</h2>
                     <p className="spb-cta__sub">{data.cta.subtitle}</p>
                     <div className="spb-cta__btns">
-                        <button className="spb-btn spb-btn--white">{data.cta.btnPrimary}</button>
-                        <button className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</button>
+                    <Link to="tel:+919871886822" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+            <Link to="/our-portfolios" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
                     </div>
                 </div>
             </section>

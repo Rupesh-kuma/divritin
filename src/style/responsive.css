@@ -557,6 +557,29 @@ font-size: 17px;
     .why-card{
         flex-direction: column;
     }
+    .proj-visual {
+        height: auto;
+    }
+    .proj-title {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .svc-desc {
+        margin-bottom: 4px;
+        text-align: justify;
+    }
+    .svc-title {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .proj-body {
+        padding: 0 5px 0px;
+    }
+    .fixed-contact-icons {
+        left: 2px;
+        transform: translateY(-10%);
+        gap: 7px;
+    }
 }
 @media (max-width: 480px) {
 .navbar-collapse{

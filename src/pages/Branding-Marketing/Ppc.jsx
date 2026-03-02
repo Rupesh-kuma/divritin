@@ -149,12 +149,12 @@ export default function Ppc() {
             </section>
 
             {/* SERVICES */}
-            <section class="spb-section spb-section--alt">
+            <section className="spb-section spb-section--alt">
                 <div className="spb-container container-fluid">
                     <div className="row align-items-end mb-5">
                         <div className="col-lg-6">
                             <div className="sec-tag">✦ What We Offer</div>
-                            <h2 class="spb-intro__heading">Our PPC & SEM Services</h2>
+                            <h2 className="spb-intro__heading">Our PPC & SEM Services</h2>
                         </div>
                         <div className="col-lg-6">
                             <p className="sec-p">From Google Search and Shopping to Meta Ads and YouTube — we manage every type of paid campaign with a focus on conversions, ROI, and measurable business growth.</p>
@@ -179,7 +179,7 @@ export default function Ppc() {
             <section className="spb-section">
                 <div className="spb-container container-fluid">
                     <div className="spb-section__head">
-                        <div class="spb-label">✦ Our Methodology</div>
+                        <div className="spb-label">✦ Our Methodology</div>
                         <h2 className="spb-section__title">{data.process.heading}</h2>
                         <p className="spb-section__sub">{data.process.subtitle}</p>
                     </div>
@@ -266,8 +266,8 @@ export default function Ppc() {
             <section className="dv-sec dark-sec">
                 <div className="container">
                     <div className="text-center mb-5">
-                        <div class="spb-label">✦ Tools We Use</div>
-                        <h2 class="spb-intro__heading">Industry-Leading SEO Tools</h2>
+                        <div className="spb-label">✦ Tools We Use</div>
+                        <h2 className="spb-intro__heading">Industry-Leading SEO Tools</h2>
                         <p className="sec-p mx-auto" style={{ maxWidth: 500 }}>We use the best SEO tools in the industry to research, execute, and track your rankings with precision and transparency.</p>
                     </div>
                     <div className="tools-grid">
@@ -285,8 +285,8 @@ export default function Ppc() {
                 <div className="spb-container container-fluid">
                     <div className="row align-items-end mb-5">
                         <div className="col-lg-6">
-                            <div class="spb-label">✦ Industries We Serve</div>
-                            <h2 class="spb-intro__heading">{data.industries.heading}</h2>
+                            <div className="spb-label">✦ Industries We Serve</div>
+                            <h2 className="spb-intro__heading">{data.industries.heading}</h2>
                         </div>
                         <div className="col-lg-6">
                             <p className="sec-p">{data.industries.subtitle}</p>
@@ -309,7 +309,7 @@ export default function Ppc() {
                 <div className="spb-container container-fluid">
                     <div className="row align-items-end mb-2">
                         <div className="col-lg-6">
-                            <div class="spb-label">✦ Why Choose Us</div>
+                            <div className="spb-label">✦ Why Choose Us</div>
                             <h2 className="spb-intro__heading">Why Divrit Technologies<br/>for PPC & SEM?</h2>
                         </div>
                         <div className="col-lg-6">

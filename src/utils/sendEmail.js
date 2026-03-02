@@ -10,7 +10,7 @@ export const sendEmail = async (form) => {
   
     try {
   
-      const res = await fetch("http://localhost:5000/send-mail", {
+      const res = await fetch("https://divritin.com/send-mail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

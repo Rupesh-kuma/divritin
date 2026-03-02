@@ -3,7 +3,7 @@
       "badge": "OTHER DESIGN SERVICES",
       "title": "Creative Design Solutions That Elevate Your Brand",
       "subtitle": "Divrit Technologies offers a full spectrum of creative design services — from brand identity and print design to social media graphics and presentation design — all crafted to make your business stand out.",
-      "bgImage": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=1600&q=80",
+      "bgImage": "/images/ods_banner.webp",
       "tags": ["Brand Identity", "Logo Design", "Print Design", "Social Media", "Presentation Design"],
       "formTitle": "Get a FREE Consultation",
       "formFields": [
@@ -16,7 +16,7 @@
       "label": "360° Creative Design Services",
       "heading": "One Studio for All Your Design Needs",
       "description": "Looking for comprehensive creative design services beyond UI/UX? Divrit Technologies Pvt. Ltd. is your one-stop design partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). From logo design and brand identity to brochures, social media creatives, pitch decks, and packaging — our talented designers deliver visually compelling, on-brand design solutions that help your business communicate better, attract more customers, and grow faster.",
-      "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&q=80",
+      "image": "/images/ods_about.webp",
       "stats": [
         { "num": "800+", "label": "Designs Delivered" },
         { "num": "98%",  "label": "Client Satisfaction" },
@@ -32,7 +32,7 @@
           "id": 1,
           "title": "Brief & Brand Discovery",
           "description": "We start by understanding your brand, business goals, target audience, and design preferences through a detailed creative brief. This ensures every design decision is purposeful and aligned with your brand identity.",
-          "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+          "image": "/images/osd_Discovery.webp",
           "points": [
             "Detailed creative brief discussion",
             "Brand values & tone of voice",
@@ -44,7 +44,7 @@
           "id": 2,
           "title": "Concept Development",
           "description": "Our creative team develops multiple design concepts based on your brief. We explore different visual directions — typography, color palettes, layout styles — and present 2–3 distinct concepts for your review.",
-          "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=700&q=80",
+          "image": "/images/msd_Screen_Architecture.webp",
           "points": [
             "2–3 unique design concepts",
             "Color palette exploration",
@@ -56,7 +56,7 @@
           "id": 3,
           "title": "Design Execution",
           "description": "Once a direction is approved, we execute the full design with meticulous attention to detail. Every element — spacing, alignment, color, and typography — is crafted to professional print and digital standards.",
-          "image": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=700&q=80",
+          "image": "/images/osd_Concept_Development.webp",
           "points": [
             "High-resolution design production",
             "Print & digital format standards",
@@ -68,7 +68,7 @@
           "id": 4,
           "title": "Review & Revisions",
           "description": "We share designs for your feedback and incorporate revisions until you are completely satisfied. Our transparent revision process ensures the final output matches your expectations perfectly.",
-          "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+          "image": "/images/osd_review_revision.webp",
           "points": [
             "Structured feedback rounds",
             "Clear revision tracking",
@@ -80,7 +80,7 @@
           "id": 5,
           "title": "Quality Check & Finalization",
           "description": "Every design goes through a thorough quality check — color accuracy, bleed margins, file resolution, and brand consistency — before final delivery. We ensure print-ready and web-ready files meet all technical standards.",
-          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+          "image": "/images/wdd_Testing_QA.webp",
           "points": [
             "Print-ready file verification",
             "Color profile (CMYK & RGB) check",
@@ -92,7 +92,7 @@
           "id": 6,
           "title": "File Delivery & Brand Support",
           "description": "We deliver all final files in every format you need — AI, EPS, PDF, PNG, JPG, SVG — along with a brand style guide. Our team remains available for future design needs, updates, and brand extensions.",
-          "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=700&q=80",
+          "image": "/images/wdd_Deployment_Support.webp",
           "points": [
             "All file formats (AI, EPS, PDF, PNG, SVG)",
             "Brand style guide document",
@@ -121,7 +121,7 @@
       "subtitle": "Let's discuss your design project. Get a free consultation and creative proposal from our design experts at Divrit Technologies.",
       "btnPrimary": "Get Free Consultation",
       "btnSecondary": "View Our Work",
-      "bgImage": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=1400&q=80"
+      "bgImage": "/images/cta.webp"
     },
     "services": [
       {
@@ -176,75 +176,81 @@
     "completedProjects": [
       {
         "id": 1,
-        "title": "NourishMe Brand Identity",
-        "category": "Food & Wellness Branding",
-        "description": "Complete brand identity design for a health food startup — logo, color system, packaging, and social media kit. The rebrand led to a 78% increase in brand recall among target customers.",
-        "tags": ["Logo Design", "Packaging", "Brand Identity"],
-        "stats": { "retention": "+78%", "conversion": "+92%", "duration": "4 Weeks" },
-        "color": "#10B981",
-        "bgColor": "rgba(16, 185, 129, 0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "title": "Accurate Control & Automation Website",
+        "category": "Corporate Website",
+        "description": "Designed and developed a modern corporate website for Accurate Control & Automation to showcase industrial automation solutions, products, and engineering expertise with improved performance, structured navigation, and professional brand presentation.",
+        "tags": ["Corporate Website", "Industrial Automation", "Engineering"],
+        "stats": {
+          "retention": "+55%",
+          "conversion": "+72%",
+          "duration": "1 Weeks"
+        },
+        "bgColor": "/images/Accurate_project.webp"
       },
       {
         "id": 2,
-        "title": "TechVentures Pitch Deck",
-        "category": "Corporate Presentation",
-        "description": "Investor pitch deck design for a Series A startup — 28 slides with compelling data visualization and storytelling. The deck helped the founders successfully raise ₹12 Cr in funding.",
-        "tags": ["Pitch Deck", "Infographics", "Corporate"],
-        "stats": { "retention": "+95%", "conversion": "+100%", "duration": "2 Weeks" },
-        "color": "#7C3AED",
-        "bgColor": "rgba(124, 58, 237, 0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "title": "FitMeals Healthy Meal Subscription Platform",
+        "category": "FoodTech Platform",
+        "description": "Designed and developed a modern healthy meal subscription platform enabling users to explore customized diet plans, manage meal subscriptions, and access nutrition-based food services through a seamless digital experience.",
+        "tags": ["FoodTech", "Subscription Platform", "Health & Nutrition"],
+        "stats": {
+          "retention": "+62%",
+          "conversion": "+78%",
+          "duration": "4 Weeks"
+        },
+        "bgColor": "/images/fitmeals_project.webp"
       },
       {
         "id": 3,
-        "title": "GlowSkin Packaging",
-        "category": "Product Packaging Design",
-        "description": "Premium skincare product packaging and label design for 12 product SKUs. The new packaging resulted in a 65% increase in retail shelf conversions and won a regional packaging design award.",
-        "tags": ["Packaging", "Label Design", "Retail"],
-        "stats": { "retention": "+65%", "conversion": "+88%", "duration": "5 Weeks" },
-        "color": "#F59E0B",
-        "bgColor": "rgba(245, 158, 11, 0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "title": "BookMyTrip Travel Booking & Reservation Platform",
+        "category": "TravelTech Platform",
+        "description": "Designed and developed an all-in-one travel booking platform enabling users to search and book flights, hotels, buses, visa services, and holiday packages through a seamless and user-friendly digital experience.",
+        "tags": ["Travel Platform", "Booking System", "Tourism Tech"],
+        "stats": {
+          "retention": "+58%",
+          "conversion": "+74%",
+          "duration": "6 Weeks"
+        },
+        "bgColor": "/images/bookmytrip_project.webp"
       },
       {
         "id": 4,
-        "title": "BrightMinds School Branding",
-        "category": "Education Brand Identity",
-        "description": "Complete visual identity for a chain of 8 schools — logo, stationery, uniform design, signage, and digital assets. Delivered a cohesive brand system used across all campuses.",
-        "tags": ["Education", "Brand Identity", "Print"],
-        "stats": { "retention": "+80%", "conversion": "+55%", "duration": "6 Weeks" },
-        "color": "#FF6B35",
-        "bgColor": "rgba(255, 107, 53, 0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "title": "Organic India Wellness & E-Commerce Platform",
+        "category": "E-Commerce Website",
+        "description": "Designed and developed a modern wellness e-commerce platform for Organic India to showcase certified organic products, herbal supplements, and wellness solutions with improved user experience, faster browsing, and seamless product discovery.",
+        "tags": ["E-Commerce", "Wellness Brand", "Organic Products"],
+        "stats": {
+          "retention": "+64%",
+          "conversion": "+81%",
+          "duration": "7 Weeks"
+        },
+        "bgColor": "/images/organicindia_project.webp"
       },
       {
         "id": 5,
-        "title": "UrbanNest Real Estate",
-        "category": "Real Estate Marketing Design",
-        "description": "Full marketing design suite for a premium real estate project — brochure, site hoarding, newspaper ads, and digital creatives. Generated 3x more property inquiries within the first month.",
-        "tags": ["Real Estate", "Print", "Brochure"],
-        "stats": { "retention": "+200%", "conversion": "+175%", "duration": "3 Weeks" },
-        "color": "#00D4FF",
-        "bgColor": "rgba(0, 212, 255, 0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "title": "Travel4Delight Tour & Travel Booking Website",
+        "category": "Travel Website",
+        "description": "Designed and developed a modern travel booking website for Travel4Delight to showcase international and domestic tour packages, enable seamless trip planning, and provide users with personalized travel experiences through an intuitive digital platform.",
+        "tags": ["Travel Agency", "Tour Booking", "Holiday Packages"],
+        "stats": {
+          "retention": "+59%",
+          "conversion": "+76%",
+          "duration": "9 Weeks"
+        },
+        "bgColor": "/images/travel4delight_project.webp"
       },
       {
         "id": 6,
-        "title": "FreshBrew Social Media Kit",
-        "category": "Social Media Design",
-        "description": "Monthly social media creative design for a café chain — 60+ post templates, story designs, ad banners, and seasonal campaign creatives that grew their Instagram following by 220%.",
-        "tags": ["Social Media", "Instagram", "Brand"],
-        "stats": { "retention": "+220%", "conversion": "+140%", "duration": "Ongoing" },
-        "color": "#EC4899",
-        "bgColor": "rgba(236, 72, 153, 0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "title": "Flashpoint Logistics Event Effects & Equipment Platform",
+        "category": "E-Commerce Website",
+        "description": "Designed and developed a specialized e-commerce platform for Flashpoint Logistics to showcase and manage live event special-effects equipment, enabling seamless product discovery, inventory visibility, and streamlined purchasing for event and fireworks professionals.",
+        "tags": ["E-Commerce", "Event Technology", "Product Catalog"],
+        "stats": {
+          "retention": "+57%",
+          "conversion": "+69%",
+          "duration": "10 Weeks"
+        },
+        "bgColor": "/images/flashpoint_project.webp"
       }
     ],
     "whyUs": [
@@ -319,8 +325,6 @@
       }
     ],
     "contact": {
-      "email": "hello@divritin.com",
-      "phone": "+91 98765 43210",
       "subheading": "Tell us about your design project and get a free consultation from Divrit Technologies' creative design experts. We respond within 24 hours."
     }
   }

@@ -11,6 +11,10 @@ export default function WebDesignDevelopment() {
     data.process.steps.find((s) => s.id === activeStep) ||
     data.process.steps[0];
 
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      sendEmail(e.target);
+    };
   return (
     <div className="spb">
 
@@ -40,16 +44,20 @@ export default function WebDesignDevelopment() {
           <div className="spb-hero__form">
             <p className="spb-hero__form-title">{data.hero.formTitle}</p>
             <p className="spb-hero__form-sub">Experts ready to help you</p>
+            <form onSubmit={handleSubmit}>
             {data.hero.formFields.map((field) => (
               <input
                 key={field}
+                name={field}
                 placeholder={field}
                 className="spb-input"
+                required
               />
             ))}
             <button className="spb-btn spb-btn--primary spb-btn--full">
               Submit Now →
             </button>
+            </form>
           </div>
 
         </div>
@@ -63,7 +71,7 @@ export default function WebDesignDevelopment() {
             <span className="spb-label">{data.intro.label}</span>
             <h2 className="spb-intro__heading">{data.intro.heading}</h2>
             <p className="spb-intro__desc">{data.intro.description}</p>
-            <button className="spb-btn spb-btn--primary">Discover More →</button>
+            <Link to="/Contact-Us" className="spb-btn spb-btn--primary">Start Your Project →</Link>
 
             <div className="spb-stats">
               {data.intro.stats.map((s) => (
@@ -138,7 +146,7 @@ export default function WebDesignDevelopment() {
 
           <div className="spb-industries">
             {data.industries.list.map((ind) => (
-              <div key={ind.title} className="spb-industry-card">
+              <div key={ind.title} className="spb-industry-card" onClick={()=>navigate("/industries")}>
                 <span className="spb-industry-card__icon">{ind.icon}</span>
                 <h4 className="spb-industry-card__title">{ind.title}</h4>
                 <p className="spb-industry-card__desc">{ind.desc}</p>
@@ -147,7 +155,7 @@ export default function WebDesignDevelopment() {
           </div>
 
           <div className="spb-center" style={{ marginTop: 28 }}>
-            <button className="spb-btn spb-btn--outline">View All Industries →</button>
+            <Link to="/industries" className="spb-btn spb-btn--outline">View All Industries →</Link>
           </div>
         </div>
       </section>
@@ -241,8 +249,8 @@ export default function WebDesignDevelopment() {
           <h2 className="spb-cta__title">{data.cta.heading}</h2>
           <p className="spb-cta__sub">{data.cta.subtitle}</p>
           <div className="spb-cta__btns">
-            <button className="spb-btn spb-btn--white">{data.cta.btnPrimary}</button>
-            <button className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</button>
+            <Link to="tel:+919871886822" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+            <Link to="/our-portfolios" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
           </div>
         </div>
       </section>

@@ -3,7 +3,6 @@ import data from "/src/datas/Blogs.json";
 
 export default function Blogs() {
     const [activeFilter, setActiveFilter] = useState("All");
-    const [activeFaq, setActiveFaq] = useState(null);
     const [visibleCount, setVisibleCount] = useState(6);
 
     const filteredBlogs =
@@ -301,86 +300,7 @@ export default function Blogs() {
                 </div>
             </section>
 
-            {/* ══ 6. TESTIMONIALS + FAQ ══ */}
-            <section className="testmonial_bgs">
-                <div className="spb-container container-fluid">
-                    <div className="row g-5">
-
-                        {/* Left — empty/placeholder for layout balance, or add testimonials */}
-                        <div className="col-12 col-lg-5">
-                            <div className="spb-label">✦ Why Read Our Blog</div>
-                            <h2 className="spb-intro__heading mb-4">
-                                Written by Builders,<br />for Builders
-                            </h2>
-                            <div className="settings_ul">
-                                {[
-                                    {
-                                        text: "The Flutter vs React Native article saved us weeks of research. Incredibly well-researched and practical.",
-                                        name: "Arjun Kapoor",
-                                        role: "Lead Developer, TechVentures",
-                                        rating: 5,
-                                        avatar: "AK",
-                                    },
-                                    {
-                                        text: "The FinTech compliance checklist is something every startup founder should read before writing a single line of code.",
-                                        name: "Meera Nair",
-                                        role: "Founder, PayBridge",
-                                        rating: 5,
-                                        avatar: "MN",
-                                    },
-                                    {
-                                        text: "I've been reading tech blogs for 10 years. Divrit's content is genuinely different — no fluff, all signal.",
-                                        name: "Sanjay Rao",
-                                        role: "CTO, StartupHub",
-                                        rating: 5,
-                                        avatar: "SR",
-                                    },
-                                ].map((t, i) => (
-                                    <div className="testimonial-card" key={i}>
-                                        <div className="testi-card">
-                                            <div className="testi-stars">{"★".repeat(t.rating)}</div>
-                                            <div className="testi-text">"{t.text}"</div>
-                                            <div className="testi-author">
-                                                <div className="testi-av">{t.avatar}</div>
-                                                <div>
-                                                    <div className="testi-name">{t.name}</div>
-                                                    <div className="testi-role">{t.role}</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-
-                        {/* Right — FAQ */}
-                        <div className="col-12 col-lg-7">
-                            <div className="spb-label">✦ FAQ</div>
-                            <h2 className="spb-intro__heading mb-4">Common Questions</h2>
-                            <div style={{ maxWidth: 760, margin: "0 auto" }}>
-                                {data.faqs.map((f, i) => (
-                                    <div
-                                        className={`faq-item ${activeFaq === i ? "open" : ""}`}
-                                        key={i}
-                                    >
-                                        <button
-                                            className="faq-btn"
-                                            onClick={() =>
-                                                setActiveFaq(activeFaq === i ? null : i)
-                                            }
-                                        >
-                                            <span>{f.question}</span>
-                                            <div className="faq-ico">+</div>
-                                        </button>
-                                        <div className="faq-ans">{f.answer}</div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
+            
 
             {/* ══ 7. CTA ══ */}
             <section

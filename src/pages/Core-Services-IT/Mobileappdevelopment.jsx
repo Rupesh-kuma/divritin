@@ -10,6 +10,11 @@ export default function MobileAppDevelopment() {
         data.process.steps.find((s) => s.id === activeStep) ||
         data.process.steps[0];
 
+        const handleSubmit = (e) => {
+            e.preventDefault();
+            sendEmail(e.target);
+          };
+
     return (
         <div className="spb">
 
@@ -39,16 +44,20 @@ export default function MobileAppDevelopment() {
                     <div className="spb-hero__form">
                         <p className="spb-hero__form-title">{data.hero.formTitle}</p>
                         <p className="spb-hero__form-sub">Experts ready to help you</p>
+                        <form onSubmit={handleSubmit}>
                         {data.hero.formFields.map((field) => (
                             <input
                                 key={field}
+                                name={field}
                                 placeholder={field}
                                 className="spb-input"
+                                required
                             />
                         ))}
                         <button className="spb-btn spb-btn--primary spb-btn--full">
                             Submit Now →
                         </button>
+                        </form>
                     </div>
 
                 </div>

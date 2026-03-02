@@ -11,7 +11,7 @@
         "24/7 Monitoring",
         "Annual Contract"
       ],
-      "bgImage": "./src/assets/images/wmam_banner.webp",
+      "bgImage": "/images/wmam_banner.webp",
       "formTitle": "Get a FREE Consultation",
       "formFields": [
         "Your Name",
@@ -23,7 +23,7 @@
       "label": "Annual Maintenance Contract (AMC) Services",
       "heading": "Web-Mobile App Maintenance (AMC)",
       "description": "Your software is a living product — it needs constant care to stay secure, performant, and competitive. Our Annual Maintenance Contract (AMC) services cover everything from bug fixes, security patches, and performance optimization to feature enhancements and technology upgrades. We act as your extended tech team so you can focus on your business.",
-      "image": "./src/assets/images/wmam_about.webp",
+      "image": "/images/wmam_about.webp",
       "stats": [
         {
           "num": "99.9%",
@@ -51,7 +51,7 @@
           "id": 1,
           "title": "Application Audit & Onboarding",
           "description": "We start with a thorough audit of your existing application — codebase, database, security, and performance — to establish a baseline and identify immediate risks.",
-          "image": "./src/assets/images/mad_DiscoveryPlanning.webp",
+          "image": "/images/mad_DiscoveryPlanning.webp",
           "points": [
             "Full code & architecture review",
             "Security vulnerability scan",
@@ -63,7 +63,7 @@
           "id": 2,
           "title": "SLA & Support Plan Setup",
           "description": "We define clear SLAs, escalation paths, and support tiers based on your business criticality and budget.",
-          "image": "./src/assets/images/wdd_DiscoveryPlanning.webp",
+          "image": "/images/wdd_DiscoveryPlanning.webp",
           "points": [
             "Priority levels (P1–P4 tickets)",
             "Response & resolution time SLAs",
@@ -75,7 +75,7 @@
           "id": 3,
           "title": "Proactive Monitoring",
           "description": "We set up 24/7 automated monitoring for uptime, errors, performance, and security threats — catching issues before they impact your users.",
-          "image": "./src/assets/images/wmam_Proactive_Monitoring.webp",
+          "image": "/images/wmam_Proactive_Monitoring.webp",
           "points": [
             "Uptime & availability monitoring",
             "Error tracking (Sentry, Datadog)",
@@ -87,7 +87,7 @@
           "id": 4,
           "title": "Bug Fixes & Hotfixes",
           "description": "All reported bugs are triaged, prioritized, and fixed within agreed SLA timeframes. Critical bugs get emergency hotfix releases.",
-          "image": "./src/assets/images/wmam_Bug_Fixe.webp",
+          "image": "/images/wmam_Bug_Fixe.webp",
           "points": [
             "Ticket-based bug tracking",
             "Root cause analysis",
@@ -99,7 +99,7 @@
           "id": 5,
           "title": "Security & Dependency Updates",
           "description": "We keep your app's dependencies, frameworks, and libraries up to date — patching security vulnerabilities before they become exploits.",
-          "image": "./src/assets/images/wmam_Security_Dependency_Updates.webp",
+          "image": "/images/wmam_Security_Dependency_Updates.webp",
           "points": [
             "Monthly dependency audits",
             "Security patch management",
@@ -111,7 +111,7 @@
           "id": 6,
           "title": "Feature Enhancements & Reporting",
           "description": "Beyond maintenance, we help you evolve your product — adding small features, UI improvements, and delivering monthly performance reports.",
-          "image": "./src/assets/images/wdd_Testing_QA.webp",
+          "image": "/images/wdd_Testing_QA.webp",
           "points": [
             "Planned feature enhancements",
             "Monthly health & performance reports",
@@ -170,7 +170,7 @@
     "whyUs": {
       "heading": "Why Choose Our AMC?",
       "subtitle": "Reliable, proactive, and cost-effective maintenance — your peace of mind guaranteed.",
-      "image": "./src/assets/images/background_image.jpg",
+      "image": "/images/background_image.jpg",
       "cards": [
         {
           "icon": "⏱️",
@@ -202,25 +202,25 @@
           "title": "Basic Maintenance",
           "desc": "Bug fixes, security patches, and monthly uptime monitoring.",
           "percent": 100,
-          "image": "./src/assets/images/wmam_Basic_Maintenance.webp"
+          "image": "/images/wmam_Basic_Maintenance.webp"
         },
         {
           "title": "Standard AMC",
           "desc": "Everything in Basic + performance optimization & dependency updates.",
           "percent": 100,
-          "image": "./src/assets/images/wmam_Standard_AMC.webp"
+          "image": "/images/wmam_Standard_AMC.webp"
         },
         {
           "title": "Premium AMC",
           "desc": "Full-stack support with feature enhancements and dedicated developer.",
           "percent": 100,
-          "image": "./src/assets/images/wmam_Premium_AMC.webp"
+          "image": "/images/wmam_Premium_AMC.webp"
         },
         {
           "title": "Enterprise Support",
           "desc": "Custom SLAs, on-site support, 24/7 NOC, and dedicated team.",
           "percent": 100,
-          "image": "./src/assets/images/wmam_Enterprise_Support.webp"
+          "image": "/images/wmam_Enterprise_Support.webp"
         }
       ]
     },
@@ -229,6 +229,6 @@
       "subtitle": "Don't let bugs, downtime, or security issues hurt your business. Get an AMC quote today.",
       "btnPrimary": "Get AMC Quote",
       "btnSecondary": "View AMC Plans",
-      "bgImage": "./src/assets/images/cta.webp"
+      "bgImage": "/images/cta.webp"
     }
   }

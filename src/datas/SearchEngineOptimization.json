@@ -3,7 +3,7 @@
       "badge": "SEARCH ENGINE OPTIMIZATION",
       "title": "Rank Higher on Google & Drive Real Business Growth",
       "subtitle": "Divrit Technologies delivers data-driven SEO strategies that increase organic traffic, improve search rankings, and generate qualified leads — turning your website into your best-performing sales channel.",
-      "bgImage": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1600&q=80",
+      "bgImage": "/images/seo_banner.webp",
       "tags": ["On-Page SEO", "Technical SEO", "Link Building", "Local SEO", "E-Commerce SEO"],
       "formTitle": "Get a FREE SEO Audit",
       "formFields": [
@@ -16,7 +16,7 @@
       "label": "End-to-End Search Engine Optimization",
       "heading": "SEO That Delivers Rankings, Traffic & Revenue",
       "description": "Looking for the best SEO Services in India? Divrit Technologies Pvt. Ltd. is your trusted SEO partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in result-driven search engine optimization that goes beyond keyword rankings. Our SEO experts combine technical excellence, content strategy, and authority building to deliver sustainable organic growth — helping businesses increase website traffic, generate qualified leads, and achieve measurable ROI from search.",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "image": "/images/seo_about.webp",
       "stats": [
         { "num": "400+", "label": "Websites Ranked" },
         { "num": "3x",   "label": "Avg Traffic Growth" },
@@ -64,7 +64,7 @@
           "id": 1,
           "title": "SEO Audit & Competitor Analysis",
           "description": "We start with a comprehensive technical SEO audit of your website — identifying crawl errors, page speed issues, broken links, duplicate content, and on-page gaps. We also benchmark your top 5 competitors to find ranking opportunities.",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "image": "/images/seo_Competitor_Analysis.webp",
           "points": [
             "Full technical SEO site audit",
             "Competitor keyword gap analysis",
@@ -76,7 +76,7 @@
           "id": 2,
           "title": "Keyword Research & Strategy",
           "description": "We identify high-value, intent-driven keywords your target audience is searching — balancing search volume, competition, and business relevance to build a keyword strategy that drives qualified traffic, not just rankings.",
-          "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=700&q=80",
+          "image": "/images/seo_Keyword_Research_Strategy.webp",
           "points": [
             "High-intent keyword identification",
             "Long-tail keyword opportunities",
@@ -88,7 +88,7 @@
           "id": 3,
           "title": "On-Page SEO Optimization",
           "description": "We optimize every page on your website — title tags, meta descriptions, headings, content structure, internal linking, image alt text, and schema markup — to ensure Google fully understands and ranks your content.",
-          "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=700&q=80",
+          "image": "/images/seo_On-PageSEOOptimization.webp",
           "points": [
             "Title tags & meta descriptions",
             "Content optimization & structuring",
@@ -100,7 +100,7 @@
           "id": 4,
           "title": "Technical SEO & Site Speed",
           "description": "We fix all technical issues that prevent Google from properly crawling and indexing your website — improving site speed, mobile-friendliness, Core Web Vitals, XML sitemaps, robots.txt, and HTTPS security.",
-          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+          "image": "/images/seo_Technical_SEO_Site_Speed.webp",
           "points": [
             "Page speed & Core Web Vitals",
             "Mobile-first optimization",
@@ -112,7 +112,7 @@
           "id": 5,
           "title": "Content & Authority Building",
           "description": "We create SEO-optimized blog content, landing pages, and resource articles that attract links and rank for informational keywords — building topical authority that signals expertise to Google in your industry.",
-          "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=700&q=80",
+          "image": "/images/seo_Content_Authority_Building.webp",
           "points": [
             "SEO content creation & blogs",
             "High-authority link building",
@@ -124,7 +124,7 @@
           "id": 6,
           "title": "Reporting & Ongoing Optimization",
           "description": "Every month we deliver a clear ranking and traffic report — showing keyword position changes, organic traffic growth, and conversion improvements. We continuously refine our strategy based on data and algorithm updates.",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "image": "/images/seo_Reporting_Ongoing_Optimization.webp",
           "points": [
             "Monthly ranking & traffic report",
             "Google Analytics & Search Console",
@@ -153,7 +153,7 @@
       "subtitle": "Get a free SEO audit and ranking roadmap from Divrit Technologies' SEO experts. We'll show you exactly what's holding your website back.",
       "btnPrimary": "Get Free SEO Audit",
       "btnSecondary": "View Our Results",
-      "bgImage": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1400&q=80"
+      "bgImage": "/images/cta.webp"
     },
     "services": [
       {
@@ -214,9 +214,7 @@
         "tags": ["Healthcare", "Local SEO", "Content"],
         "stats": { "retention": "+312%", "conversion": "+4x Leads", "duration": "6 Months" },
         "color": "#10B981",
-        "bgColor": "rgba(16, 185, 129, 0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "rgba(16, 185, 129, 0.08)"
       },
       {
         "id": 2,
@@ -226,9 +224,7 @@
         "tags": ["eCommerce", "On-Page SEO", "Content"],
         "stats": { "retention": "+800%", "conversion": "+9x Revenue", "duration": "8 Months" },
         "color": "#7C3AED",
-        "bgColor": "rgba(124, 58, 237, 0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "rgba(124, 58, 237, 0.08)"
       },
       {
         "id": 3,
@@ -238,9 +234,7 @@
         "tags": ["FinTech", "Technical SEO", "Link Building"],
         "stats": { "retention": "+450%", "conversion": "+5000 Leads", "duration": "10 Months" },
         "color": "#00D4FF",
-        "bgColor": "rgba(0, 212, 255, 0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "rgba(0, 212, 255, 0.08)"
       },
       {
         "id": 4,
@@ -250,9 +244,7 @@
         "tags": ["Education", "Local SEO", "Blog SEO"],
         "stats": { "retention": "+380%", "conversion": "+280 Admissions", "duration": "7 Months" },
         "color": "#F59E0B",
-        "bgColor": "rgba(245, 158, 11, 0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "rgba(245, 158, 11, 0.08)"
       },
       {
         "id": 5,
@@ -262,9 +254,7 @@
         "tags": ["Real Estate", "Local SEO", "GMB"],
         "stats": { "retention": "+520%", "conversion": "+200 Inquiries", "duration": "9 Months" },
         "color": "#FF6B35",
-        "bgColor": "rgba(255, 107, 53, 0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "rgba(255, 107, 53, 0.08)"
       },
       {
         "id": 6,
@@ -274,9 +264,7 @@
         "tags": ["Legal", "Content SEO", "Authority Building"],
         "stats": { "retention": "+1100%", "conversion": "+12x Clients", "duration": "8 Months" },
         "color": "#EC4899",
-        "bgColor": "rgba(236, 72, 153, 0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "rgba(236, 72, 153, 0.08)"
       }
     ],
     "whyUs": [

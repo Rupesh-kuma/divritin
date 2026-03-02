@@ -3,7 +3,7 @@
       "badge": "MOBILE SCREEN DESIGN",
       "title": "Beautiful Mobile Screens That Users Can't Stop Using",
       "subtitle": "Divrit Technologies crafts pixel-perfect iOS & Android screen designs that combine stunning visuals with intuitive interaction — delivering mobile experiences that retain users and drive business growth.",
-      "bgImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1600&q=80",
+      "bgImage": "/images/msd_banner.webp",
       "tags": ["iOS Design", "Android Design", "App UI", "Interaction Design", "Screen Prototyping"],
       "formTitle": "Get a FREE Consultation",
       "formFields": [
@@ -16,7 +16,7 @@
       "label": "End-to-End Mobile Screen Design Services",
       "heading": "We Design Mobile Screens That Convert & Retain",
       "description": "Looking for the best Mobile Screen Design Services? Divrit Technologies Pvt. Ltd. is your trusted partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in crafting tailor-made iOS and Android screen designs that are visually stunning, thumb-friendly, and performance-optimized. Our expert mobile designers blend user psychology, platform guidelines, and brand identity to create screens that users love — and businesses profit from.",
-      "image": "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=800&q=80",
+      "image": "/images/msd_about.webp",
       "stats": [
         { "num": "300+", "label": "Apps Designed" },
         { "num": "98%",  "label": "Client Satisfaction" },
@@ -32,7 +32,7 @@
           "id": 1,
           "title": "Discovery & Mobile Strategy",
           "description": "We begin by understanding your app's purpose, target audience, and platform requirements. Our team analyses competitor apps, user behavior patterns, and platform-specific conventions (iOS HIG & Material Design) to define a winning mobile strategy.",
-          "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+          "image": "/images/msd_discurashan.webp",
           "points": [
             "App goal & audience analysis",
             "iOS vs Android platform strategy",
@@ -44,7 +44,7 @@
           "id": 2,
           "title": "User Flow & Screen Architecture",
           "description": "We map every user journey across all screens — onboarding, core features, settings, and edge cases. A clear screen architecture ensures smooth navigation and zero dead ends for your users.",
-          "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=700&q=80",
+          "image": "/images/msd_Screen_Architecture.webp",
           "points": [
             "Complete screen flow mapping",
             "Navigation architecture design",
@@ -56,7 +56,7 @@
           "id": 3,
           "title": "Wireframe & Low-Fi Screens",
           "description": "We create low-fidelity wireframes for every key screen before applying visual design. This ensures layout, content hierarchy, and interaction patterns are validated early — saving time and budget.",
-          "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=700&q=80",
+          "image": "/images/msd_Wireframe_Low-Fi_Screens.webp",
           "points": [
             "Lo-fi wireframes for all screens",
             "Content hierarchy planning",
@@ -68,7 +68,7 @@
           "id": 4,
           "title": "High-Fidelity Screen Design",
           "description": "We craft stunning, pixel-perfect high-fidelity screens following iOS Human Interface Guidelines and Material Design 3 principles. Every screen is designed for multiple device sizes — from small phones to large tablets.",
-          "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=700&q=80",
+          "image": "/images/msd_High-FidelityScreenDesign.webp",
           "points": [
             "Hi-fi screens for all app states",
             "iOS & Android platform-specific UI",
@@ -80,7 +80,7 @@
           "id": 5,
           "title": "Micro-interactions & Prototyping",
           "description": "Static screens come alive with thoughtful micro-interactions, transitions, and animations. We build interactive prototypes in Figma so you can experience the real feel of the app before development begins.",
-          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+          "image": "/images/wdd_Testing_QA.webp",
           "points": [
             "Animated transitions & gestures",
             "Micro-interaction design",
@@ -92,7 +92,7 @@
           "id": 6,
           "title": "Developer Handoff & Support",
           "description": "We deliver organized Figma files with auto-layout, design tokens, and platform-specific assets — iOS @1x/@2x/@3x and Android dp/sp specs. Our team supports developers throughout implementation to ensure pixel-perfect output.",
-          "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80",
+          "image": "/images/wdd_Deployment_Support.webp",
           "points": [
             "Figma files with auto-layout",
             "iOS & Android asset export",
@@ -121,7 +121,7 @@
       "subtitle": "Let's discuss your app project. Get a free consultation and screen design proposal from our mobile experts at Divrit Technologies.",
       "btnPrimary": "Get Free Consultation",
       "btnSecondary": "View Our Work",
-      "bgImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1400&q=80"
+      "bgImage": "/images/cta.webp"
     },
     "services": [
       {
@@ -181,10 +181,7 @@
         "description": "Complete iOS & Android screen design for a digital wallet app. Simplified payment flows and intuitive dashboard screens increased daily active users by 89% post-launch.",
         "tags": ["iOS", "Android", "FinTech"],
         "stats": { "retention": "+89%", "conversion": "+112%", "duration": "10 Weeks" },
-        "color": "#00D4FF",
-        "bgColor": "rgba(0, 212, 255, 0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "/images/PocketPay_Wallet.webp"
       },
       {
         "id": 2,
@@ -193,10 +190,7 @@
         "description": "End-to-end mobile screen design for an e-learning app — gamified course screens, progress dashboards, and live class interfaces serving 30,000+ active learners.",
         "tags": ["iOS", "EdTech", "Gamification"],
         "stats": { "retention": "+135%", "conversion": "+67%", "duration": "12 Weeks" },
-        "color": "#7C3AED",
-        "bgColor": "rgba(124, 58, 237, 0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "/images/LearnPath_EdTech.webp"
       },
       {
         "id": 3,
@@ -205,10 +199,7 @@
         "description": "Patient-facing iOS app screen redesign for instant doctor consultation booking. Streamlined screens reduced appointment booking time from 5 minutes to under 60 seconds.",
         "tags": ["iOS", "Healthcare", "UX Redesign"],
         "stats": { "retention": "+55%", "conversion": "+80%", "duration": "8 Weeks" },
-        "color": "#10B981",
-        "bgColor": "rgba(16, 185, 129, 0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "/images/DocNow_Healthcare.webp"
       },
       {
         "id": 4,
@@ -217,10 +208,7 @@
         "description": "Full Android & iOS screen overhaul for a fashion shopping app — redesigned product screens, AR try-on feature, and one-tap checkout boosted conversions by 156%.",
         "tags": ["Android", "eCommerce", "AR Feature"],
         "stats": { "retention": "+98%", "conversion": "+156%", "duration": "7 Weeks" },
-        "color": "#F59E0B",
-        "bgColor": "rgba(245, 158, 11, 0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "/images/StyleCart_Fashion.webp"
       },
       {
         "id": 5,
@@ -229,10 +217,7 @@
         "description": "Driver-facing Android app screen design for a last-mile delivery platform. Clear map screens, delivery task cards, and earnings dashboard reduced driver errors by 70%.",
         "tags": ["Android", "Logistics", "Dashboard"],
         "stats": { "retention": "+70%", "conversion": "+45%", "duration": "9 Weeks" },
-        "color": "#FF6B35",
-        "bgColor": "rgba(255, 107, 53, 0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "/images/RideTrackLogistics.webp"
       },
       {
         "id": 6,
@@ -241,10 +226,7 @@
         "description": "Hotel booking app screen design with immersive property galleries, seamless reservation flows, and loyalty dashboard — resulting in 3x increase in mobile bookings.",
         "tags": ["iOS", "Travel", "Booking Flow"],
         "stats": { "retention": "+190%", "conversion": "+220%", "duration": "11 Weeks" },
-        "color": "#EC4899",
-        "bgColor": "rgba(236, 72, 153, 0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "/images/StayEasy_Hotels.webp"
       }
     ],
     "whyUs": [
@@ -319,8 +301,6 @@
       }
     ],
     "contact": {
-      "email": "hello@divritin.com",
-      "phone": "+91 98765 43210",
       "subheading": "Tell us about your mobile app project and get a free consultation from Divrit Technologies' mobile design experts. We respond within 24 hours."
     }
   }
