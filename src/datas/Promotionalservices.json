@@ -3,7 +3,7 @@
       "badge": "PROMOTIONAL SERVICES / BRANDING",
       "title": "Amplify Your Brand Across Every Channel",
       "subtitle": "Divrit Technologies delivers end-to-end promotional services — from influencer marketing and email campaigns to SMS marketing, WhatsApp automation, and event promotions — ensuring your brand reaches, engages, and converts your target audience at every touchpoint.",
-      "bgImage": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1600&q=80",
+      "bgImage": "/images/ops_banner.webp",
       "tags": ["Influencer Marketing", "Email Marketing", "SMS Marketing", "WhatsApp Marketing", "PR & Media"],
       "formTitle": "Get a FREE Strategy Session",
       "formFields": [
@@ -17,7 +17,7 @@
       "label": "360° Promotional Services",
       "heading": "Promotional Campaigns That Build Brand & Drive Revenue",
       "description": "Looking for the best Promotional Marketing Services in India? Divrit Technologies Pvt. Ltd. is your trusted brand promotion partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in influencer marketing, email & SMS automation, WhatsApp campaigns, PR outreach, affiliate marketing, and event promotions — delivering cost-effective, multi-channel promotional strategies built for measurable brand growth and customer acquisition. Our marketing specialists have successfully executed 800+ promotional campaigns across industries.",
-      "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=800&q=80",
+      "image": "/images/ops_about.webp",
       "stats": [
         { "num": "800+", "label": "Campaigns Executed"   },
         { "num": "3.8x", "label": "Avg Engagement Lift"  },
@@ -33,7 +33,7 @@
         "desc": "Partner with nano, micro, and macro influencers across Instagram, YouTube, and LinkedIn — reaching authentic, engaged audiences that trust the creators they follow, driving awareness and conversions.",
         "color": "#E1306C",
         "bg": "rgba(225,48,108,0.08)",
-        "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&q=80"
+        "image": "/images/ops_Influencer_Marketing.webp"
       },
       {
         "icon": "📧",
@@ -41,7 +41,7 @@
         "desc": "Build and nurture customer relationships with data-driven email campaigns — newsletters, drip sequences, abandoned cart emails, and promotional blasts with high open rates and measurable ROI.",
         "color": "#FF6B35",
         "bg": "rgba(255,107,53,0.08)",
-        "image": "https://images.unsplash.com/photo-1596526131083-e8c633064dbc?w=600&q=80"
+        "image": "/images/ops_Email_Marketing.webp"
       },
       {
         "icon": "💬",
@@ -49,7 +49,7 @@
         "desc": "Reach customers directly on WhatsApp — the highest-open-rate channel in India. Automated broadcasts, catalog sharing, order updates, and personalized promotional messages at scale.",
         "color": "#25D366",
         "bg": "rgba(37,211,102,0.08)",
-        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80"
+        "image": "/images/ops_WhatsApp_Marketing.webp"
       },
       {
         "icon": "📱",
@@ -57,7 +57,7 @@
         "desc": "Instant, high-delivery promotional and transactional SMS campaigns — flash sales, event reminders, OTP, appointment confirmations, and bulk SMS with 98% delivery rates.",
         "color": "#4285F4",
         "bg": "rgba(66,133,244,0.08)",
-        "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&q=80"
+        "image": "/images/ops_SMS_Marketing.webp"
       },
       {
         "icon": "📰",
@@ -65,7 +65,7 @@
         "desc": "Get your brand featured in top media outlets, news portals, and industry publications — press releases, journalist outreach, brand stories, and thought leadership placement that builds credibility.",
         "color": "#9333EA",
         "bg": "rgba(147,51,234,0.08)",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=80"
+        "image": "/images/ops_PR_Media_Outreach.webp"
       },
       {
         "icon": "🤝",
@@ -73,7 +73,7 @@
         "desc": "Build a performance-based affiliate network — recruit partners, manage commissions, track conversions, and scale your reach through third-party publishers and referral channels without upfront ad spend.",
         "color": "#FBBC04",
         "bg": "rgba(251,188,4,0.08)",
-        "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80"
+        "image": "/images/ops_Affiliate_Partner_Marketing.webp"
       }
     ],
   
@@ -151,7 +151,7 @@
           "id": 1,
           "title": "Brand & Audience Analysis",
           "description": "We begin by auditing your existing brand presence, understanding your target audience personas, competitive landscape, and promotional goals. We identify the highest-impact channels for your specific business and audience.",
-          "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+          "image": "/images/ops_Brand_Audience_Analysis.webp",
           "points": [
             "Brand audit & positioning review",
             "Target audience persona mapping",
@@ -163,7 +163,7 @@
           "id": 2,
           "title": "Strategy & Campaign Planning",
           "description": "We build a comprehensive, multi-channel promotional strategy — defining messaging, content themes, channel mix, budget allocation, and KPIs for each campaign. Every campaign has a clear goal and measurable success criteria.",
-          "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=700&q=80",
+          "image": "/images/ops_Strategy_Campaign_Planning.webp",
           "points": [
             "Multi-channel campaign strategy",
             "Messaging & content theme planning",
@@ -175,7 +175,7 @@
           "id": 3,
           "title": "Creative Production & Setup",
           "description": "Our creative team produces campaign assets — email templates, WhatsApp message scripts, SMS copy, influencer briefs, social creatives, and PR pitches. All content is designed for maximum engagement and conversion.",
-          "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=700&q=80",
+          "image": "/images/ops_Creative_Production_Setup.webp",
           "points": [
             "Email template & sequence design",
             "WhatsApp & SMS copy creation",
@@ -187,7 +187,7 @@
           "id": 4,
           "title": "Campaign Launch & Distribution",
           "description": "We execute campaigns across all selected channels simultaneously — launching email sequences, scheduling WhatsApp broadcasts, activating influencer posts, distributing press releases, and deploying SMS blasts with precise timing.",
-          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+          "image": "/images/ppc_Campaign_Launch_Tracking_Setup.webp",
           "points": [
             "Synchronized multi-channel launch",
             "Influencer post coordination",
@@ -199,7 +199,7 @@
           "id": 5,
           "title": "Optimization & A/B Testing",
           "description": "We continuously test and optimize every element — subject lines, send times, influencer content, messaging tone, and CTAs — using data to improve engagement rates, reduce costs, and increase conversions progressively.",
-          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+          "image": "/images/wdd_Testing_QA.webp",
           "points": [
             "Email subject line A/B testing",
             "WhatsApp message variant testing",
@@ -211,7 +211,7 @@
           "id": 6,
           "title": "Reporting & Strategy Refinement",
           "description": "We deliver transparent weekly and monthly performance reports covering reach, engagement, open rates, CTR, conversions, cost per acquisition, and ROI across every channel — with clear insights and forward-looking recommendations.",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "image": "/images/ops_Reporting_Strategy_Refinement.webp",
           "points": [
             "Weekly channel performance snapshots",
             "Monthly multi-channel detailed report",
@@ -244,7 +244,7 @@
       "subtitle": "Get a free promotional strategy session and campaign roadmap from Divrit Technologies' specialists. We'll show you exactly how to maximize your brand's reach and ROI across the right channels.",
       "btnPrimary": "Get Free Strategy Session",
       "btnSecondary": "View Our Results",
-      "bgImage": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1400&q=80"
+      "bgImage": "/images/cta.webp"
     },
   
     "completedProjects": [

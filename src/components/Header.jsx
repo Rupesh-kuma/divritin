@@ -96,7 +96,7 @@ const Header = () => {
                             aria-expanded="false"
                             aria-label="Toggle navigation"
                         >
-                            <i class="fa-solid fa-bars"></i>
+                            <i className="fa-solid fa-bars"></i>
                         </button>
                         <div className="collapse navbar-collapse align_nav" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">

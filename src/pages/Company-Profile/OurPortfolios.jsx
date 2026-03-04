@@ -1,5 +1,8 @@
 import { useState } from "react";
 import data from "/src/datas/OurPortfolios.json";
+import { Link } from "react-router-dom";
+import { sendEmail } from "/src/utils/sendEmail.js";
+import { Helmet } from "react-helmet-async";
 
 export default function OurPortfolios() {
     const [activeFilter, setActiveFilter] = useState("All");
@@ -13,8 +16,44 @@ export default function OurPortfolios() {
     const featured = filtered.filter((cs) => cs.featured);
     const rest = filtered.filter((cs) => !cs.featured);
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sendEmail(e.target);
+    };
+
     return (
         <div className="dv-page">
+            <Helmet>
+
+                <title>
+                    Our Portfolio | Web & Mobile App Projects | Divrit Technologies Private Limited
+                </title>
+
+                <meta
+                    name="description"
+                    content="Explore the portfolio of Divrit Technologies Private Limited featuring successful web apps, mobile applications, AI/ML, fintech, healthtech and e-commerce projects delivered for businesses across industries."
+                />
+
+                <meta
+                    name="keywords"
+                    content="IT Portfolio, Web Development Portfolio, Mobile App Portfolio, Software Development Projects, Digital Solutions Portfolio, Technology Company Portfolio"
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://divritin.com/our-portfolios" />
+
+                <meta property="og:title" content="Our Portfolio | Divrit Technologies Private Limited" />
+
+                <meta property="og:description" content="Discover real projects and digital solutions delivered by Divrit Technologies including web apps, mobile apps, fintech and e-commerce platforms." />
+
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content="https://divritin.com/our-portfolios" />
+
+                <meta property="og:image" content="/images/work_image.png" />
+
+            </Helmet>
 
             {/* ══ 1. HERO ══ */}
             <section
@@ -41,17 +80,19 @@ export default function OurPortfolios() {
                     <div className="spb-hero__form">
                         <p className="spb-hero__form-title">{data.hero.formTitle}</p>
                         <p className="spb-hero__form-sub">Experts ready to help you</p>
-                        {data.hero.formFields.map((field) => (
-                            <input key={field} placeholder={field} className="spb-input" />
-                        ))}
-                        <button className="spb-btn spb-btn--primary spb-btn--full">
-                            Submit Now →
-                        </button>
+                        <form onSubmit={handleSubmit}>
+                            {data.hero.formFields.map((field) => (
+                                <input key={field} name={field} placeholder={field} required className="spb-input" />
+                            ))}
+                            <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
+                                Submit Now →
+                            </button>
+                        </form>
                     </div>
                 </div>
             </section>
 
-           
+
 
             {/* ══ 3. FILTER BAR ══ */}
             <section className="dark-sec" id="projects">
@@ -182,7 +223,7 @@ export default function OurPortfolios() {
                                                     >
                                                         {cs.category}
                                                     </span>
-                                                    <span className="cs-year-lbl">{cs.year} · {cs.duration}</span>
+                                                    {/* <span className="cs-year-lbl">{cs.year} · {cs.duration}</span> */}
                                                 </div>
 
                                                 <div className="cs-grid-client">{cs.client}</div>
@@ -240,7 +281,7 @@ export default function OurPortfolios() {
                 </div>
             </section>
 
-         
+
 
             {/* ══ 5. CTA ══ */}
             <section
@@ -252,8 +293,8 @@ export default function OurPortfolios() {
                     <h2 className="spb-cta__title">{data.cta.heading}</h2>
                     <p className="spb-cta__sub">{data.cta.subtitle}</p>
                     <div className="spb-cta__btns">
-                        <button className="spb-btn spb-btn--white">{data.cta.btnPrimary}</button>
-                        <button className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</button>
+                        <Link to="mailto:info@divritin.com" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+                        <Link to="/technologies" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
                     </div>
                 </div>
             </section>

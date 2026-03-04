@@ -2279,7 +2279,7 @@ border-radius: 10px;
 
 /* contact us */
 #ct-pagetitle {
-  background-image: url('/src/assets/images/bg-pagetitle.jpg');
+  background-image: url('/images/bg-pagetitle.jpg');
   background-color: #000611;
     padding: 120px 0;
     text-align: center;
@@ -2446,4 +2446,8 @@ textarea.form-control {
 .client_logo_ass img:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.client_banner{
+  padding: 8% 0 !important;
 }

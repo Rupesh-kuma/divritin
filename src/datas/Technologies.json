@@ -15,7 +15,7 @@
       "titleLine1": "Powered by cutting-edge technologies",
       "subtitle": "We harness the most advanced frameworks and tools to build digital solutions that scale your business and elevate your clientele.",
       "scrollLabel": "Explore",
-      "bgImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1920&q=80",
+      "bgImage": "/images/Technology_Stack_banner.webp",
       "stats": [
         { "value": "20+", "label": "Technologies" },
         { "value": "150+", "label": "Projects Delivered" },
@@ -41,42 +41,42 @@
           "id": "01",
           "name": "Frontend Development",
           "tags": ["React.js", "Next.js", "Vue.js", "Angular", "TypeScript", "Tailwind CSS"],
-          "img": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&q=75",
+          "img": "/images/tec_Frontend_Development.webp",
           "alt": "Frontend Development"
         },
         {
           "id": "02",
           "name": "Backend & APIs",
           "tags": ["Node.js", "Laravel", "Python / Django", "GraphQL", "REST APIs", "Microservices"],
-          "img": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=300&q=75",
+          "img": "/images/tec_Backend_APIs.webp",
           "alt": "Backend APIs"
         },
         {
           "id": "03",
           "name": "Mobile Applications",
           "tags": ["Flutter", "React Native", "Swift (iOS)", "Kotlin (Android)", "PWA"],
-          "img": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=300&q=75",
+          "img": "/images/tec_Mobile_Applications.webp",
           "alt": "Mobile Applications"
         },
         {
           "id": "04",
           "name": "Database & Storage",
           "tags": ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase", "Elasticsearch"],
-          "img": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=300&q=75",
+          "img": "/images/tec_Database_Storage.webp",
           "alt": "Database Storage"
         },
         {
           "id": "05",
           "name": "Cloud & DevOps",
           "tags": ["AWS", "Google Cloud", "Azure", "Docker", "Kubernetes", "CI/CD"],
-          "img": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=300&q=75",
+          "img": "/images/tec_Cloud_DevOps.webp",
           "alt": "Cloud DevOps"
         },
         {
           "id": "06",
           "name": "AI & Machine Learning",
           "tags": ["TensorFlow", "OpenAI API", "LangChain", "Computer Vision", "NLP"],
-          "img": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=300&q=75",
+          "img": "/images/tec_AI_Machine_Learning.webp",
           "alt": "AI Machine Learning"
         }
       ]
@@ -98,8 +98,8 @@
       "titleLine1": "Ready to build",
       "titleLine2": "something great?",
       "subtitle": "Let's talk about how our expertise can power your business growth.",
-      "bgImage": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1920&q=80",
-      "primaryBtn": { "label": "Get Connect with Our Experts", "href": "mailto:info@divritin.com" },
-      "secondaryBtn": { "label": "View Case Studies →", "href": "#" }
+      "bgImage": "/images/cta.webp",
+      "primaryBtn": { "label": "Get Connect with Our Experts"},
+      "secondaryBtn": { "label": "View Case Studies →", "href": "/case-studies" }
     }
   }

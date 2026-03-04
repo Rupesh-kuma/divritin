@@ -2,6 +2,8 @@
 import { useState } from "react";
 import data from "/src/datas/MobileAppDevelopment.json";
 import { Link, useNavigate } from "react-router-dom";
+import { sendEmail } from "/src/utils/sendEmail.js";
+import { Helmet } from "react-helmet-async";
 
 export default function MobileAppDevelopment() {
     const navigate = useNavigate();
@@ -10,14 +12,44 @@ export default function MobileAppDevelopment() {
         data.process.steps.find((s) => s.id === activeStep) ||
         data.process.steps[0];
 
-        const handleSubmit = (e) => {
-            e.preventDefault();
-            sendEmail(e.target);
-          };
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sendEmail(e.target);
+    };
 
     return (
         <div className="spb">
+            <Helmet>
 
+                <title>
+                    Mobile App Development Services | Divrit Technologies Pvt Ltd
+                </title>
+
+                <meta
+                    name="description"
+                    content="Divrit Technologies offers professional mobile app development services for Android and iOS platforms. We build scalable, secure and user-friendly mobile applications tailored to business needs."
+                />
+
+                <meta
+                    name="keywords"
+                    content="Mobile App Development Services, Android App Development, iOS App Development, Mobile Application Development Company, Custom Mobile App Development, App Development Company India"
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://divritin.com/mobile-app-development" />
+
+                <meta property="og:title" content="Mobile App Development Services | Divrit Technologies" />
+
+                <meta property="og:description" content="Build powerful Android and iOS mobile applications with Divrit Technologies. We develop secure, scalable and user-friendly mobile apps for businesses." />
+
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content="https://divritin.com/mobile-app-development" />
+
+                <meta property="og:image" content="/images/work_image.png" />
+
+            </Helmet>
             {/* ══ 1. HERO ══ */}
             <section
                 className="spb-hero"
@@ -45,18 +77,18 @@ export default function MobileAppDevelopment() {
                         <p className="spb-hero__form-title">{data.hero.formTitle}</p>
                         <p className="spb-hero__form-sub">Experts ready to help you</p>
                         <form onSubmit={handleSubmit}>
-                        {data.hero.formFields.map((field) => (
-                            <input
-                                key={field}
-                                name={field}
-                                placeholder={field}
-                                className="spb-input"
-                                required
-                            />
-                        ))}
-                        <button className="spb-btn spb-btn--primary spb-btn--full">
-                            Submit Now →
-                        </button>
+                            {data.hero.formFields.map((field) => (
+                                <input
+                                    key={field}
+                                    name={field}
+                                    placeholder={field}
+                                    className="spb-input"
+                                    required
+                                />
+                            ))}
+                            <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
+                                Submit Now →
+                            </button>
                         </form>
                     </div>
 
@@ -146,7 +178,7 @@ export default function MobileAppDevelopment() {
 
                     <div className="spb-industries">
                         {data.industries.list.map((ind) => (
-                            <div key={ind.title} className="spb-industry-card" onClick={()=>navigate("/industries")}>
+                            <div key={ind.title} className="spb-industry-card" onClick={() => navigate("/industries")}>
                                 <span className="spb-industry-card__icon">{ind.icon}</span>
                                 <h4 className="spb-industry-card__title">{ind.title}</h4>
                                 <p className="spb-industry-card__desc">{ind.desc}</p>

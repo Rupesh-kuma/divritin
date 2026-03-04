@@ -2,6 +2,8 @@
 import { useState } from "react";
 import data from "/src/datas/WebDesignDevelopment.json";
 import { Link, useNavigate } from "react-router-dom";
+import { sendEmail } from "/src/utils/sendEmail.js";
+import { Helmet } from "react-helmet-async";
 
 export default function WebDesignDevelopment() {
   const navigate = useNavigate();
@@ -11,13 +13,43 @@ export default function WebDesignDevelopment() {
     data.process.steps.find((s) => s.id === activeStep) ||
     data.process.steps[0];
 
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      sendEmail(e.target);
-    };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    sendEmail(e.target);
+  };
   return (
     <div className="spb">
+      <Helmet>
 
+        <title>
+          Web Design & Development Services | Divrit Technologies Pvt Ltd
+        </title>
+
+        <meta
+          name="description"
+          content="Divrit Technologies provides professional web design and development services to create responsive, fast and SEO-friendly websites. Build modern websites that enhance user experience and grow your business online."
+        />
+
+        <meta
+          name="keywords"
+          content="Web Design and Development Services, Website Development Company, Responsive Web Design, Web Development Company India, SEO Friendly Website Development, Business Website Design"
+        />
+
+        <meta name="robots" content="index, follow" />
+
+        <link rel="canonical" href="https://divritin.com/web-design-development" />
+
+        <meta property="og:title" content="Web Design & Development Services | Divrit Technologies" />
+
+        <meta property="og:description" content="Create responsive and SEO-optimized websites with Divrit Technologies. Professional web design and development services for businesses and startups." />
+
+        <meta property="og:type" content="website" />
+
+        <meta property="og:url" content="https://divritin.com/web-design-development" />
+
+        <meta property="og:image" content="/images/work_image.png" />
+
+      </Helmet>
       {/* ══ 1. HERO ══ */}
       <section
         className="spb-hero"
@@ -45,18 +77,18 @@ export default function WebDesignDevelopment() {
             <p className="spb-hero__form-title">{data.hero.formTitle}</p>
             <p className="spb-hero__form-sub">Experts ready to help you</p>
             <form onSubmit={handleSubmit}>
-            {data.hero.formFields.map((field) => (
-              <input
-                key={field}
-                name={field}
-                placeholder={field}
-                className="spb-input"
-                required
-              />
-            ))}
-            <button className="spb-btn spb-btn--primary spb-btn--full">
-              Submit Now →
-            </button>
+              {data.hero.formFields.map((field) => (
+                <input
+                  key={field}
+                  name={field}
+                  placeholder={field}
+                  className="spb-input"
+                  required
+                />
+              ))}
+              <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
+                Submit Now →
+              </button>
             </form>
           </div>
 
@@ -146,7 +178,7 @@ export default function WebDesignDevelopment() {
 
           <div className="spb-industries">
             {data.industries.list.map((ind) => (
-              <div key={ind.title} className="spb-industry-card" onClick={()=>navigate("/industries")}>
+              <div key={ind.title} className="spb-industry-card" onClick={() => navigate("/industries")}>
                 <span className="spb-industry-card__icon">{ind.icon}</span>
                 <h4 className="spb-industry-card__title">{ind.title}</h4>
                 <p className="spb-industry-card__desc">{ind.desc}</p>

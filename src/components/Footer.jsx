@@ -82,7 +82,7 @@ const Footer = () => {
                             </div>
                             {/* call section */}
                             <div className="d-flex getintuch_footer">
-                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <i className="fa-solid fa-clock-rotate-left"></i>
                                 <div>
 
                                 </div>

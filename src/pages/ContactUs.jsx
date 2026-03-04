@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import { sendEmail } from "../utils/sendEmail.js";
+import { Helmet } from "react-helmet-async";
 
 const ContactUs = () => {
     // const sendEmail = async (e) => {
     //     e.preventDefault();
-    
+
     //     const formData = {
     //       name: e.target.name.value,
     //       email: e.target.email.value,
@@ -14,7 +15,7 @@ const ContactUs = () => {
     //       service: e.target.service.value,
     //       message: e.target.message.value,
     //     };
-    
+
     //     const res = await fetch("http://localhost:5000/send-mail", {
     //       method: "POST",
     //       headers: {
@@ -22,9 +23,9 @@ const ContactUs = () => {
     //       },
     //       body: JSON.stringify(formData),
     //     });
-    
+
     //     const data = await res.json();
-    
+
     //     if (data.success) {
     //       alert("Enquiry Sent Successfully ✅");
     //       e.target.reset();
@@ -34,7 +35,7 @@ const ContactUs = () => {
     //   };
     //   const sendEmail = async (e) => {
     //     e.preventDefault();
-      
+
     //     const data = {
     //       page: "Contact Page",
     //       name: e.target.name.value,
@@ -45,21 +46,52 @@ const ContactUs = () => {
     //       service: e.target.service.value,
     //       message: e.target.message.value,
     //     };
-      
+
     //     await fetch("http://localhost:5000/send-mail", {
     //       method: "POST",
     //       headers: { "Content-Type": "application/json" },
     //       body: JSON.stringify(data),
     //     });
     //   };
-    
 
-const handleSubmit = (e) => {
-  e.preventDefault();
-  sendEmail(e.target);
-};
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sendEmail(e.target);
+    };
     return (
         <>
+            <Helmet>
+
+                <title>
+                    Contact Divrit Technologies Private Limited | IT Solutions & Digital Services
+                </title>
+
+                <meta
+                    name="description"
+                    content="Contact Divrit Technologies Private Limited for web development, mobile app development, custom software solutions and digital marketing services. Call +91-9871886822 or email info@divritin.com to discuss your project."
+                />
+
+                <meta
+                    name="keywords"
+                    content="Contact Divrit Technologies, IT Company Contact, Web Development Company Contact, Digital Marketing Company Contact"
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://divritin.com/Contact-Us" />
+
+                <meta property="og:title" content="Contact Divrit Technologies Private Limited" />
+
+                <meta property="og:description" content="Get in touch with Divrit Technologies Private Limited for professional IT services including web development, mobile apps and digital marketing." />
+
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content="https://divritin.com/Contact-Us" />
+
+                <meta property="og:image" content="/images/work_image.png" />
+
+            </Helmet>
             <div id="ct-pagetitle" className="ct-pagetitle bg-image">
                 <div className="container" style={{ opacity: 1 }}>
                     <div className="ct-page-title-holder">
@@ -203,7 +235,7 @@ const handleSubmit = (e) => {
             </div>
             {/* location section */}
             <div className="loction_contact">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6290.39105581564!2d145.053135!3d-37.972566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sin!4v1771263560950!5m2!1sen!2sin" style={{ border: 0, height: '350px', width: '100%', }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.2448010843023!2d77.4239573!3d28.6088647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cefeb65a7ba0b%3A0xe5871eae0e8695ea!2sDivrit%20Technologies%20Pvt.%20Ltd!5e1!3m2!1sen!2sin!4v1772613806289!5m2!1sen!2sin" style={{ border: 0, height: '350px', width: '100%', }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
         </>

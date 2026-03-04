@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let progressInterval;
     let isTransitioning = false;
 
-    totalSlidesSpan.textContent = totalSlides;
+    // totalSlidesSpan.textContent = totalSlides;
 
 // Update slider
 function updateSlider(smooth = true) {
@@ -34,7 +34,7 @@ function updateSlider(smooth = true) {
     });
 
     // Update counter
-    currentSlideSpan.textContent = (actualSlide) + 1;
+    // currentSlideSpan.textContent = (actualSlide) + 1;
 
     // Reset progress
     if (smooth) {
@@ -124,15 +124,15 @@ function restartAutoPlay() {
 }
 
 // Controls
-nextBtn.addEventListener('click', () => {
-    nextSlide();
-    restartAutoPlay();
-});
+// nextBtn.addEventListener('click', () => {
+//     nextSlide();
+//     restartAutoPlay();
+// });
 
-prevBtn.addEventListener('click', () => {
-    prevSlide();
-    restartAutoPlay();
-});
+// prevBtn.addEventListener('click', () => {
+//     prevSlide();
+//     restartAutoPlay();
+// });
 
 // Dots
 dots.forEach((dot, index) => {
@@ -187,65 +187,5 @@ startAutoPlay();
 resetProgress();
 });
 
-// document.addEventListener("DOMContentLoaded", function() {
-//     // Vanilla JS se element select karo
-//     const settingsSlider = document.querySelector('.settings');
 
-//     // Check karo element exist karta hai ya nahi
-//     if(settingsSlider) {
-//         // Ab jQuery ke through Slick initialize karo
-//         $(settingsSlider).slick({
-//             dots: true,
-//             infinite: true,
-//             speed: 700,
-//             slidesToShow: 2,
-//             slidesToScroll: 1,
-//             autoplay: true,
-//             autoplaySpeed: 4000,
-//             arrows: true,
-//             responsive: [
-//                 {
-//                     breakpoint: 1024,
-//                     settings: {
-//                         slidesToShow: 2
-//                     }
-//                 },
-//                 {
-//                     breakpoint: 768,
-//                     settings: {
-//                         slidesToShow: 1
-//                     }
-//                 }
-//             ]
-//         });
-//     }
-// });
 
-// Vanilla JS se select kiya element
-jQuery(document).ready(function ($) {
-    // Team Slider - shows 4 items
-    $('.settings_ul').slick({
-        infinite: true,
-        infinite: true,
-        speed: 700,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        arrows: true,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
-})

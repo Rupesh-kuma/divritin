@@ -73,6 +73,7 @@ import azure from "/images/azure.svg";
 import google from "/images/google.svg";
 import WorkProcess from "../components/WorkProcess";
 import clinetLogo from "/src/datas/ourClient.json";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const half = Math.ceil(clinetLogo.logos.length / 2);
@@ -80,7 +81,7 @@ const Home = () => {
   const firstRow = clinetLogo.logos.slice(0, half);
   const secondRow = clinetLogo.logos.slice(half);
   useEffect(() => {
-   
+
 
 
     let currentSlide = 0;
@@ -153,7 +154,7 @@ const Home = () => {
 
     updateSlider();
 
-    
+
 
     // Use karna:
 
@@ -161,7 +162,31 @@ const Home = () => {
   }, []);
   return (
     <>
+      <Helmet>
 
+        <title>
+          Divrit Technologies Pvt Ltd | Cloud Services, Resource Augmentation & Tally Implementation
+        </title>
+
+        <meta name="description" content="Divrit Technologies Pvt Ltd provides cloud services, resource augmentation, web development and Tally implementation to help businesses scale with secure and modern IT solutions." />
+
+        <meta name="keywords" content="Divrit Technologies, Cloud Services, Resource Augmentation, IT Solutions Company, Tally Implementation, Software Development Company" />
+
+        <meta name="robots" content="index, follow" />
+
+        <meta property="og:title" content="Divrit Technologies Pvt Ltd - IT Solutions & Cloud Services" />
+
+        <meta property="og:description" content="Reliable cloud services, resource augmentation and Tally implementation for modern businesses." />
+
+        <meta property="og:type" content="website" />
+
+        <meta property="og:url" content="https://divritin.com/" />
+
+        <meta property="og:image" content="/images/work_image.png" />
+
+        <link rel="canonical" href="https://divritin.com/" />
+
+      </Helmet>
       <main>
         {/* hero section start */}
         <div className="slider-container">
@@ -256,8 +281,8 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="col-4">
-                    <div class="why-ring">
-                      <span class="why-ring-inner">95%</span>
+                    <div className="why-ring">
+                      <span className="why-ring-inner">95%</span>
                     </div>
                   </div>
 
@@ -274,10 +299,10 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="col-4">
-                  <div class="why-ring why-ring--b">
-                      <span class="why-ring-inner">100%</span>
+                    <div className="why-ring why-ring--b">
+                      <span className="why-ring-inner">100%</span>
                     </div>
-                    
+
                   </div>
                 </div>
               </div>
@@ -885,35 +910,35 @@ const Home = () => {
           </div>
           <div className="logos">
 
-{/* FIRST ROW */}
-<div className="logo_track client_logo_as mb-4">
-  {firstRow.map((item, index) => (
-    <a
-      key={index}
-      href={item.url}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img src={item.logo} alt={item.name} />
-    </a>
-  ))}
-</div>
+            {/* FIRST ROW */}
+            <div className="logo_track client_logo_as mb-4">
+              {firstRow.map((item, index) => (
+                <a
+                  key={index}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={item.logo} alt={item.name} />
+                </a>
+              ))}
+            </div>
 
-{/* SECOND ROW */}
-<div className="logo_track client_logo_as second_row">
-  {secondRow.map((item, index) => (
-    <a
-      key={index}
-      href={item.url}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img src={item.logo} alt={item.name} />
-    </a>
-  ))}
-</div>
+            {/* SECOND ROW */}
+            <div className="logo_track client_logo_as second_row">
+              {secondRow.map((item, index) => (
+                <a
+                  key={index}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={item.logo} alt={item.name} />
+                </a>
+              ))}
+            </div>
 
-</div>
+          </div>
         </div>
         {/* Testimonials section */}
         <Testimonials />

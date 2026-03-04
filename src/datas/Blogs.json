@@ -158,6 +158,7 @@
       "heading": "Never Miss an Article",
       "desc": "Join 50,000+ developers, designers, and tech leaders who get our best content every week — no spam, unsubscribe anytime.",
       "placeholder": "Enter your email address",
+      "name":"email",
       "btnLabel": "Subscribe Free →"
     },
   
@@ -193,7 +194,7 @@
       "heading": "Have a Topic You Want Us to Cover?",
       "subtitle": "Send us your questions, challenges, or ideas — we write content based on what our community actually needs.",
       "bgImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600&q=80",
-      "btnPrimary": "Suggest a Topic →",
+      "btnPrimary": "Start a Project →",
       "btnSecondary": "View Case Studies"
     }
   }

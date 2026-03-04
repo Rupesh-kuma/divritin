@@ -1,24 +1,89 @@
 import { useState, useEffect } from "react";
 import data from "/src/datas/Mobilescreendesign.json";
 import { Link, useNavigate } from "react-router-dom";
+import { sendEmail } from "/src/utils/sendEmail.js";
+import { Helmet } from "react-helmet-async";
 
 /* ─── Bootstrap CDN injected once ─── */
 
 export default function Mobilescreendesign() {
-    const Navigate=useNavigate();
+    const Navigate = useNavigate();
     const [activeFaq, setActiveFaq] = useState(null);
     const [activeStep, setActiveStep] = useState(1);
     const currentStep =
         data.process.steps.find((s) => s.id === activeStep) ||
         data.process.steps[0];
 
-        const handleSubmit = (e) => {
-            e.preventDefault();
-            sendEmail(e.target);
-          };
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sendEmail(e.target);
+    };
 
+    useEffect(() => {
+        // Vanilla JS se select kiya element
+        jQuery(document).ready(function ($) {
+            // Team Slider - shows 4 items
+            $('.settings_ul').slick({
+                infinite: true,
+                infinite: true,
+                speed: 700,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        })
+
+
+    }, []);
     return (
         <div className="dv-page">
+            <Helmet>
+
+                <title>
+                    Mobile Screen Design Services | Divrit Technologies Pvt Ltd
+                </title>
+
+                <meta
+                    name="description"
+                    content="Divrit Technologies provides professional mobile screen design services to create visually appealing and user-friendly mobile app interfaces that improve user engagement and app performance."
+                />
+
+                <meta
+                    name="keywords"
+                    content="Mobile Screen Design, Mobile UI Design Services, App Screen Design, Mobile App UI UX Design, Mobile Interface Design, UI Design for Mobile Apps"
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://divritin.com/mobile-screen-design" />
+
+                <meta property="og:title" content="Mobile Screen Design Services | Divrit Technologies" />
+
+                <meta property="og:description" content="Design engaging and intuitive mobile app interfaces with Divrit Technologies professional mobile screen design services." />
+
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content="https://divritin.com/mobile-screen-design" />
+
+                <meta property="og:image" content="/images/work_image.png" />
+
+            </Helmet>
             {/* ── SPB HERO ── */}
             <section
                 className="spb-hero"
@@ -46,18 +111,18 @@ export default function Mobilescreendesign() {
                         <p className="spb-hero__form-title">{data.hero.formTitle}</p>
                         <p className="spb-hero__form-sub">Experts ready to help you</p>
                         <form onSubmit={handleSubmit}>
-                        {data.hero.formFields.map((field) => (
-                            <input
-                                key={field}
-                                name={field}
-                                placeholder={field}
-                                className="spb-input"
-                                required
-                            />
-                        ))}
-                        <button className="spb-btn spb-btn--primary spb-btn--full">
-                            Submit Now →
-                        </button>
+                            {data.hero.formFields.map((field) => (
+                                <input
+                                    key={field}
+                                    name={field}
+                                    placeholder={field}
+                                    className="spb-input"
+                                    required
+                                />
+                            ))}
+                            <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
+                                Submit Now →
+                            </button>
                         </form>
                     </div>
 
@@ -72,7 +137,7 @@ export default function Mobilescreendesign() {
                         <span className="spb-label">{data.intro.label}</span>
                         <h2 className="spb-intro__heading">{data.intro.heading}</h2>
                         <p className="spb-intro__desc">{data.intro.description}</p>
-                        <Link to="Contact-Us" className="spb-btn spb-btn--primary">Start Your Project →</Link>
+                        <Link to="/Contact-Us" className="spb-btn spb-btn--primary">Start Your Project →</Link>
 
                         <div className="spb-stats">
                             {data.intro.stats.map((s) => (
@@ -206,7 +271,7 @@ export default function Mobilescreendesign() {
 
                     <div className="spb-industries">
                         {data.industries.list.map((ind) => (
-                            <div key={ind.title} className="spb-industry-card" onClick={()=>Navigate("/industries")}>
+                            <div key={ind.title} className="spb-industry-card" onClick={() => Navigate("/industries")}>
                                 <span className="spb-industry-card__icon">{ind.icon}</span>
                                 <h4 className="spb-industry-card__title">{ind.title}</h4>
                                 <p className="spb-industry-card__desc">{ind.desc}</p>
@@ -297,8 +362,8 @@ export default function Mobilescreendesign() {
                     <h2 className="spb-cta__title">{data.cta.heading}</h2>
                     <p className="spb-cta__sub">{data.cta.subtitle}</p>
                     <div className="spb-cta__btns">
-                    <Link to="tel:+919871886822" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
-            <Link to="/our-portfolios" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
+                        <Link to="tel:+919871886822" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+                        <Link to="/our-portfolios" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
                     </div>
                 </div>
             </section>

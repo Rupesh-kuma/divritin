@@ -3,7 +3,7 @@
       "badge": "PAY-PER-CLICK / SEM",
       "title": "Reach Your Customers Instantly with Paid Campaigns",
       "subtitle": "Divrit Technologies delivers result-driven PPC & SEM campaigns that put your business at the top of Google, drive targeted traffic, generate qualified leads, and maximize your return on every rupee spent.",
-      "bgImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=80",
+      "bgImage": "/images/ppc_banner.webp",
       "tags": ["Google Ads", "Meta Ads", "Search Campaigns", "Display Ads", "Retargeting"],
       "formTitle": "Get a FREE PPC Audit",
       "formFields": [
@@ -17,7 +17,7 @@
       "label": "End-to-End PPC & SEM Services",
       "heading": "Paid Campaigns That Deliver Instant Results & Maximum ROI",
       "description": "Looking for the best PPC & SEM Services in India? Divrit Technologies Pvt. Ltd. is your trusted paid advertising partner — a registered IT company and sister concern of Katyayni Technologies Pvt. Ltd. (founded 2017). We specialize in keyword research, campaign setup, ad copy optimization, audience targeting, retargeting, and performance tracking — delivering cost-effective, result-driven paid advertising campaigns built for measurable business growth. Our certified Google Ads specialists have successfully managed 1000+ campaigns across industries.",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      "image": "/images/ppc_about.webp",
       "stats": [
         { "num": "1000+", "label": "Campaigns Managed"  },
         { "num": "4.5x",  "label": "Avg ROAS Delivered" },
@@ -33,7 +33,7 @@
         "desc": "Appear at the top of Google search results for your most valuable keywords — capturing high-intent users at the exact moment they're looking for your product or service.",
         "color": "#4285F4",
         "bg": "rgba(66,133,244,0.08)",
-        "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=600&q=80"
+        "image": "/images/gs_Ads.webp"
       },
       {
         "icon": "🖼️",
@@ -41,7 +41,7 @@
         "desc": "Reach your audience across 2 million+ websites, apps, and YouTube with visually compelling banner ads that build brand awareness and drive remarketing conversions.",
         "color": "#34A853",
         "bg": "rgba(52,168,83,0.08)",
-        "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&q=80"
+        "image": "/images/Google_Display_Ads.webp"
       },
       {
         "icon": "🛒",
@@ -49,7 +49,7 @@
         "desc": "Showcase your products directly in Google search results with images, prices, and store name — driving highly qualified shoppers straight to your product pages.",
         "color": "#FBBC04",
         "bg": "rgba(251,188,4,0.08)",
-        "image": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&q=80"
+        "image": "/images/Google_Shopping_Ads.webp"
       },
       {
         "icon": "👥",
@@ -57,7 +57,7 @@
         "desc": "Reach highly targeted audiences on Facebook and Instagram with precision — interest targeting, lookalike audiences, and retargeting campaigns that drive leads and sales.",
         "color": "#1877F2",
         "bg": "rgba(24,119,242,0.08)",
-        "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=600&q=80"
+        "image": "/images/Meta_Facebook_Ads.webp"
       },
       {
         "icon": "▶️",
@@ -65,7 +65,7 @@
         "desc": "Engage your audience with compelling video ads on YouTube — skippable and non-skippable formats that build brand awareness and drive conversions at scale.",
         "color": "#FF0000",
         "bg": "rgba(255,0,0,0.08)",
-        "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&q=80"
+        "image": "/images/YouTube_Video_Ads.webp"
       },
       {
         "icon": "💼",
@@ -73,7 +73,7 @@
         "desc": "Target B2B decision-makers by job title, industry, company size, and seniority — LinkedIn Ads deliver the highest-quality B2B leads for enterprise and professional services.",
         "color": "#0A66C2",
         "bg": "rgba(10,102,194,0.08)",
-        "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=80"
+        "image": "/images/LinkedIn_Ads.webp"
       }
     ],
   
@@ -151,7 +151,7 @@
           "id": 1,
           "title": "Business & Goal Analysis",
           "description": "We start by understanding your business, target audience, competitive landscape, and advertising goals. We audit your website for conversion-readiness and set up proper conversion tracking to measure every lead and sale.",
-          "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=700&q=80",
+          "image": "/images/ppc_Business_Goal_Analysis.webp",
           "points": [
             "Business & competitor analysis",
             "Target audience & buyer persona",
@@ -163,7 +163,7 @@
           "id": 2,
           "title": "Keyword Research & Campaign Strategy",
           "description": "We conduct deep keyword research to identify high-intent, high-value search terms your customers are using. We build a negative keyword list to prevent budget waste and map keywords to the right campaign structure.",
-          "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=700&q=80",
+          "image": "/images/ppc_Keyword_Research_Campaign_Strategy.webp",
           "points": [
             "High-intent keyword research",
             "Negative keyword planning",
@@ -175,7 +175,7 @@
           "id": 3,
           "title": "Ad Creation & Landing Pages",
           "description": "Our copywriters craft compelling, high-CTR ad copies with strong headlines and clear CTAs. We also design or optimize dedicated landing pages to ensure maximum conversion rate from every click you pay for.",
-          "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=700&q=80",
+          "image": "/images/ppc_Ad_Creation_Landing_Pages.webp",
           "points": [
             "High-CTR ad copy writing",
             "Responsive search ad creation",
@@ -187,7 +187,7 @@
           "id": 4,
           "title": "Campaign Launch & Tracking Setup",
           "description": "We set up your campaigns with precise audience targeting, bidding strategies, and conversion tracking. Every click, form fill, call, and purchase is tracked so we know exactly what's delivering ROI.",
-          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80",
+          "image": "/images/ppc_Campaign_Launch_Tracking_Setup.webp",
           "points": [
             "Campaign & ad group launch",
             "Google Tag Manager setup",
@@ -199,7 +199,7 @@
           "id": 5,
           "title": "Optimization & A/B Testing",
           "description": "Once live, we continuously monitor performance — testing ad variations, adjusting bids, refining audiences, and pausing underperforming keywords — to progressively lower your CPC and increase conversion rate.",
-          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80",
+          "image": "/images/ppc_Optimization_AB_Testing.webp",
           "points": [
             "Ad copy A/B split testing",
             "Bid & budget optimization",
@@ -211,7 +211,7 @@
           "id": 6,
           "title": "Reporting & Strategy Refinement",
           "description": "We deliver clear weekly and monthly performance reports — impressions, clicks, CTR, CPC, conversions, cost per lead, and ROAS — with transparent insights and a forward-looking optimization plan.",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80",
+          "image": "/images/ppc_Reporting_Strategy_Refinement.webp",
           "points": [
             "Weekly performance snapshots",
             "Monthly detailed PPC report",
@@ -243,8 +243,8 @@
       "heading": "Ready to Launch Campaigns That Actually Convert?",
       "subtitle": "Get a free PPC audit and campaign roadmap from Divrit Technologies' certified Google Ads experts. We'll show you exactly how to get better results from your ad budget.",
       "btnPrimary": "Get Free PPC Audit",
-      "btnSecondary": "View Our Results",
-      "bgImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1400&q=80"
+      "btnSecondary": "Get Free Consultation",
+      "bgImage": "/images/cta.webp"
     },
   
     "completedProjects": [
@@ -256,9 +256,7 @@
         "tags": ["Google Ads", "Finance", "Lead Gen"],
         "stats": { "retention": "800+ Leads/mo", "conversion": "₹180 CPL", "duration": "90 Days" },
         "color": "#4285F4",
-        "bgColor": "rgba(66,133,244,0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "rgba(66,133,244,0.08)"
       },
       {
         "id": 2,
@@ -268,9 +266,7 @@
         "tags": ["Google Ads", "Healthcare", "Local"],
         "stats": { "retention": "3x Appointments", "conversion": "₹195 CPA", "duration": "60 Days" },
         "color": "#34A853",
-        "bgColor": "rgba(52,168,83,0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "rgba(52,168,83,0.08)"
       },
       {
         "id": 3,
@@ -280,9 +276,7 @@
         "tags": ["Shopping Ads", "eCommerce", "ROAS"],
         "stats": { "retention": "6.2x ROAS", "conversion": "₹28L Revenue", "duration": "45 Days" },
         "color": "#FBBC04",
-        "bgColor": "rgba(251,188,4,0.08)",
-        "status": "Completed",
-        "year": "2024"
+        "bgColor": "rgba(251,188,4,0.08)"
       },
       {
         "id": 4,
@@ -292,9 +286,7 @@
         "tags": ["Meta Ads", "Google Ads", "Education"],
         "stats": { "retention": "1200+ Leads/mo", "conversion": "₹95 CPL", "duration": "3 Months" },
         "color": "#1877F2",
-        "bgColor": "rgba(24,119,242,0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "rgba(24,119,242,0.08)"
       },
       {
         "id": 5,
@@ -304,9 +296,7 @@
         "tags": ["Google Ads", "Real Estate", "Retargeting"],
         "stats": { "retention": "350+ Leads/mo", "conversion": "₹420 CPL", "duration": "4 Months" },
         "color": "#FF6B35",
-        "bgColor": "rgba(255,107,53,0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "rgba(255,107,53,0.08)"
       },
       {
         "id": 6,
@@ -316,9 +306,7 @@
         "tags": ["YouTube Ads", "Travel", "Search"],
         "stats": { "retention": "500+ Inquiries/mo", "conversion": "4.8x ROAS", "duration": "3 Months" },
         "color": "#EC4899",
-        "bgColor": "rgba(236,72,153,0.08)",
-        "status": "Completed",
-        "year": "2023"
+        "bgColor": "rgba(236,72,153,0.08)"
       }
     ],
   

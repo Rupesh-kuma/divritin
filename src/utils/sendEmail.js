@@ -3,14 +3,17 @@ export const sendEmail = async (form) => {
     const formData = Object.fromEntries(
       new FormData(form).entries()
     );
-  
+    
+     // ⭐ page name add
+    formData.page = window.location.pathname;
+
     const button = form.querySelector("button[type='submit']");
     button.innerText = "Sending...";
     button.disabled = true;
   
     try {
   
-      const res = await fetch("https://divritin.com/send-mail", {
+      const res = await fetch("http://localhost:5000/send-mail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

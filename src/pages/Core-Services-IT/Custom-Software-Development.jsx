@@ -2,6 +2,8 @@
 import data from '/src/datas/CustomSoftwareDevelopment.json'
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { sendEmail } from "/src/utils/sendEmail.js";
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -12,12 +14,43 @@ export default function CustomSoftwareDevelopment() {
     data.process.steps.find((s) => s.id === activeStep) ||
     data.process.steps[0];
 
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      sendEmail(e.target);
-    };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    sendEmail(e.target);
+  };
   return (
     <div className="spb">
+      <Helmet>
+
+        <title>
+          Custom Software Development Services | Divrit Technologies Pvt Ltd
+        </title>
+
+        <meta
+          name="description"
+          content="Divrit Technologies offers custom software development services to build scalable, secure and high-performance business applications. We design tailored software solutions that streamline operations and accelerate business growth."
+        />
+
+        <meta
+          name="keywords"
+          content="Custom Software Development, Software Development Company, Business Software Solutions, Enterprise Software Development, Web Application Development, Software Development Services India"
+        />
+
+        <meta name="robots" content="index, follow" />
+
+        <link rel="canonical" href="https://divritin.com/custom-software-development" />
+
+        <meta property="og:title" content="Custom Software Development Services | Divrit Technologies" />
+
+        <meta property="og:description" content="Build scalable and secure custom software solutions with Divrit Technologies. We develop tailored applications designed to improve business performance." />
+
+        <meta property="og:type" content="website" />
+
+        <meta property="og:url" content="https://divritin.com/custom-software-development" />
+
+        <meta property="og:image" content="/images/work_image.png" />
+
+      </Helmet>
       {/* ══ 1. HERO ══ */}
       <section
         className="spb-hero"
@@ -45,18 +78,18 @@ export default function CustomSoftwareDevelopment() {
             <p className="spb-hero__form-title">{data.hero.formTitle}</p>
             <p className="spb-hero__form-sub">Experts ready to help you</p>
             <form onSubmit={handleSubmit}>
-            {data.hero.formFields.map((field) => (
-              <input
-                key={field}
-                name={field}
-                placeholder={field}
-                className="spb-input"
-                required
-              />
-            ))}
-            <button className="spb-btn spb-btn--primary spb-btn--full">
-              Submit Now →
-            </button>
+              {data.hero.formFields.map((field) => (
+                <input
+                  key={field}
+                  name={field}
+                  placeholder={field}
+                  className="spb-input"
+                  required
+                />
+              ))}
+              <button type='submit' className="spb-btn spb-btn--primary spb-btn--full">
+                Submit Now →
+              </button>
             </form>
           </div>
 

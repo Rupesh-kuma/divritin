@@ -1,7 +1,7 @@
 import './App.css';
 import './style/responsive.css';
 import './js/slider.js';
-import react from "react";
+import react, { useEffect } from "react";
 import Home from './pages/Home'
 import Footer from './components/Footer';
 import "slick-carousel/slick/slick.css";
@@ -29,13 +29,18 @@ import Blogs from './pages/Company-Profile/Blogs';
 import Events from './pages/Company-Profile/Event';
 import AutoPopup from './components/AutoPopup';
 import NotFound from './components/not-found';
+import { HelmetProvider } from 'react-helmet-async';
+
 
 
 function App() {
 
+
+
   return (
     <>
     <AutoPopup/>
+    <HelmetProvider>
     <Header />
     <Routes>
       <Route path='/' element={<Home/>}/>
@@ -61,6 +66,7 @@ function App() {
       <Route path='/page-not-found' element={<NotFound/>}/>
     </Routes>
     <Footer/>
+    </HelmetProvider>
     </>
   )
 }

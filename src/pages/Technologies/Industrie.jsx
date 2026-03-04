@@ -1,5 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import data from "/src/datas/Industries.json";
+import { sendEmail } from "/src/utils/sendEmail.js";
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 export default function Industries() {
     const [activeFaq, setActiveFaq] = useState(null);
@@ -14,9 +17,77 @@ export default function Industries() {
     const featuredIndustries = data.industries.slice(0, 4);
     const listIndustries = data.industries.slice(4);
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sendEmail(e.target);
+    };
+
+    useEffect(() => {
+        // Vanilla JS se select kiya element
+        jQuery(document).ready(function ($) {
+            // Team Slider - shows 4 items
+            $('.settings_ul').slick({
+                infinite: true,
+                infinite: true,
+                speed: 700,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        })
+
+
+    }, []);
     return (
         <div className="dv-page">
 
+            <Helmet>
+
+                <title>
+                    Industries We Serve | IT Solutions for Businesses | Divrit Technologies Private Limited
+                </title>
+
+                <meta
+                    name="description"
+                    content="Divrit Technologies Private Limited provides innovative IT solutions and digital services for multiple industries including healthcare, education, e-commerce, real estate and enterprise businesses."
+                />
+
+                <meta
+                    name="keywords"
+                    content="Industries We Serve, IT Solutions for Industries, Technology Solutions for Businesses, Digital Solutions for Industries, Software Development for Businesses"
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://divritin.com/industries" />
+
+                <meta property="og:title" content="Industries We Serve | Divrit Technologies Private Limited" />
+
+                <meta property="og:description" content="Explore the industries served by Divrit Technologies with innovative web, mobile and software development solutions." />
+
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content="https://divritin.com/industries" />
+
+                <meta property="og:image" content="/images/work_image.png" />
+
+            </Helmet>
             {/* ══ 1. HERO ══ */}
             <section
                 className="spb-hero"
@@ -42,12 +113,14 @@ export default function Industries() {
                     <div className="spb-hero__form">
                         <p className="spb-hero__form-title">{data.hero.formTitle}</p>
                         <p className="spb-hero__form-sub">Experts ready to help you</p>
-                        {data.hero.formFields.map((field) => (
-                            <input key={field} placeholder={field} className="spb-input" />
-                        ))}
-                        <button className="spb-btn spb-btn--primary spb-btn--full">
-                            Submit Now →
-                        </button>
+                        <form onSubmit={handleSubmit}>
+                            {data.hero.formFields.map((field) => (
+                                <input key={field} placeholder={field} className="spb-input" />
+                            ))}
+                            <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
+                                Submit Now →
+                            </button>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -162,7 +235,7 @@ export default function Industries() {
                                 <div
                                     key={ind.id}
                                     className="ind-list-row"
-                                    
+
                                     onClick={() => setActiveIndustry(ind)}
                                 >
                                     <div className="ind-list-icon">
@@ -209,7 +282,7 @@ export default function Industries() {
                                             <span style={{ fontSize: "1.6rem" }}>{activeIndustry.icon}</span>
                                             <div
                                                 className="ind-detail-panel__title"
-                                                style={{  marginBottom: 0 }}
+                                                style={{ marginBottom: 0 }}
                                             >
                                                 {activeIndustry.title}
                                             </div>
@@ -418,8 +491,8 @@ export default function Industries() {
                     <h2 className="spb-cta__title">{data.cta.heading}</h2>
                     <p className="spb-cta__sub">{data.cta.subtitle}</p>
                     <div className="spb-cta__btns">
-                        <button className="spb-btn spb-btn--white">{data.cta.btnPrimary}</button>
-                        <button className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</button>
+                        <Link to="/Contact-Us" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+                        <Link to="/case-studies" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
                     </div>
                 </div>
             </section>

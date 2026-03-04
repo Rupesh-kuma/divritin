@@ -28,7 +28,6 @@ a{
       padding: 6px 15px;
   }
 
-
   &::before {
       position: absolute;
       content: "";
@@ -45,7 +44,6 @@ a{
       }
   }
   
-
   .header-cta { 
 
       ul { 

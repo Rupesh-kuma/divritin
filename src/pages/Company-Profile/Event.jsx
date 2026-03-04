@@ -1,5 +1,8 @@
 import { useState } from "react";
 import data from "/src/datas/Events.json";
+import { Link } from "react-router-dom";
+import { sendEmail } from "/src/utils/sendEmail.js";
+import { Helmet } from "react-helmet-async";
 
 export default function Events() {
     const [activeFilter, setActiveFilter] = useState("All");
@@ -16,8 +19,43 @@ export default function Events() {
             ? data.pastEvents
             : data.pastEvents.filter((e) => e.tag === activeFilter);
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sendEmail(e.target);
+    };
     return (
         <div className="dv-page">
+            <Helmet>
+
+                <title>
+                    Company Events & Activities | Divrit Technologies Private Limited
+                </title>
+
+                <meta
+                    name="description"
+                    content="Explore company events and activities organized by Divrit Technologies Private Limited. Discover our corporate events, technology meetups and industry engagements."
+                />
+
+                <meta
+                    name="keywords"
+                    content="Company Events, Corporate Events, Business Events, Technology Events, IT Company Events, Industry Events"
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://divritin.com/events" />
+
+                <meta property="og:title" content="Company Events | Divrit Technologies Private Limited" />
+
+                <meta property="og:description" content="Discover the latest events, corporate activities and industry engagements from Divrit Technologies Private Limited." />
+
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content="https://divritin.com/events" />
+
+                <meta property="og:image" content="/images/work_image.png" />
+
+            </Helmet>
 
             {/* ══ 1. HERO ══ */}
             <section
@@ -40,12 +78,14 @@ export default function Events() {
                     <div className="spb-hero__form">
                         <p className="spb-hero__form-title">{data.hero.formTitle}</p>
                         <p className="spb-hero__form-sub">Let's connect in person</p>
-                        {data.hero.formFields.map((field) => (
-                            <input key={field} placeholder={field} className="spb-input" />
-                        ))}
-                        <button className="spb-btn spb-btn--primary spb-btn--full">
-                            Schedule a Meeting →
-                        </button>
+                        <form onSubmit={handleSubmit}>
+                            {data.hero.formFields.map((field) => (
+                                <input key={field} name={field} required placeholder={field} className="spb-input" />
+                            ))}
+                            <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
+                                Schedule a Meeting →
+                            </button>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -57,7 +97,7 @@ export default function Events() {
                         <span className="spb-label">{data.intro.label}</span>
                         <h2 className="spb-intro__heading">{data.intro.heading}</h2>
                         <p className="spb-intro__desc">{data.intro.description}</p>
-                        <button className="spb-btn spb-btn--primary">See Events →</button>
+                        <Link to="/Contact-Us" className="spb-btn spb-btn--primary">Schedule a Meeting  →</Link>
                         <div className="spb-stats">
                             {data.intro.stats.map((s) => (
                                 <div key={s.label} className="spb-stat">
@@ -95,11 +135,11 @@ export default function Events() {
                     </div>
 
                     {/* Filter Pills */}
-                    <div className="ev-filter-bar mb-4">
+                    <div className="cs-filter-bar mb-2">
                         {data.filters.map((f) => (
                             <button
                                 key={f}
-                                className={`ev-filter-pill ${activeFilter === f ? "ev-filter-pill--active" : ""}`}
+                                className={`cs-filter-pill ${activeFilter === f ? "cs-filter-pill--active" : ""}`}
                                 onClick={() => setActiveFilter(f)}
                             >
                                 {f}
@@ -140,7 +180,6 @@ export default function Events() {
 
                                             {/* Bottom */}
                                             <div className="ev-img-card__bottom">
-                                                <span>📅 {ev.date}</span>
                                                 <span>📍 {ev.location}</span>
                                             </div>
                                         </div>
@@ -169,7 +208,7 @@ export default function Events() {
             </section>
 
             {/* ══ 4. PAST EVENTS ══ */}
-            {/* {filteredPast.length > 0 && (
+            {filteredPast.length > 0 && (
                 <section className="spb-section--alt">
                     <div className="spb-container container-fluid">
                         <div className="row align-items-end mb-4">
@@ -227,11 +266,11 @@ export default function Events() {
                         </div>
                     </div>
                 </section>
-            )} */}
+            )}
 
-            
 
-           
+
+
 
             {/* ══ 7. CTA ══ */}
             <section
@@ -243,8 +282,8 @@ export default function Events() {
                     <h2 className="spb-cta__title">{data.cta.heading}</h2>
                     <p className="spb-cta__sub">{data.cta.subtitle}</p>
                     <div className="spb-cta__btns">
-                        <button className="spb-btn spb-btn--white">{data.cta.btnPrimary}</button>
-                        <button className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</button>
+                        <Link to="mailto:info@divritin.com" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+                        <Link to="/Contact-Us" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
                     </div>
                 </div>
             </section>
@@ -329,25 +368,6 @@ export default function Events() {
                                 </div>
                             </div>
 
-                            {/* Tags */}
-                            <div className="ev-modal__tags">
-                                {selectedEvent.tags.map((t) => (
-                                    <span key={t} className="ev-tag-pill">{t}</span>
-                                ))}
-                            </div>
-
-                            {/* Footer CTA */}
-                            <div className="ev-modal__footer">
-                                <button
-                                    className="spb-btn spb-btn--outline"
-                                    onClick={() => setSelectedEvent(null)}
-                                >
-                                    Close
-                                </button>
-                                <button className="spb-btn spb-btn--primary">
-                                    Meet Us There →
-                                </button>
-                            </div>
                         </div>
                     </div>
                 </div>

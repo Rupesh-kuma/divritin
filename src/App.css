@@ -7,24 +7,24 @@
 
 /* ── Filter Bar ── */
 .cs-filter-bar {
-  /* display: inline-block; */
+  display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #2e0b6f;
     padding: 14px;
     justify-content: center;
-    width: 56%;
+    width: 75%;
     border-radius: 20px;
-    background: #000;
+    background: #fffefe8a;
     margin: 0 auto;
 }
 
 .cs-filter-pill {
   padding: 8px 20px;
   border-radius: 100px;
-  border: 1px solid #fff;
+  border: 1px solid #2e0b6f;
   background: transparent;
-  color: #fff;
+  color: #2e0b6f;
   font-size: 0.82rem;
   font-weight: 500;
   cursor: pointer;
@@ -34,8 +34,8 @@
 }
 
 .cs-filter-pill:hover {
-  border-color: rgba(255, 255, 255, 0.35);
-  color: #fff;
+  border-color: #2e0b6f;
+  color: #2e0b6f;
 }
 
 .cs-filter-pill--active {
@@ -740,36 +740,6 @@
 ═══════════════════════════════════════════ */
 
 /* ════════════════════════════════
-   FILTER / CATEGORY BAR
-════════════════════════════════ */
-
-
-.bl-filter-pill {
-  padding: 8px 20px;
-  border-radius: 100px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  background: transparent;
-  color: rgba(255, 255, 255, 0.55);
-  font-size: 0.82rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.25s;
-  white-space: nowrap;
-}
-
-.bl-filter-pill:hover {
-  border-color: rgba(255, 255, 255, 0.35);
-  color: #fff;
-}
-
-.bl-filter-pill--active {
-  background: #ffffff;
-  border-color: #ffffff;
-  color: #0c0a14;
-  font-weight: 600;
-}
-
-/* ════════════════════════════════
  FEATURED BLOG (large hero card)
 ════════════════════════════════ */
 .bl-featured {
@@ -1249,35 +1219,6 @@
    Add to your existing global CSS file
 ═══════════════════════════════════════════ */
 
-/* ── Filter Pills ── */
-.ev-filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.ev-filter-pill {
-  padding: 8px 20px;
-  border-radius: 100px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  background: transparent;
-  color: rgba(255, 255, 255, 0.55);
-  font-size: 0.82rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.25s;
-  white-space: nowrap;
-}
-.ev-filter-pill:hover {
-  border-color: rgba(255, 255, 255, 0.35);
-  color: #fff;
-}
-.ev-filter-pill--active {
-  background: #ffffff;
-  border-color: #ffffff;
-  color: #0c0a14;
-  font-weight: 600;
-}
 
 /* ════════════════════════════════
  IMAGE EVENT CARD

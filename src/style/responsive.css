@@ -296,6 +296,25 @@ width: 100%;
 .elementor-widget-container{
     margin: 0px 0px 17px 0px;
 }
+.tp-row-num {
+    display: block;
+}
+ .tp-row-img-wrap{
+    display: block;
+}
+
+.tp-tech-row {
+    grid-template-columns: 78px 1fr 174px;
+    gap: 4px;
+    padding: 26px 0;
+}
+.tp-process-track {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+}
+.tp-reveal {
+pad: 0 6px;
+}
 }
 /* 📱 Tablet (max-width: 1024px) end*/
 
@@ -579,6 +598,78 @@ font-size: 17px;
         left: 2px;
         transform: translateY(-10%);
         gap: 7px;
+    }
+    .tp-process-track {
+        grid-template-columns: 1fr;
+    }
+    .spb-hero__title {
+        font-size: 15px;
+    }
+    .tp-stat-num {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .tp-hero-stats {
+        gap: 15px;
+    }
+    .tp-tech-row {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 19px 0;
+    }
+    .tp-row-num, .tp-row-img-wrap {
+        display: block;
+        width: 100%;
+    }
+    .tp-row-name {
+        font-size: 17px;
+    }
+    .tp-row-tags {
+    margin-bottom: 10px;
+    }
+    .tp-reveal{
+        padding: 10px;
+    }
+    .tp-process-trackss .tp-reveal {
+        background: #e5e5e5;
+        margin-bottom: 0;
+    }
+    .cs-metric__lbl {
+        font-size: 10px;
+    }
+    .cs-metrics--sm .cs-metric__val {
+        font-size: 15px;
+    }
+    .cs-grid-desc{
+        text-align: justify;
+    }
+    .cs-metric__val {
+        font-size: 15px;
+    }
+    .cs-feat-title {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+    .cs-feat-card__body {
+        padding: 9px;
+    }
+    .cs-feat-desc{
+        color: #fff;
+    }
+    .cs-filter-bar {
+        gap: 5px;
+        padding: 10px;
+        width: 100%;
+    }
+    .client_logo_ass {
+        column-count: 1;
+        gap: 0px;
+    }
+    .client_logo_ass img{
+        margin: 9px;
+    }
+    .cs-metrics{
+        gap:4px;
     }
 }
 @media (max-width: 480px) {

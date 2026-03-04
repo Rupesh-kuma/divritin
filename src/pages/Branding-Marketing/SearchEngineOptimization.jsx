@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import data from "/src/datas/SearchEngineOptimization.json";
 import { Link, useNavigate } from "react-router-dom";
-    
+import { sendEmail } from "/src/utils/sendEmail.js";
+import { Helmet } from "react-helmet-async";
+
 const tools = [
     { icon: "🔍", name: "Google Search Console" },
     { icon: "📊", name: "Google Analytics 4" },
@@ -18,19 +20,84 @@ const tools = [
 const projEmoji = { 1: "🏥", 2: "🛒", 3: "💳", 4: "🎓", 5: "🏗️", 6: "⚖️" };
 
 export default function Searchengineoptimization() {
-    const navigate=useNavigate();
+    const navigate = useNavigate();
     const [activeFaq, setActiveFaq] = useState(null);
     const [activeStep, setActiveStep] = useState(1);
     const currentStep =
         data.process.steps.find((s) => s.id === activeStep) ||
         data.process.steps[0];
-        const handleSubmit = (e) => {
-            e.preventDefault();
-            sendEmail(e.target);
-          };
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sendEmail(e.target);
+    };
+
+    useEffect(() => {
+        // Vanilla JS se select kiya element
+        jQuery(document).ready(function ($) {
+            // Team Slider - shows 4 items
+            $('.settings_ul').slick({
+                infinite: true,
+                infinite: true,
+                speed: 700,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        })
+
+
+    }, []);
     return (
         <div className="seo-page">
+            <Helmet>
+
+                <title>
+                    Search Engine Optimization Services | SEO Company | Divrit Technologies
+                </title>
+
+                <meta
+                    name="description"
+                    content="Divrit Technologies offers professional search engine optimization (SEO) services to improve website rankings, increase organic traffic and grow your online visibility with proven SEO strategies."
+                />
+
+                <meta
+                    name="keywords"
+                    content="Search Engine Optimization Services, SEO Company, SEO Agency, Website SEO Services, Organic SEO Services, Professional SEO Services India"
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://divritin.com/search-engine-optimization" />
+
+                <meta property="og:title" content="Search Engine Optimization Services | Divrit Technologies" />
+
+                <meta property="og:description" content="Boost your website ranking and organic traffic with professional SEO services from Divrit Technologies." />
+
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content="https://divritin.com/search-engine-optimization" />
+
+                <meta property="og:image" content="/images/work_image.png" />
+
+            </Helmet>
+
             <section
                 className="spb-hero"
                 style={{ backgroundImage: `url(${data.hero.bgImage})` }}
@@ -57,26 +124,26 @@ export default function Searchengineoptimization() {
                         <p className="spb-hero__form-title">{data.hero.formTitle}</p>
                         <p className="spb-hero__form-sub">Experts ready to help you</p>
                         <form onSubmit={handleSubmit}>
-                        {data.hero.formFields.map((field) => (
-                            <input
-                                key={field}
-                                name={field}
-                                placeholder={field}
-                                className="spb-input"
-                                required
-                            />
-                        ))}
-                        <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
-                            Submit Now →
-                        </button>
+                            {data.hero.formFields.map((field) => (
+                                <input
+                                    key={field}
+                                    name={field}
+                                    placeholder={field}
+                                    className="spb-input"
+                                    required
+                                />
+                            ))}
+                            <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
+                                Submit Now →
+                            </button>
                         </form>
                     </div>
 
                 </div>
             </section>
 
-             {/* ══ 2. INTRO ══ */}
-             <section className="spb-section spb-section--alt">
+            {/* ══ 2. INTRO ══ */}
+            <section className="spb-section spb-section--alt">
                 <div className="spb-container container-fluid spb-intro">
 
                     <div className="spb-intro__text">
@@ -144,7 +211,7 @@ export default function Searchengineoptimization() {
                     <div className="row g-4">
                         {data.services.map(s => (
                             <div className="col-md-6 col-lg-4" key={s.id}>
-                                <div  className="svc-card svc_rup">
+                                <div className="svc-card svc_rup">
                                     <div className="svc-ico">{s.icon}</div>
                                     <div className="svc-title">{s.title}</div>
                                     <div className="svc-desc">{s.description}</div>
@@ -218,7 +285,7 @@ export default function Searchengineoptimization() {
                             <div className="col-md-6 col-lg-4" key={p.id}>
                                 <div className="proj-card">
                                     <div className="proj-card-top">
-                                    <div className="proj-done-badge">
+                                        <div className="proj-done-badge">
                                         </div>
                                         <div className="proj-visual" style={{ background: p.bgColor, "--pj-clr": p.bgColor }}>
                                             <span style={{ position: "relative", zIndex: 1 }}>{projEmoji[p.id]}</span>
@@ -274,10 +341,10 @@ export default function Searchengineoptimization() {
                     </div>
                     <div className="spb-industries">
                         {data.industries.list.map((ind, i) => (
-                            <div className="spb-industry-card" key={i} onClick={()=>navigate("/industries")}>
-                                    <div className="spb-industry-card__icon">{ind.icon}</div>
-                                    <div className="spb-industry-card__title">{ind.title}</div>
-                                    <div className="spb-industry-card__desc">{ind.desc}</div>
+                            <div className="spb-industry-card" key={i} onClick={() => navigate("/industries")}>
+                                <div className="spb-industry-card__icon">{ind.icon}</div>
+                                <div className="spb-industry-card__title">{ind.title}</div>
+                                <div className="spb-industry-card__desc">{ind.desc}</div>
                             </div>
                         ))}
                     </div>
@@ -319,7 +386,7 @@ export default function Searchengineoptimization() {
                         <div className="col-5">
                             <div className="text-center mb-2">
                                 <div className="spb-label">✦ Client Results</div>
-                        <h2 className="spb-intro__heading">What Our Clients Say</h2>
+                                <h2 className="spb-intro__heading">What Our Clients Say</h2>
                             </div>
                             <div className="settings_ul">
                                 {data.testimonials.map((t, i) => (
@@ -359,7 +426,7 @@ export default function Searchengineoptimization() {
                 </div>
             </section>
 
-        
+
 
             {/* CTA */}
             <section
@@ -371,8 +438,8 @@ export default function Searchengineoptimization() {
                     <h2 className="spb-cta__title">{data.cta.heading}</h2>
                     <p className="spb-cta__sub">{data.cta.subtitle}</p>
                     <div className="spb-cta__btns">
-                    <Link to="tel:+919871886822" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
-            <Link to="/our-portfolios" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
+                        <Link to="tel:+919871886822" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+                        <Link to="/our-portfolios" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
                     </div>
                 </div>
             </section>

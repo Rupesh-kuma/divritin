@@ -1,6 +1,8 @@
 import { useState } from "react";
 import data from "/src/datas/CaseStudies.json";
 import { Link } from "react-router-dom";
+import { sendEmail } from "/src/utils/sendEmail.js";
+import { Helmet } from "react-helmet-async";
 
 export default function CaseStudies() {
     const [activeFilter, setActiveFilter] = useState("All");
@@ -13,8 +15,44 @@ export default function CaseStudies() {
     const featured = filtered.filter((cs) => cs.featured);
     const rest = filtered.filter((cs) => !cs.featured);
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sendEmail(e.target);
+    };
+
     return (
         <div className="dv-page">
+            <Helmet>
+
+                <title>
+                    Case Studies | IT Projects & Digital Solutions | Divrit Technologies Private Limited
+                </title>
+
+                <meta
+                    name="description"
+                    content="Explore case studies from Divrit Technologies Private Limited showcasing successful web development, mobile app development, digital marketing and software development projects delivered for clients across industries."
+                />
+
+                <meta
+                    name="keywords"
+                    content="IT Case Studies, Web Development Case Studies, Digital Marketing Case Studies, Software Development Projects, Client Success Stories, Technology Case Studies"
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://divritin.com/case-studies" />
+
+                <meta property="og:title" content="Case Studies | Divrit Technologies Private Limited" />
+
+                <meta property="og:description" content="Discover how Divrit Technologies delivers successful web development, mobile app and digital marketing solutions through real project case studies." />
+
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content="https://divritin.com/case-studies" />
+
+                <meta property="og:image" content="/images/work_image.png" />
+
+            </Helmet>
 
             {/* ══ 1. HERO ══ */}
             <section
@@ -41,12 +79,14 @@ export default function CaseStudies() {
                     <div className="spb-hero__form">
                         <p className="spb-hero__form-title">{data.hero.formTitle}</p>
                         <p className="spb-hero__form-sub">Experts ready to help you</p>
-                        {data.hero.formFields.map((field) => (
-                            <input key={field} placeholder={field} className="spb-input" />
-                        ))}
-                        <button className="spb-btn spb-btn--primary spb-btn--full">
-                            Submit Now →
-                        </button>
+                        <form onSubmit={handleSubmit}>
+                            {data.hero.formFields.map((field) => (
+                                <input key={field} name={field} placeholder={field} required className="spb-input" />
+                            ))}
+                            <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
+                                Submit Now →
+                            </button>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -188,11 +228,10 @@ export default function CaseStudies() {
                                                 <div className="d-flex align-items-center justify-content-between mb-2">
                                                     <span
                                                         className="cs-cat-badge"
-                                                        
+
                                                     >
                                                         {cs.category}
                                                     </span>
-                                                    <span className="cs-year-lbl">{cs.year} · {cs.duration}</span>
                                                 </div>
 
                                                 <div className="cs-grid-client">{cs.client}</div>
@@ -248,8 +287,8 @@ export default function CaseStudies() {
                 <div className="spb-container container-fluid">
                     <div className="row g-5"> */}
 
-                        {/* Testimonials */}
-                        {/* <div className="col-12 col-lg-5">
+            {/* Testimonials */}
+            {/* <div className="col-12 col-lg-5">
                             <div className="spb-label">✦ Client Love</div>
                             <h2 className="spb-intro__heading mb-4">What Our Clients Say</h2>
                             <div className="settings_ul">
@@ -271,8 +310,8 @@ export default function CaseStudies() {
                             </div>
                         </div> */}
 
-                        {/* FAQ */}
-                        {/* <div className="col-12 col-lg-7">
+            {/* FAQ */}
+            {/* <div className="col-12 col-lg-7">
                             <div className="spb-label">✦ FAQ</div>
                             <h2 className="spb-intro__heading mb-4">Common Questions</h2>
                             <div style={{ maxWidth: 760, margin: "0 auto" }}>
@@ -294,7 +333,7 @@ export default function CaseStudies() {
                             </div>
                         </div> */}
 
-                    {/* </div>
+            {/* </div>
                 </div>
             </section> */}
 
@@ -309,7 +348,7 @@ export default function CaseStudies() {
                     <p className="spb-cta__sub">{data.cta.subtitle}</p>
                     <div className="spb-cta__btns">
                         <Link to="tel:+919871886822" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
-            <Link to="/Contact-Us" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
+                        <Link to="/Contact-Us" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
                     </div>
                 </div>
             </section>

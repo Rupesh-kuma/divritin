@@ -1,5 +1,8 @@
 import { useState } from "react";
 import data from "/src/datas/Blogs.json";
+import { Link } from "react-router-dom";
+import { sendEmail } from "/src/utils/sendEmail.js";
+import { Helmet } from "react-helmet-async";
 
 export default function Blogs() {
     const [activeFilter, setActiveFilter] = useState("All");
@@ -13,9 +16,44 @@ export default function Blogs() {
     const visibleBlogs = filteredBlogs.slice(0, visibleCount);
     const hasMore = visibleCount < filteredBlogs.length;
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sendEmail(e.target);
+    };
+
     return (
         <div className="dv-page">
+            <Helmet>
 
+                <title>
+                    Technology Blog | Web Development, SEO & Digital Marketing Insights | Divrit Technologies Private Limited
+                </title>
+
+                <meta
+                    name="description"
+                    content="Read the latest technology blogs from Divrit Technologies Private Limited covering web development, mobile app development, SEO, digital marketing and modern software technologies."
+                />
+
+                <meta
+                    name="keywords"
+                    content="Technology Blog, Web Development Blog, SEO Blog, Digital Marketing Blog, Software Development Blog, IT Industry Insights"
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://divritin.com/blogs" />
+
+                <meta property="og:title" content="Technology Blog | Divrit Technologies Private Limited" />
+
+                <meta property="og:description" content="Explore the latest insights on web development, mobile apps, SEO and digital marketing from Divrit Technologies." />
+
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content="https://divritin.com/blogs" />
+
+                <meta property="og:image" content="/images/work_image.png" />
+
+            </Helmet>
             {/* ══ 1. HERO ══ */}
             <section
                 className="spb-hero"
@@ -41,12 +79,14 @@ export default function Blogs() {
                     <div className="spb-hero__form">
                         <p className="spb-hero__form-title">{data.hero.formTitle}</p>
                         <p className="spb-hero__form-sub">Join 50,000+ readers</p>
-                        {data.hero.formFields.map((field) => (
-                            <input key={field} placeholder={field} className="spb-input" />
-                        ))}
-                        <button className="spb-btn spb-btn--primary spb-btn--full">
-                            Subscribe Free →
-                        </button>
+                        <form onSubmit={handleSubmit}>
+                            {data.hero.formFields.map((field) => (
+                                <input key={field} name={field} required placeholder={field} className="spb-input" />
+                            ))}
+                            <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
+                                Subscribe Free →
+                            </button>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -58,7 +98,7 @@ export default function Blogs() {
                         <span className="spb-label">{data.intro.label}</span>
                         <h2 className="spb-intro__heading">{data.intro.heading}</h2>
                         <p className="spb-intro__desc">{data.intro.description}</p>
-                        <button className="spb-btn spb-btn--primary">Browse Articles →</button>
+                        <Link to="/Contact-Us" className="spb-btn spb-btn--primary">Get in Touch →</Link>
                         <div className="spb-stats">
                             {data.intro.stats.map((s) => (
                                 <div key={s.label} className="spb-stat">
@@ -109,7 +149,7 @@ export default function Blogs() {
                         <div className="bl-featured__top">
                             <span
                                 className="bl-cat-badge"
-                                
+
                             >
                                 {data.featured.category}
                             </span>
@@ -137,11 +177,11 @@ export default function Blogs() {
                     </div>
 
                     {/* ── Filter Pills ── */}
-                    <div className=" cs-filter-bar mb-2">
+                    <div className="cs-filter-bar mb-2">
                         {data.categories.map((cat) => (
                             <button
                                 key={cat}
-                                className={`bl-filter-pill ${activeFilter === cat ? "bl-filter-pill--active" : ""}`}
+                                className={`cs-filter-pill ${activeFilter === cat ? "cs-filter-pill--active" : ""}`}
                                 onClick={() => {
                                     setActiveFilter(cat);
                                     setVisibleCount(6);
@@ -240,15 +280,18 @@ export default function Blogs() {
                             <div className="bl-newsletter__title">{data.newsletter.heading}</div>
                             <p className="bl-newsletter__desc">{data.newsletter.desc}</p>
                         </div>
-                        <div className="bl-newsletter__form">
-                            <input
-                                className="bl-newsletter__input"
-                                placeholder={data.newsletter.placeholder}
-                            />
-                            <button className="spb-btn spb-btn--primary">
-                                {data.newsletter.btnLabel}
-                            </button>
-                        </div>
+                        <form onSubmit={handleSubmit}>
+                            <div className="bl-newsletter__form">
+                                <input
+                                    className="bl-newsletter__input"
+                                    name={data.newsletter.name}
+                                    placeholder={data.newsletter.placeholder}
+                                />
+                                <button type="submit" className="spb-btn spb-btn--primary">
+                                    {data.newsletter.btnLabel}
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -300,7 +343,7 @@ export default function Blogs() {
                 </div>
             </section>
 
-            
+
 
             {/* ══ 7. CTA ══ */}
             <section
@@ -312,8 +355,8 @@ export default function Blogs() {
                     <h2 className="spb-cta__title">{data.cta.heading}</h2>
                     <p className="spb-cta__sub">{data.cta.subtitle}</p>
                     <div className="spb-cta__btns">
-                        <button className="spb-btn spb-btn--white">{data.cta.btnPrimary}</button>
-                        <button className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</button>
+                        <Link to="mailto:info@divritin.com" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+                        <Link to="/case-studies" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
                     </div>
                 </div>
             </section>

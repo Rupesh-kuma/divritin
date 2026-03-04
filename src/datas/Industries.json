@@ -3,7 +3,7 @@
       "badge": "✦ Industries We Serve",
       "title": "Technology Solutions for Every Industry",
       "subtitle": "From FinTech to HealthTech, E-Commerce to EdTech — we build powerful digital products tailored to the unique challenges of your industry.",
-      "bgImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80",
+      "bgImage": "/images/iws_banner.webp",
       "tags": ["FinTech", "HealthTech", "E-Commerce", "EdTech", "Real Estate", "Logistics", "Retail", "Manufacturing"],
       "formTitle": "Get Industry-Specific Solutions",
       "formFields": ["Your Name", "Email Address", "Phone Number", "Your Industry"]
@@ -13,7 +13,7 @@
       "label": "✦ Our Expertise",
       "heading": "12+ Industries. 150+ Projects. One Trusted Partner.",
       "description": "Every industry has its own rules, regulations, and user expectations. We go deep into your domain before writing a single line of code — so what we build fits your business perfectly, not just technically.",
-      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+      "image": "/images/iws_about.webp",
       "stats": [
         { "num": "12+",  "label": "Industries Served" },
         { "num": "150+", "label": "Projects Delivered" },
@@ -30,7 +30,7 @@
         "shortDesc": "Secure, scalable financial platforms built for compliance and speed.",
         "description": "We build RBI-compliant banking apps, payment gateways, lending platforms, and wealth management tools with bank-grade security and real-time transaction processing.",
         "bgColor": "#22d3ee",
-        "bgImage": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=700&q=80",
+        "bgImage": "/images/iws_FinTech_Banking.webp",
         "services": ["Mobile Banking Apps", "Payment Gateways", "Lending Platforms", "Fraud Detection AI", "Wealth Management", "KYC Automation"],
         "stats": { "projects": "28+", "clients": "15+", "avgROI": "340%" },
         "challenge": "Strict compliance requirements, real-time transaction demands, and zero-tolerance for security vulnerabilities.",
@@ -43,7 +43,7 @@
         "shortDesc": "HIPAA-ready digital health solutions improving patient outcomes.",
         "description": "From patient management systems and telemedicine platforms to AI diagnostics and hospital ERP solutions — we digitize healthcare workflows that save lives.",
         "bgColor": "#4ade80",
-        "bgImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=700&q=80",
+        "bgImage": "/images/iws_HealthTech_MedTech.webp",
         "services": ["Patient Management", "Telemedicine Apps", "AI Diagnostics", "Hospital ERP", "Appointment Systems", "Health Wearables"],
         "stats": { "projects": "22+", "clients": "18+", "avgROI": "280%" },
         "challenge": "HIPAA/DPDP compliance, real-time data accuracy, and seamless integration with legacy hospital systems.",
@@ -56,7 +56,7 @@
         "shortDesc": "High-converting online stores built for scale and retention.",
         "description": "We build blazing-fast e-commerce platforms, marketplace apps, and retail management systems that convert visitors into loyal customers and scale to millions of transactions.",
         "bgColor": "#f97316",
-        "bgImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=700&q=80",
+        "bgImage": "/images/iws_E-Commerce_Retail.webp",
         "services": ["Online Stores", "Marketplace Platforms", "Inventory Management", "AI Recommendations", "Mobile Commerce", "POS Systems"],
         "stats": { "projects": "35+", "clients": "25+", "avgROI": "420%" },
         "challenge": "High traffic spikes, cart abandonment, complex inventory, and personalizing experiences for millions of users.",
@@ -69,7 +69,7 @@
         "shortDesc": "Engaging learning platforms that drive completion and retention.",
         "description": "We build LMS platforms, gamified learning apps, live tutoring systems, and AI-powered personalized learning experiences that keep students engaged.",
         "bgColor": "#f472b6",
-        "bgImage": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=700&q=80",
+        "bgImage": "/images/iws_EdTech_E-Learning.webp",
         "services": ["LMS Platforms", "Gamified Learning", "Live Tutoring Apps", "AI Tutors", "Assessment Tools", "Offline-First Apps"],
         "stats": { "projects": "18+", "clients": "12+", "avgROI": "310%" },
         "challenge": "Low engagement, high drop-off rates, and delivering consistent experiences across low-bandwidth regions.",
@@ -82,7 +82,7 @@
         "shortDesc": "Smart property platforms that close deals faster.",
         "description": "From AI-powered property discovery and virtual tours to CRM systems and mortgage calculators — we digitize the entire real estate journey for buyers, sellers, and agents.",
         "bgColor": "#a78bfa",
-        "bgImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=700&q=80",
+        "bgImage": "/images/iws_Real_Estate_PropTech.webp",
         "services": ["Property Listing Platforms", "Virtual Tours", "AI Matching", "Real Estate CRM", "Mortgage Tools", "Agent Portals"],
         "stats": { "projects": "16+", "clients": "10+", "avgROI": "290%" },
         "challenge": "Slow search, lack of personalization, and fragmented data across hundreds of thousands of listings.",
@@ -95,7 +95,7 @@
         "shortDesc": "ML-driven logistics systems that cut costs and delays.",
         "description": "We build route optimization engines, fleet management platforms, warehouse automation tools, and real-time supply chain visibility dashboards that reduce operational costs.",
         "bgColor": "#fbbf24",
-        "bgImage": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=700&q=80",
+        "bgImage": "/images/idu_Logistics_Supply_Chain.webp",
         "services": ["Route Optimization", "Fleet Management", "Warehouse Automation", "Supply Chain Dashboard", "Last-Mile Delivery", "Driver Apps"],
         "stats": { "projects": "14+", "clients": "9+", "avgROI": "380%" },
         "challenge": "Manual routing costing millions, blind spots in supply chain, and no real-time visibility for fleet managers.",
@@ -108,7 +108,7 @@
         "shortDesc": "IoT and automation solutions for the modern factory floor.",
         "description": "We connect machines, workers, and data through IoT platforms, predictive maintenance systems, and manufacturing ERP solutions that reduce downtime and increase output.",
         "bgColor": "#fb7185",
-        "bgImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=700&q=80",
+        "bgImage": "/images/Manufacturing_Industry.webp",
         "services": ["IoT Platforms", "Predictive Maintenance", "Manufacturing ERP", "Quality Control AI", "Digital Twin", "Worker Safety Apps"],
         "stats": { "projects": "10+", "clients": "7+", "avgROI": "260%" },
         "challenge": "Unplanned machine downtime, manual quality checks, and zero real-time visibility across production lines.",
@@ -121,7 +121,7 @@
         "shortDesc": "End-to-end digital solutions for restaurants and food businesses.",
         "description": "From online ordering and table management to kitchen display systems and food delivery aggregator integrations — we build the full digital stack for food businesses.",
         "bgColor": "#34d399",
-        "bgImage": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=700&q=80",
+        "bgImage": "/images/indu_Food_Restaurant_Tech.webp",
         "services": ["Online Ordering Apps", "Table Management", "Kitchen Display Systems", "Loyalty Programs", "Delivery Integration", "POS Systems"],
         "stats": { "projects": "12+", "clients": "10+", "avgROI": "300%" },
         "challenge": "Fragmented order channels, manual kitchen workflows, and lack of customer retention tools.",
@@ -138,35 +138,35 @@
           "title": "Domain Discovery",
           "description": "We spend the first 2 weeks learning your industry — regulations, competitors, user behavior, and pain points specific to your domain.",
           "points": ["Industry compliance research", "Competitor benchmarking", "User interviews & surveys", "Domain expert consultations"],
-          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=700&q=80"
+          "image": "/images/indus_Domain_Discovery.webp"
         },
         {
           "id": 2,
           "title": "Solution Architecture",
           "description": "We design a solution architecture tailored to your industry's scale, security, and integration requirements.",
           "points": ["Compliance-first architecture", "Tech stack selection", "Third-party integration mapping", "Security & data privacy plan"],
-          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80"
+          "image": "/images/indu_Solution_Architecture.webp"
         },
         {
           "id": 3,
           "title": "Agile Development",
           "description": "Development happens in 2-week sprints with constant client demos — ensuring what we build always matches your vision.",
           "points": ["2-week sprint cycles", "Regular client demos", "Continuous integration", "Quality-first code reviews"],
-          "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=700&q=80"
+          "image": "/images/indu_Agile_Development.webp"
         },
         {
           "id": 4,
           "title": "Compliance & Testing",
           "description": "Industry-specific testing: HIPAA audits for HealthTech, PCI-DSS for FinTech, load testing for E-Commerce.",
           "points": ["Industry compliance audits", "Security penetration testing", "Performance & load testing", "User acceptance testing"],
-          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=700&q=80"
+          "image": "/images/indu_Compliance_Testing.webp"
         },
         {
           "id": 5,
           "title": "Launch & Scale",
           "description": "Smooth go-live with hypercare support, followed by data-driven optimization as your business grows.",
           "points": ["Hypercare go-live support", "Performance monitoring", "Growth-driven iterations", "24/7 post-launch support"],
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=700&q=80"
+          "image": "/images/ppc_Campaign_Launch_Tracking_Setup.webp"
         }
       ]
     },
@@ -244,7 +244,7 @@
     "cta": {
       "heading": "Which Industry Are You Building For?",
       "subtitle": "Tell us your domain and we'll share exactly how we can help you win in it.",
-      "bgImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600&q=80",
+      "bgImage": "/images/cta.webp",
       "btnPrimary": "Start a Project →",
       "btnSecondary": "View Case Studies"
     }

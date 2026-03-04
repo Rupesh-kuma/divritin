@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import data from "/src/datas/technologies.json";
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 // ─────────────────────────────────────────────────────────
 //  CURSOR
@@ -105,7 +107,7 @@ function TechRow({ item, index, total }) {
                     <img src={item.img} alt={item.alt} loading="lazy" />
                 </div>
 
-                <div className="tp-row-arrow">↗</div>
+                {/* <div className="tp-row-arrow">↗</div> */}
             </div>
         </RevealDiv>
     );
@@ -130,7 +132,7 @@ function ProcessStep({ step, delay }) {
 //  MAIN PAGE
 // ─────────────────────────────────────────────────────────
 export default function Technologies() {
-    const { meta,  hero, marquee, techSection, processSection, cta, footer } = data;
+    const { meta, hero, marquee, techSection, processSection, cta, footer } = data;
 
     // Inject Google Fonts
     useEffect(() => {
@@ -147,6 +149,37 @@ export default function Technologies() {
 
     return (
         <div className="seo-page">
+            <Helmet>
+
+                <title>
+                    Latest Development Technologies | Web & Software Technologies | Divrit Technologies Private Limited
+                </title>
+
+                <meta
+                    name="description"
+                    content="Explore the latest technologies used by Divrit Technologies Private Limited including React, Angular, Node.js, Python, Java, Flutter, AWS and modern development frameworks for building scalable digital solutions."
+                />
+
+                <meta
+                    name="keywords"
+                    content="Web Development Technologies, Software Development Technologies, React Development, Node.js Development, Modern Development Technologies, IT Technology Stack"
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://divritin.com/technologies" />
+
+                <meta property="og:title" content="Latest Development Technologies | Divrit Technologies Private Limited" />
+
+                <meta property="og:description" content="Discover the advanced technologies and frameworks used by Divrit Technologies to build scalable web, mobile and enterprise software solutions." />
+
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content="https://divritin.com/technologies" />
+
+                <meta property="og:image" content="/images/work_image.png" />
+
+            </Helmet>
             <Cursor />
             {/* ── HERO ── */}
             <section className="spb-hero" style={{ backgroundImage: `url('${hero.bgImage}')` }}>
@@ -193,18 +226,18 @@ export default function Technologies() {
             </div>
 
             {/* ── TECH SECTION ── */}
-            <section class="dark-sec spb-container">
+            <section className="dark-sec spb-container">
                 <div className="container-fluid">
-                <div className="row align-items-end mb-3">
-                    <div className="col-lg-6">
-                        <div className="spb-label">✦ {techSection.sectionLabel}</div>
-                        <h2 className="spb-intro__heading">Technology Expertise</h2>
+                    <div className="row align-items-end mb-3">
+                        <div className="col-lg-6">
+                            <div className="spb-label">✦ {techSection.sectionLabel}</div>
+                            <h2 className="spb-intro__heading">Technology Expertise</h2>
+                        </div>
+                        <div className="col-lg-6">
+                            <p className="sec-p">{techSection.description}</p>
+                        </div>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="sec-p">{techSection.description}</p>
-                    </div>
-                </div>
-                    
+
                 </div>
 
                 {techSection.technologies.map((item, i) => (
@@ -215,28 +248,28 @@ export default function Technologies() {
                         total={techSection.technologies.length}
                     />
                 ))}
-               
+
             </section>
 
             {/* ── PROCESS SECTION ── */}
             <section className="spb-section spb-section--alt">
                 <div className="spb-container container-fluid">
-                    
-                    <div className="row align-items-end mb-3">
-                    <div className="col-lg-6">
-                        <div className="spb-label">✦ {processSection.sectionLabel}</div>
-                        <h2 className="spb-intro__heading">Our Development Process</h2>
-                    </div>
-                    
-                </div>
-                
 
-                <div className="tp-process-track tp-process-trackss">
-                    <div className="tp-process-line" />
-                    {processSection.steps.map((step, i) => (
-                        <ProcessStep key={step.num} step={step} delay={i * 0.08} />
-                    ))}
-                </div>
+                    <div className="row align-items-end mb-3">
+                        <div className="col-lg-6">
+                            <div className="spb-label">✦ {processSection.sectionLabel}</div>
+                            <h2 className="spb-intro__heading">Our Development Process</h2>
+                        </div>
+
+                    </div>
+
+
+                    <div className="tp-process-track tp-process-trackss">
+                        <div className="tp-process-line" />
+                        {processSection.steps.map((step, i) => (
+                            <ProcessStep key={step.num} step={step} delay={i * 0.08} />
+                        ))}
+                    </div>
                 </div>
             </section>
 
@@ -248,12 +281,12 @@ export default function Technologies() {
                     <h2 className="spb-cta__title">{cta.titleLine1} {cta.titleLine2}</h2>
                     <p className="spb-cta__sub">{cta.subtitle}</p>
                     <div className="spb-cta__btns">
-                        <button className="spb-btn spb-btn--white">{cta.primaryBtn.label}</button>
-                        <button className="spb-btn spb-btn--outline-white">{cta.secondaryBtn.label}</button>
+                        <Link to="mailto:info@divritin.com" className="spb-btn spb-btn--white">{cta.primaryBtn.label}</Link>
+                        <Link to="/case-studies" className="spb-btn spb-btn--outline-white">{cta.secondaryBtn.label}</Link>
                     </div>
                 </div>
             </section>
-            
+
         </div>
     );
 }

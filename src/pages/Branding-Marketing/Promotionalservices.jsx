@@ -1,6 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import data from "/src/datas/Promotionalservices.json";
-    
+import { sendEmail } from "/src/utils/sendEmail.js";
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+
 const tools = [
     { icon: "🔍", name: "Google Search Console" },
     { icon: "📊", name: "Google Analytics 4" },
@@ -23,9 +26,77 @@ export default function Ppc() {
         data.process.steps.find((s) => s.id === activeStep) ||
         data.process.steps[0];
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sendEmail(e.target);
+    };
 
+
+    useEffect(() => {
+        // Vanilla JS se select kiya element
+        jQuery(document).ready(function ($) {
+            // Team Slider - shows 4 items
+            $('.settings_ul').slick({
+                infinite: true,
+                infinite: true,
+                speed: 700,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        })
+
+
+    }, []);
     return (
         <div className="seo-page">
+            <Helmet>
+
+                <title>
+                    Digital Promotional Services | Business Promotion Solutions | Divrit Technologies Private Limited
+                </title>
+
+                <meta
+                    name="description"
+                    content="Divrit Technologies Private Limited offers professional digital promotional services to help businesses increase brand visibility, reach target audiences and grow their online presence through effective promotional strategies."
+                />
+
+                <meta
+                    name="keywords"
+                    content="Digital Promotional Services, Online Promotion Services, Business Promotion Services, Digital Marketing Promotion, Brand Promotion Services, Online Advertising Solutions"
+                />
+
+                <meta name="robots" content="index, follow" />
+
+                <link rel="canonical" href="https://divritin.com/other-promotional-services" />
+
+                <meta property="og:title" content="Digital Promotional Services | Divrit Technologies Private Limited" />
+
+                <meta property="og:description" content="Enhance your brand visibility with professional digital promotional services from Divrit Technologies Private Limited." />
+
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content="https://divritin.com/other-promotional-services" />
+
+                <meta property="og:image" content="/images/work_image.png" />
+
+            </Helmet>
             <section
                 className="spb-hero"
                 style={{ backgroundImage: `url(${data.hero.bgImage})` }}
@@ -51,30 +122,34 @@ export default function Ppc() {
                     <div className="spb-hero__form">
                         <p className="spb-hero__form-title">{data.hero.formTitle}</p>
                         <p className="spb-hero__form-sub">Experts ready to help you</p>
-                        {data.hero.formFields.map((field) => (
-                            <input
-                                key={field}
-                                placeholder={field}
-                                className="spb-input"
-                            />
-                        ))}
-                        <button className="spb-btn spb-btn--primary spb-btn--full">
-                            Submit Now →
-                        </button>
+                        <form onSubmit={handleSubmit}>
+                            {data.hero.formFields.map((field) => (
+                                <input
+                                    key={field}
+                                    name={field}
+                                    placeholder={field}
+                                    className="spb-input"
+                                    required
+                                />
+                            ))}
+                            <button type="submit" className="spb-btn spb-btn--primary spb-btn--full">
+                                Submit Now →
+                            </button>
+                        </form>
                     </div>
 
                 </div>
             </section>
 
-             {/* ══ 2. INTRO ══ */}
-             <section className="spb-section spb-section--alt">
+            {/* ══ 2. INTRO ══ */}
+            <section className="spb-section spb-section--alt">
                 <div className="spb-container container-fluid spb-intro">
 
                     <div className="spb-intro__text">
                         <span className="spb-label">{data.intro.label}</span>
                         <h2 className="spb-intro__heading">{data.intro.heading}</h2>
                         <p className="spb-intro__desc">{data.intro.description}</p>
-                        <button className="spb-btn spb-btn--primary">Get Free Strategy Session →</button>
+                        <Link to="/Contact-Us" className="spb-btn spb-btn--primary">Get Free Strategy Session →</Link>
 
                         <div className="spb-stats">
                             {data.intro.stats.map((s) => (
@@ -95,33 +170,33 @@ export default function Ppc() {
             </section>
 
             {/* AD PLATFORMS */}
-      <section className="dark-sec">
-        <div className="container-fluid spb-container">
-          <div className="text-center mb-5">
-            <div className="spb-label">✦ Promotional Channels We Manage</div>
-            <h2 className="spb-intro__heading">Services Included With All Plans</h2>
-            <p className="sec-p mx-auto" >We plan and execute promotional campaigns across all major marketing channels — each with a tailored strategy built for that channel's unique audience, behavior patterns, and engagement formats.</p>
-          </div>
-          <div className="row g-4">
-            {data.adPlatforms.map((p, i) => (
-              <div className="col-md-6 col-lg-4" key={i}>
-                <div className="plat-card" style={{ background:p.bg }}>
-                  <div className="plat-img">
-                    <img src={p.image} alt={p.name} />
-                  </div>
-                  <div className="plat-body">
-                    <div className="plat-icon-name">
-                      <span className="plat-ico">{p.icon}</span>
-                      <span className="plat-name">{p.name}</span>
+            <section className="dark-sec">
+                <div className="container-fluid spb-container">
+                    <div className="text-center mb-5">
+                        <div className="spb-label">✦ Promotional Channels We Manage</div>
+                        <h2 className="spb-intro__heading">Services Included With All Plans</h2>
+                        <p className="sec-p mx-auto" >We plan and execute promotional campaigns across all major marketing channels — each with a tailored strategy built for that channel's unique audience, behavior patterns, and engagement formats.</p>
                     </div>
-                    <div className="plat-desc">{p.desc}</div>
-                  </div>
+                    <div className="row g-4">
+                        {data.adPlatforms.map((p, i) => (
+                            <div className="col-md-6 col-lg-4" key={i}>
+                                <div className="plat-card">
+                                    <div className="plat-img">
+                                        <img src={p.image} alt={p.name} />
+                                    </div>
+                                    <div className="plat-body">
+                                        <div className="plat-icon-name">
+                                            <span className="plat-ico">{p.icon}</span>
+                                            <span className="plat-name">{p.name}</span>
+                                        </div>
+                                        <div className="plat-desc">{p.desc}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+            </section>
 
             {/* CAMPAIGN PROCESS CHECKLIST */}
             <section className="dark-sec spb-container" id="services">
@@ -136,11 +211,11 @@ export default function Ppc() {
                         </div>
                     </div>
                     <div className="row g-4">
-                    {data.campaignProcess.map((item, i) => (
+                        {data.campaignProcess.map((item, i) => (
                             <div className="col-md-6 col-lg-4" key={i}>
                                 <div className="svc-card">
-                                <div className="check-dot" />
-                    <span className="check-text">{item}</span>
+                                    <div className="check-dot" />
+                                    <span className="check-text">{item}</span>
                                 </div>
                             </div>
                         ))}
@@ -163,7 +238,7 @@ export default function Ppc() {
                     <div className="row g-4">
                         {data.services.map(s => (
                             <div className="col-md-6 col-lg-4" key={s.id}>
-                                <div  className="svc-card svc_rup">
+                                <div className="svc-card svc_rup">
                                     <div className="svc-ico">{s.icon}</div>
                                     <div className="svc-title">{s.title}</div>
                                     <div className="svc-desc">{s.description}</div>
@@ -221,7 +296,7 @@ export default function Ppc() {
             </section>
 
             {/* COMPLETED PROJECTS */}
-            <section className="spb-container" id="projects">
+            {/* <section className="spb-container" id="projects">
                 <div className="container-fluid">
                     <div className="row align-items-end mb-5">
                         <div className="col-lg-6">
@@ -260,15 +335,15 @@ export default function Ppc() {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-             {/* WHY US */}
-             <section className="dark-sec">
+            {/* WHY US */}
+            <section className="dark-sec">
                 <div className="spb-container container-fluid">
                     <div className="row align-items-end mb-2">
                         <div className="col-lg-6">
                             <div className="spb-label">✦ Why Choose Us</div>
-                            <h2 className="spb-intro__heading">Why Divrit Technologies<br/>for Promotional Marketing?</h2>
+                            <h2 className="spb-intro__heading">Why Divrit Technologies<br />for Promotional Marketing?</h2>
                         </div>
                         <div className="col-lg-6">
                             <p className="sec-p">We don't just run campaigns — we engineer brand growth. Every promotional strategy is built around your business goals, your audience, and your budget — with zero tolerance for vanity metrics.</p>
@@ -306,16 +381,16 @@ export default function Ppc() {
                     <div className="spb-industries">
                         {data.industries.list.map((ind, i) => (
                             <div className="spb-industry-card" key={i}>
-                                    <div className="spb-industry-card__icon">{ind.icon}</div>
-                                    <div className="spb-industry-card__title">{ind.title}</div>
-                                    <div className="spb-industry-card__desc">{ind.desc}</div>
+                                <div className="spb-industry-card__icon">{ind.icon}</div>
+                                <div className="spb-industry-card__title">{ind.title}</div>
+                                <div className="spb-industry-card__desc">{ind.desc}</div>
                             </div>
                         ))}
                     </div>
                 </div>
             </section>
 
-           
+
             {/* TESTIMONIALS */}
             <section className=" testmonial_bgs">
                 <div className="spb-container container-fluid">
@@ -323,7 +398,7 @@ export default function Ppc() {
                         <div className="col-5">
                             <div className="text-center mb-2">
                                 <div className="spb-label">✦ Client Success Stories</div>
-                        <h2 className="spb-intro__heading">What Our Clients Say</h2>
+                                <h2 className="spb-intro__heading">What Our Clients Say</h2>
                             </div>
                             <div className="settings_ul">
                                 {data.testimonials.map((t, i) => (
@@ -363,7 +438,7 @@ export default function Ppc() {
                 </div>
             </section>
 
-        
+
 
             {/* CTA */}
             <section
@@ -375,8 +450,8 @@ export default function Ppc() {
                     <h2 className="spb-cta__title">{data.cta.heading}</h2>
                     <p className="spb-cta__sub">{data.cta.subtitle}</p>
                     <div className="spb-cta__btns">
-                        <button className="spb-btn spb-btn--white">{data.cta.btnPrimary}</button>
-                        <button className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</button>
+                        <Link to="mailto:info@divritin.com" className="spb-btn spb-btn--white">{data.cta.btnPrimary}</Link>
+                        <Link to="/our-portfolios" className="spb-btn spb-btn--outline-white">{data.cta.btnSecondary}</Link>
                     </div>
                 </div>
             </section>
