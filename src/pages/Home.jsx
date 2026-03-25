@@ -11,7 +11,7 @@ import client5 from "/images/client_logo_4.webp";
 import Trusted_logo1 from "/images/Trusted_logo.webp";
 import Trusted_logo2 from "/images/Trusted_logo_2.webp";
 import Trusted_logo3 from "/images/b4.webp";
-import Trusted_logo4 from "/images/b5.webp";
+// import Trusted_logo4 from "/images/b5.webp";
 import Trusted_logo5 from "/images/b6.webp";
 import Trusted_logo6 from "/images/b7.webp";
 import cl1 from "/images/accurect.png";
@@ -890,7 +890,7 @@ const Home = () => {
               <img src={Trusted_logo1} />
               <img src={Trusted_logo2} />
               <img src={Trusted_logo3} />
-              <img src={Trusted_logo4} />
+              {/* <img src={Trusted_logo4} /> */}
               <img src={Trusted_logo5} />
               <img src={Trusted_logo6} />
               <img src={cl1} />
@@ -899,7 +899,7 @@ const Home = () => {
               <img src={Trusted_logo1} />
               <img src={Trusted_logo2} />
               <img src={Trusted_logo3} />
-              <img src={Trusted_logo4} />
+              {/* <img src={Trusted_logo4} /> */}
               <img src={Trusted_logo5} />
               <img src={Trusted_logo6} />
               <img src={cl1} />
