@@ -25,7 +25,7 @@
   
   /* ── Container ── */
   .spb-container {
-    padding: 2rem 3rem;
+    padding: 2rem 3rem !important;
   }
   .spb-center { text-align: center; }
   

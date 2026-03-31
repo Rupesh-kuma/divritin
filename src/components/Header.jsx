@@ -2,33 +2,143 @@ import { useEffect, useState } from "react";
 import logo from "/images/logo.png";
 import { Link } from "react-router-dom";
 const Header = () => {
+    const sidebarMenu = [
+        {
+            title: "Home",
+            icon: "fa-house",
+            link: "/"
+        },
+        {
+            title: "Tally Solution",
+            icon: "fa-bullhorn",
+            submenu: [
+                { title: "Tally Prime", link: "/page-not-found" },
+                { title: "Tally Prime Edit Log", link: "/page-not-found" },
+                { title: "Tally Server", link: "/page-not-found" },
+                { title: "Tally prime developer", link: "/page-not-found" },
+                { title: "Tally ERP", link: "/page-not-found" },
+                { title: "Tally TSS (Tally Software Services)", link: "/page-not-found" },
+                { title: "Tally Integration Solutions", link: "/page-not-found" },
+                { title: "Tally on Cloud", link: "/page-not-found" },
+                { title: "Tally Educational Product", link: "/page-not-found" },
+                { title: "Tally Downloads", link: "/page-not-found" },
+            ]
+        },
+        {
+            title: "Cloud & Workforce solutions",
+            icon: "fa-microchip",
+            submenu: [
+                { title: "Cloud Solutions", link: "/page-not-found", submenu: [{ title: "Services & Hosting", link: "/page-not-found" }] },
+                {
+                    title: "On Demand Workforce", link: "/page-not-found",
+                    submenu: [{ title: "Developer & Consultant", link: "/page-not-found" }, { title: "Virtual Assistant", link: "/page-not-found" }]
+                }
+            ]
+        },
+        {
+            title: "Career",
+            icon: "fa-briefcase",
+            link: "/career"
+        },
+        {
+            title: "Contact Us",
+            icon: "fa-envelope",
+            link: "/Contact-Us"
+        }
+    ];
+ const navbarData = [
+        {
+          title: "Home",
+          link: "/"
+        },
+        {
+          title: "Core Services - IT",
+          link: "/Core-Services-IT",
+          dropdown: [
+            {
+              title: "Application Development",
+              link: "/Application-Development",
+              submenu: [
+                { title: "Custom Software Development", link: "/custom-software-development" },
+                { title: "Website & Design Development", link: "/web-design-development" },
+                { title: "Mobile App Development", link: "/mobile-app-development" },
+                { title: "Web-Mobile App Maintenance(AMC)", link: "/web-mobile-app-maintenance" }
+              ]
+            },
+            {
+              title: "Application Design",
+              link: "/Application-Design",
+              submenu: [
+                { title: "Website UI/UX design", link: "/website-ui-ux-design" },
+                { title: "Mobile screen design", link: "/mobile-screen-design" },
+                { title: "Other Design Services", link: "/other-design-services" }
+              ]
+            }
+          ]
+        },
+        {
+          title: "Branding & Marketing",
+          link: "/Branding-Marketing",
+          dropdown: [
+            { title: "Search Engine Optimization (SEO)", link: "/search-engine-optimization" },
+            { title: "Social Media Optimization (SMO)", link: "/social-media-optimization" },
+            { title: "Pay-Per-Click/SEM Paid campaign", link: "/pay-per-click" },
+            { title: "Other Promotional Services", link: "/other-promotional-services" }
+          ]
+        },
+        {
+          title: "Technologies",
+          link: "/technologies",
+          dropdown: [
+            { title: "Technologies", link: "/technologies" },
+            { title: "Case Studies", link: "/case-studies" },
+            { title: "Industries", link: "/industries" }
+          ]
+        },
+        {
+          title: "Company Profile",
+          link: "/Company-Profile",
+          dropdown: [
+            { title: "Our Portfolios", link: "/our-portfolios" },
+            { title: "Our Client", link: "/our-client" },
+            { title: "Event", link: "/events" },
+            { title: "Career", link: "/career" },
+            { title: "Blogs", link: "/blogs" }
+          ]
+        },
+        {
+          title: "Contact Us",
+          link: "/Contact-Us"
+        }
+      ];
+
     useEffect(() => {
         const navbar = document.getElementById("navbarSupportedContent");
-      
+
         const handleClick = (e) => {
-          // agar dropdown toggle par click hua → kuch mat karo
-          if (e.target.closest(".dropdown-toggle")) {
-            return;
-          }
-      
-          // sirf actual page links par close karo
-          if (e.target.closest(".dropdown-item, .nav-link")) {
-            if (navbar.classList.contains("show")) {
-              const collapse =
-                window.bootstrap.Collapse.getInstance(navbar) ||
-                new window.bootstrap.Collapse(navbar, { toggle: false });
-      
-              collapse.hide();
+            // agar dropdown toggle par click hua → kuch mat karo
+            if (e.target.closest(".dropdown-toggle")) {
+                return;
             }
-          }
+
+            // sirf actual page links par close karo
+            if (e.target.closest(".dropdown-item, .nav-link")) {
+                if (navbar.classList.contains("show")) {
+                    const collapse =
+                        window.bootstrap.Collapse.getInstance(navbar) ||
+                        new window.bootstrap.Collapse(navbar, { toggle: false });
+
+                    collapse.hide();
+                }
+            }
         };
-      
+
         navbar.addEventListener("click", handleClick);
-      
+
         return () => {
-          navbar.removeEventListener("click", handleClick);
+            navbar.removeEventListener("click", handleClick);
         };
-      }, []);
+    }, []);
 
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -100,212 +210,44 @@ const Header = () => {
                         </button>
                         <div className="collapse navbar-collapse align_nav" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li className="nav-item">
-                                    <Link to="/" className="nav-link active" aria-current="page">
-                                        Home
+                                {navbarData.map((menu,i)=>(
+                                    <li className={`nav-item ${menu.dropdown ? "dropdown":""}`} key={i}>
+                                    <Link to={menu.link} className={`nav-link active ${menu.dropdown ? "dropdown-toggle":""}`} data-bs-toggle={menu.dropdown ? "dropdown" : ""} aria-current="page">
+                                        {menu.title}
                                     </Link>
+                                    {menu.dropdown && (
+                                        <ul className="dropdown-menu pl-0" aria-labelledby="coreServicesDropdown">
+                                            {menu.dropdown.map((drop,i)=>(
+                                                 <li className={`nav-item ${drop.submenu ?"dropdown dropdown-submenu":""}  pl-0`} key={i}>
+                                                 <Link
+                                                     to={drop.link}
+                                                     className={`dropdown-item ${drop.submenu ? "dropdown-toggle":"" }`}
+                                                     role={`${drop.submenu ? "button":""}`}
+                                                     data-bs-toggle={` ${drop.submenu ?"dropdown":""}`}
+                                                     aria-expanded="false"
+                                                 >
+                                                     {drop.title}
+                                                 </Link>
+                                                 {drop.submenu && (
+                                                 <ul className={`${drop.submenu ? "dropdown-menu":""}`} aria-labelledby="appDevDropdown">
+                                                    {drop.submenu.map((submenu,i)=>(
+                                                        <li key={i}>
+                                                        <Link to={submenu.link} className="dropdown-item">
+                                                            {submenu.title}
+                                                        </Link>
+                                                    </li>
+                                                    ))}
+                                                 </ul>
+                                                 )}
+                                                 </li>
+                                            ))}
+                                        </ul>
+                                    )}
+                                   
                                 </li>
-                                <li className="nav-item dropdown">
-                                    <Link
-                                        to="/Core-Services-IT"
-                                        className="nav-link dropdown-toggle"
-                                        id="coreServicesDropdown"
-                                        role="button"
-                                        data-bs-toggle="dropdown"
-                                        aria-expanded="false"
-                                    >
-                                        Core Services - IT
-                                    </Link>
-                                    <ul className="dropdown-menu pl-0" aria-labelledby="coreServicesDropdown">
-                                        <li className="nav-item dropdown dropdown-submenu pl-0">
-                                            <Link
-                                                to="/Application-Development"
-                                                className="dropdown-item dropdown-toggle"
-                                                id="appDevDropdown"
-                                                role="button"
-                                                data-bs-toggle="dropdown"
-                                                aria-expanded="false"
-                                            >
-                                                Application Development
-                                            </Link>
-                                            <ul className="dropdown-menu" aria-labelledby="appDevDropdown">
-                                                <li>
-                                                    <Link to="/custom-software-development" className="dropdown-item">
-                                                        Custom Software Development
-                                                    </Link>
-                                                </li>
-                                                {/*<li><Link className="dropdown-item" href="#cross-platform">Cross Platform App Development</Link></li>*/}
-                                                <li>
-                                                    <Link to="/web-design-development" className="dropdown-item">
-                                                        Website &amp; Design Development
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link
-                                                        to="/mobile-app-development"
-                                                        className="dropdown-item"
-                                                    >
-                                                        Mobile App Development
-                                                    </Link>
-                                                </li>
-                                                {/*<li><Link className="dropdown-item" href="#website-redesign">Website Re-design/Maintenance</Link></li>*/}
-                                                <li>
-                                                    <Link
-                                                        to="/web-mobile-app-maintenance"
-                                                        className="dropdown-item"
-                                                    >
-                                                        Web-Mobile App Maintenance(AMC)
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="nav-item dropdown dropdown-submenu pl-0">
-                                            <Link
-                                                to="/Application-Design"
-                                                className="dropdown-item dropdown-toggle"
-                                                id="appDevDropdown"
-                                                role="button"
-                                                data-bs-toggle="dropdown"
-                                                aria-expanded="false"
-                                            >
-                                                Application Design
-                                            </Link>
-                                            <ul className="dropdown-menu" aria-labelledby="appDevDropdown">
-                                                <li>
-                                                    <Link className="dropdown-item" to="/website-ui-ux-design">
-                                                        Website UI/UX design
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link
-                                                        to="/mobile-screen-design"
-                                                        className="dropdown-item"
-                                                    >
-                                                        Mobile screen design
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/other-design-services" className="dropdown-item" >
-                                                        Other Design Services
-                                                    </Link>
-                                                </li>
-                                                {/*<li><Link className="dropdown-item" href="#mobile-dev">Logo design </Link></li>*/}
-                                                {/*<li><Link className="dropdown-item" href="#website-redesign">    Company Portfolio design</Link></li>*/}
-                                                {/*<li><Link className="dropdown-item" href="#mobile-redesign"> Graphical UI design</Link></li>*/}
-                                                {/*<li><Link className="dropdown-item" href="#mobile-redesign">    Prototype or Mock design </Link></li>*/}
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li className="nav-item dropdown">
-                                    <Link
-                                        to="/Branding-Marketing"
-                                        className="nav-link dropdown-toggle"
-                                        id="navbarDropdown1"
-                                        role="button"
-                                        data-bs-toggle="dropdown"
-                                        aria-expanded="false"
-                                    >
-                                        Branding & Marketing
-                                    </Link>
-                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                        <li>
-                                            <Link to="/search-engine-optimization" className="dropdown-item" >
-                                                Search Engine Optimization (SEO)
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/social-media-optimization" className="dropdown-item" >
-                                            Social Media Optimization (SMO)
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/pay-per-click" className="dropdown-item">
-                                                Pay-Per-Click/SEM Paid campaign
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link className="dropdown-item" to="/other-promotional-services">
-                                                Other Promotional Services
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li className="nav-item dropdown">
-                                    <Link
-                                        to="/technologies"
-                                        className="nav-link dropdown-toggle"
-                                        id="navbarDropdown2"
-                                        role="button"
-                                        data-bs-toggle="dropdown"
-                                        aria-expanded="false"
-                                    >
-                                        Technologies
-                                    </Link>
-                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown2">
-                                        <li>
-                                            <Link to="/technologies" className="dropdown-item">
-                                                Technologies
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/case-studies" className="dropdown-item">
-                                                Case Studies
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/industries" className="dropdown-item">
-                                                Industries
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li className="nav-item dropdown">
-                                    <Link
-                                        to="/Company-Profile"
-                                        className="nav-link dropdown-toggle"
-                                        id="navbarDropdown3"
-                                        role="button"
-                                        data-bs-toggle="dropdown"
-                                        aria-expanded="false"
-                                    >
-                                        Company Profile
-                                    </Link>
-                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown3">
-                                        <li>
-                                            <Link to="/our-portfolios" className="dropdown-item">
-                                                Our Portfolios
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/our-client" className="dropdown-item">
-                                                Our Client
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/events" className="dropdown-item">
-                                                Event
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/blogs" className="dropdown-item">
-                                                Blogs
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li className="nav-item">
-                                    <Link to="/Contact-Us" className="nav-link">
-                                        Contact Us
-                                    </Link>
-                                </li>
-                                <li className="nav-item">
-                                    <button className="menu-toggle-btn" onClick={toggleSidebar}>
-                                        <i className="fa-solid fa-bars"></i>
-                                    </button>
-                                </li>
-                            </ul>
+                                ))}
+                               
+                               </ul>
                             <div className="wrappers">
                                 <ul>
                                     <li>
@@ -340,187 +282,58 @@ const Header = () => {
                     </div>
 
                     <div className="sidebar-content">
+
                         <ul className="sidebar-menu">
-                            <li className="sidebar-menu-item">
-                                <Link to="/" className="sidebar-menu-link">
-                                    <i className="fa-solid fa-house"></i>
-                                    Home
-                                </Link>
-                            </li>
+                            {sidebarMenu.map((item, index) => (
+                                <li className="sidebar-menu-item" key={index}>
 
-                            <li className="sidebar-menu-item">
-                                <div
-                                    className="sidebar-menu-link menu-dropdown-toggle"
-                                    onClick={(e) => {
-                                        const submenu = e.currentTarget.nextElementSibling;
-                                        const arrow = e.currentTarget.querySelector('.dropdown-arrow');
-                                        submenu.classList.toggle('active');
-                                        arrow.classList.toggle('active');
-                                    }}
-                                >
-                                    <span>
-                                        <i className="fa-solid fa-bullhorn"></i>
-                                        Tally Solution
-                                    </span>
-                                    <i className="fa-solid fa-chevron-down dropdown-arrow"></i>
-                                </div>
-                                <ul className="sidebar-submenu">
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            Tally Prime
+                                    {/* NORMAL LINK */}
+                                    {!item.submenu ? (
+                                        <Link
+                                            to={item.link}
+                                            className="sidebar-menu-link"
+                                            onClick={toggleSidebar}
+                                        >
+                                            <i className={`fa-solid ${item.icon}`}></i>
+                                            {item.title}
                                         </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            Tally Prime Edit Log
-                                        </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            Tally Server
-                                        </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            Tally prime developer
-                                        </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            Tally ERP
-                                        </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            Tally TSS (Tally Software Services)
-                                        </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            Tally Integration Solutions
-                                        </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            Tally on Cloud
-                                        </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            Tally Educational Product
-                                        </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            Tally Downloads
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </li>
+                                    ) : (
+                                        <>
+                                            {/* DROPDOWN */}
+                                            <div
+                                                className="sidebar-menu-link menu-dropdown-toggle"
+                                                onClick={(e) => {
+                                                    const submenu = e.currentTarget.nextElementSibling;
+                                                    const arrow = e.currentTarget.querySelector(".dropdown-arrow");
+                                                    submenu.classList.toggle("active");
+                                                    arrow.classList.toggle("active");
+                                                }}
+                                            >
+                                                <span>
+                                                    <i className={`fa-solid ${item.icon}`}></i>
+                                                    {item.title}
+                                                </span>
+                                                <i className="fa-solid fa-chevron-down dropdown-arrow"></i>
+                                            </div>
 
-                            <li className="sidebar-menu-item">
-                                <div
-                                    className="sidebar-menu-link menu-dropdown-toggle"
-                                    onClick={(e) => {
-                                        const submenu = e.currentTarget.nextElementSibling;
-                                        const arrow = e.currentTarget.querySelector('.dropdown-arrow');
-                                        submenu.classList.toggle('active');
-                                        arrow.classList.toggle('active');
-                                    }}
-                                >
-                                    <span>
-                                        <i className="fa-solid fa-microchip"></i>
-                                        Cloud & Workforce solutions
-                                    </span>
-                                    <i className="fa-solid fa-chevron-down dropdown-arrow"></i>
-                                </div>
-                                <ul className="sidebar-submenu">
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            Cloud Solutions
-                                        </Link>
-                                        <ul>
-                                            <li className="sidebar-submenu-item">
-                                                <Link to="/page-not-found" className="sidebar-submenu-link">
-                                                    Services & Hosting
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link to="/page-not-found" className="sidebar-submenu-link">
-                                            On Demand Workforce
-                                        </Link>
-                                        <ul>
-                                            <li className="sidebar-submenu-item">
-                                                <Link to="/page-not-found" className="sidebar-submenu-link">
-                                                    Developer & Consultant
-                                                </Link>
-                                            </li>
-                                            <li className="sidebar-submenu-item">
-                                                <Link to="/page-not-found" className="sidebar-submenu-link">
-                                                    Virtual Assistant
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-
-                                </ul>
-                            </li>
-                            {/* 
-                            <li className="sidebar-menu-item">
-                                <div
-                                    className="sidebar-menu-link menu-dropdown-toggle"
-                                    onClick={(e) => {
-                                        const submenu = e.currentTarget.nextElementSibling;
-                                        const arrow = e.currentTarget.querySelector('.dropdown-arrow');
-                                        submenu.classList.toggle('active');
-                                        arrow.classList.toggle('active');
-                                    }}
-                                >
-                                    <span>
-                                        <i className="fa-solid fa-building"></i>
-                                        Company Profile
-                                    </span>
-                                    <i className="fa-solid fa-chevron-down dropdown-arrow"></i>
-                                </div>
-                                <ul className="sidebar-submenu">
-                                    <li className="sidebar-submenu-item">
-                                        <Link href="#" className="sidebar-submenu-link">
-                                            Our Portfolios
-                                        </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link href="#" className="sidebar-submenu-link">
-                                            Our Client
-                                        </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link href="#" className="sidebar-submenu-link">
-                                            Event
-                                        </Link>
-                                    </li>
-                                    <li className="sidebar-submenu-item">
-                                        <Link href="#" className="sidebar-submenu-link">
-                                            Blogs
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </li> */}
-                            <li className="sidebar-menu-item">
-                                <Link to="/page-not-found" className="sidebar-menu-link">
-                                    <i className="fa-solid fa-briefcase"></i>
-                                    Career
-                                </Link>
-                            </li>
-
-                            <li className="sidebar-menu-item">
-                                <Link to="/Contact-Us" className="sidebar-menu-link">
-                                    <i className="fa-solid fa-envelope"></i>
-                                    Contact Us
-                                </Link>
-                            </li>
+                                            {/* SUBMENU */}
+                                            <ul className="sidebar-submenu">
+                                                {item.submenu.map((sub, i) => (
+                                                    <li key={i} className="sidebar-submenu-item">
+                                                        <Link
+                                                            to={sub.link}
+                                                            className="sidebar-submenu-link"
+                                                            onClick={toggleSidebar}
+                                                        >
+                                                            {sub.title}
+                                                        </Link>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </>
+                                    )}
+                                </li>
+                            ))}
                         </ul>
 
                         {/* Contact Section */}

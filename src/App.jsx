@@ -30,6 +30,7 @@ import Events from './pages/Company-Profile/Event';
 import AutoPopup from './components/AutoPopup';
 import NotFound from './components/not-found';
 import { HelmetProvider } from 'react-helmet-async';
+import Career from './pages/Career';
 
 
 
@@ -64,6 +65,7 @@ function App() {
       <Route path='/blogs' element={<Blogs/>}/>
       <Route path='/events' element={<Events/>}/>
       <Route path='/page-not-found' element={<NotFound/>}/>
+      <Route path='/career' element={<Career/>}/>
     </Routes>
     <Footer/>
     </HelmetProvider>

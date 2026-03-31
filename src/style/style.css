@@ -67,6 +67,10 @@
 .footer_second ul li a{
     color: #fff;
     font-size: 17px;
+    text-decoration: none;
+}
+a{
+  text-decoration: none !important;
 }
 .getintuch_footer{
     display: flex;
@@ -90,6 +94,7 @@
     color: #fff;
     font-size: 16px;
     width: 100%;
+
 }
 .copy_right_main{
   background: #086AD7;
@@ -1584,7 +1589,7 @@ border-radius: 10px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
   border-radius: 12px;
   padding: 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: 0rem;
 }
 
 .dropdown-item {
@@ -2374,7 +2379,7 @@ border-radius: 10px;
   background: #EDF2FAB3;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  padding: 40px 40px;
+  padding: 40px 40px !important;
   max-width: 100%;
   width: 100%;
 }
@@ -2389,7 +2394,7 @@ border-radius: 10px;
 .form-control, .form-select {
   border: 1px solid #e0e0e0;
   border-radius: 6px;
-  padding: 12px 16px;
+  padding: 12px 16px !important;
   font-size: 14px;
   color: #666;
   transition: all 0.3s ease;
@@ -2424,7 +2429,7 @@ textarea.form-control {
     width: 100%;
 }
 .contac_main{
-  padding: 0 167px;
+  padding: 0 167px !important;
 }
 .loction_contact iframe{
   filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
@@ -2451,4 +2456,19 @@ textarea.form-control {
 
 .client_banner{
   padding: 8% 0 !important;
+}
+
+
+.job-card {
+  padding: 20px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.job-card:hover {
+  background: #0d6efd;
+  color: #fff;
+  transform: translateY(-5px);
 }

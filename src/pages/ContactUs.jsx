@@ -3,58 +3,7 @@ import { sendEmail } from "../utils/sendEmail.js";
 import { Helmet } from "react-helmet-async";
 
 const ContactUs = () => {
-    // const sendEmail = async (e) => {
-    //     e.preventDefault();
-
-    //     const formData = {
-    //       name: e.target.name.value,
-    //       email: e.target.email.value,
-    //       address: e.target.address.value,
-    //       city: e.target.city.value,
-    //       phone: e.target.phone.value,
-    //       service: e.target.service.value,
-    //       message: e.target.message.value,
-    //     };
-
-    //     const res = await fetch("http://localhost:5000/send-mail", {
-    //       method: "POST",
-    //       headers: {
-    //         "Content-Type": "application/json",
-    //       },
-    //       body: JSON.stringify(formData),
-    //     });
-
-    //     const data = await res.json();
-
-    //     if (data.success) {
-    //       alert("Enquiry Sent Successfully ✅");
-    //       e.target.reset();
-    //     } else {
-    //       alert("Failed to send ❌");
-    //     }
-    //   };
-    //   const sendEmail = async (e) => {
-    //     e.preventDefault();
-
-    //     const data = {
-    //       page: "Contact Page",
-    //       name: e.target.name.value,
-    //       email: e.target.email.value,
-    //       address: e.target.address.value,
-    //       city: e.target.city.value,
-    //       phone: e.target.phone.value,
-    //       service: e.target.service.value,
-    //       message: e.target.message.value,
-    //     };
-
-    //     await fetch("http://localhost:5000/send-mail", {
-    //       method: "POST",
-    //       headers: { "Content-Type": "application/json" },
-    //       body: JSON.stringify(data),
-    //     });
-    //   };
-
-
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         sendEmail(e.target);

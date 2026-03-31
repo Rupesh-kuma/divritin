@@ -253,10 +253,11 @@
     display: none;
 }
 .banner_btn{
-    background: #e8f0ff36;
-    color: #ffff;
-    border-radius: 18px;
-    border: 5px solid #2e0b6f;
+    background: #e8f0ff36 !important;
+    color: #ffff !important;
+    border-radius: 18px !important;
+    border: 5px solid #2e0b6f !important;
+    padding: 20px 40px !important;
 }
 
 /* Responsive Design */
